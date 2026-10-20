@@ -1,6 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
-import { AudioListener, AudioLoader, Audio, Node, PositionalAudio } from "three/webgpu";
+import { AudioListener, AudioLoader, Audio, PositionalAudio } from "three/webgpu";
 import { Nde, RL, lb, Lde, IL, LL, kde } from "./uiSounds.ts";
 import { getAudioVolume, subscribeAudioState, isAudioPlaying } from "./audioState.ts";
 export function createSpatialAudio({

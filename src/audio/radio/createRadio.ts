@@ -1,7 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
 import { Mde, Bde, Cf, Cde } from "../engine/createCarEngineAudio.ts";
-import { Audio } from "three/webgpu";
 import { isAudioPlaying, getAudioVolume, setAudioPlaying, subscribeAudioState } from "../audioState.ts";
 export async function createRadio({
   context: context,
@@ -38,7 +37,7 @@ export async function createRadio({
   l.connect(c);
   c.connect(context.destination);
   function u() {
-    const C = new Audio();
+    const C = new globalThis.Audio();
     C.preload = "auto";
     C.crossOrigin = "anonymous";
     const M = context.createGain();

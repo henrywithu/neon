@@ -82,4 +82,4 @@ Wrangler needs your Cloudflare account authorization and access to the `henrywit
 
 Read `research/REVERSE_ENGINEERING.md` for the detailed rendering, assets, choreography, controls, audio and simulation audit. `research/source-map.json` ties recovered symbols to offsets in the archived reference JavaScript. Raw production files are ignored in `research/original/` and are never served.
 
-See `THIRD_PARTY.md` and `LICENSE.upstream` for original authorship and asset provenance. Hardware-GPU visual verification remains distinct from software-only cloud-browser checks; see the validation record for the checks actually performed.
+See `THIRD_PARTY.md` and `LICENSE.upstream` for original authorship and asset provenance. Hardware-GPU visual verification remains distinct from software-only cloud-browser checks; see [the validation record](research/VALIDATION.md) for the checks actually performed.

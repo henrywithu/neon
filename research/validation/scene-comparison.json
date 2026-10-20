@@ -1,0 +1,36 @@
+{
+  "reference": {
+    "scene": {
+      "meshes": 481,
+      "instanced": 255,
+      "instances": 20604,
+      "vertices": 1501029,
+      "car": null,
+      "position": {
+        "x": -81.07400512695312,
+        "y": -5.4029340744018555,
+        "z": -517.9952392578125,
+        "heading": 3.139840001906225
+      },
+      "fov": null
+    },
+    "errors": []
+  },
+  "clone": {
+    "scene": {
+      "meshes": 481,
+      "instanced": 255,
+      "instances": 20604,
+      "vertices": 1501029,
+      "car": null,
+      "position": {
+        "x": -81.07400512695312,
+        "y": -5.4029340744018555,
+        "z": -517.9952392578125,
+        "heading": 3.1398400007363287
+      },
+      "fov": 62.00000000078161
+    },
+    "errors": []
+  }
+}

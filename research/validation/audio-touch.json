@@ -1,0 +1,27 @@
+{
+  "touch": {
+    "speed": 29.781750074439337,
+    "input": 1,
+    "device": "touch"
+  },
+  "audio": {
+    "state": "running",
+    "processors": [
+      "engine-sampler"
+    ],
+    "media": [
+      {
+        "time": 2.290068,
+        "paused": false,
+        "src": "http://127.0.0.1:4173/audio/radio/neon-drive-horizon.mp3"
+      },
+      {
+        "time": 0,
+        "paused": true,
+        "src": ""
+      }
+    ]
+  },
+  "errors": [],
+  "bad": []
+}

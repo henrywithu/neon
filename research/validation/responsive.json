@@ -1,0 +1,28 @@
+{
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "touch": false,
+    "errors": [],
+    "bad": [],
+    "width": {
+      "scroll": 1440,
+      "viewport": 1440
+    }
+  },
+  "phone": {
+    "viewport": {
+      "width": 844,
+      "height": 390
+    },
+    "touch": true,
+    "errors": [],
+    "bad": [],
+    "width": {
+      "scroll": 844,
+      "viewport": 844
+    }
+  }
+}
