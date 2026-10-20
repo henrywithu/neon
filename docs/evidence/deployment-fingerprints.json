@@ -1,0 +1,30 @@
+{
+  "checked_date": "2026-10-20",
+  "timezone": "Asia/Taipei",
+  "origin": "https://neon.henrywithu.com",
+  "local_source_commit": "768f657c6c245b129c8af6eebc780f7a8373979d",
+  "method": "TLS-verified GET of deployed bundles, compared by SHA-256 with the local production build.",
+  "files": [
+    {
+      "path": "/assets/index-nUnmKWjp.js",
+      "local_sha256": "e221a9e9e0f582ea5f2bc71431a0aef1ca603fb7b483ce51f776ff1447adafba",
+      "deployed_sha256": "e221a9e9e0f582ea5f2bc71431a0aef1ca603fb7b483ce51f776ff1447adafba"
+    },
+    {
+      "path": "/assets/three-DPbZzYra.js",
+      "local_sha256": "42fe039a7671335bbe67da9be377cfd0823faf291f47552a2b02f5c0b45ac2e3",
+      "deployed_sha256": "42fe039a7671335bbe67da9be377cfd0823faf291f47552a2b02f5c0b45ac2e3"
+    },
+    {
+      "path": "/assets/physics-Dp7oywzu.js",
+      "local_sha256": "d93b4a8b6f454fcb0a834873bc727b0157b2f2595d0c49bcda1dbfa397b34cab",
+      "deployed_sha256": "d93b4a8b6f454fcb0a834873bc727b0157b2f2595d0c49bcda1dbfa397b34cab"
+    },
+    {
+      "path": "/assets/index-B7k6RJb6.css",
+      "local_sha256": "cc25693852d00e2e90a9b02cf7ec7aa5e9454227b23085232e1a99be214907c4",
+      "deployed_sha256": "cc25693852d00e2e90a9b02cf7ec7aa5e9454227b23085232e1a99be214907c4"
+    }
+  ],
+  "limitations": "Bundle parity does not certify every deployed asset, the default WebGPU backend, real-device behavior, or the room service."
+}

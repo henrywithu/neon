@@ -1,0 +1,1135 @@
+{
+  "reviewed_commit": "768f657",
+  "browser": "154.0.8037.57",
+  "url": "http://127.0.0.1:4173/?backend=webgl&quality=low&dpr=0.25&debug",
+  "profiles": {
+    "desktop": {
+      "initial_viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "touch": false,
+      "errors": [],
+      "http_errors": [],
+      "software_boot_seconds": 122.25,
+      "drive_geometry": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scrollWidth": 1440,
+        "elements": [
+          {
+            "selector": ".hdr-btn",
+            "text": "GARAGE",
+            "x": 1032,
+            "y": 40,
+            "width": 44,
+            "height": 44,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "MESSAGES\n        I\n      1",
+            "x": 1086,
+            "y": 40,
+            "width": 44,
+            "height": 44,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "ACHIEVEMENTS\n        J",
+            "x": 1140,
+            "y": 40,
+            "width": 44,
+            "height": 44,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "ONLINENEW",
+            "x": 1194,
+            "y": 40,
+            "width": 44,
+            "height": 44,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "RADIO\n        M",
+            "x": 1248,
+            "y": 40,
+            "width": 44,
+            "height": 44,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "",
+            "x": 1302,
+            "y": 40,
+            "width": 44,
+            "height": 44,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "",
+            "x": 1356,
+            "y": 40,
+            "width": 44,
+            "height": 44,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".drive-hud",
+            "text": "012345678\n      \n        \n        \n        \n      \n      \n      \n      \n        \n      \n  ",
+            "x": 1174,
+            "y": 649.953125,
+            "width": 248,
+            "height": 232.046875,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".drive-controls",
+            "text": "HControls\n    \n    \n      \n      \n  \n    \n  \n\n      \n        \n          Interface\n        ",
+            "x": 0,
+            "y": 838,
+            "width": 1440,
+            "height": 40,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".about-recommended--desktop",
+            "text": "Enter the nightChrome or Edge with WebGPU \u00b7 WASD to drive \u00b7 Space to drift \u00b7 Shift for nit",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".about-recommended--mobile",
+            "text": "Enter the nightUse landscape orientation and the on-screen controls. A recent WebGPU-capab",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": true
+          }
+        ]
+      },
+      "keyboard_drive": {
+        "speedKmh": 91.36000412909087,
+        "pose": {
+          "x": -81.00726318359375,
+          "y": -5.402597904205322,
+          "z": -556.1098022460938,
+          "heading": 3.139839671904679
+        },
+        "device": "keyboard",
+        "before": {
+          "x": -81.07400512695312,
+          "y": -5.402090549468994,
+          "z": -517.9951782226562,
+          "heading": 3.139840000759456
+        }
+      },
+      "brake_speed_kmh": -45.91504924101754,
+      "map_open": true,
+      "settings_tab_escape": {
+        "active": "<body class=\"is-driving\">\n    <noscript>Trapnest Neon is an interactive driving world. Enable JavaScript to enter. Explore more at <a href=\"https://henrywithu.com/\">Trapnest</a>.</noscript>\n  \n\n<canvas data-engine=\"three.js r186 webgpu\" wid",
+        "inside": false
+      },
+      "about_geometry": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scrollWidth": 1440,
+        "elements": [
+          {
+            "selector": ".hdr-btn",
+            "text": "GARAGE",
+            "x": 1032,
+            "y": 40,
+            "width": 44,
+            "height": 44,
+            "display": "flex",
+            "visibility": "hidden",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "MESSAGES\n        I\n      1",
+            "x": 1086,
+            "y": 40,
+            "width": 44,
+            "height": 44,
+            "display": "flex",
+            "visibility": "hidden",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "ACHIEVEMENTS\n        J",
+            "x": 1140,
+            "y": 40,
+            "width": 44,
+            "height": 44,
+            "display": "flex",
+            "visibility": "hidden",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "ONLINENEW",
+            "x": 1194,
+            "y": 40,
+            "width": 44,
+            "height": 44,
+            "display": "flex",
+            "visibility": "hidden",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "RADIO\n        M",
+            "x": 1248,
+            "y": 40,
+            "width": 44,
+            "height": 44,
+            "display": "flex",
+            "visibility": "hidden",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "",
+            "x": 1302,
+            "y": 40,
+            "width": 44,
+            "height": 44,
+            "display": "flex",
+            "visibility": "hidden",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "",
+            "x": 1356,
+            "y": 40,
+            "width": 44,
+            "height": 44,
+            "display": "flex",
+            "visibility": "hidden",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".drive-hud",
+            "text": "012345678\n      \n        \n        \n        \n      \n      \n      \n      \n        \n      \n  ",
+            "x": 1174,
+            "y": 649.953125,
+            "width": 248,
+            "height": 232.046875,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".drive-controls",
+            "text": "HControls\n    \n    \n      \n      \n  \n    \n  \n\n      \n        \n          Interface\n        ",
+            "x": 0,
+            "y": 838,
+            "width": 1440,
+            "height": 40,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".about-recommended--desktop",
+            "text": "Enter the nightChrome or Edge with WebGPU \u00b7 WASD to drive \u00b7 Space to drift \u00b7 Shift for nit",
+            "x": 459.984375,
+            "y": 677.21875,
+            "width": 520,
+            "height": 60.03125,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".about-recommended--mobile",
+            "text": "Enter the nightUse landscape orientation and the on-screen controls. A recent WebGPU-capab",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": true
+          }
+        ]
+      },
+      "about_visible_instructions": [
+        "Enter the nightChrome or Edge with WebGPU \u00b7 WASD to drive \u00b7 Space to drift \u00b7 Shift for nitro \u00b7 F to step outside \u00b7 headphones recommended."
+      ],
+      "radio_track_count": 15
+    },
+    "phone": {
+      "initial_viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "touch": true,
+      "errors": [],
+      "http_errors": [],
+      "software_boot_seconds": 153.01,
+      "drive_geometry": {
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "scrollWidth": 844,
+        "elements": [
+          {
+            "selector": ".touch-drive__util",
+            "text": "CAM",
+            "x": 16,
+            "y": 247,
+            "width": 49.609375,
+            "height": 29,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__util",
+            "text": "RESET",
+            "x": 73.609375,
+            "y": 247,
+            "width": 64.65625,
+            "height": 29,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__util",
+            "text": "EXIT",
+            "x": 146.265625,
+            "y": 247,
+            "width": 50.734375,
+            "height": 29,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__btn",
+            "text": "NITRO",
+            "x": 735.609375,
+            "y": 219.53125,
+            "width": 92.390625,
+            "height": 60.46875,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__btn",
+            "text": "DRIFT",
+            "x": 641.609375,
+            "y": 219.53125,
+            "width": 84,
+            "height": 60.46875,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__btn",
+            "text": "BRAKE",
+            "x": 641.609375,
+            "y": 290,
+            "width": 84,
+            "height": 84,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__btn",
+            "text": "GAS",
+            "x": 735.609375,
+            "y": 290,
+            "width": 92.390625,
+            "height": 84,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__pad",
+            "text": "\u25c0",
+            "x": 16,
+            "y": 288,
+            "width": 86,
+            "height": 86,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__pad",
+            "text": "\u25b6",
+            "x": 112,
+            "y": 288,
+            "width": 86,
+            "height": 86,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "RADIO\n        M",
+            "x": 736,
+            "y": 10,
+            "width": 44,
+            "height": 44,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "",
+            "x": 788,
+            "y": 10,
+            "width": 44,
+            "height": 44,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "GARAGE",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "inline-flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "ACHIEVEMENTS\n        J",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "inline-flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "ONLINENEW",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "inline-flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "FULLSCREEN",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "inline-flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "SETTINGS",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "inline-flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".drive-hud",
+            "text": "012345678\n      \n        \n        \n        \n      \n      \n      \n      \n        \n      \n  ",
+            "x": 366,
+            "y": 4,
+            "width": 112,
+            "height": 104.796875,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "0.8",
+            "hidden": false
+          },
+          {
+            "selector": ".drive-controls",
+            "text": "HControls\n    \n    \n      \n      \n  \n    \n  \n\n      \n        \n          Interface\n        ",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".about-recommended--desktop",
+            "text": "Enter the nightChrome or Edge with WebGPU \u00b7 WASD to drive \u00b7 Space to drift \u00b7 Shift for nit",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".about-recommended--mobile",
+            "text": "Enter the nightUse landscape orientation and the on-screen controls. A recent WebGPU-capab",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": true
+          }
+        ]
+      },
+      "touch_drive": {
+        "speedKmh": 29.770392874684624,
+        "device": "touch",
+        "throttle": 1
+      },
+      "released_throttle": 0,
+      "menu_text": "GARAGE\nACHIEVEMENTS\nONLINENEW\nFULLSCREEN\nSETTINGS",
+      "about_geometry": {
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "scrollWidth": 844,
+        "elements": [
+          {
+            "selector": ".touch-drive__util",
+            "text": "CAM",
+            "x": 16,
+            "y": 247,
+            "width": 49.609375,
+            "height": 29,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__util",
+            "text": "RESET",
+            "x": 73.609375,
+            "y": 247,
+            "width": 64.65625,
+            "height": 29,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__util",
+            "text": "EXIT",
+            "x": 146.265625,
+            "y": 247,
+            "width": 50.734375,
+            "height": 29,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__btn",
+            "text": "NITRO",
+            "x": 735.609375,
+            "y": 219.53125,
+            "width": 92.390625,
+            "height": 60.46875,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__btn",
+            "text": "DRIFT",
+            "x": 641.609375,
+            "y": 219.53125,
+            "width": 84,
+            "height": 60.46875,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__btn",
+            "text": "BRAKE",
+            "x": 641.609375,
+            "y": 290,
+            "width": 84,
+            "height": 84,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__btn",
+            "text": "GAS",
+            "x": 735.609375,
+            "y": 290,
+            "width": 92.390625,
+            "height": 84,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__pad",
+            "text": "\u25c0",
+            "x": 16,
+            "y": 288,
+            "width": 86,
+            "height": 86,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__pad",
+            "text": "\u25b6",
+            "x": 112,
+            "y": 288,
+            "width": 86,
+            "height": 86,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "RADIO\n        M",
+            "x": 736,
+            "y": 10,
+            "width": 44,
+            "height": 44,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "",
+            "x": 788,
+            "y": 10,
+            "width": 44,
+            "height": 44,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "GARAGE",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "inline-flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "ACHIEVEMENTS\n        J",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "inline-flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "ONLINENEW",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "inline-flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "FULLSCREEN",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "inline-flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "SETTINGS",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "inline-flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".drive-hud",
+            "text": "012345678\n      \n        \n        \n        \n      \n      \n      \n      \n        \n      \n  ",
+            "x": 366,
+            "y": 4,
+            "width": 112,
+            "height": 104.796875,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "0.8",
+            "hidden": false
+          },
+          {
+            "selector": ".drive-controls",
+            "text": "HControls\n    \n    \n      \n      \n  \n    \n  \n\n      \n        \n          Interface\n        ",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".about-recommended--desktop",
+            "text": "Enter the nightChrome or Edge with WebGPU \u00b7 WASD to drive \u00b7 Space to drift \u00b7 Shift for nit",
+            "x": 162,
+            "y": 576.6875,
+            "width": 520,
+            "height": 53.109375,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".about-recommended--mobile",
+            "text": "Enter the nightUse landscape orientation and the on-screen controls. A recent WebGPU-capab",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": true
+          }
+        ]
+      },
+      "about_visible_instructions": [
+        "Enter the nightChrome or Edge with WebGPU \u00b7 WASD to drive \u00b7 Space to drift \u00b7 Shift for nitro \u00b7 F to step outside \u00b7 headphones recommended."
+      ],
+      "radio_track_count": 15,
+      "portrait_geometry": {
+        "viewport": {
+          "width": 844,
+          "height": 1827
+        },
+        "scrollWidth": 844,
+        "elements": [
+          {
+            "selector": ".touch-drive__util",
+            "text": "CAM",
+            "x": 16,
+            "y": 1693.90625,
+            "width": 49.609375,
+            "height": 29,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__util",
+            "text": "RESET",
+            "x": 73.609375,
+            "y": 1693.90625,
+            "width": 64.65625,
+            "height": 29,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__util",
+            "text": "EXIT",
+            "x": 146.265625,
+            "y": 1693.90625,
+            "width": 50.734375,
+            "height": 29,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__btn",
+            "text": "NITRO",
+            "x": 746.5,
+            "y": 1673.5625,
+            "width": 81.5,
+            "height": 53.34375,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__btn",
+            "text": "DRIFT",
+            "x": 662.40625,
+            "y": 1673.5625,
+            "width": 74.09375,
+            "height": 53.34375,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__btn",
+            "text": "BRAKE",
+            "x": 662.40625,
+            "y": 1736.90625,
+            "width": 74.09375,
+            "height": 74.09375,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__btn",
+            "text": "GAS",
+            "x": 746.5,
+            "y": 1736.90625,
+            "width": 81.5,
+            "height": 74.09375,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__pad",
+            "text": "\u25c0",
+            "x": 16,
+            "y": 1734.90625,
+            "width": 76.09375,
+            "height": 76.09375,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".touch-drive__pad",
+            "text": "\u25b6",
+            "x": 102.09375,
+            "y": 1734.90625,
+            "width": 76.09375,
+            "height": 76.09375,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "RADIO\n        M",
+            "x": 736,
+            "y": 10,
+            "width": 44,
+            "height": 44,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "",
+            "x": 788,
+            "y": 10,
+            "width": 44,
+            "height": 44,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "GARAGE",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "inline-flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "ACHIEVEMENTS\n        J",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "inline-flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "ONLINENEW",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "inline-flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "FULLSCREEN",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "inline-flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".hdr-btn",
+            "text": "SETTINGS",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "inline-flex",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".drive-hud",
+            "text": "012345678\n      \n        \n        \n        \n      \n      \n      \n      \n        \n      \n  ",
+            "x": 366,
+            "y": 4,
+            "width": 112,
+            "height": 104.796875,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "0.8",
+            "hidden": false
+          },
+          {
+            "selector": ".drive-controls",
+            "text": "HControls\n    \n    \n      \n      \n  \n    \n  \n\n      \n        \n          Interface\n        ",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          },
+          {
+            "selector": ".about-recommended--desktop",
+            "text": "Enter the nightChrome or Edge with WebGPU \u00b7 WASD to drive \u00b7 Space to drift \u00b7 Shift for nit",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": true
+          },
+          {
+            "selector": ".about-recommended--mobile",
+            "text": "Enter the nightUse landscape orientation and the on-screen controls. A recent WebGPU-capab",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "hidden": false
+          }
+        ]
+      },
+      "portrait_about_instructions": [
+        "Enter the nightUse landscape orientation and the on-screen controls. A recent WebGPU-capable device and headphones give the best experience."
+      ]
+    }
+  },
+  "notes": [
+    "Software-rendered diagnostic WebGL; render loop stopped after initialization. Input tests advance simulation explicitly. No hardware FPS or tactile steering claims."
+  ]
+}

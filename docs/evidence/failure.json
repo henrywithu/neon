@@ -1,0 +1,10 @@
+{
+  "text": "100\n\nLINK FAILED",
+  "buttons": [],
+  "busy": "true",
+  "injected_fault": "Aborted required /models/game/city/kit.glb request in an isolated local browser context.",
+  "console_errors": [
+    "Failed to load resource: net::ERR_FAILED",
+    "[Trapnest Neon] Initialization failed: TypeError: Failed to fetch\n    at kr.load (http://127.0.0.1:4173/assets/three-DPbZzYra.js:1:246161)\n    at aq.load (http://127.0.0.1:4173/assets/three-DPbZzYra.js:577:10089)\n    at http://127.0.0.1:4173/assets/three-DPbZzYra.js:1:244965\n    at new Promise (<anonymous>)\n    at aq.loadAsync (http://127.0.0.1:4173/assets/three-DPbZzYra.js:1:244937)\n    at K1 (http://127.0.0.1:4173/assets/index-nUnmKWjp.js:2:30989)\n    at Ly (http://127.0.0.1:4173/assets/index-"
+  ]
+}
