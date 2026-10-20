@@ -25,6 +25,7 @@ const surfaces = [
 export function installModalBoundary() {
   const roots = new Map<HTMLElement, typeof surfaces[number]>();
   const observers: MutationObserver[] = [];
+  const rootObservers = new Map<HTMLElement, MutationObserver>();
   const stack: HTMLElement[] = [];
   const openers = new Map<HTMLElement, HTMLElement | null>();
   const inert = new Map<HTMLElement, boolean>();
@@ -35,6 +36,7 @@ export function installModalBoundary() {
   const restoreInert = () => { inert.forEach((value, node) => { node.inert = value; }); inert.clear(); };
   function refresh() {
     const previous = top;
+    const previousOpener = previous ? openers.get(previous) : null;
     for (const [root, config] of roots) {
       const active = root.isConnected && root.matches(config[1]);
       const index = stack.indexOf(root);
@@ -42,10 +44,23 @@ export function installModalBoundary() {
         openers.set(root, document.activeElement instanceof HTMLElement ? document.activeElement : null);
         stack.push(root);
       } else if (!active && index >= 0) stack.splice(index, 1);
+      if (!root.isConnected) {
+        const observer = rootObservers.get(root); observer?.disconnect();
+        if (observer) observers.splice(observers.indexOf(observer), 1);
+        rootObservers.delete(root); roots.delete(root); openers.delete(root);
+      }
     }
     top = stack.at(-1);
-    if (previous === top) return;
+    if (previous === top) {
+      if (top) for (const child of document.body.children) {
+        if (child instanceof HTMLElement && child !== top && !child.contains(top) && !child.matches('script, style, #app-loader') && !inert.has(child)) { inert.set(child, child.inert); child.inert = true; }
+      }
+      return;
+    }
     restoreInert();
+    if (previous?.matches('.app-header, .mp-chip')) {
+      previous.removeAttribute('role'); previous.removeAttribute('aria-modal'); previous.removeAttribute('tabindex');
+    }
     setInputBoundary('modal', !!top);
     if (top) {
       document.exitPointerLock?.();
@@ -54,13 +69,13 @@ export function installModalBoundary() {
         inert.set(child, child.inert);
         child.inert = true;
       }
-      const dialog = top.querySelector<HTMLElement>('[role="dialog"]') || top;
-      dialog.setAttribute('role', 'dialog');
+      const dialog = top.querySelector<HTMLElement>('[role="dialog"], [role="alertdialog"]') || top;
+      if (!dialog.hasAttribute('role')) dialog.setAttribute('role', 'dialog');
       dialog.setAttribute('aria-modal', 'true');
       dialog.tabIndex = -1;
       (focusable(top)[0] || dialog).focus({ preventScroll: true });
     } else if (previous) {
-      const opener = openers.get(previous);
+      const opener = previousOpener;
       if (opener?.isConnected && !opener.closest('[hidden], [inert]') && opener.getClientRects().length) opener.focus({ preventScroll: true });
       else document.querySelector<HTMLButtonElement>('.hdr-btn--menu, .hdr-btn--settings')?.focus({ preventScroll: true });
       // Pointer lock is reacquired only by the next deliberate canvas click.
@@ -73,6 +88,7 @@ export function installModalBoundary() {
       const observer = new MutationObserver(refresh);
       observer.observe(root, { attributes: true, subtree: config[0] === '.walk-controls', attributeFilter: ['hidden', 'class', 'aria-hidden'] });
       observers.push(observer);
+      rootObservers.set(root, observer);
     }
     refresh();
   }
@@ -96,6 +112,8 @@ export function installModalBoundary() {
         event.preventDefault();
         event.stopImmediatePropagation();
         top.querySelector<HTMLElement>(close)?.click();
+      } else if (top.matches('.night-recovery')) {
+        event.preventDefault(); event.stopImmediatePropagation();
       }
     }
   }
@@ -109,12 +127,14 @@ export function installModalBoundary() {
   discover();
   let gamepadFrame = 0;
   const held = new Map<string, boolean>();
+  let gamepadTop: HTMLElement | undefined;
   function pollGamepad() {
     gamepadFrame = requestAnimationFrame(pollGamepad);
+    const prime = gamepadTop !== top; gamepadTop = top;
     for (const pad of navigator.getGamepads?.() || []) {
       if (!pad?.connected || pad.mapping !== 'standard') continue;
       const pressed = (key: string, down: boolean, action: () => void) => {
-        const id = `${pad.index}:${key}`; if (down && !held.get(id) && top) action(); held.set(id, down);
+        const id = `${pad.index}:${key}`; if (!prime && down && !held.get(id) && top) action(); held.set(id, down);
       };
       const move = (direction: number) => {
         if (!top) return; const items = focusable(top); const index = items.indexOf(document.activeElement as HTMLElement);

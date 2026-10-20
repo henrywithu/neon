@@ -15,9 +15,9 @@
     "dev:rooms": "wrangler dev --local --port 8787",
     "types:worker": "wrangler types worker-env.d.ts",
     "check:worker": "tsc --noEmit -p tsconfig.worker.json",
-    "test": "playwright test",
+    "test": "npm run test:ui && npm run test:runtime",
     "test:ui": "playwright test tests/recovery.spec.ts tests/experience.spec.ts",
-    "test:runtime": "playwright test tests/runtime.spec.ts",
+    "test:runtime": "playwright test --config playwright.runtime.config.ts",
     "check:rooms": "node scripts/verify-rooms.mjs"
   },
   "dependencies": {

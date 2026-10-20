@@ -1,0 +1,308 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "unionArea": 112430.0625,
+    "ratio": 0.08675159143518518,
+    "rects": [
+      {
+        "selector": "drive-hud is-visible",
+        "left": 1174,
+        "right": 1422,
+        "top": 649.953125,
+        "bottom": 882
+      },
+      {
+        "selector": "hdr-btn",
+        "left": 1252,
+        "right": 1296,
+        "top": 40,
+        "bottom": 84
+      },
+      {
+        "selector": "hdr-btn hdr-btn--radio is-muted",
+        "left": 1304,
+        "right": 1348,
+        "top": 40,
+        "bottom": 84
+      },
+      {
+        "selector": "hdr-btn hdr-btn--menu",
+        "left": 1356,
+        "right": 1400,
+        "top": 40,
+        "bottom": 84
+      },
+      {
+        "selector": "gps-hud is-visible",
+        "left": 16,
+        "right": 280.046875,
+        "top": 636,
+        "bottom": 688
+      },
+      {
+        "selector": "minimap is-clickable is-visible",
+        "left": 16,
+        "right": 204,
+        "top": 696,
+        "bottom": 884
+      }
+    ],
+    "method": "Conservative union of instrument/control backing rectangles; overlaps counted once. Circle/gradient instrument corners overestimate coverage."
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "unionArea": 112430.0625,
+    "ratio": 0.12199442545572917,
+    "rects": [
+      {
+        "selector": "drive-hud is-visible",
+        "left": 1014,
+        "right": 1262,
+        "top": 469.953125,
+        "bottom": 702
+      },
+      {
+        "selector": "hdr-btn",
+        "left": 1092,
+        "right": 1136,
+        "top": 40,
+        "bottom": 84
+      },
+      {
+        "selector": "hdr-btn hdr-btn--radio is-muted",
+        "left": 1144,
+        "right": 1188,
+        "top": 40,
+        "bottom": 84
+      },
+      {
+        "selector": "hdr-btn hdr-btn--menu",
+        "left": 1196,
+        "right": 1240,
+        "top": 40,
+        "bottom": 84
+      },
+      {
+        "selector": "gps-hud is-visible",
+        "left": 16,
+        "right": 280.046875,
+        "top": 456,
+        "bottom": 508
+      },
+      {
+        "selector": "minimap is-clickable is-visible",
+        "left": 16,
+        "right": 204,
+        "top": 516,
+        "bottom": 704
+      }
+    ],
+    "method": "Conservative union of instrument/control backing rectangles; overlaps counted once. Circle/gradient instrument corners overestimate coverage."
+  },
+  {
+    "width": 844,
+    "height": 390,
+    "unionArea": 33633,
+    "ratio": 0.10217827196500183,
+    "rects": [
+      {
+        "selector": "drive-hud is-visible",
+        "left": 12,
+        "right": 150,
+        "top": 10,
+        "bottom": 68
+      },
+      {
+        "selector": "hdr-btn",
+        "left": 684,
+        "right": 728,
+        "top": 10,
+        "bottom": 54
+      },
+      {
+        "selector": "hdr-btn hdr-btn--radio is-muted",
+        "left": 736,
+        "right": 780,
+        "top": 10,
+        "bottom": 54
+      },
+      {
+        "selector": "hdr-btn hdr-btn--menu",
+        "left": 788,
+        "right": 832,
+        "top": 10,
+        "bottom": 54
+      },
+      {
+        "selector": "gps-hud is-visible",
+        "left": 302,
+        "right": 542,
+        "top": 10,
+        "bottom": 63.1875
+      },
+      {
+        "selector": "minimap is-clickable is-visible",
+        "left": 12,
+        "right": 96,
+        "top": 126,
+        "bottom": 210
+      }
+    ],
+    "method": "Conservative union of instrument/control backing rectangles; overlaps counted once. Circle/gradient instrument corners overestimate coverage."
+  },
+  {
+    "width": 740,
+    "height": 360,
+    "unionArea": 33633,
+    "ratio": 0.12625,
+    "rects": [
+      {
+        "selector": "drive-hud is-visible",
+        "left": 12,
+        "right": 150,
+        "top": 10,
+        "bottom": 68
+      },
+      {
+        "selector": "hdr-btn",
+        "left": 580,
+        "right": 624,
+        "top": 10,
+        "bottom": 54
+      },
+      {
+        "selector": "hdr-btn hdr-btn--radio is-muted",
+        "left": 632,
+        "right": 676,
+        "top": 10,
+        "bottom": 54
+      },
+      {
+        "selector": "hdr-btn hdr-btn--menu",
+        "left": 684,
+        "right": 728,
+        "top": 10,
+        "bottom": 54
+      },
+      {
+        "selector": "gps-hud is-visible",
+        "left": 250,
+        "right": 490,
+        "top": 10,
+        "bottom": 63.1875
+      },
+      {
+        "selector": "minimap is-clickable is-visible",
+        "left": 12,
+        "right": 96,
+        "top": 96,
+        "bottom": 180
+      }
+    ],
+    "method": "Conservative union of instrument/control backing rectangles; overlaps counted once. Circle/gradient instrument corners overestimate coverage."
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "unionArea": 33158.25,
+    "ratio": 0.10073596427269413,
+    "rects": [
+      {
+        "selector": "drive-hud is-visible",
+        "left": 12,
+        "right": 150,
+        "top": 10,
+        "bottom": 68
+      },
+      {
+        "selector": "hdr-btn",
+        "left": 230,
+        "right": 274,
+        "top": 10,
+        "bottom": 54
+      },
+      {
+        "selector": "hdr-btn hdr-btn--radio is-muted",
+        "left": 282,
+        "right": 326,
+        "top": 10,
+        "bottom": 54
+      },
+      {
+        "selector": "hdr-btn hdr-btn--menu",
+        "left": 334,
+        "right": 378,
+        "top": 10,
+        "bottom": 54
+      },
+      {
+        "selector": "gps-hud is-visible",
+        "left": 66.9765625,
+        "right": 323.0234375,
+        "top": 122,
+        "bottom": 170
+      },
+      {
+        "selector": "minimap is-clickable is-visible",
+        "left": 12,
+        "right": 96,
+        "top": 580,
+        "bottom": 664
+      }
+    ],
+    "method": "Conservative union of instrument/control backing rectangles; overlaps counted once. Circle/gradient instrument corners overestimate coverage."
+  },
+  {
+    "width": 360,
+    "height": 800,
+    "unionArea": 33158.25,
+    "ratio": 0.1151328125,
+    "rects": [
+      {
+        "selector": "drive-hud is-visible",
+        "left": 12,
+        "right": 150,
+        "top": 10,
+        "bottom": 68
+      },
+      {
+        "selector": "hdr-btn",
+        "left": 200,
+        "right": 244,
+        "top": 10,
+        "bottom": 54
+      },
+      {
+        "selector": "hdr-btn hdr-btn--radio is-muted",
+        "left": 252,
+        "right": 296,
+        "top": 10,
+        "bottom": 54
+      },
+      {
+        "selector": "hdr-btn hdr-btn--menu",
+        "left": 304,
+        "right": 348,
+        "top": 10,
+        "bottom": 54
+      },
+      {
+        "selector": "gps-hud is-visible",
+        "left": 51.9765625,
+        "right": 308.0234375,
+        "top": 122,
+        "bottom": 170
+      },
+      {
+        "selector": "minimap is-clickable is-visible",
+        "left": 12,
+        "right": 96,
+        "top": 536,
+        "bottom": 620
+      }
+    ],
+    "method": "Conservative union of instrument/control backing rectangles; overlaps counted once. Circle/gradient instrument corners overestimate coverage."
+  }
+]

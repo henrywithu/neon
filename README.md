@@ -33,7 +33,16 @@ npm run content:sync   # Refresh every Trapnest post published since July 1, 202
 npm run types:worker   # Regenerate Worker binding/runtime types
 node scripts/verify-rooms.mjs  # Integration checks against the local Worker
 npm run deploy:dry-run # Validate Cloudflare packaging without publishing
+npm run test:ui        # Local UI, touch, input, mission and persistence regressions
+npm run test:runtime   # Full city, retry, garage and context-loss diagnostic smoke
+npm run check:rooms    # Integration checks against an isolated local Worker
 ```
+
+For browser tests, install Chromium with `npx playwright install chromium`, use the system Chromium on Linux, or set `CHROMIUM_PATH`. Tests start a local Vite server. The runtime smoke uses the WebGL diagnostic backend and software rendering at low DPR; its timings and screenshots are not a production WebGPU baseline. Room checks reject public hosts; start `npm run dev:rooms` first.
+
+The opening offers a short guided First Fare or immediate free driving. The job stays available in Menu. **P** pauses, **H** opens Help, and phones have independent Pause/Menu buttons. Landscape is recommended through a dismissible hint; menus and recovery remain available in portrait. Settings includes Balanced/Performance rendering, optional analog steering, Standard/Large thumb targets, four sound channels and independent motion controls. Button steering remains the default until physical-device comparisons are recorded.
+
+Progress is local to the browser. Finishing First Fare lights the original three-pane Glass Turn marker and preserves the acknowledgment on return. Settings explains reset behavior and reports unavailable storage. See [implementation coverage](docs/implementation-record.md), [local validation and remaining release gates](docs/release-validation.md), and the [hardware measurement procedure](docs/performance-record.md).
 
 ## Architecture
 

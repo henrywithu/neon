@@ -20,12 +20,12 @@ export function createTouchControls({
     </div></details>
     <div class="touch-drive__steer" aria-label="Steer">
       <div class="touch-drive__analog" aria-hidden="true"><i></i><span>STEER</span></div>
-      <button type="button" class="touch-drive__pad" data-side="left" aria-label="Steer left"><span>◀</span></button>
-      <button type="button" class="touch-drive__pad" data-side="right" aria-label="Steer right"><span>▶</span></button>
+      <button type="button" class="touch-drive__pad" data-side="left" aria-label="Steer left"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 3 7 12 16 21Z"/></svg></button>
+      <button type="button" class="touch-drive__pad" data-side="right" aria-label="Steer right"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 9 9-9 9Z"/></svg></button>
     </div>
     <div class="touch-drive__pedals">
       <div class="touch-drive__btn touch-drive__btn--nitro" data-hold="nitro">NITRO</div>
-      <div class="touch-drive__btn touch-drive__btn--drift" data-hold="handbrake">DRIFT</div>
+      <div class="touch-drive__btn touch-drive__btn--drift" data-hold="handbrake">DRIFT + GAS</div>
       <div class="touch-drive__btn touch-drive__btn--brake" data-hold="brake">■ BRAKE</div>
       <div class="touch-drive__btn touch-drive__btn--gas" data-hold="throttle">▲ GAS</div>
     </div>`;
@@ -57,7 +57,8 @@ export function createTouchControls({
     input.setTouch({
       active: l,
       steer: m,
-      ...o
+      ...o,
+      throttle: Math.max(o.throttle, o.handbrake)
     });
   }
   function u(m) {

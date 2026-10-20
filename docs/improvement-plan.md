@@ -4,6 +4,8 @@
 
 This plan follows the [critical review](game-review.md) and [playtest evidence](playtest-report.md). It proposes implementation work; it does not claim these changes have shipped. No CI setup is needed. Validation can run locally, with a recorded manual release pass.
 
+**Implementation follow-through:** the code changes and local regression coverage are tracked in [the implementation record](implementation-record.md). See [release validation](release-validation.md) for completed checks and outstanding physical-device, listening, performance and formative-player gates. Implementation commits do not certify those gates.
+
 ## The experience to build toward
 
 The player enters through rain-streaked glass, recognizes their car immediately, and receives one useful invitation: take a short job or simply drive. During a job, one objective and one navigation cue carry the route. At a stop, richer messages and garage details become available. A reward changes something the player can see or hear. Returning later feels like returning to the same night.

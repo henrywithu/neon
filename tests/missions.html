@@ -7,6 +7,7 @@ import { Nme } from '/src/game/progress/tutorialStore.ts';
 import { createFirstDrive } from '/src/game/drive/firstDrive.ts';
 import { installModalBoundary } from '/src/ui/core/modalBoundary.ts';
 import { isGameInputBlocked } from '/src/ui/core/inputBoundary.ts';
+import { createGlassTurn } from '/src/world/city/glassTurn.ts';
 installModalBoundary();
 const map = await (await fetch('/maps/metro/map.json')).json();
 let pose = {x:0,y:map.groundY,z:0}, waypoint = null, tick = null;
@@ -19,6 +20,7 @@ const drive = { vehicle:{telemetry,body:{translation:()=>pose}}, input, hud:{fla
 const progress = createProgressStore({missionIds:['first-fare'],raceIds:[],sigilIds:[]});
 const missions = createMissions({scene:new Scene(),camera:new PerspectiveCamera(),drive,metro:{map},progress});
 const guide = createFirstDrive({drive,missions,progress,store:Nme(),onGarage(){window.garageRequested=true}});
-window.missionHarness = {missions,progress,guide,drive, welcome:()=>guide.welcome(), step(seconds=1){if(!isGameInputBlocked())tick(seconds);guide.update()},
+const landmark = createGlassTurn({scene:new Scene(), destination:missions.missions.find(m=>m.def.id==='first-fare').stops.at(-1), groundY:map.groundY, progress});
+window.missionHarness = {missions,progress,guide,drive,landmark, welcome:()=>guide.welcome(), step(seconds=1){if(!isGameInputBlocked())tick(seconds);guide.update()},
   arrive(speed=0){pose={...pose,...waypoint};telemetry.speedKmh=speed;this.step(.1)}, waypoint:()=>waypoint, setSpeed(speed){telemetry.speedKmh=speed;guide.update()}}
 </script></body></html>

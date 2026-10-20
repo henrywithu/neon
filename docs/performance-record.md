@@ -1,6 +1,6 @@
 # Hardware performance record
 
-The implementation supplies measurement tools; the real-device baseline is **pending**. Cloud Chromium timings do not satisfy R04. No phone adaptation was enabled or retuned without thermal evidence. Optional vehicle rigs no longer transfer four seconds after entry; the garage still loads its comparison fleet when opened. Radio uses streaming media with `preload="none"`.
+The implementation supplies measurement tools; the real-device baseline is **pending**. Cloud Chromium timings do not satisfy R04. No phone adaptation was enabled or retuned without thermal evidence. Optional vehicle rigs no longer transfer four seconds after entry; the garage opens with the current car and loads/warms other rigs when selected. Failed optional transfers can be retried. Radio uses streaming media with `preload="none"`.
 
 Run a production preview with `?perf&nointro` (normal resolution and authored look). Use an empty cache and network shaping of 25 Mbps / 80 ms RTT for cold startup, then a separate normal-cache return. Record an integrated GPU laptop, desktop GPU, midrange Android, and supported iPhone/Safari. Record GPU, OS/browser versions, physical resolution, CSS viewport, rendering DPR, preset, and ambient/thermal conditions.
 

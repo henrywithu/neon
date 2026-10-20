@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { isSavingAvailable } from "../platform/saveStatus.ts";
 import { markUsableDrive } from "../debug/sessionRecord.ts";
 import { createPause } from "../ui/chrome/pause.ts";
 import { aG, PE, Z2 } from "../ui/core/phosphorIcons.ts";
@@ -65,6 +66,7 @@ export function createAppShell({
   }) => {
     openedPanel !== w && (openedPanel ? y == null || y.open() : y == null || y.close(), w = openedPanel);
   });
+  let saveWarningShown = false;
   let S = false;
   const T = {
       radio: false,
@@ -301,7 +303,7 @@ export function createAppShell({
       }
     });
   function de() {
-    j && (j.start(), renderer.domElement.addEventListener("pointerdown", j.resetTimer), renderer.domElement.addEventListener("touchstart", j.resetTimer, {
+    j && (renderer.domElement.addEventListener("pointerdown", j.resetTimer), renderer.domElement.addEventListener("touchstart", j.resetTimer, {
       passive: true
     }));
   }
@@ -317,6 +319,8 @@ export function createAppShell({
   function V() {
     var Ae;
     S = true;
+    x.showAllUi();
+    j?.start();
     markUsableDrive();
     Q == null || Q.refresh();
     M == null || M.show();
@@ -364,6 +368,8 @@ export function createAppShell({
     isFinishedIntro: () => S,
     updateHud: Ae => {
       var Be;
+      if (S && !isSavingAvailable() && !saveWarningShown && !isCarRolling?.()) { drive?.hud?.flash("Local saving unavailable · progress lasts this visit", 8000); saveWarningShown = true; }
+      if (gameplay?.glassTurn && drive) se?.setDistrictMix(gameplay.glassTurn.proximity(drive.playerPose()));
       (Be = M == null ? undefined : M.updateHud) == null || Be.call(M, Ae);
       P == null || P.setVisible(cameraDirector.canEnterVehicle());
     }

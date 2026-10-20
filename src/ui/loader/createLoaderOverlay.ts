@@ -219,12 +219,11 @@ export function createLoaderOverlay() {
         g = {
           radius: DE
         };
-      gsap.timeline({
-        onComplete: () => {
-          i.remove();
-          m();
-        }
-      }).to(e, {
+      let timeline = null;
+      const complete = () => { clearTimeout(deadline); timeline?.kill(); i.remove(); m(); };
+      // Readiness must not depend on GSAP's lag-smoothed animation clock.
+      const deadline = setTimeout(complete, 1500);
+      timeline = gsap.timeline({ onComplete: complete }).to(e, {
         opacity: 0,
         duration: .12,
         ease: "power1.out"

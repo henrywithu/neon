@@ -278,7 +278,7 @@ export async function bootstrapExperience(loader) {
     onOpenMultiplayer: drive != null && drive.traffic && world.metroMode && isMultiplayerEnabled() ? () => multiplayer == null ? undefined : multiplayer.door() : null,
     onOpenFriends: () => multiplayer == null ? undefined : multiplayer.togglePanel()
   });
-  const firstDrive = gameplay ? createFirstDrive({ drive, missions: gameplay.missions, progress: gameplay.progress, store: tutorialStore, onGarage: () => garage?.open() }) : null;
+  const firstDrive = gameplay ? createFirstDrive({ drive, missions: gameplay.missions, progress: gameplay.progress, store: tutorialStore, onGarage: () => garage?.open(), voice }) : null;
   if (gameplay) gameplay.firstDrive = firstDrive;
   modeCallback.onChange = app.onWalkModeChange;
   gameplay == null || gameplay.attachUi({

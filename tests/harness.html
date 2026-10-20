@@ -13,6 +13,7 @@ import { createPause } from '/src/ui/chrome/pause.ts';
 import { createSpeedometer } from '/src/ui/drive/speedometer.ts';
 import { createHeader } from '/src/ui/chrome/createHeader.ts';
 import { createGpsHud } from '/src/ui/map/gpsHud.ts';
+import { createMinimap } from '/src/ui/map/minimap.ts';
 import { observeViewport, measureViewport } from '/src/platform/viewport.ts';
 import { resizeRendererAndPipeline } from '/src/bootstrap/createRenderer.ts';
 import { showRecovery } from '/src/runtime/recovery.ts';
@@ -26,7 +27,18 @@ const pause = createPause({ onHelp: () => help.open(), onMap: () => {}, onSettin
 const hud = createSpeedometer(); hud.setVisible(true); hud.update({ speedKmh: 42, gear: 2, rpm: 2300, nitroCharge: .7 });
 const header = createHeader({ state, onOpenSettings: () => settings.open(), onPause: () => pause.open(), onOpenHelp: () => help.open(), onOpenMap: () => {}, onOpenRadio: () => {}, onOpenMessages: () => {} }); header.show(); header.setForceHidden(false);
 const gps = createGpsHud(); gps.update(.1, [[0,0], [1,0], [2,0], [3,0]], { x: 0, z: 0, heading: 0 }, 200);
+const mapData = await (await fetch('/maps/metro/map.json')).json();
+const minimap = createMinimap({url:'/maps/metro/minimap.webp',bounds:mapData.minimap.bounds,size:touch?84:undefined,onClick:()=>window.harness.openSurface('map')}); minimap.setVisible(true);
 document.querySelector('#open').onclick = () => { state.openPanel('settings'); settings.open(); };
 observeViewport(() => resizeRendererAndPipeline({ setPixelRatio(){}, setSize(w,h){ const c=document.querySelector('canvas'); c.width=w; c.height=h; } }, null, 1));
 window.harness = { state, settings, help, input, touch, pause, measureViewport, showRecovery, hud, header };
+window.harness.openSurface = async name => {
+  if (name==='story') { const {createStoryModal}=await import('/src/ui/story/storyModal.ts');const {contacts}=await import('/src/game/story/contacts.ts');void createStoryModal().show({character:contacts.nyx,text:'The rain can wait. Take your time.',button:'Continue'}); }
+  if (name==='messages') { const {createMessagesPanel}=await import('/src/ui/story/createMessagesPanel.ts');void createMessagesPanel().open({}); }
+  if (name==='radio') { const {createRadio}=await import('/src/audio/radio/createRadio.ts');const {createRadioPanel}=await import('/src/ui/radio/createRadioPanel.ts');const {AudioContext}=await import('three/webgpu');createRadioPanel({radio:await createRadio({context:AudioContext.getContext()})}).open(); }
+  if (name==='map') { const {createCityMap}=await import('/src/ui/map/cityMap.ts');createCityMap({url:'/maps/metro/minimap.webp',bounds:mapData.minimap.bounds,getPlayer:()=>({x:0,z:0,heading:0}),getRoute:()=>null}).open(); }
+  if (name==='achievements') { const {createAchievementsPanel}=await import('/src/ui/achievements/createAchievementsPanel.ts');const {createProgressStore}=await import('/src/game/progress/store.ts');createAchievementsPanel({state,progress:createProgressStore()}).open(); }
+  if (name==='rooms') { const {$me}=await import('/src/multiplayer/rooms.ts');$me({state,onJoin(){},onLeave(){}}).open(); }
+  if (name==='friends') { const {createFriendsPanel}=await import('/src/ui/multiplayer/createFriendsPanel.ts');const panel=createFriendsPanel({onTrack:id=>window.trackedDriver=id});panel.setVisible(true);panel.update({state:'live',text:'LOCAL TEST ROOM',rtt:12,drivers:[{id:'TESTB001',name:'Test driver',color:{css:'#6de6ff'},distance:120,canFollow:true,canTrack:true}]});panel.openPanel(); }
+};
 </script></body></html>

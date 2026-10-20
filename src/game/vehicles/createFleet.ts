@@ -23,7 +23,7 @@ export function createFleet({
       }).then(g => (lightCar == null || lightCar(g.model), reflectCar == null || reflectCar(g.model), g.lights ?? (g.lights = LG({
         root: o,
         materialsRoot: g.model
-      })), a.set(m, g), g));
+      })), a.set(m, g), g)).catch(error => { l.delete(m); throw error; });
       l.set(m, A);
     }
     return l.get(m);

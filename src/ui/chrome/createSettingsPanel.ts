@@ -229,6 +229,11 @@ export function createSettingsPanel({
   }
   const experienceSettings = createExperienceSettings();
   y.querySelector(".settings-options").prepend(experienceSettings.root);
+  const advanced = document.createElement("details");
+  advanced.className = "experience-settings";
+  advanced.innerHTML = "<summary>Advanced graphics</summary>";
+  for (const section of y.querySelectorAll("[data-quality-section], [data-resolution-section]")) advanced.append(section);
+  if (advanced.children.length > 1) y.querySelector(".settings-options").append(advanced);
   function G() {
     y.classList.remove("settings-overlay--force-hidden");
     H(getDevelopmentMode());

@@ -301,7 +301,7 @@ function createControlsHelp({
         </header>
         <div class="touch-help" ${isTouchDevice() ? "" : "hidden"}>
           <p>Steer with your left thumb. Hold GAS on the right to accelerate. BRAKE slows the car; keep holding when stopped to reverse.</p>
-          <p>Steer and hold DRIFT for a slide. NITRO adds acceleration. Release to recharge.</p>
+          <p>Steer and hold DRIFT for a slide; it includes acceleration for two-thumb play. NITRO also accelerates. Release to recharge.</p>
           <p>Menu opens Help, map and Settings. Pause is always beside Menu. Utilities holds camera, recovery and exit; slow down before leaving the car.</p>
           <p>On foot, use the left joystick to move, drag the road to look, and tap DRIVE beside your car. Tap a yellow job marker to start.</p>
         </div>

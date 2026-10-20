@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { writeFile } from 'node:fs/promises';
 test('Settings contains focus, isolates held driving keys and restores the opener', async ({ page }) => {
   await page.goto('/tests/harness.html');
   await page.waitForFunction(() => (window as any).harness);
@@ -25,6 +26,7 @@ test('rotation retains CSS target sizes and clears pointer holds', async ({ brow
   const context = await browser.newContext({ viewport: { width: 844, height: 390 }, isMobile: true, hasTouch: true });
   const page = await context.newPage(); await page.goto('/tests/harness.html'); await page.waitForFunction(() => (window as any).harness);
   const gas = page.locator('[data-hold="throttle"]');
+  const observations = [];
   const box = (await gas.boundingBox())!;
   const cdp = await context.newCDPSession(page);
   await cdp.send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: [{ x: box.x + box.width / 2, y: box.y + box.height / 2 }] });
@@ -37,7 +39,9 @@ test('rotation retains CSS target sizes and clears pointer holds', async ({ brow
     expect(await page.evaluate(() => window.visualViewport!.scale)).toBe(1);
     const utility = await page.locator('.touch-drive__util').first().boundingBox(); expect(utility!.height).toBeGreaterThanOrEqual(44);
     expect(await page.evaluate(() => (window as any).harness.input.state.throttle)).toBe(0);
+    observations.push(await page.evaluate(() => ({ innerWidth, innerHeight, clientWidth: document.documentElement.clientWidth, visualWidth: visualViewport?.width, visualScale: visualViewport?.scale, canvasWidth: document.querySelector('canvas')!.width, canvasCssWidth: document.querySelector('canvas')!.getBoundingClientRect().width, utility: document.querySelector('.touch-drive__util')!.getBoundingClientRect().toJSON(), pedal: document.querySelector('[data-hold=throttle]')!.getBoundingClientRect().toJSON() })));
   }
+  await writeFile('docs/evidence/rotation-after.json', JSON.stringify(observations,null,2)+'\n');
   await page.screenshot({ path: 'docs/evidence/implemented-portrait.png' }); await context.close();
 });
 test('touch Help and pause work without keyboard controls', async ({ browser }) => {

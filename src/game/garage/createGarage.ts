@@ -311,7 +311,7 @@ export function createGarage({
     onToggle == null || onToggle(true);
     await z.cover("PREPARING THE GARAGE");
     const Re = performance.now();
-    if (await fleet.loadAll().catch(me => console.warn("[garage] a car failed to load:", me)), ($ = p == null ? undefined : p.uniforms) != null && $.garage) {
+    if (await fleet.load(fleet.current.id), ($ = p == null ? undefined : p.uniforms) != null && $.garage) {
       for (const [me, ie] of Object.entries(u0e)) k.ground[me] = p.uniforms[me].value, p.uniforms[me].value = ie;
       p.uniforms.garage.value = 1;
       p.uniforms.garageCenter.value.set(ia.x, ia.z);
@@ -392,9 +392,31 @@ export function createGarage({
     E || !isVehicleUnlocked(Re, progress) || (M = Re.id, ae(), j());
   }
   async function K(Re) {
-    E || (E = true, await z.cover("", {
-      quick: true
-    }), we(C + Re), R = .55, await Lb(40), await z.reveal(), E = false);
+    if (E) return;
+    E = true;
+    const previous = C;
+    try {
+      await z.cover("PREPARING THIS RIDE", { quick: true });
+      const next = (C + Re + g.length) % g.length;
+      await fleet.load(X(next).id);
+      we(next);
+      if (!P.has(X(next).id)) {
+        renderLoop.stopLoop();
+        try {
+          pipeline.syncCameras?.(camera);
+          await o0e({ renderer, scene, pipeline, camera, world });
+          P.add(X(next).id);
+        } finally { renderLoop.startLoop(); }
+      }
+      R = .55;
+      await Lb(40);
+    } catch (error) {
+      we(previous);
+      x(".garage__blurb").textContent = "That ride could not arrive. Your current car is safe. Check your connection and select the ride again to retry.";
+    } finally {
+      await z.reveal();
+      E = false;
+    }
   }
   b.addEventListener("click", Re => {
     var Je, je, Te, ue, $, q, oe, xe, me;

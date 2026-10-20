@@ -16,6 +16,7 @@ The original public repository explicitly excludes models, textures, audio and v
 - Trapnest Neon OG art and icon: generated specifically for this project; the original generated images and optimized variants are in `public/brand/`.
 
 The in-app information panel retains acknowledgment of the original visual and technical authors.
-# Interface text font
+
+## Interface text font
 
 Inter 5.3.0 is bundled locally from `@fontsource/inter`. Copyright Rasmus Andersson and contributors, licensed under the SIL Open Font License 1.1. The full license is in `public/fonts/Inter-LICENSE.txt`. Orbitron remains the branding/instrument face.

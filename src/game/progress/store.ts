@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { reportSaveFailure } from "../../platform/saveStatus.ts";
 import { yE, vehicleCatalog, isVehicleUnlocked } from "../vehicles/catalog.ts";
 import { b1 } from "../story/definitions.ts";
 export const zG = "trapnest-neon:progress";
@@ -32,7 +33,7 @@ export function Npe() {
       } : t);
       return e;
     }
-  } catch {}
+  } catch { reportSaveFailure(); }
   return JE();
 }
 export function createProgressStore({
@@ -45,7 +46,7 @@ export function createProgressStore({
   function r() {
     try {
       localStorage.setItem(zG, JSON.stringify(s));
-    } catch {}
+    } catch { reportSaveFailure(); }
   }
   function o(p) {
     for (const m of n) m(p, f);

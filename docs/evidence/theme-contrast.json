@@ -1,0 +1,11 @@
+{
+  "method": "WCAG sRGB luminance against the lightest composited #111a26ed panel over pure white; token check only, hardware scene capture review remains pending.",
+  "ratios": {
+    "ordinary": 12.92,
+    "secondary": 8.52,
+    "cyan": 9.92,
+    "amber": 10.02,
+    "danger": 5.09,
+    "boundary": 3.28
+  }
+}

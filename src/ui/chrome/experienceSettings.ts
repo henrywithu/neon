@@ -1,3 +1,4 @@
+import { saveDescription } from "../../platform/saveStatus";
 import { getExperiencePreferences, setExperiencePreference, reducedMotion } from '../../platform/experiencePreferences';
 import { isAudioPlaying, setAudioPlaying, subscribeAudioState } from '../../audio/audioState';
 export function createExperienceSettings() {
@@ -15,11 +16,13 @@ export function createExperienceSettings() {
     <p>System reduced motion is also respected. Vehicle handling stays the same.</p>
   </section><section><h2>Sound mix</h2><label>Sound enabled<input type="checkbox" data-sound></label>
     ${(['music', 'effects', 'ambience', 'voice'] as const).map(key => `<label>${{ music: 'Music', effects: 'Vehicle and effects', ambience: 'Rain and ambience', voice: 'Voice' }[key]}<input type="range" min="0" max="1" step="0.05" data-pref="${key}" aria-label="${key} volume"><output data-value="${key}"></output></label>`).join('')}
-  </section><section><h2>This browser remembers</h2><p>Jobs, sigils, cars and preferences save locally in this browser. Clearing site data or using private browsing can remove them. Reset game removes progress and driving tips; Reset configs changes preferences.</p></section>`;
+  <label>Glass Turn district ambience · preview<input type="checkbox" data-pref="districtAmbience"></label>
+  </section><section><h2>This browser remembers</h2><p data-save-status role="status"></p><p>Jobs, sigils, cars and preferences save locally in this browser. Clearing site data or using private browsing can remove them. Reset game removes progress and driving tips; Reset configs changes preferences.</p></section>`;
   const sound = root.querySelector<HTMLInputElement>('[data-sound]')!;
   sound.checked = isAudioPlaying(); sound.addEventListener('change', () => setAudioPlaying(sound.checked));
   const stopAudio = subscribeAudioState(({ isMusicPlaying }) => { sound.checked = isMusicPlaying; });
   function sync() {
+    root.querySelector("[data-save-status]")!.textContent = saveDescription();
     const prefs = getExperiencePreferences();
     for (const element of root.querySelectorAll<HTMLInputElement | HTMLSelectElement>('[data-pref]')) {
       const key = element.dataset.pref as keyof typeof prefs;
@@ -35,6 +38,6 @@ export function createExperienceSettings() {
   root.querySelector('[data-reload]')!.addEventListener('click', () => {
     const url = new URL(location.href); for (const key of ['quality', 'dpr', 'lite']) url.searchParams.delete(key); location.assign(url);
   });
-  window.addEventListener('neon:preferences', sync); sync();
-  return { root, dispose() { stopAudio(); window.removeEventListener('neon:preferences', sync); root.remove(); } };
+  window.addEventListener('neon:preferences', sync); window.addEventListener('neon:save-status', sync); sync();
+  return { root, dispose() { stopAudio(); window.removeEventListener('neon:save-status', sync); window.removeEventListener('neon:preferences', sync); root.remove(); } };
 }

@@ -16,6 +16,7 @@ export function createFriendsPanel({
 }) {
   const a = document.createElement("div");
   a.className = "mp-chip";
+  a.setAttribute("aria-label", "Your room");
   a.dataset.state = "closed";
   a.setAttribute("data-ui-block-look", "true");
   a.innerHTML = `

@@ -243,7 +243,11 @@ export function createCityMap({
         continue;
       }
       if (!(me < -40 || ie < -40 || me > H + 40 || ie > W + 40)) {
-        if (xe.kind === "mission" || xe.kind === "garage") {
+        if (xe.kind === "landmark") {
+          g.fillStyle = xe.done ? "#6de6ff" : "#b8c9d8";
+          for (let pane = 0; pane < 3; pane++) g.fillRect(me - 9 + pane * 7, ie - 8 - pane * 2, 4, 16 + pane * 4);
+          g.font = "600 12px sans-serif"; g.fillText("GLASS TURN", me, ie + 28);
+        } else if (xe.kind === "mission" || xe.kind === "garage") {
           const Ne = xe.kind === "garage" ? R(xe.icon, 28, false, "garage") : R(xe.icon, 26, xe.done);
           if (g.drawImage(Ne, me - Ne.cssSize / 2, ie - Ne.cssSize / 2, Ne.cssSize, Ne.cssSize), xe.kind === "garage") {
             g.font = "700 9px Orbitron, sans-serif";
@@ -285,7 +289,7 @@ export function createCityMap({
     if (k) {
       const xe = k,
         me = xe.name.toUpperCase(),
-        ie = xe.kind === "mission" ? `${xe.race ? "STREET RACE" : "MISSION"}${xe.done ? xe.race ? " · WON" : " · PASSED" : ""}` : xe.kind === "garage" ? "CLICK TO ENTER" : xe.kind === "ping" ? "PING · CLICK FOR GPS" : xe.kind === "friend" ? "DRIVING WITH YOU · CLICK FOR GPS" : "NEON SIGIL";
+        ie = xe.kind === "mission" ? `${xe.race ? "STREET RACE" : "MISSION"}${xe.done ? xe.race ? " · WON" : " · PASSED" : ""}` : xe.kind === "landmark" ? xe.done ? "YOUR LIGHT IS ON" : "FIRST FARE · STOP HERE" : xe.kind === "garage" ? "CLICK TO ENTER" : xe.kind === "ping" ? "PING · CLICK FOR GPS" : xe.kind === "friend" ? "DRIVING WITH YOU · CLICK FOR GPS" : "NEON SIGIL";
       g.font = "700 11px Orbitron, sans-serif";
       const Ne = Math.max(g.measureText(me).width, g.measureText(ie).width * .8) + 22,
         ze = xe.sx - Ne / 2,

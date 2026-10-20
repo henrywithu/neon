@@ -1,4 +1,5 @@
 import { setInputBoundary } from '../ui/core/inputBoundary';
+import { isSavingAvailable } from '../platform/saveStatus';
 export type FailureKind = 'capability' | 'asset' | 'shader' | 'device';
 let stage: FailureKind = 'capability';
 export function setStartupStage(value: FailureKind) { stage = value; }
@@ -18,6 +19,7 @@ export function showRecovery(error: unknown, kind: FailureKind = stage) {
   root.innerHTML = `<div class="night-card"><p class="night-eyebrow">TRAPNEST · RETURN TO THE NIGHT</p><h1></h1><p data-copy></p><div class="night-actions"><button data-retry>Retry</button>${kind !== 'capability' ? '<button data-performance>Restart in Performance mode</button>' : ''}</div><details><summary>Diagnostic details</summary><pre></pre></details><p class="night-secondary">Progress and preferences stay on this browser. Reloading does not reset your game.</p></div>`;
   root.querySelector('h1')!.textContent = copy[0]; root.querySelector('[data-copy]')!.textContent = copy[1];
   root.querySelector('pre')!.textContent = `${kind}: ${error instanceof Error ? error.message : String(error)}`;
+  if (!isSavingAvailable()) root.querySelector('.night-secondary')!.textContent = 'Local saving is unavailable. Reloading may discard changes from this visit; previously saved data stays intact.';
   root.querySelector('[data-retry]')!.addEventListener('click', () => location.reload());
   root.querySelector('[data-performance]')?.addEventListener('click', () => {
     const url = new URL(location.href); url.searchParams.set('quality', 'low'); url.searchParams.set('lite', '1');

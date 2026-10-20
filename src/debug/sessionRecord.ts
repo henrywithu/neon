@@ -27,10 +27,13 @@ export function installSessionRecorder() {
         const r = e as PerformanceResourceTiming;
         return { url: r.name, startMs: r.startTime, durationMs: r.duration, transferBytes: r.transferSize, encodedBytes: r.encodedBodySize, decodedBytes: r.decodedBodySize };
       });
+      const memory = (performance as Performance & { memory?: { usedJSHeapSize: number; totalJSHeapSize: number; jsHeapSizeLimit: number } }).memory;
+      const runtime = (window as unknown as { __neon?: { renderer: { getPixelRatio(): number; domElement: HTMLCanvasElement } } }).__neon;
       return { ...trace, durationMs: performance.now() - trace.start, usableDriveMs: usableAt, firstMovementMs: firstMoveAt,
         p50Ms: percentile(.5), p95Ms: percentile(.95), p99Ms: percentile(.99), samples: sorted.length,
         viewport: { width: document.documentElement.clientWidth, height: document.documentElement.clientHeight, dpr: devicePixelRatio },
-        memory: (performance as Performance & { memory?: unknown }).memory ?? null, resources,
+        rendering: runtime ? { dpr: runtime.renderer.getPixelRatio(), bufferWidth: runtime.renderer.domElement.width, bufferHeight: runtime.renderer.domElement.height } : null,
+        memory: memory ? { usedBytes: memory.usedJSHeapSize, allocatedBytes: memory.totalJSHeapSize, limitBytes: memory.jsHeapSizeLimit } : null, resources,
         note: 'Transfer size 0 can mean cache or unavailable timing. Record waterfall/HAR and thermal/comfort observations separately.' };
     },
     download() {

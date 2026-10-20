@@ -82,7 +82,7 @@ export function vfe({
     f.y += (k - f.y) * L;
     l.amount.value = c;
     (H = speedBlur.setActive) == null || H.call(speedBlur, c > 0 || T >= 0);
-    l.lensAmount.value = u;
+    l.lensAmount.value = getExperiencePreferences().screenEffects && !reducedMotion() ? u : 0;
     l.phase.value = d;
     const {
       normal: F,
