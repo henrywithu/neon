@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { mixGain } from "../platform/experiencePreferences.ts";
 import { AudioListener, AudioLoader, Audio, PositionalAudio } from "three/webgpu";
 import { Nde, RL, lb, Lde, IL, LL, kde } from "./uiSounds.ts";
 import { getAudioVolume, subscribeAudioState, isAudioPlaying } from "./audioState.ts";
@@ -107,7 +108,7 @@ export function createSpatialAudio({
     confirm: () => c("confirm"),
     type: l,
     setVolume(p) {
-      e.setMasterVolume(p);
+      e.setMasterVolume(p * mixGain("effects"));
     },
     dispose() {
       document.removeEventListener("pointerover", h, true);
@@ -137,7 +138,7 @@ export async function Pde({
   t.setRolloffFactor(1.2);
   t.setDistanceModel("inverse");
   t.setLoop(true);
-  t.setVolume(getAudioVolume() * kL);
+  t.setVolume(getAudioVolume() * mixGain("ambience") * kL);
   plane.add(t);
   plane.updateMatrixWorld(true);
   const s = await new AudioLoader().loadAsync(planeEngineUrl);
@@ -155,7 +156,7 @@ export async function Pde({
     isMusicPlaying: isMusicPlaying,
     audioVolume: audioVolume
   }) => {
-    t.setVolume(audioVolume * kL);
+    t.setVolume(audioVolume * mixGain("ambience") * kL);
     isMusicPlaying ? n().catch(() => {}) : r();
   });
   return {
@@ -215,7 +216,7 @@ export async function zde({
       m = t[a++ % t.length];
     p.setBuffer(m);
     p.setPlaybackRate(1);
-    p.setVolume(c * PL);
+    p.setVolume(c * mixGain("effects") * PL);
     p.isPlaying && p.stop();
     const A = listener.context;
     A.state !== "running" && (await A.resume());
@@ -242,7 +243,7 @@ export async function zde({
   }) => {
     l = isMusicPlaying;
     c = audioVolume;
-    for (const A of s) A.buffer && A.setVolume(c * PL);
+    for (const A of s) A.buffer && A.setVolume(c * mixGain("effects") * PL);
     if (!l) {
       r = 0;
       o = gg;

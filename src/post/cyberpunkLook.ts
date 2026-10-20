@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { getExperiencePreferences, reducedMotion } from "../platform/experiencePreferences.ts";
 import { Color, Vector3, NodeUpdateType } from "three/webgpu";
 import { uniform, smoothstep, float, max, vec4, mix, saturation, length, screenUV, vec2, convertToTexture, step, Fn, fract, vec3, dot, sin, floor, abs, pow, sqrt, screenCoordinate, screenSize } from "three/tsl";
 import { Ap, cae, aae, lae, nae, rae, oae } from "../shaders/post/edgeChromaticAberration.ts";
@@ -277,11 +278,11 @@ export function createCyberpunkLook({
     s.contrast.value = u.contrast;
     s.greenSuppress.value = u.greenSuppress;
     s.gradeMix.value = u.gradeMix;
-    s.chromaticStrength.value = u.chromaticStrength;
+    s.chromaticStrength.value = getExperiencePreferences().screenEffects && !reducedMotion() ? u.chromaticStrength : 0;
     s.chromaticEdgeFalloff.value = u.chromaticEdgeFalloff;
     s.vignetteIntensity.value = u.vignetteIntensity;
     s.vignetteSmoothness.value = u.vignetteSmoothness;
-    s.grainIntensity.value = u.grainIntensity;
+    s.grainIntensity.value = getExperiencePreferences().screenEffects && !reducedMotion() ? u.grainIntensity : 0;
     s.exposure.value = u.exposure;
     s.hdrPunch.value = u.hdrPunch;
   }

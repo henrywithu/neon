@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { getExperiencePreferences } from "./experiencePreferences.ts";
 import { rne, getResolutionPreference, getQualityPreference } from "./userPreferences.ts";
 import { isOlderIPhone, isMobileDevice, isSafari, isAppleMobile } from "./deviceLayout.ts";
 export const performanceProfile = {
@@ -163,6 +164,11 @@ export function applyDevicePerformanceDefaults() {
     performanceProfile.quality = r;
     isSafari() && (performanceProfile.adaptiveDpr = false);
   }
+  if (getExperiencePreferences().performance === "performance" && isMobileDevice()) {
+    performanceProfile.maxPixelRatio = Math.min(1, performanceProfile.maxPixelRatio);
+    performanceProfile.carReflectionProbe = false;
+    performanceProfile.speedBlur = false;
+  }
   const i = new URLSearchParams(window.location.search).get("reflect");
   (i === "full" || i === "lights" || i === "off") && (performanceProfile.groundReflectionMode = i);
   performanceProfile.groundReflection = performanceProfile.groundReflectionMode !== "off";
@@ -188,7 +194,7 @@ export function yne() {
   const i = new URLSearchParams(window.location.search).get("quality");
   if (C0.includes(i)) return i;
   const e = getQualityPreference();
-  return C0.includes(e) ? e : kU;
+  return getExperiencePreferences().performance === "performance" ? "low" : C0.includes(e) ? e : kU;
 }
 export function bne() {
   performanceProfile.shareSurfaceTextures = true;

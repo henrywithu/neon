@@ -88,6 +88,8 @@ export function Xue({
   t.addEventListener("pointermove", g);
   t.addEventListener("pointerup", b);
   t.addEventListener("pointercancel", b);
+  t.addEventListener("lostpointercapture", b);
+  window.addEventListener("neon:clear-input", h);
   const x = (y = state == null ? undefined : state.subscribe) == null ? undefined : y.call(state, ({
     openedPanel: openedPanel
   }) => {
@@ -114,6 +116,8 @@ export function Xue({
       t.removeEventListener("pointermove", g);
       t.removeEventListener("pointerup", b);
       t.removeEventListener("pointercancel", b);
+      t.removeEventListener("lostpointercapture", b);
+      window.removeEventListener("neon:clear-input", h);
       h();
       t.remove();
     }

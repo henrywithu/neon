@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { reducedMotion } from "../../platform/experiencePreferences.ts";
 import { Upe, Ope, Gpe, zpe, Vpe, Ppe, Dpe, Bk, Qpe } from "../../game/missions/checkpointBeacons.ts";
 export function typewriter(i, e, {
   cps = 40,
@@ -117,7 +118,7 @@ export function typewriter(i, e, {
     T(M);
     p = requestAnimationFrame(C);
   }
-  !l.length || Qpe() ? (i.classList.add("is-instant"), E()) : p = requestAnimationFrame(C);
+  !l.length || Qpe() || reducedMotion() ? (i.classList.add("is-instant"), E()) : p = requestAnimationFrame(C);
   return {
     done: y,
     get isDone() {

@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { mixGain } from "../platform/experiencePreferences.ts";
 import { subscribeAudioState } from "./audioState.ts";
 import { Nb, nF, iF, Zge, e0e } from "../multiplayer/createMultiplayer.ts";
 export function t0e(i) {
@@ -22,7 +23,7 @@ function createGarageAudio({
   const n = subscribeAudioState(({
       isMusicPlaying: isMusicPlaying
     }) => {
-      t.gain.value = isMusicPlaying ? volume : 0;
+      t.gain.value = isMusicPlaying ? volume * mixGain("effects") : 0;
     }),
     r = new Map();
   function o(l) {

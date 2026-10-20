@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { createFirstDrive } from "../game/drive/firstDrive.ts";
 import { observeViewport } from "../platform/viewport.ts";
 import { setStartupStage } from "../runtime/recovery.ts";
 import { applyDevicePerformanceDefaults, performanceProfile, applyPerformanceProfileToPipeline } from "../platform/performanceProfile.ts";
@@ -277,6 +278,8 @@ export async function bootstrapExperience(loader) {
     onOpenMultiplayer: drive != null && drive.traffic && world.metroMode && isMultiplayerEnabled() ? () => multiplayer == null ? undefined : multiplayer.door() : null,
     onOpenFriends: () => multiplayer == null ? undefined : multiplayer.togglePanel()
   });
+  const firstDrive = gameplay ? createFirstDrive({ drive, missions: gameplay.missions, progress: gameplay.progress, store: tutorialStore, onGarage: () => garage?.open() }) : null;
+  if (gameplay) gameplay.firstDrive = firstDrive;
   modeCallback.onChange = app.onWalkModeChange;
   gameplay == null || gameplay.attachUi({
     uiSfx: app.uiSfx,
@@ -341,12 +344,13 @@ export async function bootstrapExperience(loader) {
       pipeline: pipeline,
       renderer: renderer,
       loaderOverlay: loader,
-      beforeReveal: gameplay ? () => gameplay.story.playOpening() : null,
+      beforeReveal: firstDrive ? options => firstDrive.welcome(options) : null,
       onSettled: () => {
         adaptiveGate.allow = true;
       },
       revealAppUi: () => {
         app.revealAppUi();
+        firstDrive?.begin();
         adaptiveGate.allow = true;
       },
       world: world
@@ -364,6 +368,7 @@ export async function bootstrapExperience(loader) {
       getIntroActive: introFlow.isIntroActive,
       onFrame: V => {
         app.updateHud(V);
+        firstDrive?.update();
         gameplay == null || gameplay.update(V);
         garage == null || garage.update(V);
         multiplayer == null || multiplayer.update(V);

@@ -1,9 +1,10 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { reducedMotion } from "../../platform/experiencePreferences.ts";
 import { FEATURES } from "../../world/createWorld.ts";
 import { splitIntroLetters } from "../../audio/voice/createVoice.ts";
 import { gsap } from "gsap";
-import { setAudioPlaying } from "../../audio/audioState.ts";
+import { enableAudioForEntry } from "../../audio/audioState.ts";
 import { AudioContext } from "three/webgpu";
 export function createIntroOverlay({
   onStart: onStart,
@@ -23,7 +24,7 @@ export function createIntroOverlay({
       <p class="intro-rule" aria-hidden="true"></p>
       <p class="intro-tagline">${taglineText}</p>
       <div class="intro-actions">
-        <button type="button" class="intro-button" disabled>ENTER</button>
+        <button type="button" class="intro-button" disabled>ENTER</button><button type="button" class="intro-skip">Just drive · skip welcome</button>
       </div>
       <p class="intro-credit">Henry · Trapnest</p>
     </div>
@@ -65,6 +66,7 @@ export function createIntroOverlay({
     y: 8
   });
   function p() {
+    if (reducedMotion()) { gsap.set([r, ...u, a, l, n, c], { opacity: 1, y: 0, scaleX: 1, filter: "none" }); n.disabled = false; return; }
     h == null || h.kill();
     h = gsap.timeline().to(r, {
       opacity: 1,
@@ -114,7 +116,7 @@ export function createIntroOverlay({
       f == null || f.kill();
       f = gsap.to(s, {
         opacity: 0,
-        duration: duration,
+        duration: reducedMotion() ? 0 : duration,
         ease: "power1.out",
         onComplete: () => {
           s.remove();
@@ -123,8 +125,9 @@ export function createIntroOverlay({
       });
     });
   }
-  function A() {
-    d || n.disabled || (d = true, window.removeEventListener("keydown", g, true), n.disabled = true, n.style.pointerEvents = "none", (async () => (await m(), await (onStart == null ? undefined : onStart())))());
+  function A(skipWelcome = false) {
+    skipWelcome = skipWelcome === true;
+    d || n.disabled && !skipWelcome || (d = true, window.removeEventListener("keydown", g, true), n.disabled = true, n.style.pointerEvents = "none", (async () => (await m(), await (onStart == null ? undefined : onStart({ skipWelcome }))))());
   }
   function g(b) {
     var x, y;
@@ -132,9 +135,10 @@ export function createIntroOverlay({
       window.removeEventListener("keydown", g, true);
       return;
     }
-    b.code !== "Enter" && b.code !== "NumpadEnter" && b.code !== "Space" || (b.preventDefault(), b.stopImmediatePropagation(), !b.repeat && (FEATURES.audio && !n.disabled && (setAudioPlaying(true), (y = (x = AudioContext.getContext()).resume) == null || y.call(x).catch(() => {})), A()));
+    b.code !== "Enter" && b.code !== "NumpadEnter" && b.code !== "Space" || (b.preventDefault(), b.stopImmediatePropagation(), !b.repeat && (FEATURES.audio && !n.disabled && (enableAudioForEntry(), (y = (x = AudioContext.getContext()).resume) == null || y.call(x).catch(() => {})), A()));
   }
-  n.addEventListener("click", A);
+  n.addEventListener("click", () => A());
+  s.querySelector(".intro-skip").addEventListener("click", () => A(true));
   window.addEventListener("keydown", g, true);
   return {
     root: s,

@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { reducedMotion } from "../../platform/experiencePreferences.ts";
 import { showRecovery } from "../../runtime/recovery.ts";
 import { gsap } from "gsap";
 export const X3 = "app-loader-style";
@@ -212,7 +213,7 @@ export function createLoaderOverlay() {
   function f({
     onRevealUpdate: onRevealUpdate
   } = {}) {
-    if (matchMedia("(prefers-reduced-motion: reduce)").matches) { i.remove(); return Promise.resolve(); }
+    if (reducedMotion()) { i.remove(); return Promise.resolve(); }
     return o || (r ? Promise.resolve() : (r = true, i.setAttribute("aria-busy", "false"), u(1), o = new Promise(m => {
       const A = getLoaderRevealRadius(),
         g = {

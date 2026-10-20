@@ -1,3 +1,4 @@
+import { getActiveInput } from '../../platform/activeInput';
 import { vce } from './createHeader';
 import { isTouchDevice, isMobileLayout, onDeviceLayoutChange } from '../../platform/deviceLayout';
 import { createJournal } from './createJournal';
@@ -51,7 +52,7 @@ export function createAboutPanel({
   const desktop = root.querySelector<HTMLElement>('.about-recommended--desktop')!;
   const mobile = root.querySelector<HTMLElement>('.about-recommended--mobile')!;
   function syncLayout(): void {
-    const compact: boolean = isTouchDevice();
+    const compact: boolean = getActiveInput() === "touch";
     desktop.hidden = compact;
     mobile.hidden = !compact;
   }

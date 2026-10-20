@@ -7,13 +7,12 @@ export const mm = [{
   icon: "local_taxi",
   tier: 1,
   from: "pops",
-  brief: "A suit in the back seat, late for a meeting up in the north hills. Beat the meter. Late fares don't pay.",
-  text: "Got a fare for you, rookie. Suit in a hurry. Don't keep him waiting.",
+  brief: "Pops here. Take our night-shift archivist home to Glass Turn. First stop at the amber marker, then follow the cyan ribbon beneath the rain-lit blocks. Look for three panes of light. No tricks tonight. Just bring someone home.",
+  text: "One quiet fare to Glass Turn. I'll leave a light on for you.",
   start: [-84, -620],
-  route: [[-330, -980]],
+  route: [{ at: [-84, -770], stop: true }, { at: [-330, -980], stop: true }],
   rules: {
-    pace: 42,
-    slack: 12
+    time: 240
   }
 }, {
   id: "smoke-show",

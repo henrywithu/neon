@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { getExperiencePreferences, reducedMotion } from "../platform/experiencePreferences.ts";
 import { MathUtils, Vector3, Quaternion } from "three/webgpu";
 import { Vc } from "../controls/createDriveInput.ts";
 export function Ad(i, e) {
@@ -165,7 +166,7 @@ export function createChaseCamera({
       const Ue = Se.lookBack ? 30 : 4.5 + 2.5 * MathUtils.smoothstep(J, 5, 30) - 3.8 * j;
       c += XL(fe - c) * (1 - Math.exp(-Ue * we));
       const Ae = Ad(ye, m),
-        Be = Ae.distance + Q * (ye.breathe ?? .6),
+        Be = Ae.distance + Q * (getExperiencePreferences().cameraMotion && !reducedMotion() ? ye.breathe ?? .6 : 0),
         He = Ae.height + Q * .15;
       A = rr(A, Be, 3, we);
       g = rr(g, He, 3, we);
@@ -198,9 +199,10 @@ export function createChaseCamera({
       camera.lookAt(B);
     }
     p = rr(p, 0, 5, we);
-    const V = p * .06 + x * .0035;
+    const comfort = !getExperiencePreferences().cameraMotion || reducedMotion();
+    const V = comfort ? 0 : p * .06 + x * .0035;
     V > 1e-4 && (camera.rotateX((Math.sin(f * 37.1) + Math.sin(f * 23.7)) * V * .5), camera.rotateY((Math.sin(f * 31.3) + Math.sin(f * 17.9)) * V * .35), camera.rotateZ(Math.sin(f * 29.3) * V * .4));
-    const te = baseFov + ye.fovBoost * Q * Q + x * 9;
+    const te = comfort ? baseFov : baseFov + ye.fovBoost * Q * Q + x * 9;
     b = rr(b, te, 2.5, we);
     Math.abs(camera.fov - b) > .01 && (camera.fov = b, camera.updateProjectionMatrix());
   }

@@ -11,7 +11,7 @@ export const _d = 128;
 export const _g = {
   start: new Color(1, .78, .05),
   checkpoint: new Color(.1, .85, 1),
-  finish: new Color(1, .18, .62)
+  finish: new Color(1, .82, .4)
 };
 export function createCheckpointBeacons({
   scene: scene,

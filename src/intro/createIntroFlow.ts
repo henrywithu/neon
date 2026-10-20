@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { reducedMotion } from "../platform/experiencePreferences.ts";
 import { createRainGlassIntro } from "../audio/voice/createVoice.ts";
 import { createIntroOverlay, createTransitionOverlay } from "../ui/intro/createIntroOverlay.ts";
 import { FEATURES } from "../world/createWorld.ts";
@@ -34,23 +35,23 @@ export function createIntroFlow({
     }) : null;
     const p = createIntroOverlay({
       scrim: !a,
-      onStart: async () => {
+      onStart: async ({ skipWelcome = false } = {}) => {
         const m = createTransitionOverlay();
         m.show();
         const A = (async () => {
             await (a == null ? undefined : a.fadeOut({
-              duration: 1.2
+              duration: reducedMotion() ? 0 : .24
             }));
             a == null || a.destroy();
             a = null;
             l = false;
             c(false);
-            await fhe(1e3);
+            await fhe(reducedMotion() ? 0 : 160);
             await m.hide();
             m.destroy();
             onSettled == null || onSettled();
           })(),
-          g = beforeReveal == null ? undefined : beforeReveal().catch(b => console.warn("[intro] story message failed:", b));
+          g = beforeReveal == null ? undefined : beforeReveal({ skipWelcome }).catch(b => console.warn("[intro] story message failed:", b));
         await Promise.all([A, g]);
         renderer.domElement.style.pointerEvents = "auto";
         revealAppUi();

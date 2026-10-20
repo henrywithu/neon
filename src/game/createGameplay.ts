@@ -132,7 +132,7 @@ export async function createGameplay({
       voice: voice,
       isCalm: () => p.phase === "idle" && !drive.isPaused() && !x.busy && !_.classList.contains("is-visible") && !(E != null && E.busy)
     }),
-    E = isTouchDevice() ? null : createInbox({
+    E = createInbox({
       missions: p,
       sigils: y,
       progress: c,
@@ -140,7 +140,7 @@ export async function createGameplay({
       sfx: d,
       voice: voice,
       canShow: () => p.phase === "idle" && !drive.isPaused() && !v.isOpen,
-      canRing: () => !x.busy && !_.classList.contains("is-visible")
+      canRing: () => Math.abs(drive.vehicle.telemetry.speedKmh) < 4 && !x.busy && !_.classList.contains("is-visible")
     }),
     C = () => [...p.mapMarkers(), ...((y == null ? undefined : y.mapMarkers()) ?? [])];
   (H = (O = drive.minimap) == null ? undefined : O.setMarkerSource) == null || H.call(O, C);

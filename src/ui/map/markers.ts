@@ -1,10 +1,10 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
 import { glyphPaths } from "../walk/hudPanel.ts";
-export const pG = "#ffd60a";
+export const pG = "#ffd166";
 export const au = "#07060b";
 export const mG = "#4ade80";
-export const gG = "#22d3ee";
+export const gG = "#6de6ff";
 export const AG = i => glyphPaths[i] ?? glyphPaths.flag;
 export const due = '<rect x="17" y="17" width="66" height="66" rx="9" transform="rotate(45 50 50)"';
 export const hue = "translate(26 74) scale(0.05)";

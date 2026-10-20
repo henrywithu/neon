@@ -1,5 +1,7 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { createExperienceSettings } from "./experienceSettings.ts";
+import { resetExperiencePreferences } from "../../platform/experiencePreferences.ts";
 import { R1, eb, Xle, Jle } from "../core/phosphorIcons.ts";
 export function createSettingsPanel({
   state: state,
@@ -225,6 +227,8 @@ export function createSettingsPanel({
     L.textContent = we ? `Car reflections ${le.chosen ? "on" : "off"} after a reload` : "Turn off if the frame rate drops";
     F.hidden = !we;
   }
+  const experienceSettings = createExperienceSettings();
+  y.querySelector(".settings-options").prepend(experienceSettings.root);
   function G() {
     y.classList.remove("settings-overlay--force-hidden");
     H(getDevelopmentMode());
@@ -286,7 +290,7 @@ export function createSettingsPanel({
     onDevelopmentModeChange == null || onDevelopmentModeChange(S.checked);
   });
   T.addEventListener("click", () => {
-    window.confirm(`Reset configs? Look, quality, resolution and voice preferences will return to default${showDevelopmentMode ? " and development mode will turn off" : ""}.`) && (onRestart == null || onRestart(), X());
+    window.confirm(`Reset configs? Look, quality, resolution and voice preferences will return to default${showDevelopmentMode ? " and development mode will turn off" : ""}.`) && (resetExperiencePreferences(), onRestart == null || onRestart(), X());
   });
   (re = y.querySelector("[data-reset-game]")) == null || re.addEventListener("click", () => {
     window.confirm("Reset game? Missions, Neon Sigils, unlocked cars and the driving tips start over. The game reloads.") && (onResetGame == null || onResetGame());

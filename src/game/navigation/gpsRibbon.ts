@@ -10,7 +10,7 @@ export function createGpsRibbon({
   groundY: groundY,
   layer = null,
   width = 2.4,
-  color = "#ff2d9a"
+  color = "#6de6ff"
 }) {
   const r = new Float32Array(xd * 2 * 3),
     o = new Float32Array(xd * 2 * 2),

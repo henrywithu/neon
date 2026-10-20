@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { mixGain } from "../platform/experiencePreferences.ts";
 import { isAudioPlaying } from "./audioState.ts";
 export function createHornAudio({
   context: context,
@@ -22,7 +23,7 @@ export function createHornAudio({
     }
     return n;
   }
-  const o = () => isAudioPlaying() && context.state === "running";
+  const o = () => { t.gain.setTargetAtTime(volume * mixGain("effects"), context.currentTime, .08); return isAudioPlaying() && context.state === "running"; };
   function a({
     freq: freq,
     freq2 = freq,

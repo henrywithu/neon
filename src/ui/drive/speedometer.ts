@@ -80,10 +80,13 @@ export function createSpeedometer({
       <span class="drive-hud__flag" data-flag="abs">ABS</span>
       <span class="drive-hud__flag" data-flag="esc">ESC</span>
     </div>`;
+  const compact = document.createElement("div"); compact.className = "phone-instruments";
+  compact.innerHTML = '<strong data-speed>0</strong><span>km/h</span><b data-gear>N</b><label>NITRO <meter min="0" max="100" value="100" aria-label="Nitro charge"></meter></label>';
+  t.append(compact);
   document.body.appendChild(t);
   const l = document.createElement("div");
   l.className = "drive-hint";
-  l.innerHTML = [["W S", "Accel / brake"], ["A D", "Steer"], ["Space", "Drift"], ["Shift", "Nitro"], ["Q E", "Gears"], ["C", "Camera"], ["R", "Reset"], ["F", "Exit car"], ["Tab", "Map"], ["M", "Radio"], ["J", "Achievements"]].map(([C, M]) => `<span class="drive-hint__item"><kbd>${C}</kbd>${M}</span>`).join("") + '<span class="drive-hint__item drive-hint__item--help"><kbd>H</kbd>All controls</span>';
+  l.innerHTML = '<span class="drive-hint__item drive-hint__item--help"><kbd>H</kbd>Help · drive at your own pace</span>';
   document.body.appendChild(l);
   const c = document.createElement("div");
   c.className = "drive-toast";
@@ -119,9 +122,9 @@ export function createSpeedometer({
     tcsEnabled = true
   } = {}, R = 1 / 60) {
     const I = Math.round(Math.abs(C.travelKmh ?? C.speedKmh));
-    I !== y.speed && (u.textContent = String(I), y.speed = I);
+    I !== y.speed && (u.textContent = String(I), compact.querySelector("[data-speed]").textContent = String(I), y.speed = I);
     const k = C.gear === -1 ? "R" : C.gear === 0 ? "N" : String(C.gear);
-    k !== y.gear && (d.textContent = k, y.gear = k);
+    k !== y.gear && (d.textContent = k, compact.querySelector("[data-gear]").textContent = k, y.gear = k);
     const L = automatic ? "AUTO" : "MAN";
     L !== y.mode && (h.textContent = L, y.mode = L);
     S += (C.rpm - S) * Math.min(1, R * 18);
@@ -137,6 +140,7 @@ export function createSpeedometer({
     W !== y.esc && (b.classList.toggle("is-on", W), y.esc = W);
     const P = Math.round((C.nitroCharge ?? 1) * 100);
     P !== y.nitro && (m.setAttribute("stroke-dashoffset", (r * (1 - P / 100)).toFixed(1)), t.classList.toggle("is-nitro-empty", P < 3), y.nitro = P);
+    compact.querySelector("meter").value = P;
     const z = !!C.nitro;
     z !== y.burning && (t.classList.toggle("is-nitro-burning", z), y.burning = z);
   }

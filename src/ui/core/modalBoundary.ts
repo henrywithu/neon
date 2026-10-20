@@ -3,6 +3,7 @@ import { setInputBoundary } from './inputBoundary';
 // Explicit adapters for the recovered panels. Their own factories still own closing
 // and game state; this layer owns focus, inertness and the shared input boundary.
 const surfaces = [
+  ['.app-header', ':has(.hdr-menu:not([hidden]))', '.hdr-btn--menu'],
   ['.settings-overlay', ':not([hidden])', '.settings-close'],
   ['.about-overlay', ':not([hidden])', '.close-button-panel'],
   ['.story-screen', ':not(.is-closing)', '.story-screen__skip'],
@@ -10,6 +11,7 @@ const surfaces = [
   ['.walk-controls', ':has(.walk-controls__overlay:not([hidden]))', '.walk-controls__close'],
   ['.achievements', ':not([hidden])', '.achievements__close'],
   ['.citymap', '.is-open', '.citymap__close'],
+  ['.mission-result', '.is-visible', '[data-act="close"]'],
   ['.radio', '.is-open', '[data-action="close"]'],
   ['.garage', ':not([hidden])', '.garage__close'],
   ['.lby', '.is-open', '.lby__close'],
@@ -105,7 +107,30 @@ export function installModalBoundary() {
   window.addEventListener('keydown', onKey, true);
   document.addEventListener('focusin', onFocus);
   discover();
+  let gamepadFrame = 0;
+  const held = new Map<string, boolean>();
+  function pollGamepad() {
+    gamepadFrame = requestAnimationFrame(pollGamepad);
+    for (const pad of navigator.getGamepads?.() || []) {
+      if (!pad?.connected || pad.mapping !== 'standard') continue;
+      const pressed = (key: string, down: boolean, action: () => void) => {
+        const id = `${pad.index}:${key}`; if (down && !held.get(id) && top) action(); held.set(id, down);
+      };
+      const move = (direction: number) => {
+        if (!top) return; const items = focusable(top); const index = items.indexOf(document.activeElement as HTMLElement);
+        items[(index + direction + items.length) % items.length]?.focus({ preventScroll: true });
+      };
+      pressed('next', pad.buttons[13]?.pressed || pad.buttons[15]?.pressed || pad.axes[1] > .6 || pad.axes[0] > .6, () => move(1));
+      pressed('previous', pad.buttons[12]?.pressed || pad.buttons[14]?.pressed || pad.axes[1] < -.6 || pad.axes[0] < -.6, () => move(-1));
+      pressed('accept', !!pad.buttons[0]?.pressed, () => {
+        const element = document.activeElement; if (element instanceof HTMLElement && top?.contains(element)) element.click();
+      });
+      pressed('close', !!pad.buttons[1]?.pressed || !!pad.buttons[9]?.pressed, () => window.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape', code: 'Escape', bubbles: true })));
+    }
+  }
+  pollGamepad();
   return () => {
+    cancelAnimationFrame(gamepadFrame);
     bodyObserver.disconnect(); observers.forEach(o => o.disconnect()); restoreInert();
     window.removeEventListener('keydown', onKey, true); document.removeEventListener('focusin', onFocus);
     setInputBoundary('modal', false);

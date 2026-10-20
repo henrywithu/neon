@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { getExperiencePreferences, reducedMotion } from "../../platform/experiencePreferences.ts";
 import { Vector3, Vector2, MathUtils } from "three/webgpu";
 export function Sfe({
   lensRain: lensRain,
@@ -14,6 +15,7 @@ export function Sfe({
     r = 0,
     o = false;
   function a(l, c, u) {
+    u = u && getExperiencePreferences().screenEffects && !reducedMotion();
     const d = u && lensRain.enabled ? Math.min(1, Math.max(0, (Math.abs(c) - minKmh) / (fullKmh - minKmh))) : 0,
       h = d > n ? 1.2 : .35;
     n += (d - n) * (1 - Math.exp(-h * l));
@@ -55,6 +57,7 @@ export function vfe({
   const f = new Vector2(.5, .5);
   function p(m, A, g, b, x = 0) {
     var H;
+    if (!getExperiencePreferences().speedBlur || reducedMotion()) { c = u = h = 0; l.amount.value = l.lensAmount.value = 0; speedBlur.setActive?.(false); return; }
     const y = Math.abs(A),
       _ = b ? MathUtils.clamp((y - minKmh) / (fullKmh - minKmh), 0, 1) : 0,
       w = b ? .25 * MathUtils.clamp((y - fullKmh) / (maxKmh - fullKmh), 0, 1) : 0,

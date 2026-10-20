@@ -93,7 +93,7 @@ export function createMissions({
       width: Ue.width
     };
   }
-  const A = [...new Set(y1.map(K => K.icon))],
+  const A = [...new Set([...y1.map(K => K.icon), "flag", "sports_score"])],
     g = y1.map((K, V) => {
       let te;
       if (K.startRaw) te = {
@@ -201,7 +201,7 @@ export function createMissions({
         color: fe ? _g.finish : _g.checkpoint,
         alpha: V === 0 ? 1 : .35,
         fadeFar: 0,
-        atlas: -1
+        atlas: fe ? A.indexOf("sports_score") : A.indexOf("flag")
       });
     }
     b.set(K);
@@ -690,6 +690,7 @@ export function createMissions({
       const te = g.find(fe => fe.def.id === K);
       return te ? ((y === "countdown" || y === "run") && ae(false, "ABANDONED"), x.hideResult(), _ = te, y = "brief", teleport && G(), true) : false;
     },
+    dismissResult: ne,
     abandon: () => (y === "countdown" || y === "run") && ae(false, "ABANDONED"),
     setTogether(K) {
       C = K;

@@ -79,6 +79,7 @@ export function createAppShell({
   let pause = null;
   const M = createHeader({
     state: x,
+    onFirstJob: () => gameplay?.firstDrive?.start(),
     onOpenHelp: () => { W.setDriving(true); W.open(); },
     onPause: () => pause?.open(),
     onOpenMap: () => drive?.cityMap?.open(),
@@ -211,6 +212,7 @@ export function createAppShell({
         syncLighting == null || syncLighting();
       }
     });
+  window.addEventListener("neon:preferences", () => pipeline.applyLookPreset(pipeline.look.getCurrentPresetId()));
   C = ne;
   pause = createPause({ onHelp: () => { W.setDriving(true); W.open(); }, onMap: () => drive?.cityMap?.open(), onSettings: () => { x.openPanel("settings"); ne.open(); } });
   let se = null,

@@ -73,7 +73,7 @@ export function createMinimap({
       l.strokeStyle = "rgba(255, 45, 154, 0.35)";
       l.lineWidth = 7 * c / C;
       l.stroke();
-      l.strokeStyle = "#ff2d9a";
+      l.strokeStyle = "#6de6ff";
       l.lineWidth = 3 * c / C;
       l.stroke();
     }
@@ -152,4 +152,4 @@ export function createMinimap({
     }
   };
 }
-export const yb = ["#22d3ee", "#ff2d9a", "#ff9a1a", "#7dff3a"];
+export const yb = ["#22d3ee", "#6de6ff", "#ff9a1a", "#7dff3a"];

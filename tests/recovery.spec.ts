@@ -45,10 +45,10 @@ test('touch Help and pause work without keyboard controls', async ({ browser }) 
   const page = await context.newPage(); await page.goto('/tests/harness.html');
   await page.waitForFunction(() => (window as any).harness);
   await page.evaluate(() => (window as any).harness.pause.open());
-  await page.locator('[data-help]').click();
+  await page.locator('[data-help]').tap();
   await expect(page.locator('.touch-help')).toBeVisible(); await expect(page.locator('.touch-help')).toContainText('left thumb');
-  await page.locator('.drive-controls .walk-controls__close').click();
-  await page.click('#open'); await page.locator('[data-about]').click();
+  await page.locator('.drive-controls .walk-controls__close').tap();
+  await page.tap('#open'); await page.locator('[data-about]').tap();
   await expect(page.locator('.about-recommended--mobile')).toBeVisible(); await expect(page.locator('.about-recommended--desktop')).toBeHidden();
   await context.close();
 });

@@ -215,7 +215,7 @@ export function createCityMap({
       route: xe,
       waypoint: me
     } = (getRoute == null ? undefined : getRoute()) ?? {};
-    ((Ne = xe == null ? undefined : xe.points) == null ? undefined : Ne.length) > 1 && (g.lineJoin = "round", g.lineCap = "round", Se(xe.points), g.strokeStyle = "rgba(255, 45, 154, 0.35)", g.lineWidth = 11, g.stroke(), g.strokeStyle = "#ff2d9a", g.lineWidth = 4, g.stroke(), g.setLineDash([2, 14]), g.lineDashOffset = -$ * .03, g.strokeStyle = "rgba(255, 255, 255, 0.9)", g.lineWidth = 2, g.stroke(), g.setLineDash([]));
+    ((Ne = xe == null ? undefined : xe.points) == null ? undefined : Ne.length) > 1 && (g.lineJoin = "round", g.lineCap = "round", Se(xe.points), g.strokeStyle = "rgba(109, 230, 255, 0.35)", g.lineWidth = 11, g.stroke(), g.strokeStyle = "#6de6ff", g.lineWidth = 4, g.stroke(), g.setLineDash([2, 14]), g.lineDashOffset = -$ * .03, g.strokeStyle = "rgba(255, 255, 255, 0.9)", g.lineWidth = 2, g.stroke(), g.setLineDash([]));
     U($);
     me && J(...ne(me.x, me.z), $);
     const ie = getPlayer == null ? undefined : getPlayer();
@@ -321,7 +321,7 @@ export function createCityMap({
   }
   function Q($, q, oe, xe) {
     const me = xe * 9e-4 % 1;
-    g.strokeStyle = `rgba(255, 45, 154, ${.7 * (1 - me)})`;
+    g.strokeStyle = `rgba(109, 230, 255, ${.7 * (1 - me)})`;
     g.lineWidth = 1.5;
     g.beginPath();
     g.arc($, q, 10 + me * 26, 0, Math.PI * 2);
@@ -329,7 +329,7 @@ export function createCityMap({
     g.save();
     g.translate($, q);
     g.rotate(Math.PI - oe);
-    g.fillStyle = "#ff2d9a";
+    g.fillStyle = "#6de6ff";
     g.beginPath();
     g.moveTo(0, -12);
     g.lineTo(8, 10);

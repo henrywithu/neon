@@ -14,7 +14,11 @@
     "content:sync": "node scripts/sync-content.mjs",
     "dev:rooms": "wrangler dev --local --port 8787",
     "types:worker": "wrangler types worker-env.d.ts",
-    "check:worker": "tsc --noEmit -p tsconfig.worker.json"
+    "check:worker": "tsc --noEmit -p tsconfig.worker.json",
+    "test": "playwright test",
+    "test:ui": "playwright test tests/recovery.spec.ts tests/experience.spec.ts",
+    "test:runtime": "playwright test tests/runtime.spec.ts",
+    "check:rooms": "node scripts/verify-rooms.mjs"
   },
   "dependencies": {
     "@dimforge/rapier3d-compat": "0.20.0",

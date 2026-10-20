@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { reducedMotion } from "../../platform/experiencePreferences.ts";
 import { cc } from "../map/markers.ts";
 import { aF, rF, cF, lF, oF } from "../../runtime/warmup.ts";
 export function l0e({
@@ -29,18 +30,18 @@ export function l0e({
     t.textContent = o;
     e.classList.remove("is-revealing");
     e.classList.toggle("is-quick", quick);
-    e.style.setProperty("--fade-ms", `${quick ? aF : rF}ms`);
+    e.style.setProperty("--fade-ms", `${reducedMotion() ? 0 : 180}ms`);
     e.classList.add("is-active");
     await new Promise(c => requestAnimationFrame(c));
-    l === s && (e.classList.add("is-covering"), await cF(quick ? aF : rF));
+    l === s && (e.classList.add("is-covering"), await cF(reducedMotion() ? 0 : 180));
   }
   async function r() {
     const o = ++s,
       a = e.classList.contains("is-quick");
-    e.style.setProperty("--fade-ms", `${a ? lF : oF}ms`);
+    e.style.setProperty("--fade-ms", `${reducedMotion() ? 0 : 220}ms`);
     e.classList.add("is-revealing");
     e.classList.remove("is-covering");
-    await cF(a ? lF : oF);
+    await cF(reducedMotion() ? 0 : 220);
     o === s && e.classList.remove("is-active", "is-revealing", "is-quick");
   }
   return {

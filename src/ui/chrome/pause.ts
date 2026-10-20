@@ -9,6 +9,7 @@ export function createPause({ onHelp, onMap, onSettings }: { onHelp: () => void;
   root.querySelector('[data-resume]')!.addEventListener('click', close);
   for (const [action, callback] of [['help', onHelp], ['map', onMap], ['settings', onSettings]] as const) root.querySelector(`[data-${action}]`)!.addEventListener('click', () => { close(); callback(); });
   const interrupt = () => { window.dispatchEvent(new Event('neon:clear-input')); if (!document.getElementById('app-loader') && document.querySelector('.app-header.show')) open(); };
+  window.addEventListener('neon:pause', open);
   window.addEventListener('blur', interrupt);
   document.addEventListener('visibilitychange', () => { if (document.hidden) interrupt(); });
   window.addEventListener('keydown', event => {

@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { markActiveInput } from "../platform/activeInput.ts";
 import { isGameInputBlocked } from "../ui/core/inputBoundary.ts";
 import { YL, ja, zi } from "../game/vehicles/syncRig.ts";
 export function efe(i, e, t) {
@@ -20,6 +21,7 @@ export function createDriveInput({
   let s = false,
     n = 0,
     r = "keyboard";
+  let needsNeutral = false;
   const o = new Map(),
     a = {
       throttle: 0,
@@ -48,7 +50,7 @@ export function createDriveInput({
     e.delete(y.code);
   }
   function d() {
-    e.clear(); t.length = 0; o.clear();
+    e.clear(); t.length = 0; o.clear(); needsNeutral = true;
     Object.assign(l, { steer: 0, throttle: 0, brake: 0, handbrake: 0, nitro: 0 });
     Object.assign(a, { steer: 0, throttle: 0, brake: 0, handbrake: 0, nitro: 0, horn: false, lookBack: false, lookX: 0, lookY: 0 });
   }
@@ -61,6 +63,7 @@ export function createDriveInput({
     const y = ((_ = navigator.getGamepads) == null ? undefined : _.call(navigator)) ?? [];
     for (const w of y) {
       if (!w || !w.connected || w.mapping !== "standard") continue;
+      if (needsNeutral) { if (w.axes.every(axis => Math.abs(axis) < .2) && w.buttons.every(button => !button.pressed && button.value < .1)) needsNeutral = false; else continue; }
       const S = L => {
           var F;
           return ((F = w.buttons[L]) == null ? undefined : F.value) ?? 0;
@@ -80,7 +83,7 @@ export function createDriveInput({
       v(zi.LB, "shiftDown");
       v(zi.Y, "camera");
       v(zi.BACK, "reset");
-      v(zi.START, "toggleAssists");
+      v(zi.START, "pause");
       v(zi.B, "exitVehicle");
       v(zi.DPAD_UP, "lights");
       v(zi.DPAD_DOWN, "watchFriend");
@@ -115,7 +118,7 @@ export function createDriveInput({
     if (isGameInputBlocked()) { d(); return a; }
     if (!s) return a.throttle = jr(a.throttle, 0, 8, y), a.brake = jr(a.brake, 0, 8, y), a.steer = jr(a.steer, 0, 6, y), a.handbrake = 0, a.nitro = 0, a.horn = false, a;
     const w = f();
-    if (w) return a.device = "gamepad", a.throttle = jr(a.throttle, w.throttle, 12, y), a.brake = jr(a.brake, w.brake, 14, y), a.steer = jr(a.steer, w.steer, 9, y), a.handbrake = w.handbrake, a.nitro = w.nitro, a.lookBack = w.lookBack, a.horn = w.horn, a.lookX = w.lookX, a.lookY = w.lookY, a;
+    if (w) return markActiveInput("gamepad"), a.device = "gamepad", a.throttle = jr(a.throttle, w.throttle, 12, y), a.brake = jr(a.brake, w.brake, 14, y), a.steer = jr(a.steer, w.steer, 9, y), a.handbrake = w.handbrake, a.nitro = w.nitro, a.lookBack = w.lookBack, a.horn = w.horn, a.lookX = w.lookX, a.lookY = w.lookY, a;
     const S = efe(Math.abs(_) / 38, 0, 1);
     if (l.active && r === "touch") {
       a.device = "touch";

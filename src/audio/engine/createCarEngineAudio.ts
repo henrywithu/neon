@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { mixGain } from "../../platform/experiencePreferences.ts";
 import { TL, mde, Ade, qE, pde, gde, ude } from "./transients.ts";
 import { sde, tde, ode } from "./acoustics.ts";
 import { zue, VE, yL, i0, Gue, Vue } from "./settings.ts";
@@ -375,7 +376,7 @@ export async function createCarEngineAudio({
     ze = bde();
   const tt = () => {
     const qe = ze / yde;
-    d.gain.setTargetAtTime(me && !ie ? Ne * l.master * qe : 0, n.currentTime, .08);
+    d.gain.setTargetAtTime(me && !ie ? Ne * mixGain("effects") * l.master * qe : 0, n.currentTime, .08);
   };
   function dt() {
     u.threshold.value = l.compThreshold;

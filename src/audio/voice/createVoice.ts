@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { mixGain } from "../../platform/experiencePreferences.ts";
 import { ane, lne } from "../../platform/userPreferences.ts";
 import { isAudioPlaying, subscribeAudioState } from "../audioState.ts";
 import { gsap } from "gsap";
@@ -42,7 +43,10 @@ export function createVoice({
     c = context.createDynamicsCompressor();
   c.threshold.value = -18;
   c.ratio.value = 3;
-  c.connect(context.destination);
+  const voiceMix = context.createGain();
+  c.connect(voiceMix); voiceMix.connect(context.destination);
+  const syncMix = () => voiceMix.gain.setTargetAtTime(mixGain("voice"), context.currentTime, .08);
+  syncMix(); window.addEventListener("neon:preferences", syncMix);
   const u = context.createBiquadFilter();
   u.type = "highpass";
   u.frequency.value = DS.highpass;

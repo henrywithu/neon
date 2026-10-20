@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { getActiveInput } from "../../platform/activeInput.ts";
 import { Pce } from "../chrome/visibility.ts";
 import { isTouchDevice, isDesktopPointer } from "../../platform/deviceLayout.ts";
 import { sB, mce } from "../core/icons.ts";
@@ -336,6 +337,9 @@ function createControlsHelp({
   }
   function A(y) {
     var _, w;
+    const touch = getActiveInput() === "touch";
+    c.querySelector(".touch-help").hidden = !touch;
+    c.querySelector("details").open = !touch;
     y = !!y && (h || !y);
     y !== f && (f = y, u.hidden = !f, c.classList.toggle("walk-controls--overlay-open", f), d.setAttribute("aria-expanded", String(f)), m(), f ? (domElement && document.pointerLockElement === domElement && ((_ = document.exitPointerLock) == null || _.call(document)), (w = state == null ? undefined : state.openPanel) == null || w.call(state, "drive-controls")) : (state == null ? undefined : state.openedPanel) === "drive-controls" && state.closePanel(), onToggle == null || onToggle(f));
   }

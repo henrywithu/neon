@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta name="viewport" content="width=device-width,initial-scale=1"><title>Local mission regression harness</title></head><body><script type="module">
+import '/src/styles/index.css'; import '/src/styles/night.css';
+import { Scene, PerspectiveCamera } from 'three/webgpu';
+import { createMissions } from '/src/game/missions/createMissions.ts';
+import { createProgressStore } from '/src/game/progress/store.ts';
+import { Nme } from '/src/game/progress/tutorialStore.ts';
+import { createFirstDrive } from '/src/game/drive/firstDrive.ts';
+import { installModalBoundary } from '/src/ui/core/modalBoundary.ts';
+import { isGameInputBlocked } from '/src/ui/core/inputBoundary.ts';
+installModalBoundary();
+const map = await (await fetch('/maps/metro/map.json')).json();
+let pose = {x:0,y:map.groundY,z:0}, waypoint = null, tick = null;
+const telemetry = {speedKmh:0, rpm:900, nitro:0};
+const input = {state:{steer:0,device:'keyboard'}};
+const drive = { vehicle:{telemetry,body:{translation:()=>pose}}, input, hud:{flash(){}}, isActive:()=>true, isPaused:isGameInputBlocked,
+  onTick(fn){tick=fn;return()=>{}}, onImpact(){}, setMissionActive(){}, setHold(){}, setWaypoint(value){waypoint=value},
+  placeCar(value){pose={...value,y:map.groundY}}, playerPose(){return {...pose,heading:0}}, driftScore:{state:{total:0},bank(){}}
+};
+const progress = createProgressStore({missionIds:['first-fare'],raceIds:[],sigilIds:[]});
+const missions = createMissions({scene:new Scene(),camera:new PerspectiveCamera(),drive,metro:{map},progress});
+const guide = createFirstDrive({drive,missions,progress,store:Nme(),onGarage(){window.garageRequested=true}});
+window.missionHarness = {missions,progress,guide,drive, welcome:()=>guide.welcome(), step(seconds=1){if(!isGameInputBlocked())tick(seconds);guide.update()},
+  arrive(speed=0){pose={...pose,...waypoint};telemetry.speedKmh=speed;this.step(.1)}, waypoint:()=>waypoint, setSpeed(speed){telemetry.speedKmh=speed;guide.update()}}
+</script></body></html>

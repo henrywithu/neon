@@ -234,7 +234,7 @@ export function createMissionUi({
     m = setTimeout(() => n.classList.remove("is-visible"), P === "GO" ? 900 : 1100);
   }
   function F(P, z = "info") {
-    P && (r.textContent = P, r.dataset.kind = z, r.classList.remove("is-pop"), r.offsetWidth, r.classList.add("is-visible", "is-pop"), clearTimeout(p), p = setTimeout(() => r.classList.remove("is-visible"), 1800));
+    P && (r.textContent = `${z === "warn" ? "! " : ""}${P}`, r.dataset.kind = z, r.classList.remove("is-pop"), r.offsetWidth, r.classList.add("is-visible", "is-pop"), clearTimeout(p), p = setTimeout(() => r.classList.remove("is-visible"), 1800));
   }
   function O({
     mission: mission,

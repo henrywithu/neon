@@ -14,6 +14,7 @@ export function createHeader({
   onOpenGarage = null,
   onOpenMessages = null,
   onOpenMultiplayer = null,
+  onFirstJob = null,
   onOpenHelp = null,
   onPause = null,
   onOpenMap = null,
@@ -29,7 +30,7 @@ export function createHeader({
         ${at ? `<span class="hdr-btn__label">${at}</span>` : ""}
         ${Re ? `<kbd class="hdr-btn__key">${Re}</kbd>` : ""}
       </button>`,
-    d = isMobileDevice(),
+    d = true,
     h = onOpenGarage ? u("garage", "#4ade80", svgIcon("garage"), "GARAGE", "", "Garage") : "",
     f = onOpenMessages ? u("messages", "#ff4f5e", svgIcon("mail"), "MESSAGES", "I", "Messages") : "",
     p = onOpenAchievements ? u("achievements", "#ffd60a", svgIcon("trophy"), "ACHIEVEMENTS", "J", "Achievements") : "",
@@ -42,26 +43,27 @@ export function createHeader({
   l.innerHTML = d ? `
     <div class="app-header-brand"></div>
     <nav class="app-header-actions app-header-actions--compact" aria-label="Game menu">
-      <button type="button" class="hdr-btn" data-act="pause" aria-label="Pause">Ⅱ</button>
+      <button type="button" class="hdr-btn" data-act="pause" aria-label="Pause"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg></button>
       ${g}
       ${b}
       <button type="button" class="hdr-btn hdr-btn--menu" data-act="menu" style="--accent:#e2e8ff" aria-label="Menu" aria-expanded="false" aria-haspopup="true">
         <span class="hdr-btn__icon">${eL}</span>
       </button>
       <div class="hdr-menu" role="menu" hidden>
-        <button type="button" class="hdr-btn" data-act="help">Help</button><button type="button" class="hdr-btn" data-act="map">City map</button>${h}${f}${p}${A}${x}${y}
+        <button type="button" class="hdr-btn" data-act="first-job">First Fare</button><button type="button" class="hdr-btn" data-act="help">Help</button><button type="button" class="hdr-btn" data-act="map">City map</button>${h}${f}${p}${A}${x}${y}
       </div>
     </nav>
   ` : `
     <div class="app-header-brand"></div>
     <nav class="app-header-actions" aria-label="Game menu">
-      <button type="button" class="hdr-btn" data-act="pause" aria-label="Pause (P)">Ⅱ</button><button type="button" class="hdr-btn" data-act="help" aria-label="Help (H)">Help</button>${h}${f}${p}${A}${g}${x}${y}
+      <button type="button" class="hdr-btn" data-act="pause" aria-label="Pause (P)"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg></button><button type="button" class="hdr-btn" data-act="help" aria-label="Help (H)">Help</button>${h}${f}${p}${A}${g}${x}${y}
     </nav>
   `;
   const _ = l.querySelector(".app-header-brand"),
     w = createHudPanel();
   _.appendChild(w.root);
   const S = {
+      "first-job": () => onFirstJob?.(),
       help: () => onOpenHelp?.(),
       pause: () => onPause?.(),
       map: () => onOpenMap?.(),
@@ -231,7 +233,7 @@ export function createHeader({
   document.body.appendChild(l);
   function fe() {
     l.classList.add("show");
-    J();
+    // Room discovery remains available in Menu without an automatic callout.
   }
   function Ce() {
     l.classList.remove("show");

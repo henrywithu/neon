@@ -1,4 +1,6 @@
 /* Owned UI layer, after the preserved reference cascade. */
+@font-face { font-family: 'Neon Text'; src: url('/fonts/inter-latin-400.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Neon Text'; src: url('/fonts/inter-latin-600.woff2') format('woff2'); font-weight: 600; font-display: swap; }
 :root {
   --night-ink: #080c14;
   --night-panel: #111a26;
@@ -21,6 +23,8 @@ body > canvas { position: fixed; inset: 0; width: 100% !important; height: 100% 
   background: #080c14ed; color: var(--night-text); font: 16px/1.55 var(--night-body);
 }
 .night-recovery { z-index: 200; }
+.night-pause, .night-choice { z-index: 2000; }
+.night-recovery { z-index: 3000; }
 .night-card { width: min(100%, 540px); margin: auto; }
 .night-card h1 { font: 500 clamp(26px, 5vw, 40px)/1.2 Orbitron, sans-serif; letter-spacing: -.035em; }
 .night-eyebrow { color: var(--night-cyan); font-size: 12px; letter-spacing: .12em; }
@@ -41,6 +45,93 @@ body > canvas { position: fixed; inset: 0; width: 100% !important; height: 100% 
 .touch-drive__util { min-width: 44px !important; min-height: 44px !important; }
 .touch-drive-active .drive-controls.walk-controls--overlay-open { display: block !important; visibility: visible !important; }
 .touch-help { font: 16px/1.55 var(--night-body); max-width: 64ch; margin: 0 auto 24px; color: var(--night-text); }
+.settings-glass, .walk-controls__content, .phone, .radio__screen, .mission-brief, .mission-result, .lby__panel, .mp-chip__panel {
+  background-color: #111a26f5; color: var(--night-text); border-color: var(--night-border);
+}
+.settings-options, .about-copy, .about-footer, .drive-controls__label, .story-screen__text, .phone__text, .mission-brief__text, .mission-result__line,
+.trapnest-journal, .radio__list, .lby__panel, .mp-chip__panel { font: 400 16px/1.55 var(--night-body); letter-spacing: normal; }
+.settings-option-title, .settings-quality-note, .settings-restart-hint, .settings-about-sub, .about-recommended, .about-model-credits,
+.drive-controls__label small, .phone-row__text, .trapnest-journal__card strong, .trapnest-journal__card time, .mission-brief__goals, .mission-result__stats, .radio__row-artist { font: 400 14px/1.5 var(--night-body); letter-spacing: normal; color: var(--night-muted); }
+.settings-look-label, .settings-section-title { font-size: 14px; letter-spacing: .04em; }
+.app-header .hdr-btn { background: #111a26ed; border: 1px solid var(--night-border); border-radius: 6px; color: var(--night-text); }
+.app-header .hdr-btn__label, .hdr-menu .hdr-btn { font: 600 14px/1.4 var(--night-body); letter-spacing: .03em; }
+.hdr-btn[data-act=pause] svg { width: 20px; height: 20px; fill: currentColor; }
+.gps-hud { background: #111a26f5; border: 1px solid var(--night-border); border-left: 3px solid var(--night-cyan); }
+.gps-hud__action, .gps-hud__distance, .gps-hud__total { letter-spacing: .02em; color: var(--night-text); }
+.drive-hint { font: 14px/1.4 var(--night-body); background: #111a26f5; color: var(--night-muted); border-color: var(--night-border); }
+.experience-settings section { padding: 0 0 24px; margin-bottom: 24px; border-bottom: 1px solid var(--night-border); }
+.experience-settings h2 { margin: 0 0 16px; font: 600 18px/1.4 var(--night-body); }
+.experience-settings label { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; justify-content: space-between; margin: 16px 0; }
+.experience-settings p { margin: 12px 0; font-size: 14px; color: var(--night-muted); }
+.experience-settings select, .experience-settings button { min-height: 44px; max-width: 100%; padding: 10px; background: var(--night-ink); color: var(--night-text); border: 1px solid var(--night-border); border-radius: 6px; font: inherit; }
+.experience-settings input[type=checkbox] { width: 24px; height: 24px; accent-color: var(--night-cyan); }
+.experience-settings input[type=range] { min-height: 44px; width: min(180px, 45%); accent-color: var(--night-cyan); }
+.experience-settings output { min-width: 4ch; font-variant-numeric: tabular-nums; }
+.night-objective { position: fixed; z-index: 46; top: max(68px, env(safe-area-inset-top)); left: 50%; transform: translateX(-50%); margin: 0; width: max-content; max-width: calc(100% - 32px); padding: 8px 14px; border: 1px solid var(--night-border); border-left: 3px solid var(--night-amber); border-radius: 6px; background: #111a26f5; color: var(--night-text); font: 14px/1.4 var(--night-body); text-align: center; pointer-events: none; }
+.game-input-blocked .night-objective { visibility: hidden; }
+.guided-first-drive .mission-panel { display: none; }
+.portrait-drive-hint { display: none; }
+.phone-instruments { display: none; }
+.touch-drive { --td-pad: clamp(56px, 16vw, 72px); }
+.touch-drive[data-size=large] { --td-pad: clamp(56px, 18vw, 88px); }
+.touch-drive__steer, .touch-drive__pedals, .touch-drive__utils { opacity: 1 !important; }
+.touch-drive__pad, .touch-drive__btn, .touch-drive__util { color: var(--night-text); background: #111a26ed; border-color: var(--night-border); font-family: var(--night-body); letter-spacing: .025em; }
+.touch-drive__btn, .touch-drive__util { font-size: 12px !important; }
+.touch-drive__btn--gas { color: var(--night-cyan); border-width: 2px; border-color: var(--night-cyan); }
+.touch-drive__btn--brake { color: var(--night-danger); border-width: 2px; border-color: var(--night-danger); }
+.touch-drive__btn--drift { color: var(--night-amber); }
+.touch-drive__pedals { grid-template-rows: minmax(56px, auto) var(--td-pad); }
+.touch-drive__utils > summary { display: grid; place-items: center; cursor: pointer; list-style: none; min-width: 100px !important; }
+.touch-drive__utility-menu { position: absolute; left: 0; bottom: 52px; display: flex; flex-direction: column; gap: 8px; min-width: 148px; }
+.touch-drive__util.is-holding { background: var(--night-amber); color: var(--night-ink); }
+.touch-drive__analog { display: none; width: calc(2 * var(--td-pad) + var(--td-gap)); height: var(--td-pad); border: 1px solid var(--night-border); border-radius: 40px; background: #111a26ed; place-items: center; overflow: hidden; }
+.touch-drive__analog i { width: 44px; height: 44px; border: 2px solid var(--night-cyan); border-radius: 50%; transform: translateX(calc(var(--steer, 0) * 48px)); }
+.touch-drive__analog span { position: absolute; font: 12px var(--night-body); color: var(--night-text); pointer-events: none; }
+.touch-drive[data-steering=analog] .touch-drive__analog { display: grid; }
+.touch-drive[data-steering=analog] .touch-drive__pad { display: none; }
+html.touch-drive-active .drive-hud { width: 138px; height: 58px; top: max(10px, env(safe-area-inset-top)); left: max(12px, env(safe-area-inset-left)); right: auto; translate: none; transform: none; opacity: 1 !important; }
+html.touch-drive-active .drive-hud__dial, html.touch-drive-active .drive-hud__disc, html.touch-drive-active .drive-hud__flags { display: none; }
+html.touch-drive-active .phone-instruments { display: grid; grid-template-columns: auto auto auto; gap: 2px 8px; align-items: baseline; padding: 6px 10px; border: 1px solid var(--night-border); border-radius: 8px; background: #111a26f5; color: var(--night-text); font: 12px/1.2 var(--night-body); }
+.phone-instruments strong { font: 500 24px/1.1 Orbitron, sans-serif; font-variant-numeric: tabular-nums; }
+.phone-instruments b { font: 500 18px/1.2 Orbitron, sans-serif; color: var(--night-cyan); }
+.phone-instruments label { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 12px; }
+.phone-instruments meter { width: 64px; height: 8px; accent-color: var(--night-cyan); }
+html.touch-drive-active .gps-hud { scale: 1; left: 50%; right: auto; top: max(10px, env(safe-area-inset-top)); transform: translateX(-50%) !important; max-width: 240px; padding: 6px 10px; background: #111a26f5; color: var(--night-text); border: 1px solid var(--night-border); }
+.gps-hud__action, .gps-hud__distance, .gps-hud__total { font: 600 14px/1.4 var(--night-body); }
+.gps-hud__arrow { fill: var(--night-cyan); }
+html.touch-drive-active .minimap { bottom: calc(var(--td-bottom) + 164px); }
+html.touch-drive-active .minimap.is-visible { opacity: 1; }
+.is-driving .drift-hud:not(.is-chain):not(.is-bank) { opacity: 0; visibility: hidden; }
+html.touch-drive-active .drift-combo { top: 110px; left: 12px; transform: none !important; text-align: left; }
+html.touch-drive-active .drift-combo__points { font-size: 24px; }
+html.touch-drive-active .drift-combo__mult { font-size: 16px; padding: 3px 8px; }
+html.touch-drive-active .drift-combo__label { font: 12px var(--night-body); letter-spacing: 0; }
+html.touch-drive-active .radio-ticker { display: none; }
+.drive-toast, .mission-notice { font: 600 14px/1.4 var(--night-body); background: #111a26f5; color: var(--night-text); max-width: calc(100% - 24px); }
+.mission-panel { top: max(12px, env(safe-area-inset-top)); left: 50%; right: auto; transform: translateX(-50%); max-width: min(500px, calc(100% - 32px)); padding: 8px 12px; background: #111a26f5; }
+.mission-panel.is-visible { transform: translateX(-50%); }
+.mission-panel__head { display: inline-flex; font: 600 14px var(--night-body); }
+.mission-panel__clock { display: inline-block; font-size: 16px; margin: 0 12px; }
+.mission-panel__rows { display: flex; flex-wrap: wrap; gap: 8px; font-size: 14px; }
+.mission-panel__foot { display: none; }
+.mission-panel__quit { min-width: 44px; min-height: 44px; }
+@media (pointer: coarse) {
+  .app-header .hdr-btn--friends { display: none; }
+  .app-header .hdr-menu .hdr-btn--radio { display: flex; }
+  .walk-controls__content { padding: 44px 20px 20px; overflow-y: auto; max-height: calc(var(--view-height, 100dvh) - 16px); }
+  .walk-controls__close { width: 44px; height: 44px; z-index: 2; }
+  .mission-panel { top: 70px; max-width: calc(100% - 240px); }
+  .mission-panel__rows, .mission-panel__clock { font-size: 14px; }
+  .mission-panel__quit { position: static; float: right; margin: -10px -8px -10px 4px; }
+  .mission-panel__head svg { display: none; }
+  .mission-panel__rows { margin: 4px 0 0; }
+}
+@media (orientation: portrait) and (pointer: coarse) {
+  html.touch-drive-active .gps-hud { top: 122px; width: max-content; max-width: calc(100% - 32px); }
+  .mission-panel { top: 72px; max-width: calc(100% - 32px); }
+  .night-objective { top: 176px; font-size: 14px; }
+  .portrait-drive-hint { display: block; position: absolute; top: 236px; left: 50%; transform: translateX(-50%); max-width: calc(100% - 32px); min-height: 44px; pointer-events: auto; border: 1px solid var(--night-border); border-radius: 8px; padding: 8px 12px; background: #111a26f5; color: var(--night-muted); font: 14px/1.4 var(--night-body); }
+}
 .app-loader__percent { visibility: hidden; }
 .app-loader__ring-fill { stroke-dasharray: 100 315 !important; stroke-dashoffset: 0 !important; animation: night-loading 1.5s linear infinite; transform-origin: center; }
 .app-loader__status { font: 16px/1.5 var(--night-body) !important; letter-spacing: .03em !important; color: var(--night-text) !important; text-transform: none !important; }
@@ -48,3 +139,4 @@ body > canvas { position: fixed; inset: 0; width: 100% !important; height: 100% 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
 }
+.intro-skip { min-height: 44px; border: 1px solid var(--night-border); border-radius: 6px; padding: 10px 16px; background: #111a26ed; color: var(--night-text); font: 14px/1.4 var(--night-body); cursor: pointer; }

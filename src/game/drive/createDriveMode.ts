@@ -570,6 +570,9 @@ export async function createDriveMode({
           R.flash(Ie ? "AUTOMATIC" : "MANUAL · Q / E");
           break;
         }
+      case "pause":
+        window.dispatchEvent(new Event("neon:pause"));
+        break;
       case "reset":
         T.recover(), v.resetInterpolation(), M.snap(), R.flash("RECOVERED");
         break;

@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { mixGain } from "../../platform/experiencePreferences.ts";
 import { Mde, Bde, Cf, Cde } from "../engine/createCarEngineAudio.ts";
 import { isAudioPlaying, getAudioVolume, setAudioPlaying, subscribeAudioState } from "../audioState.ts";
 export async function createRadio({
@@ -38,7 +39,7 @@ export async function createRadio({
   c.connect(context.destination);
   function u() {
     const C = new globalThis.Audio();
-    C.preload = "auto";
+    C.preload = "none";
     C.crossOrigin = "anonymous";
     const M = context.createGain();
     M.gain.value = 0;
@@ -73,7 +74,7 @@ export async function createRadio({
     A = [],
     g = 1;
   function b(C = .12) {
-    const M = p && m ? r.volume * getAudioVolume() * 1.6 * g : 0;
+    const M = p && m ? r.volume * getAudioVolume() * mixGain("music") * 1.6 * g : 0;
     l.gain.setTargetAtTime(M, context.currentTime, C);
   }
   function x(C) {
