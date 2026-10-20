@@ -70,6 +70,8 @@ Reference query switches remain available: `?alley`, `?quality=low|medium|ultra`
 
 `wrangler.jsonc` serves `dist/` as static assets and routes `/lobby` and `/room/*` to the Worker. A separate SQLite-backed Durable Object coordinates each of five public rooms, with four seats per room. The service implements the recovered version-2 client protocol, sender identity, room capacity, heartbeat handling, pose relays, quick chat, map pings, car/name changes and shared race starts. Connections use WebSocket hibernation and serialized attachments.
 
+The Cloudflare Worker is named `neon`, matching the connected Workers Builds project. The application branding remains Trapnest Neon. For connected builds, use `npm run build` as the build command and `npx wrangler deploy` as the deploy command.
+
 To publish when ready:
 
 ```sh
