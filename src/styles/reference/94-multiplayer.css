@@ -1,0 +1,4 @@
+.mission-panel__clock.is-low {
+  color: #ff3b5c;
+  animation: missionBlink 0.5s steps(2, jump-none) infinite;
+}

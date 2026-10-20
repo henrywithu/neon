@@ -1,0 +1,72 @@
+.close-button-panel {
+  cursor: pointer;
+  pointer-events: auto;
+  position: fixed;
+  top: clamp(24px, 4vw, 48px);
+  right: clamp(24px, 4vw, 48px);
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--cyber-border);
+  background-color: var(--cyber-bg);
+  color: var(--cyber-text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  clip-path: var(--cyber-clip-sm);
+  box-shadow: var(--cyber-glow);
+  transition:
+    background-color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out,
+    transform 0.2s ease-in-out;
+  padding: 0;
+  z-index: 2;
+}
+.close-button-panel svg {
+  width: 20px;
+  height: 20px;
+  color: inherit;
+  stroke: currentColor;
+  opacity: 1;
+  pointer-events: none;
+}
+.close-button-panel:hover {
+  background-color: var(--cyber-bg-hover);
+  border-color: var(--cyber-border-hover);
+  box-shadow: var(--cyber-glow-hover);
+  transform: scale(1.05);
+}
+.refresh-button-panel {
+  cursor: pointer;
+  pointer-events: auto;
+  padding: 16px 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--cyber-border);
+  border-radius: 0;
+  clip-path: var(--cyber-clip-sm);
+  color: var(--cyber-text);
+  background-color: var(--cyber-bg);
+  box-shadow: var(--cyber-glow);
+  transition:
+    background 0.25s ease-in-out,
+    border-color 0.25s ease-in-out,
+    box-shadow 0.25s ease-in-out,
+    color 0.25s ease-in-out;
+  font-weight: 600;
+  font-size: clamp(0.65rem, 1.1vw, 0.75rem);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-family: Orbitron, sans-serif;
+}
+.refresh-button-panel:hover {
+  background-color: var(--cyber-bg-hover);
+  border-color: var(--cyber-border-hover);
+  color: #fffffff2;
+  box-shadow: var(--cyber-glow-hover);
+}
+.refresh-button-panel:active {
+  transform: scale(0.98);
+}

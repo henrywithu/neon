@@ -1,0 +1,32 @@
+.mission-notice {
+  position: fixed;
+  left: 50%;
+  top: 17%;
+  z-index: 46;
+  transform: translate(-50%);
+  padding: 8px 18px;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.26em;
+  white-space: nowrap;
+  color: #fff;
+  background: #08041299;
+  border-left: 3px solid #22d3ee;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+.mission-notice.is-visible {
+  opacity: 1;
+}
+.mission-notice.is-pop {
+  animation: missionNotice 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.mission-notice[data-kind="good"] {
+  border-color: #4ade80;
+  color: #bbf7d0;
+}
+.mission-notice[data-kind="warn"] {
+  border-color: #ffd60a;
+  color: #fff4b3;
+}

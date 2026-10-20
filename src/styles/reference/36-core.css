@@ -1,0 +1,61 @@
+.hud-life-ring {
+  width: 100%;
+  height: 100%;
+}
+.hud-life-ring-arc {
+  transform-origin: 32px 32px;
+  animation: hudRingSpin 12s linear infinite;
+}
+.hud-life-heart {
+  animation: hudHeartPulse 2.4s ease-in-out infinite;
+}
+@keyframes hudRingSpin {
+  0% {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes hudHeartPulse {
+  0%,
+  to {
+    opacity: 0.85;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.hud-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+  max-width: 240px;
+  opacity: 1;
+  overflow: hidden;
+}
+.hud-vitals {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.hud-vitals-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+.hud-label {
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  color: #22d3eed9;
+  text-transform: uppercase;
+}
+.hud-value {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #ffffffeb;
+}

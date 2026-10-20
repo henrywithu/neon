@@ -1,0 +1,47 @@
+.phone-toast {
+  --c: #19e3c5;
+  --t: 10s;
+  position: fixed;
+  left: max(28px, env(safe-area-inset-left));
+  top: 31%;
+  z-index: 46;
+  width: 404px;
+  padding: 11px 20px 14px 13px;
+  color: #fff;
+  background:
+    linear-gradient(90deg, #07040eeb, #07040ecc 62%, #07040e59),
+    repeating-linear-gradient(
+      0deg,
+      rgba(255, 79, 94, 0.05) 0 1px,
+      transparent 1px 4px
+    );
+  border-left: 2px solid var(--sys);
+  clip-path: polygon(
+    0 0,
+    calc(100% - 16px) 0,
+    100% 16px,
+    100% 100%,
+    16px 100%,
+    0 calc(100% - 16px)
+  );
+  cursor: pointer;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-28px);
+  transition:
+    opacity 0.3s ease,
+    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    visibility 0s linear 0.45s;
+}
+.phone-toast.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  pointer-events: auto;
+  transition:
+    opacity 0.3s ease,
+    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    visibility 0s linear 0s;
+  animation: phoneToastIn 0.6s linear both;
+}

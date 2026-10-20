@@ -1,0 +1,206 @@
+@media (max-height: 520px) {
+  .mp-chip__panel {
+    gap: 7px;
+    padding: 9px 10px 10px 11px;
+  }
+  .mp-chip__label,
+  .mp-chip__empty,
+  .mp-chip__note {
+    display: none;
+  }
+}
+@media (max-width: 720px) {
+  .mp-chip {
+    top: 76px;
+    right: max(12px, env(safe-area-inset-right));
+    width: 224px;
+  }
+  .mp-toast {
+    top: 12%;
+    max-width: calc(100vw - 32px);
+    font-size: 10px;
+    letter-spacing: 0.16em;
+  }
+  .mp-chip__tag {
+    letter-spacing: 0.1em;
+  }
+  .mp-chip__name {
+    padding-inline: 6px;
+    font-size: 9px;
+    letter-spacing: 0.02em;
+  }
+}
+.mp-chip__sheethead,
+.mp-chip__share,
+.mp-chip__chat,
+html.mp-compact .mp-chip__bar,
+html.mp-compact .mp-chip__keys,
+html.mp-compact .mp-chip__label--together,
+html.mp-compact .mp-chip__drivers button[data-do="watch"],
+html.mp-compact .mp-chip__actions [data-act="copy"],
+html.mp-compact .mp-race,
+html.mp-compact .mp-convoy {
+  display: none;
+}
+html.mp-compact .mp-chip {
+  top: var(--sheet-top, 64px);
+  right: var(--sheet-right, 12px);
+  width: min(304px, calc(100vw - 24px));
+  z-index: 60;
+}
+html.mp-compact .mp-chip__panel {
+  gap: 8px;
+  padding: 10px 12px 12px;
+  background: #060812f0;
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  border-top: 2px solid var(--accent);
+  max-height: calc(100dvh - var(--sheet-top, 64px) - 10px);
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+html.mp-compact .mp-chip__panel::-webkit-scrollbar {
+  display: none;
+}
+html.mp-compact .mp-chip__sheethead {
+  display: flex;
+  order: 0;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+html.mp-compact .mp-chip__sheethead b {
+  color: var(--accent);
+}
+html.mp-compact .mp-chip__x {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  margin: -6px -6px -6px 0;
+  font-size: 15px;
+  color: #e2e8ffbf;
+  background: none;
+  border: 0;
+}
+html.mp-compact .mp-chip__share {
+  display: flex;
+  order: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 12px;
+  font: inherit;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  color: #0b0614;
+  background: var(--accent);
+  border: 0;
+  box-shadow: 0 0 18px color-mix(in srgb, var(--accent) 45%, transparent);
+  clip-path: polygon(
+    0 0,
+    calc(100% - 8px) 0,
+    100% 8px,
+    100% 100%,
+    8px 100%,
+    0 calc(100% - 8px)
+  );
+}
+html.mp-compact .mp-chip__label--room,
+html.mp-compact .mp-chip__drivers,
+html.mp-compact .mp-chip__empty {
+  order: 2;
+}
+html.mp-compact .mp-chip__chat {
+  display: block;
+  order: 3;
+}
+html.mp-compact .mp-chip__label--link {
+  display: none;
+}
+html.mp-compact .mp-chip__link {
+  order: 1;
+  padding: 6px 8px;
+  font-size: 9px;
+  color: #e2e8ffb3;
+}
+html.mp-compact .mp-chip__row {
+  order: 4;
+}
+html.mp-compact .mp-chip__actions {
+  order: 5;
+}
+body.mp-sheet-open .drive-tutorial {
+  visibility: hidden;
+}
+html.mp-compact
+  .mp-chip__label:not(.mp-chip__label--together):not(.mp-chip__label--link) {
+  display: block;
+}
+html.mp-compact .mp-chip__empty {
+  display: block;
+}
+html.mp-compact .mp-chip__phrases {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+  margin-top: 6px;
+}
+html.mp-compact .mp-chip__phrases button {
+  min-height: 34px;
+  padding: 6px 8px;
+  font: inherit;
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #e2e8ff;
+  background: #a855f729;
+  border: 1px solid rgba(168, 85, 247, 0.5);
+  touch-action: manipulation;
+}
+html.mp-compact .mp-chip__phrases button:active {
+  background: #a855f766;
+}
+html.mp-compact .mp-chip__phrases .mp-chip__ping-here {
+  grid-column: 1 / -1;
+  color: #ffd60a;
+  background: #ffd60a1a;
+  border-color: #ffd60a80;
+}
+@media (orientation: landscape) {
+  html.mp-compact .mp-chip {
+    width: min(540px, calc(100vw - 24px));
+  }
+  html.mp-compact .mp-chip.is-open .mp-chip__panel {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-content: start;
+    gap: 8px 14px;
+  }
+  html.mp-compact .mp-chip__panel > * {
+    grid-column: 1;
+  }
+  html.mp-compact .mp-chip__chat {
+    grid-column: 2;
+    grid-row: 1 / span 7;
+  }
+  html.mp-compact .mp-chip__chat .mp-chip__label {
+    margin-top: 0;
+  }
+  html.mp-compact .mp-chip__phrases {
+    margin-top: 6px;
+  }
+  html.mp-compact .mp-chip__phrases button {
+    min-height: 31px;
+    padding: 5px 6px;
+  }
+}
+html.mp-compact .mp-toast {
+  top: 30%;
+  max-width: min(62vw, 420px);
+  padding: 6px 12px;
+  font-size: 9.5px;
+  letter-spacing: 0.14em;
+}

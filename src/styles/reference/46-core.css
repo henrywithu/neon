@@ -1,0 +1,16 @@
+@keyframes music-on-graph {
+  0% {
+    transform: scaleY(1);
+    transform-origin: 50% 50%;
+  }
+  50% {
+    transform: scaleY(0.7);
+    transform-origin: 50% 50%;
+    opacity: 0.5;
+  }
+  to {
+    transform: scaleY(1);
+    transform-origin: 50% 50%;
+    opacity: 1;
+  }
+}

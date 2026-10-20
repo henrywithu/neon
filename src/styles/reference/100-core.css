@@ -1,0 +1,8 @@
+@keyframes missionNotice {
+  0% {
+    transform: translate(-50%) scale(1.15);
+  }
+  to {
+    transform: translate(-50%) scale(1);
+  }
+}

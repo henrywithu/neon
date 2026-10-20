@@ -1,0 +1,5 @@
+@keyframes performanceNoticeSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}

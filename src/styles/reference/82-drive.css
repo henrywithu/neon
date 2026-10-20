@@ -1,0 +1,292 @@
+.drive-hud,
+.drive-hud * {
+  font-family: Orbitron, sans-serif;
+  box-sizing: border-box;
+}
+.drive-hud {
+  position: fixed;
+  right: max(18px, env(safe-area-inset-right));
+  bottom: max(18px, env(safe-area-inset-bottom));
+  z-index: 40;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(12px);
+  transition:
+    opacity 0.4s ease,
+    transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.drive-hud.is-visible {
+  opacity: 1;
+  transform: none;
+}
+.drive-hud {
+  width: 248px;
+}
+.drive-hud__disc {
+  position: absolute;
+  left: 50%;
+  top: 52.7%;
+  width: 90%;
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: radial-gradient(circle, #08041299, #08041275 62%, #08041200 71%);
+}
+.drive-hud__dial {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+.drive-hud__ring {
+  fill: none;
+  stroke: #38bdf859;
+  stroke-width: 1.5;
+}
+.drive-hud__track {
+  fill: none;
+  stroke: #ffffff1a;
+  stroke-width: 3;
+}
+.drive-hud__fill {
+  fill: none;
+  stroke: #f4f7ff;
+  stroke-width: 3;
+  transition: stroke 0.1s linear;
+}
+.drive-hud.is-redline .drive-hud__fill {
+  stroke: #ff3b5c;
+}
+.drive-hud__red {
+  fill: none;
+  stroke: #ff2d55;
+  stroke-width: 5;
+}
+.drive-hud__tick {
+  stroke: #ffffff73;
+  stroke-width: 1;
+}
+.drive-hud__tick.is-major {
+  stroke: #ffffffe6;
+  stroke-width: 2;
+}
+.drive-hud__tick.is-red {
+  stroke: #ff5470;
+}
+.drive-hud__numeral {
+  fill: #ffffffd9;
+  font-size: 11px;
+  font-weight: 700;
+  text-anchor: middle;
+}
+.drive-hud__numeral.is-red {
+  fill: #ff5470;
+}
+.drive-hud__needle-glow {
+  stroke: #ff2d5547;
+  stroke-width: 9;
+  stroke-linecap: round;
+}
+.drive-hud__needle-core {
+  stroke: #ff2d55;
+  stroke-width: 3.5;
+  stroke-linecap: round;
+}
+.drive-hud__needle-hot {
+  stroke: #ffd6de;
+  stroke-width: 1.2;
+  stroke-linecap: round;
+}
+.drive-hud__rpm-label {
+  fill: #fff9;
+  font-size: 9px;
+  letter-spacing: 0.24em;
+  text-anchor: middle;
+}
+.drive-hud__speed {
+  fill: #f4f7ff;
+  font-size: 46px;
+  font-weight: 700;
+  text-anchor: middle;
+  font-variant-numeric: tabular-nums;
+}
+.drive-hud__unit {
+  fill: #38bdf8e6;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-anchor: middle;
+}
+.drive-hud__gear {
+  fill: #f4f7ff;
+  font-size: 26px;
+  font-weight: 700;
+  text-anchor: middle;
+}
+.drive-hud__mode {
+  fill: #ffffff80;
+  font-size: 7px;
+  letter-spacing: 0.3em;
+  text-anchor: middle;
+}
+.drive-hud__nitro-track {
+  fill: none;
+  stroke: #ffffff1f;
+  stroke-width: 5;
+  stroke-linecap: round;
+}
+.drive-hud__nitro-fill {
+  fill: none;
+  stroke: #f4f7ff;
+  stroke-width: 5;
+  stroke-linecap: round;
+  transition:
+    stroke-dashoffset 0.1s linear,
+    stroke 0.15s linear;
+}
+.drive-hud__bolt path {
+  fill: none;
+  stroke: #ffffffd9;
+  stroke-width: 1.4;
+  stroke-linejoin: round;
+}
+.drive-hud.is-nitro-burning .drive-hud__nitro-fill {
+  stroke: #ff2d9a;
+}
+.drive-hud.is-nitro-burning .drive-hud__bolt path {
+  fill: #ffd60a;
+  stroke: #ffd60a;
+}
+.drive-hud.is-nitro-empty .drive-hud__nitro-track {
+  stroke: #ff2d9a66;
+}
+.drive-hud__flags {
+  position: absolute;
+  right: -6px;
+  bottom: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.drive-hud__flag {
+  padding: 2px 5px;
+  font-size: 8px;
+  letter-spacing: 0.16em;
+  color: #ffffff4d;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: #08041259;
+  transition:
+    color 0.08s linear,
+    border-color 0.08s linear,
+    background 0.08s linear;
+}
+.drive-hud__flag.is-on {
+  color: #0b0612;
+  background: #facc15;
+  border-color: #facc15;
+}
+.drive-hud__flag.is-off {
+  text-decoration: line-through;
+}
+.drive-hint {
+  position: fixed;
+  left: 50%;
+  bottom: max(22px, env(safe-area-inset-bottom));
+  z-index: 40;
+  width: max-content;
+  max-width: min(760px, calc(100vw - 560px));
+  transform: translate(-50%, 6px);
+  pointer-events: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 18px;
+  padding: 10px 18px;
+  font-family: Orbitron, sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #ffffffc7;
+  background: #0804126b;
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  opacity: 0;
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
+}
+.drive-hint.is-visible {
+  opacity: 1;
+  transform: translate(-50%);
+}
+.drive-hint__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+}
+.drive-hint__item--help {
+  color: #fcee0a;
+}
+.drive-hint kbd {
+  font-family: Orbitron, sans-serif;
+  font-size: 9px;
+  padding: 1px 5px;
+  color: #22d3eef2;
+  border: 1px solid rgba(34, 211, 238, 0.45);
+  background: #22d3ee0f;
+}
+.drive-hint__item--help kbd {
+  color: #fcee0a;
+  border-color: #fcee0a99;
+  background: #fcee0a14;
+}
+.drive-toast {
+  position: fixed;
+  left: 50%;
+  top: 22%;
+  z-index: 41;
+  transform: translate(-50%);
+  pointer-events: none;
+  font-family: Orbitron, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.3em;
+  color: #22d3eef2;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+.drive-toast.is-visible {
+  opacity: 1;
+}
+@media (max-width: 720px) {
+  .drive-hud {
+    width: 184px;
+  }
+  .drive-hud__flags {
+    right: -2px;
+  }
+  .drive-hint {
+    display: none;
+  }
+}
+.drift-hud {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  z-index: 1001;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s ease,
+    visibility 0s linear 0.35s;
+}
+.drift-hud.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s ease,
+    visibility 0s linear 0s;
+}

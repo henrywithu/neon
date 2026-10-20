@@ -1,0 +1,117 @@
+/* Trapnest branding; scene, intro choreography, and original control layout stay intact. */
+.about-content:has(.trapnest-journal) {
+  flex: 0 0 auto;
+  min-height: 0;
+  justify-content: flex-start;
+}
+
+.trapnest-journal {
+  width: 100%;
+}
+
+.trapnest-journal {
+  margin-top: 2.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 1.6rem;
+}
+
+.trapnest-journal__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.trapnest-journal__heading h2 {
+  font: inherit;
+  font-size: 0.85rem;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+}
+
+.trapnest-journal__filter {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 3px;
+  background: #11161c;
+  color: #fff;
+  padding: 0.6rem 0.8rem;
+  font: inherit;
+  font-size: 0.7rem;
+}
+
+.trapnest-journal__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+.trapnest-journal__card {
+  display: flex;
+  flex-direction: column;
+  color: inherit;
+  text-decoration: none;
+  gap: 0.7rem;
+}
+
+.trapnest-journal__card img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: border-color 180ms ease, filter 180ms ease;
+}
+
+.trapnest-journal__card:hover img {
+  border-color: #6de6ff;
+  filter: brightness(1.12);
+}
+
+.trapnest-journal__card time {
+  font-size: 0.58rem;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.08em;
+}
+
+.trapnest-journal__card strong {
+  font-size: 0.68rem;
+  line-height: 1.65;
+  font-weight: 400;
+}
+
+.trapnest-journal__more {
+  display: block;
+  margin: 1.7rem auto 0;
+  padding: 0.65rem 1.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 999px;
+  background: transparent;
+  color: #fff;
+  font: inherit;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+
+.trapnest-journal__more[hidden] {
+  display: none;
+}
+
+.trapnest-mark {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 6px;
+  vertical-align: middle;
+  margin-right: 0.6rem;
+}
+
+@media (max-width: 768px) {
+  .trapnest-journal__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .trapnest-journal__heading { align-items: flex-start; }
+}
+
+@media (max-width: 420px) {
+  .trapnest-journal__grid { grid-template-columns: 1fr; }
+}

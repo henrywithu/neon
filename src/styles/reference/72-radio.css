@@ -1,0 +1,4 @@
+.radio__row.is-playing .radio__row-name:after {
+  content: " ♪";
+  animation: radio-blink 0.9s steps(2) infinite;
+}

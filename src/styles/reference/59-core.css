@@ -1,0 +1,5 @@
+@keyframes storyWipe {
+  to {
+    transform: scaleY(0);
+  }
+}

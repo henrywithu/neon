@@ -1,0 +1,93 @@
+.phone__thread {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  min-height: 0;
+  padding: 16px 18px;
+  overflow: hidden;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.022) 1px, transparent 1px) 0 0 / 22px
+      22px,
+    linear-gradient(90deg, rgba(255, 255, 255, 0.022) 1px, transparent 1px) 0
+      0 / 22px 22px;
+}
+.phone__day {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 4px;
+  font-size: 7.5px;
+  letter-spacing: 0.3em;
+  color: #fff6;
+}
+.phone__day:before,
+.phone__day:after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #ffffff1a;
+}
+.phone__typing {
+  display: flex;
+  gap: 5px;
+  padding: 12px 14px;
+  background: #ffffff0f;
+  border-left: 2px solid var(--c);
+  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
+  animation: phoneBubble 0.3s cubic-bezier(0.22, 1, 0.36, 1) 0.1s both;
+}
+.phone__typing i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--c);
+  animation: phoneDot 1s ease-in-out infinite;
+}
+.phone__typing i:nth-child(2) {
+  animation-delay: 0.15s;
+}
+.phone__typing i:nth-child(3) {
+  animation-delay: 0.3s;
+}
+@keyframes phoneDot {
+  0%,
+  60%,
+  to {
+    opacity: 0.3;
+    transform: none;
+  }
+  30% {
+    opacity: 1;
+    transform: translateY(-4px);
+  }
+}
+.phone__chat.is-talking .phone__typing {
+  display: none;
+}
+.phone__bubble {
+  display: none;
+  max-width: 94%;
+  padding: 12px 15px 13px;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--c) 14%, rgba(255, 255, 255, 0.04)),
+    #ffffff0a
+  );
+  border-left: 2px solid var(--c);
+  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 0 100%);
+  transform-origin: 0 100%;
+}
+.phone__chat.is-talking .phone__bubble {
+  display: block;
+  animation: phoneBubble 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@keyframes phoneBubble {
+  0% {
+    opacity: 0;
+    transform: scale(0.92) translateY(6px);
+  }
+}

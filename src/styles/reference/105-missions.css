@@ -1,0 +1,192 @@
+.sigil-toast__body {
+  min-width: 0;
+  flex: 1;
+}
+.sigil-toast__eyebrow {
+  margin: 0 0 4px;
+  font-size: 9px;
+  letter-spacing: 0.32em;
+  color: #ffffffb3;
+}
+.sigil-toast__name {
+  margin: 0 0 6px;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--c);
+}
+.sigil-toast__msg {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sigil-toast__msg .story-portrait {
+  width: 38px;
+}
+.sigil-toast__msg p {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+  margin: 0;
+}
+.sigil-toast__msg b {
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.22em;
+  color: var(--c);
+}
+.sigil-toast .sigil-toast__lore,
+.sigil-toast .sigil-toast__lore * {
+  font-family: var(--story-mono);
+}
+.sigil-toast__lore {
+  font-size: 11.5px;
+  line-height: 1.45;
+  color: #ecf0ffe6;
+}
+.sigil-toast__count {
+  align-self: flex-start;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: #ffffff8c;
+  white-space: nowrap;
+}
+.sigil-toast__count b {
+  font-size: 20px;
+  color: #fff;
+}
+.sigil-signal {
+  --c: #22d3ee;
+  --strength: 0.5;
+  position: fixed;
+  left: 50%;
+  top: max(18px, env(safe-area-inset-top));
+  z-index: 42;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 16px 7px 10px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #fff;
+  background: #0804128c;
+  border: 1px solid color-mix(in srgb, var(--c) 45%, transparent);
+  border-left: 3px solid var(--c);
+  pointer-events: none;
+  opacity: 0;
+  transform: translate(-50%, -8px);
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s ease;
+}
+.sigil-signal.is-visible {
+  opacity: 1;
+  transform: translate(-50%);
+}
+.sigil-signal__arrow {
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  color: var(--c);
+}
+.sigil-signal__arrow svg {
+  width: 100%;
+  height: 100%;
+}
+body.mission-running .sigil-signal {
+  opacity: 0;
+}
+@media (max-width: 720px) {
+  .sigil-toast {
+    top: 56%;
+    gap: 12px;
+    padding: 12px 14px 12px 12px;
+  }
+  .sigil-toast__icon {
+    width: 46px;
+    height: 46px;
+  }
+  .sigil-toast__name {
+    font-size: 17px;
+  }
+  .sigil-toast__msg .story-portrait {
+    width: 30px;
+  }
+  .sigil-toast__lore {
+    font-size: 10.5px;
+  }
+}
+.sigil-signal.is-car {
+  top: max(64px, calc(env(safe-area-inset-top) + 50px));
+}
+.phone-toast,
+.phone-toast *,
+.phone-chip,
+.phone-chip *,
+.phone-screen,
+.phone-screen * {
+  box-sizing: border-box;
+  font-family: Orbitron, sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.phone-toast,
+.phone-chip,
+.phone-screen {
+  --sys: #ff4f5e;
+  --msg: #ffd60a;
+  --key: #22d3ee;
+}
+.phone-icon {
+  display: block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+}
+.phone-toast kbd,
+.phone-chip kbd,
+.phone-screen kbd {
+  font-family: Orbitron, sans-serif;
+  font-size: 9px;
+  font-weight: 800;
+  line-height: 1;
+  padding: 3px 6px;
+  color: var(--key);
+  border: 1px solid color-mix(in srgb, var(--key) 70%, transparent);
+  background: color-mix(in srgb, var(--key) 10%, transparent);
+}
+.phone-bars {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 10px;
+}
+.phone-bars i {
+  width: 3px;
+  background: currentColor;
+  opacity: 0.25;
+}
+.phone-toast.is-visible .phone-bars i,
+.phone-screen .phone-bars i {
+  animation: phoneBars 1.6s steps(1, end) infinite;
+}
+.phone-bars i:nth-child(1) {
+  height: 30%;
+  animation-delay: 0s;
+}
+.phone-bars i:nth-child(2) {
+  height: 55%;
+  animation-delay: 0.15s;
+}
+.phone-bars i:nth-child(3) {
+  height: 78%;
+  animation-delay: 0.3s;
+}
+.phone-bars i:nth-child(4) {
+  height: 100%;
+  animation-delay: 0.45s;
+}

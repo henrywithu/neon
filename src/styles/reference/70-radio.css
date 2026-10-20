@@ -1,0 +1,40 @@
+.radio.is-open .radio__screen {
+  transform: scale(1);
+  animation: radio-power 0.32s ease-out;
+}
+.radio__screen:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 3;
+  background:
+    linear-gradient(#ffffff09, #fff0 12%) 0 -20% / 100% 30% no-repeat,
+    repeating-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.32) 0 1px,
+      transparent 1px 3px
+    );
+  animation: radio-roll 7s linear infinite;
+  mix-blend-mode: multiply;
+}
+.radio__screen:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 4;
+  border-radius: inherit;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 55%,
+    rgba(0, 0, 0, 0.55) 100%
+  );
+  animation: radio-flicker 3.2s steps(1) infinite;
+}

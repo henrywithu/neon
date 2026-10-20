@@ -1,0 +1,25 @@
+.drift-hud__mult {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  font-family: Orbitron, sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: #22d3ee;
+  transition:
+    color 0.2s ease,
+    text-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+.drift-hud.is-multiplied .drift-hud__mult {
+  color: #f472b6;
+  transform: scale(1.12);
+}
+.drift-hud__timer {
+  transition: stroke-dashoffset 0.12s linear;
+}

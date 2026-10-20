@@ -1,0 +1,98 @@
+.mission-panel__rows {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 7px;
+}
+.mission-panel__row {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: baseline;
+  gap: 2px 10px;
+}
+.mission-panel__label {
+  font-size: 8px;
+  letter-spacing: 0.24em;
+  color: #22d3eed9;
+}
+.mission-panel__value {
+  justify-self: end;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-variant-numeric: tabular-nums;
+}
+.mission-panel__bar {
+  display: none;
+  grid-column: 1 / -1;
+  height: 3px;
+  background: #ffffff1a;
+  overflow: hidden;
+}
+.mission-panel__row.has-bar .mission-panel__bar {
+  display: block;
+}
+.mission-panel__bar b {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #a855f7, #22d3ee);
+  transform-origin: left center;
+  transform: scaleX(0);
+  transition: transform 0.15s linear;
+}
+.mission-panel__row.is-met .mission-panel__value {
+  color: #4ade80;
+}
+.mission-panel__row.is-met .mission-panel__bar b {
+  background: #4ade80;
+}
+.mission-panel__row.is-warn .mission-panel__value {
+  color: #ffd60a;
+}
+.mission-panel__row.is-bad .mission-panel__value {
+  color: #ff3b5c;
+}
+.mission-panel__row.is-bad .mission-panel__bar b {
+  background: #ff3b5c;
+}
+.mission-panel__foot {
+  margin-top: 10px;
+  font-size: 8px;
+  letter-spacing: 0.24em;
+  color: #ffffff73;
+  text-align: right;
+}
+.mission-panel__foot kbd,
+.mission-result__actions kbd {
+  font-family: system-ui, sans-serif;
+  font-size: 10px;
+  padding: 1px 5px;
+  margin-right: 6px;
+  border: 1px solid currentColor;
+}
+.mission-panel__quit {
+  display: none;
+}
+.mission-count {
+  position: fixed;
+  left: 50%;
+  top: 30%;
+  z-index: 46;
+  transform: translate(-50%, -50%);
+  font-size: 120px;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  color: #ffd60a;
+  pointer-events: none;
+  opacity: 0;
+}
+.mission-count.is-visible {
+  opacity: 1;
+}
+.mission-count.is-go {
+  color: #4ade80;
+}
+.mission-count.is-pop {
+  animation: missionPop 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}

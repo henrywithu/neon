@@ -1,0 +1,10 @@
+.phone__text {
+  margin: 0;
+  font-family: var(--story-mono);
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ecf0fff5;
+}
+.phone__text * {
+  font-family: var(--story-mono);
+}

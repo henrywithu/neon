@@ -1,0 +1,19 @@
+@media (max-height: 640px) {
+  .phone__status {
+    padding-top: 12px;
+  }
+  .phone__contact {
+    padding: 8px 18px 10px;
+  }
+  .phone__thread {
+    gap: 9px;
+    padding: 10px 16px;
+  }
+  .phone__text {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .phone__actions {
+    padding: 10px 16px 14px;
+  }
+}

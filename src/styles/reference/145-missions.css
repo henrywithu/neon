@@ -1,0 +1,12 @@
+@media (prefers-reduced-motion: reduce) {
+  .phone-toast,
+  .phone-toast *,
+  .phone-chip,
+  .phone-chip *,
+  .phone-screen *,
+  .phone-screen *:before,
+  .phone-screen *:after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,10 @@
+html.touch-drive-active .drive-tutorial {
+  bottom: calc(max(6px, env(safe-area-inset-bottom)) + 146px);
+}
+@media (orientation: portrait) {
+  html.touch-drive-active .drive-tutorial {
+    bottom: calc(
+      max(16px, env(safe-area-inset-bottom)) + min(84px, 19vw) * 1.72 + 170px
+    );
+  }
+}

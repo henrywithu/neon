@@ -1,0 +1,197 @@
+@media (max-width: 760px), (max-height: 500px) {
+  .radio {
+    padding: max(8px, env(safe-area-inset-top))
+      max(8px, env(safe-area-inset-right)) max(8px, env(safe-area-inset-bottom))
+      max(8px, env(safe-area-inset-left));
+  }
+  .radio__screen {
+    width: 100%;
+    height: calc(100vh - 16px);
+    height: calc(
+      100dvh - 16px - env(safe-area-inset-top) - env(safe-area-inset-bottom)
+    );
+    max-height: none;
+    grid-template-rows: auto minmax(0, 1fr);
+    padding: 12px 14px;
+    gap: 10px;
+    border-radius: 18px/14px;
+  }
+  .radio__tabs {
+    flex-wrap: wrap;
+    gap: 5px;
+    min-height: 32px;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+  }
+  .radio__tab {
+    flex: 1 1 auto;
+    justify-content: center;
+    gap: 8px;
+    padding: 7px 9px;
+  }
+  .radio__state {
+    padding: 2px 5px;
+    font-size: 9px;
+  }
+  .radio__tabs .radio__bumper,
+  .radio__tabs .radio__tabs-fill,
+  .radio__tabs .radio__tab:not(.radio__tab--brand):not(.radio__tab--btn) {
+    display: none;
+  }
+  .radio__hints {
+    display: none;
+  }
+  .radio__body {
+    min-height: 0;
+  }
+  .radio__list {
+    max-height: none;
+    min-height: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .radio__row-name {
+    font-size: 14px;
+  }
+  .radio__deck {
+    min-height: 0;
+  }
+  .radio__viz {
+    flex: 1 1 40px;
+    height: auto;
+    min-height: 32px;
+    max-height: 140px;
+  }
+  .radio__remaining {
+    font-size: 22px;
+  }
+  .radio__progress {
+    margin: 6px 0 12px;
+  }
+  .radio__controls {
+    gap: 10px 14px;
+  }
+  .radio__transport {
+    gap: 8px;
+  }
+  .radio__key {
+    width: 44px;
+    height: 44px;
+  }
+  .radio__switch {
+    height: 44px;
+    padding: 0 12px 0 10px;
+  }
+  .radio__switch small,
+  .radio__hatch {
+    display: none;
+  }
+  .radio__volume-bars {
+    gap: 4px;
+    height: 26px;
+  }
+  .radio__vol {
+    width: 12px;
+  }
+}
+@media (min-width: 761px) and (max-width: 1000px) {
+  .radio__tabs {
+    flex-wrap: wrap;
+  }
+  .radio__tabs .radio__bumper,
+  .radio__tabs .radio__tabs-fill {
+    display: none;
+  }
+  .radio__tab {
+    flex: 1 1 auto;
+    justify-content: center;
+  }
+}
+@media (max-width: 760px) and (min-height: 501px) {
+  .radio__body {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .radio__deck {
+    flex: 0 0 auto;
+  }
+  .radio__viz {
+    flex: 0 0 auto;
+    height: 90px;
+  }
+  .radio__list {
+    flex: 1 1 0;
+    order: 2;
+    padding: 0;
+    border-top: 1px solid var(--r-red-faint);
+  }
+  .radio__title {
+    font-size: 22px;
+  }
+}
+@media (max-width: 480px) {
+  .radio__tabs .radio__tab--brand {
+    display: none;
+  }
+}
+@media (max-height: 500px) {
+  .radio__body {
+    grid-template-columns: minmax(0, 40%) minmax(0, 1fr);
+    gap: 16px;
+  }
+  .radio__list {
+    height: 100%;
+    padding-top: 0;
+  }
+  .radio__row {
+    padding: 5px 8px 5px 20px;
+  }
+  .radio__title {
+    margin: 0 0 2px;
+    font-size: 20px;
+  }
+  .radio__artist {
+    margin-bottom: 2px;
+  }
+  .radio__viz {
+    margin: 4px 0 2px;
+  }
+  .radio__elapsed {
+    font-size: 10px;
+  }
+  .radio__key {
+    width: 40px;
+    height: 40px;
+  }
+}
+.radio__title,
+.radio__artist {
+  flex-shrink: 0;
+}
+@media (max-height: 360px) {
+  .radio__deck {
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  .radio__viz {
+    display: none;
+  }
+  .radio__progress {
+    margin: 4px 0 8px;
+  }
+  .radio__volume-bars {
+    height: 20px;
+  }
+  .radio__switch {
+    height: 38px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .radio__screen:before,
+  .radio__screen:after,
+  .radio__title:after,
+  .radio.is-open .radio__screen {
+    animation: none;
+  }
+}

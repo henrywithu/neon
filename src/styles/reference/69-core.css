@@ -1,0 +1,67 @@
+.radio {
+  --r-red: #ff2b55;
+  --r-red-dim: rgba(255, 43, 85, 0.55);
+  --r-red-faint: rgba(255, 43, 85, 0.16);
+  --r-cyan: #34f5e9;
+  --r-cyan-dim: rgba(52, 245, 233, 0.5);
+  --r-bg: #120b16;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1200;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  place-items: center;
+  padding: 24px;
+  background: radial-gradient(ellipse at center, #0a040e59, #040208b8);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity 0.28s ease,
+    visibility 0s linear 0.28s;
+  font-family: Orbitron, sans-serif;
+  color: var(--r-red);
+  -webkit-font-smoothing: antialiased;
+}
+.radio.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+  transition: opacity 0.2s ease;
+}
+.radio__screen {
+  position: relative;
+  width: min(1060px, 100%);
+  max-height: calc(100vh - 48px);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto 1fr auto;
+  gap: 18px;
+  padding: 22px 28px 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background:
+    radial-gradient(
+      ellipse 80% 60% at 70% 45%,
+      rgba(52, 245, 233, 0.06),
+      transparent 70%
+    ),
+    radial-gradient(
+      ellipse at 20% 110%,
+      rgba(255, 43, 85, 0.1),
+      transparent 55%
+    ),
+    var(--r-bg);
+  border: 1px solid var(--r-red-faint);
+  border-radius: 28px/22px;
+  box-shadow:
+    0 0 0 2px #0009,
+    0 0 60px #ff2b5524,
+    inset 0 0 90px #000000d9,
+    inset 0 0 22px #ff2b5514;
+  transform: scale(0.97);
+  transition: transform 0.28s cubic-bezier(0.2, 0.9, 0.3, 1.2);
+}

@@ -1,0 +1,26 @@
+@keyframes phoneToastIn {
+  0% {
+    opacity: 0;
+    transform: translate(-34px) skew(-10deg);
+  }
+  22% {
+    opacity: 1;
+    transform: translate(6px) skew(4deg);
+  }
+  34% {
+    opacity: 0.35;
+  }
+  42% {
+    opacity: 1;
+    transform: translate(-3px) skew(0);
+  }
+  56% {
+    opacity: 0.7;
+    transform: translate(1px);
+  }
+  66%,
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

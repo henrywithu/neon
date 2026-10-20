@@ -1,0 +1,11 @@
+.phone__map .mission-badge {
+  position: relative;
+}
+.phone-sigil {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  background: var(--g);
+  -webkit-mask: var(--icon) center / contain no-repeat;
+  mask: var(--icon) center / contain no-repeat;
+}

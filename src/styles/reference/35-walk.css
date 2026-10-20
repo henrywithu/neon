@@ -1,0 +1,21 @@
+.cyber-hud--compact .hud-compact-value {
+  opacity: 1;
+  transform: translate(0);
+}
+.cyber-hud--compact .hud-stats {
+  opacity: 0;
+  max-width: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.cyber-hud--compact .cyber-hud-inner {
+  gap: 0;
+  padding: 8px 10px 8px 8px;
+}
+.cyber-hud--compact .hud-avatar {
+  width: 52px;
+  height: 52px;
+}
+.cyber-hud--compact .cyber-hud-corner {
+  opacity: 0.5;
+}

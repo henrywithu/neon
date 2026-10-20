@@ -1,0 +1,20 @@
+.phone__attach {
+  display: grid;
+  grid-template-columns: 70px minmax(0, 1fr);
+  align-items: center;
+  gap: 13px;
+  width: 94%;
+  padding: 9px 12px 9px 9px;
+  background: #ffd60a0f;
+  border: 1px solid rgba(255, 214, 10, 0.35);
+  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 0 100%);
+  opacity: 0;
+  transform: translateY(10px);
+  transition:
+    opacity 0.35s ease 0.15s,
+    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1) 0.15s;
+}
+.phone__attach--sigil {
+  background: color-mix(in srgb, var(--c) 7%, transparent);
+  border-color: color-mix(in srgb, var(--c) 45%, transparent);
+}

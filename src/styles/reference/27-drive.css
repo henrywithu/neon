@@ -1,0 +1,10 @@
+body.ui-moving-compact .app-header-actions,
+body.ui-moving-compact .audio-btn-root,
+body.ui-moving-compact .walk-controls__chip,
+body.ui-moving-compact .move-hint,
+body.ui-moving-compact .walk-prompt:not(.drive-tutorial),
+body.ui-moving-compact.is-driving .drive-hint {
+  opacity: 0 !important;
+  pointer-events: none !important;
+  transition: opacity 0.45s ease;
+}

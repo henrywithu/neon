@@ -1,0 +1,23 @@
+.app-header,
+.app-header *,
+.walk-controls,
+.walk-controls *,
+.walk-prompt,
+.walk-prompt *,
+.move-hint,
+.move-hint *,
+.about-overlay,
+.about-overlay *,
+.settings-overlay,
+.settings-overlay *,
+.audio-btn-root,
+.audio-btn-root *,
+.intro-container,
+.intro-container * {
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  font-family: Orbitron, sans-serif;
+}

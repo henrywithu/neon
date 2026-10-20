@@ -1,0 +1,31 @@
+@keyframes phoneBuzz {
+  0%,
+  to {
+    transform: none;
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translate(-2px) rotate(-10deg);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translate(2px) rotate(10deg);
+  }
+  90% {
+    transform: none;
+  }
+}
+@keyframes phoneRing {
+  0% {
+    opacity: 0.9;
+    transform: scale(0.7);
+  }
+  to {
+    opacity: 0;
+    transform: scale(1.9);
+  }
+}

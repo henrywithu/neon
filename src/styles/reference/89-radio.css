@@ -1,0 +1,5 @@
+html.touch-drive-active .radio-ticker {
+  top: auto;
+  bottom: var(--td-bottom);
+  font-size: 9px;
+}

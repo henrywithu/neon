@@ -1,0 +1,47 @@
+.about-overlay::-webkit-scrollbar {
+  width: 6px;
+}
+.about-overlay::-webkit-scrollbar-track {
+  background: #ffffff1a;
+  border-radius: 3px;
+}
+.about-overlay::-webkit-scrollbar-thumb {
+  background: #ffffff4d;
+  border-radius: 3px;
+}
+.about-overlay::-webkit-scrollbar-thumb:hover {
+  background: #fff6;
+}
+@media (max-width: 768px) {
+  .about-overlay {
+    padding: clamp(24px, 5vw, 40px);
+    padding-top: clamp(64px, 12vw, 80px);
+  }
+  .about-brand-title {
+    font-size: clamp(1.2rem, 8.4vw, 2.1rem);
+  }
+  .about-brand-subtitle {
+    letter-spacing: 0.1em;
+  }
+  .about-copy {
+    grid-template-columns: 1fr;
+    gap: clamp(20px, 4vh, 32px);
+  }
+  .about-lead {
+    font-size: clamp(0.8rem, 3.5vw, 0.95rem);
+    line-height: 1.65;
+  }
+  .about-buttons {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    max-width: 280px;
+  }
+  .refresh-button-panel {
+    width: 100%;
+  }
+  .close-button-panel {
+    width: 40px;
+    height: 40px;
+  }
+}

@@ -1,0 +1,24 @@
+.hud-avatar {
+  position: relative;
+  flex-shrink: 0;
+  width: 68px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hud-compact-value {
+  position: absolute;
+  right: -4px;
+  bottom: 6px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #ffffffeb;
+  opacity: 0;
+  transform: translate(6px);
+  pointer-events: none;
+  transition:
+    opacity 0.35s ease,
+    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}

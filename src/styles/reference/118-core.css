@@ -1,0 +1,111 @@
+.phone {
+  position: relative;
+  display: grid;
+  grid-template-columns: 262px minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr);
+  height: 100%;
+  overflow: hidden;
+  background:
+    radial-gradient(
+      90% 50% at 70% 0%,
+      rgba(142, 162, 255, 0.12),
+      transparent 60%
+    ),
+    linear-gradient(180deg, #0d0818, #07050d 70%);
+  border: 1px solid color-mix(in srgb, var(--frame) 45%, transparent);
+  clip-path: polygon(
+    0 20px,
+    20px 0,
+    calc(100% - 20px) 0,
+    100% 20px,
+    100% calc(100% - 20px),
+    calc(100% - 20px) 100%,
+    20px 100%,
+    0 calc(100% - 20px)
+  );
+}
+.phone:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.025) 0 1px,
+    transparent 1px 3px
+  );
+  pointer-events: none;
+}
+.phone__status {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 16px 22px 8px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: #fffc;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+.phone__carrier {
+  font-size: 7.5px;
+  letter-spacing: 0.34em;
+  color: var(--sys);
+}
+.phone__state {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.phone__battery {
+  position: relative;
+  width: 20px;
+  height: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  padding: 1px;
+}
+.phone__battery:before {
+  content: "";
+  display: block;
+  width: 70%;
+  height: 100%;
+  background: #ffffffd9;
+}
+.phone__battery:after {
+  content: "";
+  position: absolute;
+  right: -3px;
+  top: 2px;
+  width: 2px;
+  height: 4px;
+  background: #ffffffb3;
+}
+.phone__inbox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  background: #ffffff03;
+}
+.phone__inbox:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -2px;
+  width: 3px;
+  background: linear-gradient(
+    180deg,
+    transparent,
+    rgba(142, 162, 255, 0.35) 12%,
+    rgba(142, 162, 255, 0.1) 50%,
+    rgba(142, 162, 255, 0.35) 88%,
+    transparent
+  );
+  pointer-events: none;
+}

@@ -1,0 +1,16 @@
+.hud-gauge {
+  width: 168px;
+}
+.hud-gauge-track {
+  position: relative;
+  height: 8px;
+  background: #ffffff0f;
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  overflow: hidden;
+  clip-path: polygon(0 0, calc(100% - 4px) 0, 100% 100%, 4px 100%);
+}
+.hud-gauge-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ef4444, #f59e0b, #22c55e 70%, #4ade80);
+  animation: hudGaugePulse 3s ease-in-out infinite;
+}

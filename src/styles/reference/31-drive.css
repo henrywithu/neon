@@ -1,0 +1,12 @@
+@media (orientation: portrait) {
+  .app-header-actions--compact:has(.hdr-btn--friends.is-live) {
+    gap: 5px;
+  }
+  .app-header-actions--compact:has(.hdr-btn--friends.is-live) > .hdr-btn,
+  html.touch-drive-active
+    .app-header-actions--compact:has(.hdr-btn--friends.is-live)
+    > .hdr-btn {
+    width: 38px;
+    height: 38px;
+  }
+}

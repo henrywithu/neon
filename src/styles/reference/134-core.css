@@ -1,0 +1,42 @@
+.phone__attach-info {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+}
+.phone__attach-kicker {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.24em;
+  color: var(--msg);
+}
+.phone__attach--sigil .phone__attach-kicker {
+  color: var(--c);
+}
+.phone__attach-kicker em {
+  font-style: normal;
+  font-family: system-ui, sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+.phone__attach-info b {
+  overflow: hidden;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.phone__attach-dist,
+.phone__attach-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: #ffffffb3;
+}

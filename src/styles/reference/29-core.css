@@ -1,0 +1,6 @@
+html.device-mobile *,
+html.device-mobile *:before,
+html.device-mobile *:after {
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}

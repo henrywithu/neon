@@ -1,0 +1,451 @@
+.citymap {
+  --cm-cyan: #22d3ee;
+  --cm-cyan-dim: rgba(34, 211, 238, 0.45);
+  --cm-cyan-faint: rgba(34, 211, 238, 0.14);
+  --cm-pink: #ff2d9a;
+  --cm-yellow: #ffd60a;
+  --cm-bg: rgba(4, 7, 14, 0.86);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1100;
+  background: #04070e;
+  font-family: Orbitron, sans-serif;
+  color: #e2e8ff;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+  user-select: none;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: scale(1.015);
+  transition:
+    opacity 0.22s ease,
+    transform 0.3s cubic-bezier(0.2, 0.9, 0.3, 1),
+    visibility 0s linear 0.22s;
+}
+.citymap.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+  transform: none;
+  transition:
+    opacity 0.18s ease,
+    transform 0.3s cubic-bezier(0.2, 0.9, 0.3, 1);
+}
+.citymap__canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  cursor: crosshair;
+  touch-action: none;
+}
+.citymap.is-dragging .citymap__canvas {
+  cursor: grabbing;
+}
+.citymap__scan {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.16) 0 1px,
+      transparent 1px 3px
+    ),
+    radial-gradient(ellipse at center, transparent 55%, rgba(0, 0, 0, 0.6) 100%);
+  mix-blend-mode: multiply;
+}
+.citymap__corners i {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  border: 2px solid var(--cm-cyan);
+  opacity: 0.7;
+  pointer-events: none;
+  filter: drop-shadow(0 0 6px var(--cm-cyan-dim));
+}
+.citymap__corners i:nth-child(1) {
+  top: 14px;
+  left: 14px;
+  border-right: 0;
+  border-bottom: 0;
+}
+.citymap__corners i:nth-child(2) {
+  top: 14px;
+  right: 14px;
+  border-left: 0;
+  border-bottom: 0;
+}
+.citymap__corners i:nth-child(3) {
+  bottom: 14px;
+  left: 14px;
+  border-right: 0;
+  border-top: 0;
+}
+.citymap__corners i:nth-child(4) {
+  bottom: 14px;
+  right: 14px;
+  border-left: 0;
+  border-top: 0;
+}
+.citymap__top {
+  position: absolute;
+  top: max(26px, env(safe-area-inset-top));
+  left: 40px;
+  right: 40px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  pointer-events: none;
+}
+.citymap__title {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 20px;
+  letter-spacing: 0.22em;
+  text-shadow: 0 0 14px rgba(255, 45, 154, 0.55);
+}
+.citymap__title b {
+  color: var(--cm-pink);
+  font-weight: 900;
+}
+.citymap__title span {
+  font-size: 11px;
+  color: var(--cm-cyan);
+  letter-spacing: 0.3em;
+}
+.citymap__coords {
+  margin-left: auto;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  color: var(--cm-cyan-dim);
+  font-variant-numeric: tabular-nums;
+}
+.citymap button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.citymap kbd {
+  display: inline-block;
+  padding: 2px 5px;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  font: inherit;
+  font-size: 0.85em;
+  line-height: 1;
+  opacity: 0.85;
+}
+.citymap .citymap__close {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  background: var(--cm-bg);
+  border: 1px solid var(--cm-cyan-faint);
+  color: var(--cm-cyan);
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+.citymap .citymap__close:hover {
+  border-color: var(--cm-cyan);
+  box-shadow: 0 0 14px var(--cm-cyan-faint);
+}
+.citymap__legend {
+  position: absolute;
+  top: 88px;
+  left: 40px;
+  min-width: 200px;
+  padding: 14px 16px 12px;
+  background: var(--cm-bg);
+  border: 1px solid var(--cm-cyan-faint);
+  border-left: 2px solid var(--cm-pink);
+  pointer-events: none;
+}
+.citymap__legend h3 {
+  margin: 0 0 10px;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.34em;
+  color: var(--cm-cyan);
+}
+.citymap__legend ul {
+  display: grid;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  color: #e2e8ffc7;
+}
+.citymap__legend li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.citymap__swatch {
+  flex: none;
+  width: 18px;
+  height: 4px;
+  background: var(--c, var(--cm-cyan));
+  box-shadow: 0 0 8px var(--c, var(--cm-cyan));
+}
+.citymap__swatch--you {
+  width: 0;
+  height: 0;
+  margin: 0 5px;
+  background: none;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 11px solid var(--cm-pink);
+  box-shadow: none;
+  filter: drop-shadow(0 0 4px var(--cm-pink));
+}
+.citymap__swatch--waypoint {
+  width: 9px;
+  height: 9px;
+  margin: 0 4px;
+  background: var(--cm-yellow);
+  box-shadow: 0 0 8px var(--cm-yellow);
+  transform: rotate(45deg);
+}
+.citymap__swatch--route {
+  --c: var(--cm-pink);
+  background: repeating-linear-gradient(
+    90deg,
+    #fff 0 2px,
+    var(--cm-pink) 2px 6px
+  );
+}
+.citymap__route {
+  position: absolute;
+  top: 88px;
+  right: 40px;
+  display: grid;
+  justify-items: end;
+  gap: 6px;
+  padding: 12px 16px;
+  background: var(--cm-bg);
+  border: 1px solid var(--cm-cyan-faint);
+  border-right: 2px solid var(--cm-cyan);
+  pointer-events: none;
+}
+.citymap__route-label {
+  font-size: 9px;
+  letter-spacing: 0.34em;
+  color: var(--cm-cyan);
+}
+.citymap__route-value {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  color: #e2e8ffb3;
+}
+.citymap.has-route .citymap__route {
+  border-right-color: var(--cm-yellow);
+}
+.citymap.has-route .citymap__route-label {
+  color: var(--cm-yellow);
+}
+.citymap.has-route .citymap__route-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 0 12px rgba(255, 45, 154, 0.6);
+}
+.citymap .citymap__teleport {
+  position: absolute;
+  top: 160px;
+  right: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 14px;
+  font-size: 10px;
+  letter-spacing: 0.24em;
+  color: #0b0614;
+  background: var(--cm-yellow);
+  border: 0;
+  box-shadow: 0 0 18px #ffd60a73;
+  transition:
+    filter 0.15s ease,
+    box-shadow 0.15s ease;
+}
+.citymap .citymap__teleport[hidden] {
+  display: none;
+}
+.citymap .citymap__teleport:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 0 26px #ffd60ab3;
+}
+.citymap .citymap__teleport kbd {
+  border-color: #0b061499;
+}
+.citymap .citymap__teleport:disabled {
+  cursor: not-allowed;
+  color: #e2e8ff99;
+  background: #04070edb;
+  border: 1px solid rgba(255, 45, 154, 0.5);
+  box-shadow: none;
+}
+.citymap__controls {
+  position: absolute;
+  right: 40px;
+  bottom: 84px;
+  display: grid;
+  gap: 6px;
+}
+.citymap__controls button {
+  width: 36px;
+  height: 36px;
+  font-size: 18px;
+  line-height: 1;
+  background: var(--cm-bg);
+  border: 1px solid var(--cm-cyan-faint);
+  color: var(--cm-cyan);
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+.citymap__controls button:hover {
+  border-color: var(--cm-cyan);
+  box-shadow: 0 0 14px var(--cm-cyan-faint);
+}
+.citymap__scale {
+  position: absolute;
+  left: 40px;
+  bottom: 84px;
+  display: grid;
+  gap: 6px;
+  font-size: 9px;
+  letter-spacing: 0.22em;
+  color: var(--cm-cyan);
+  pointer-events: none;
+}
+.citymap__scale i {
+  display: block;
+  height: 6px;
+  border: 1px solid var(--cm-cyan);
+  border-top: 0;
+  box-shadow: 0 2px 8px var(--cm-cyan-faint);
+}
+.citymap__hints {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  bottom: max(30px, env(safe-area-inset-bottom));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 22px;
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  color: #e2e8ff8c;
+  pointer-events: none;
+}
+.citymap__hints kbd {
+  color: var(--cm-cyan);
+  margin-right: 4px;
+}
+@media (max-width: 720px) {
+  .citymap__top {
+    left: 20px;
+    right: 20px;
+  }
+  .citymap__title {
+    font-size: 15px;
+  }
+  .citymap__title span,
+  .citymap__coords,
+  .citymap__legend,
+  .citymap__hints {
+    display: none;
+  }
+  .citymap__route {
+    top: auto;
+    right: auto;
+    left: 20px;
+    bottom: 24px;
+    justify-items: start;
+  }
+  .citymap__controls {
+    right: 20px;
+    bottom: 24px;
+  }
+  .citymap .citymap__teleport {
+    top: auto;
+    right: auto;
+    left: 20px;
+    bottom: 96px;
+  }
+  .citymap .citymap__teleport kbd {
+    display: none;
+  }
+  .citymap__scale {
+    left: 20px;
+    bottom: 150px;
+  }
+  .citymap .citymap__close {
+    margin-left: auto;
+  }
+  .citymap__close kbd {
+    display: none;
+  }
+}
+html.device-mobile .citymap__hints,
+html.device-mobile .citymap kbd {
+  display: none;
+}
+@media (max-height: 520px) and (min-width: 721px) {
+  .citymap__legend {
+    top: 64px;
+    left: max(24px, env(safe-area-inset-left));
+    min-width: 0;
+    max-height: calc(100dvh - 64px - max(16px, env(safe-area-inset-bottom)));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    pointer-events: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .citymap__legend ul {
+    gap: 5px;
+  }
+  .citymap__hints {
+    display: none;
+  }
+}
+.citymap__swatch-badge {
+  flex: none;
+  width: 16px;
+  height: 16px;
+  margin: 0 1px;
+  filter: drop-shadow(0 0 6px rgba(255, 214, 10, 0.5));
+}
+.citymap__swatch--sigil {
+  width: 9px;
+  height: 9px;
+  margin: 0 4px;
+  background: linear-gradient(135deg, #b000ff, #00ffa6);
+  box-shadow: 0 0 8px #a855f7e6;
+  transform: rotate(45deg);
+}
+.citymap__room[hidden] {
+  display: none !important;
+}

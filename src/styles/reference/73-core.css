@@ -1,0 +1,30 @@
+.radio__row.is-unavailable {
+  opacity: 0.35;
+  text-decoration: line-through;
+}
+.radio__row--empty {
+  cursor: default;
+  font-size: 13px;
+  letter-spacing: 0.12em;
+}
+.radio__deck {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.radio__title {
+  position: relative;
+  margin: 6px 0 4px;
+  font-size: clamp(22px, 3.2vw, 38px);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.05;
+  color: var(--r-red);
+  text-shadow:
+    -2px 0 rgba(52, 245, 233, 0.55),
+    2px 0 rgba(255, 0, 90, 0.7),
+    0 0 22px rgba(255, 43, 85, 0.6);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

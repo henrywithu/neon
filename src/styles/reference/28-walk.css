@@ -1,0 +1,7 @@
+.app-header-actions,
+.audio-btn-root,
+.walk-controls__chip,
+.move-hint,
+.walk-prompt {
+  transition: opacity 0.45s ease;
+}

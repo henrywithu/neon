@@ -1,0 +1,5 @@
+.phone__chat.is-typed .phone__actions {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}

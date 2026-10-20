@@ -1,0 +1,15 @@
+.phone__list {
+  flex: 1;
+  display: grid;
+  align-content: start;
+  gap: 4px;
+  min-height: 0;
+  margin: 0;
+  padding: 2px 8px 8px;
+  overflow-y: auto;
+  scrollbar-width: none;
+  list-style: none;
+}
+.phone__list::-webkit-scrollbar {
+  display: none;
+}

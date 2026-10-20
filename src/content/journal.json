@@ -1,0 +1,529 @@
+{
+  "source": "https://henrywithu.com",
+  "from": "2026-07-01",
+  "fetchedAt": "2026-10-20T08:13:15.500Z",
+  "posts": [
+    {
+      "id": "6ad72075e558e8000108e2dc",
+      "title": "Trapnest Disc: Pressing 57 Worlds into Polycarbonate",
+      "url": "https://henrywithu.com/trapnest-disc-pressing-57-worlds-into-polycarbonate/",
+      "date": "2026-10-20T03:08:41.000-05:00",
+      "excerpt": "Living web worlds onto physically simulated 3D compact discs.",
+      "image": "/content/images/11ac74dcd2377135.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/disc.webp"
+    },
+    {
+      "id": "6ad5bfd9e558e8000108e2b7",
+      "title": "Trapnest Profile: Paper, Shaders, and 56 Living Worlds",
+      "url": "https://henrywithu.com/trapnest-profile-paper-shaders-and-56-living-worlds/",
+      "date": "2026-10-19T02:03:58.000-05:00",
+      "excerpt": "How we turned an archive of 56 worlds into a tactile WebGL print shop—powered by a single-draw-call 38-sheet shader carousel, two-tier GPU color-picking, and kinetic paper physics.",
+      "image": "/content/images/9e16683bcda77e58.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/profile.webp"
+    },
+    {
+      "id": "6ad500d0e558e8000108e290",
+      "title": "Trapnest Dream: Twelve Worlds Inside a Crow's Eye",
+      "url": "https://henrywithu.com/trapnest-dream-twelve-worlds-inside-a-crows-eye/",
+      "date": "2026-10-18T12:29:32.000-05:00",
+      "excerpt": "An infinite WebGPU scroll loop through twelve nested worlds—rendered in two colors of printmaker’s ink, procedural WebAudio synthesis, and a hidden burning Tarot deck.",
+      "image": "/content/images/1d796eed6cc5a8b1.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/dream.webp"
+    },
+    {
+      "id": "6ad4f594e558e8000108e267",
+      "title": "Trapnest Maze: Six Kilometers of Math in a Living Rainforest",
+      "url": "https://henrywithu.com/trapnest-maze-six-kilometers-of-math-in-a-living-rainforest/",
+      "date": "2026-10-18T11:48:19.000-05:00",
+      "excerpt": "A 600 × 600-meter rainforest labyrinth—complete with six kilometers of trails, a 13-meter ballistic waterfall, and living bioacoustics—grown entirely from pure math with zero external assets.",
+      "image": "/content/images/83106a3cabd8d941.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/maze.webp"
+    },
+    {
+      "id": "6ad4df02e558e8000108e23c",
+      "title": "Trapnest Space: Architecture of a Living Picture House",
+      "url": "https://henrywithu.com/trapnest-space-architecture-of-a-living-picture-house/",
+      "date": "2026-10-18T10:07:42.000-05:00",
+      "excerpt": "Step inside a procedural 12-room WebGL picture house where 57 short films, a 20-minute sunset, zero-sample spatial audio, and a 20-bone tabby cat come alive in the browser.",
+      "image": "/content/images/09dd7e8765217967.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/space.webp"
+    },
+    {
+      "id": "6ad374e6e558e8000108e222",
+      "title": "Trapnest Portfolio: 48 Worlds in a Ring of Light",
+      "url": "https://henrywithu.com/trapnest-portfolio-48-worlds-in-a-ring-of-light/",
+      "date": "2026-10-17T08:45:34.000-05:00",
+      "excerpt": "Inside the WebGL observatory where a single spotlight projects 48 worlds onto 270,480 floating micro-cubes.",
+      "image": "/content/images/011bebe2b2125c1b.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/portfolio.webp"
+    },
+    {
+      "id": "6ad32eb1e558e8000108e1fe",
+      "title": "Trapnest Wonder: Cartography of a Storm-Lit GPU Island",
+      "url": "https://henrywithu.com/trapnest-wonder-cartography-of-a-storm-lit-gpu-island/",
+      "date": "2026-10-17T03:20:54.000-05:00",
+      "excerpt": "How a storm-lit 3D island is conjured entirely from shaders, wavelets, and procedural weather.",
+      "image": "/content/images/3225d2385b454cde.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/wonder.webp"
+    },
+    {
+      "id": "6ad05bcae558e8000108e1ea",
+      "title": "Trapnest Device: Ideas to Touch",
+      "url": "https://henrywithu.com/trapnest-device-ideas-to-touch/",
+      "date": "2026-10-14T23:53:56.000-05:00",
+      "excerpt": "An interactive WebGL cabinet of curiosities where optical-flow retro gadgets, real-time Navier-Stokes fluids, and 15 visual field notes turn the browser into hardware you can touch.",
+      "image": "/content/images/bc2fbf9c96825b2b.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/device.webp"
+    },
+    {
+      "id": "6acd93d2e558e8000108e1d5",
+      "title": "Soda: The Physics of Fizz",
+      "url": "https://henrywithu.com/soda-the-physics-of-fizz/",
+      "date": "2026-10-12T21:15:03.000-05:00",
+      "excerpt": "Pop the tab on a 60 FPS WebGL playground powered by real-time GPU Navier-Stokes fluid dynamics, brushed aluminum PBR, and ballistic soda pong.",
+      "image": "/content/images/bf555d0caced91be.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/soda.webp"
+    },
+    {
+      "id": "6acca522a3512300014df592",
+      "title": "Trapnest Polar: Shaders on the Rocks",
+      "url": "https://henrywithu.com/trapnest-polar-shaders-on-the-rocks/",
+      "date": "2026-10-12T04:17:40.000-05:00",
+      "excerpt": "The cryogenic shaders, GPU fluid frost, and sub-zero math behind an interactive glacial expedition.",
+      "image": "/content/images/b388c6ecb214f490.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/polar.webp"
+    },
+    {
+      "id": "6acc277ba3512300014df579",
+      "title": "Trapnest Dune: The Kinetic Erg",
+      "url": "https://henrywithu.com/trapnest-dune-the-kinetic-erg/",
+      "date": "2026-10-11T19:20:14.000-05:00",
+      "excerpt": "The physics, WebGPU shaders, and procedural geomorphology behind building a high-speed kinetic desert expedition in the browser.",
+      "image": "/content/images/dae93fac516e2be2.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/dune.webp"
+    },
+    {
+      "id": "6acc2665a3512300014df562",
+      "title": "Trapnest Renaissance: The Living Atelier",
+      "url": "https://henrywithu.com/trapnest-renaissance-the-living-atelier/",
+      "date": "2026-10-11T19:16:05.000-05:00",
+      "excerpt": "The dual-FBO projected crossfades, Inverted Sobel sketch shaders, procedural wing kinematics, and cross-window WebRTC wormhole uniting 12 chapters into a living 3D Renaissance atelier.",
+      "image": "/content/images/75d12c3005642439.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/renaissance.webp"
+    },
+    {
+      "id": "6acaf9a6a3512300014df546",
+      "title": "Trapnest Snowland: Drifting on Frozen Math",
+      "url": "https://henrywithu.com/trapnest-snowland-drifting-on-frozen-math/",
+      "date": "2026-10-10T21:52:13.000-05:00",
+      "excerpt": "The 0.04 ice friction physics, extruded snow-pillow geometry, WebGPU micro-facet glitter, and synthesized singing ice behind a sub-zero 3D expedition rover.",
+      "image": "/content/images/2655a500c69ccf60.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/snowland.webp"
+    },
+    {
+      "id": "6aca54faa3512300014df52b",
+      "title": "Trapnest Explore: The Kinetic Playground",
+      "url": "https://henrywithu.com/trapnest-explore-the-kinetic-playground/",
+      "date": "2026-10-10T10:11:39.000-05:00",
+      "excerpt": "The Rapier Wasm raycast vehicle physics, Voronoi ice-drifting thermodynamics, and tilt-shift WebGPU shaders uniting 21 projects and experiments into a living 3D open world.",
+      "image": "/content/images/6dab8ba2f19a30e8.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/explore.webp"
+    },
+    {
+      "id": "6aca16aca3512300014df512",
+      "title": "Trapnest Mirage: The Heat Haze Ring",
+      "url": "https://henrywithu.com/trapnest-mirage-the-heat-haze-ring/",
+      "date": "2026-10-10T05:44:01.000-05:00",
+      "excerpt": "Step into a moonlit WebGL desert ring and explore the non-linear dive kinematics, finite-difference dune shaders, GPU fluid turbulence, and zero-byte generative sound behind Trapnest Mirage.",
+      "image": "/content/images/991add08fb820d9e.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/mirage.webp"
+    },
+    {
+      "id": "6ac997e8a3512300014df4f4",
+      "title": "Trapnest Messenger: The Curvature of Connection",
+      "url": "https://henrywithu.com/trapnest-messenger-the-curvature-of-connection/",
+      "date": "2026-10-09T20:42:56.000-05:00",
+      "excerpt": "The spherical tangent kinematics, planetary horizon culling, and bicubic depth shaders behind delivering letters on a tiny curved world.",
+      "image": "/content/images/ae4ba5409c179bc6.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/messenger.webp"
+    },
+    {
+      "id": "6ac9973da3512300014df4df",
+      "title": "Trapnest Dog: The Geometry of Fetch",
+      "url": "https://henrywithu.com/trapnest-dog-the-geometry-of-fetch/",
+      "date": "2026-10-09T20:40:46.000-05:00",
+      "excerpt": "The ballistic physics, planetary gear carousels, and canine kinematics behind the art of making the web play fetch.",
+      "image": "/content/images/b3b75440b8d197b5.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/dog.webp"
+    },
+    {
+      "id": "6ac8f16ca3512300014df4c6",
+      "title": "Trapnest Studio: Oblique Kinetics",
+      "url": "https://henrywithu.com/trapnest-studio-oblique-kinetics/",
+      "date": "2026-10-09T08:53:30.000-05:00",
+      "excerpt": "The 4° oblique sheet dynamics, sub-pixel Range calculus, and Cloudflare R2 edge streaming pipeline behind a 60fps kinetic animation playground.",
+      "image": "/content/images/6b8055e34df3d8db.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/studio.webp"
+    },
+    {
+      "id": "6ac8de21a3512300014df4ac",
+      "title": "Trapnest Architecture: Spatial Halftones",
+      "url": "https://henrywithu.com/trapnest-architecture-spatial-halftones/",
+      "date": "2026-10-09T07:30:30.000-05:00",
+      "excerpt": "Fly into a misty mountain sanctuary turned living copperplate engraving, driven by real-time WebGL halftone shaders, 120-frame flight kinematics, and Carpathian acoustic physics.",
+      "image": "/content/images/9b6295019e0f6436.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/architecture.webp"
+    },
+    {
+      "id": "6ac7a067a3512300014df489",
+      "title": "Trapnest Cards: Foil, Paper, Physics",
+      "url": "https://henrywithu.com/trapnest-cards-foil-paper-physics/",
+      "date": "2026-10-08T08:58:55.000-05:00",
+      "excerpt": "Tilt to catch the light on hot-stamped foil, pull open the fold, and discover the cylindrical bending physics, microfacet shaders, and tactile springs behind Trapnest Cards.",
+      "image": "/content/images/55f2c9533c3a08a5.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/cards.webp"
+    },
+    {
+      "id": "6ac666ce8381fe0001f51b5c",
+      "title": "An Expedition Through the Trapnest Workshop",
+      "url": "https://henrywithu.com/an-expedition-through-the-trapnest-workshop/",
+      "date": "2026-10-07T10:43:15.000-05:00",
+      "excerpt": "Thirty-eight Trapnest sub-projects, one expedition",
+      "image": "/content/images/40f115bc2fa2c647.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/trapnest-expedition-1.webp"
+    },
+    {
+      "id": "6ac65f4a8381fe0001f51b46",
+      "title": "Trapnest Zero: 0 BZ",
+      "url": "https://henrywithu.com/trapnest-zero-0-bz/",
+      "date": "2026-10-07T10:04:52.000-05:00",
+      "excerpt": "Draw a circle through sub-zero frost and explore the gesture physics, chromatic glass dispersion, and procedural shaders behind the countdown to 0 BZ",
+      "image": "/content/images/24c5ee47a568e522.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/zero.webp"
+    },
+    {
+      "id": "6ac656b98381fe0001f51b2a",
+      "title": "Trapnest Voyage: Summer Was a Heading",
+      "url": "https://henrywithu.com/trapnest-voyage-summer-was-a-heading/",
+      "date": "2026-10-07T09:28:37.000-05:00",
+      "excerpt": "Chase an unsetting sun across a golden sea, and discover the fluid dynamics, hair physics, and manga shaders behind Voyage.",
+      "image": "/content/images/b5c95aa20bf2180b.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/voyage.webp"
+    },
+    {
+      "id": "6ac4ff978381fe0001f51b11",
+      "title": "Trapnest Theory: The Unified Field",
+      "url": "https://henrywithu.com/trapnest-theory-the-unified-field/",
+      "date": "2026-10-06T09:05:21.000-05:00",
+      "excerpt": "The 172 bespoke shaders, million-particle point clouds, real-time Eulerian fluid physics, and edge-hibernated phone controller uniting 14 experimental worlds into a single 3D spatial continuum.",
+      "image": "/content/images/62698e6de9e31f56.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/theory.webp"
+    },
+    {
+      "id": "6ac122208381fe0001f51af6",
+      "title": "Trapnest Vines: The Calculus of Terroir",
+      "url": "https://henrywithu.com/trapnest-vines-the-calculus-of-terroir/",
+      "date": "2026-10-03T10:42:44.000-05:00",
+      "excerpt": "How we used GPU finite differences, 4D curl noise, and fluid dynamics to sculpt four million years of terroir in real time.",
+      "image": "/content/images/d044b260457b5c1e.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/vines.webp"
+    },
+    {
+      "id": "6ac1016f8381fe0001f51ae0",
+      "title": "Trapnest Design: From Sketch to Space",
+      "url": "https://henrywithu.com/trapnest-design-from-sketch-to-space/",
+      "date": "2026-10-03T08:23:08.000-05:00",
+      "excerpt": "Step from pencil on paper into an interactive 3D world, and explore the aerodynamic camera physics, Oklab color math, and tactile shaders behind Trapnest Design.",
+      "image": "/content/images/0cd3f96c1a66c998.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/design.webp"
+    },
+    {
+      "id": "6abf7e718381fe0001f51ac9",
+      "title": "Trapnest Kaizen: Hold, Release, Repeat",
+      "url": "https://henrywithu.com/trapnest-kaizen-hold-release-repeat/",
+      "date": "2026-10-02T04:52:44.000-05:00",
+      "excerpt": "Hold to wind up a hand-painted world, let go to send four origami animals flying, and see the maths, shaders behind Kaizen.",
+      "image": "/content/images/835ede51bf990fa8.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/kaizen.webp"
+    },
+    {
+      "id": "6abe73098381fe0001f51aab",
+      "title": "Trapnest XOX: The Blitz Grid",
+      "url": "https://henrywithu.com/trapnest-xox-the-blitz-grid/",
+      "date": "2026-10-01T09:51:08.000-05:00",
+      "excerpt": "The 6.75-billion avatar permutations, Möller–Trumbore 3D raycasting, and edge-hibernated Durable Objects behind a high-velocity five-second tic-tac-toe arena.",
+      "image": "/content/images/fde79abdac6e60f3.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/xox.webp"
+    },
+    {
+      "id": "6abe188c8381fe0001f51a93",
+      "title": "Trapnest Slides: The Physics of Flow",
+      "url": "https://henrywithu.com/trapnest-slides-the-physics-of-flow/",
+      "date": "2026-10-01T03:25:02.000-05:00",
+      "excerpt": "The spatial kinematics, elastic ribbon shaders, and relativistic gravitational lenses behind a living WebGL visual journal.",
+      "image": "/content/images/0da79038551cd624.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/slides.webp"
+    },
+    {
+      "id": "6abdccbb8381fe0001f51a7c",
+      "title": "Trapnest Ace: The Kinetic Court",
+      "url": "https://henrywithu.com/trapnest-ace-the-kinetic-court/",
+      "date": "2026-09-30T22:01:07.000-05:00",
+      "excerpt": "The continuous swept physics, procedural felt shaders, and kinetic spring mechanics behind a high-velocity 3D arcade tennis court.",
+      "image": "/content/images/f9463a8848bef913.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/10/ace.webp"
+    },
+    {
+      "id": "6ab9bd6e8381fe0001f51a5e",
+      "title": "Trapnest House: Spatial Mechanics",
+      "url": "https://henrywithu.com/trapnest-house-spatial-mechanics/",
+      "date": "2026-09-27T20:06:58.000-05:00",
+      "excerpt": "The camera kinematics, cylindrical projection math, and tactile physics behind Trapnest’s interactive 3D sanctuary.",
+      "image": "/content/images/afbfdc105b368921.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/09/house.webp"
+    },
+    {
+      "id": "6ab93caa8381fe0001f51a45",
+      "title": "Trapnest Sleep: The Calculus of Winding Down",
+      "url": "https://henrywithu.com/trapnest-sleep-the-calculus-of-winding-down/",
+      "date": "2026-09-27T10:57:43.000-05:00",
+      "excerpt": "The circadian mathematics, procedural shaders, and real-time graphics behind the art of winding down.",
+      "image": "/content/images/cd2c357216319436.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/09/sleep.webp"
+    },
+    {
+      "id": "6ab9208f8381fe0001f51a28",
+      "title": "The Mechanics of the Wobble",
+      "url": "https://henrywithu.com/the-mechanics-of-the-wobble/",
+      "date": "2026-09-27T08:58:47.000-05:00",
+      "excerpt": "The mathematics, volumetric XPBD physics, and custom WebGPU shaders behind simulating a tactile, light-refracting slice of watermelon jelly in your browser.",
+      "image": "/content/images/17f749c956eec4c5.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/09/jelly.webp"
+    },
+    {
+      "id": "6ab90cbb8381fe0001f51a0d",
+      "title": "Trapnest Squeeze: The Physics of Softness",
+      "url": "https://henrywithu.com/trapnest-squeeze-the-physics-of-softness/",
+      "date": "2026-09-27T07:33:00.000-05:00",
+      "excerpt": "The computer vision, Gaussian mesh kinematics, and synthetic acoustics behind compressing a heavy day into a soft, squeezable companion.",
+      "image": "/content/images/99f5ee6952f6fb94.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/09/squeeze.webp"
+    },
+    {
+      "id": "6ab8bcb78381fe0001f519f2",
+      "title": "Trapnest Up: The Mathematics of Looking Up",
+      "url": "https://henrywithu.com/trapnest-up-the-mathematics-of-looking-up/",
+      "date": "2026-09-27T01:52:27.000-05:00",
+      "excerpt": "The mathematics, crowd steering, and real-time graphics behind extracting a trillion dollars before anyone looks up.",
+      "image": "/content/images/46dc518bacc6b7e5.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/09/up.webp"
+    },
+    {
+      "id": "6ab5ae978381fe0001f519d3",
+      "title": "Engineering Trapnest Floral: Fluid Optics and Kinetic Spatial Worlds",
+      "url": "https://henrywithu.com/engineering-trapnest-floral-fluid-optics-and-kinetic-spatial-worlds/",
+      "date": "2026-09-24T18:16:09.000-05:00",
+      "excerpt": "An architectural deep dive into Trapnest Floral, uniting real-time Eulerian fluid optics, autonomous steering kinematics, and planar mirror shaders into an interactive 3D spatial garden.",
+      "image": "/content/images/84cf1f7c71c936e2.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/09/floral.webp"
+    },
+    {
+      "id": "6ab12ddbeb425c00014edc4f",
+      "title": "Screen-Space Delaunay Topology, Radiometric FLIR Inversion, and Supersonic Shock Diamond Dynamics: Engineering the Autonomous Aerial World of TRAPNEST AVIATION",
+      "url": "https://henrywithu.com/screen-space-delaunay-topology-radiometric-flir-inversion-and-supersonic-shock-diamond-dynamics-engineering-the-autonomous-aerial-world-of-trapnest-aviation/",
+      "date": "2026-09-21T08:16:49.000-05:00",
+      "excerpt": "An engineering deep dive into the mathematics and GLSL pipeline powering Trapnest Aviation, from screen-space Delaunay swarm topology.",
+      "image": "/content/images/decf6dee42265141.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/09/aviation.webp"
+    },
+    {
+      "id": "6aa4d264eb425c00014edc2a",
+      "title": "WebGPU Node Shaders, Shell-and-Fin Kinematic Fur, and Eulerian Fluid Vorticity: Engineering the Apex Spatial World of TRAPNEST LEOPARD",
+      "url": "https://henrywithu.com/webgpu-node-shaders-shell-and-fin-kinematic-fur-and-eulerian-fluid-vorticity-engineering-the-apex-spatial-world-of-trapnest-leopard/",
+      "date": "2026-09-11T23:19:43.000-05:00",
+      "excerpt": "Engineering an interactive WebGPU spatial world with real-time TSL node shaders, procedural shell-and-fin fur kinematics, and GPU Eulerian fluid dynamics.",
+      "image": "/content/images/0c343b8d5151a1a7.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/09/leopard.webp"
+    },
+    {
+      "id": "6aa39ee9eb425c00014edc12",
+      "title": "The Architecture of Latent Intelligence: Engineering High-Throughput LLM Inference, Paged KV-Caches, and Speculative Decoding from First Principles",
+      "url": "https://henrywithu.com/the-architecture-of-latent-intelligence-engineering-high-throughput-llm-inference-paged-kv-caches-and-speculative-decoding-from-first-principles/",
+      "date": "2026-09-11T01:28:25.000-05:00",
+      "excerpt": "An advanced systems masterclass bridging the physics of memory bandwidth, paged KV-cache architectures, and lossless speculative decoding into a high-throughput LLM inference runtime.",
+      "image": "/content/images/4bf08f0069d77c1c.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/09/latent_inference.webp"
+    },
+    {
+      "id": "6aa39a81eb425c00014edbfb",
+      "title": "The Mathematics of Acoustic Form: A Masterclass in Real-Time DSP, Physical Sound Synthesis, and Web Audio Architecture",
+      "url": "https://henrywithu.com/the-mathematics-of-acoustic-form-a-masterclass-in-real-time-dsp-physical-sound-synthesis-and-web-audio-architecture/",
+      "date": "2026-09-11T01:08:05.000-05:00",
+      "excerpt": "An advanced masterclass bridging discrete signal theory, physical waveguide modeling, and lock-free AudioWorklet DSP into a production-grade sound synthesis engine for the modern web.",
+      "image": "/content/images/3f11ea7e9ffcb7ad.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/09/acoustic_dsp_hero.webp"
+    },
+    {
+      "id": "6aa2cf7aeb425c00014edbe2",
+      "title": "Eulerian Fluid Fields, In-Flight Multisample Resolves, and Spatiotemporal Hilbert Grain: Engineering the Celestial Spatial World of TRAPNEST ADVENTURE",
+      "url": "https://henrywithu.com/eulerian-fluid-fields-in-flight-multisample-resolves-and-spatiotemporal-hilbert-grain-engineering-the-celestial-spatial-world-of-trapnest-adventure/",
+      "date": "2026-09-10T10:42:20.000-05:00",
+      "excerpt": "An interactive WebGL odyssey through shadow, starlight, and relativistic motion: engineering real-time Eulerian Navier–Stokes grids, mid-draw MSAA framebuffer resolves, GPGPU ping-pong dynamics, and bit-twiddled Hilbert space-filling grain.",
+      "image": "/content/images/fe9c48f18646d551.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/09/adventure.webp"
+    },
+    {
+      "id": "6a9f707eeb425c00014edbba",
+      "title": "The Architecture of Light & Kinetic Form: A Masterclass in WebGL, GLSL, and Mathematical Motion",
+      "url": "https://henrywithu.com/the-architecture-of-light-kinetic-form-a-masterclass-in-webgl-glsl-and-mathematical-motion/",
+      "date": "2026-09-07T21:20:11.000-05:00",
+      "excerpt": "An advanced masterclass bridging mathematical kinematics, custom GLSL optics, and GPGPU simulations into a production-grade WebGL architecture for the modern web.",
+      "image": "/content/images/555f6e9a1d14c2a1.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/09/arch.webp"
+    },
+    {
+      "id": "6a9ec596eb425c00014edb98",
+      "title": "Gaussian Covariance Splats, Second-Order Kinetic Limbs, and Raymarched SDF Penumbras: Engineering the Satirical Spatial World of TRAPNEST HOLDER",
+      "url": "https://henrywithu.com/gaussian-covariance-splats-second-order-kinetic-limbs-and-raymarched-sdf-penumbras-engineering-the-satirical-spatial-world-of-trapnest-holder/",
+      "date": "2026-09-07T09:17:44.000-05:00",
+      "excerpt": "A physical product, reimagined for the AI era: the world's most unnecessarily sophisticated cork coaster.",
+      "image": "/content/images/42ba532fc78b4add.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/09/holder.webp"
+    },
+    {
+      "id": "6a9a9f18eb425c00014edb7b",
+      "title": "Eulerian Fluid Fields, Ballistic Ribbon Kinematics, and Multi-Pass Kawase Refraction: Engineering the Sacred Spatial World of Trapnest Spirit",
+      "url": "https://henrywithu.com/eulerian-fluid-fields-ballistic-ribbon-kinematics-and-multi-pass-kawase-refraction-engineering-the-sacred-spatial-world-of-trapnest-spirit/",
+      "date": "2026-09-04T05:37:25.000-05:00",
+      "excerpt": "Bridging illustrated editorial narrative, real-time Navier-Stokes fluid dynamics, ballistic ribbon kinetics, and physical glass optics into an interactive WebGL pilgrimage.",
+      "image": "/content/images/d3b6c8301a5c880e.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/09/spirit.webp"
+    },
+    {
+      "id": "6a98c920eb425c00014edb62",
+      "title": "Asymmetric Ribbon Splines, Packed-Alpha GLSL Compositing, and Farthest-Side Kinematics: Engineering the Wabi-Sabi Spatial World of Trapnest Imperfection",
+      "url": "https://henrywithu.com/asymmetric-ribbon-splines-packed-alpha-glsl-compositing-and-farthest-side-kinematics-engineering-the-wabi-sabi-spatial-world-of-trapnest-imperfection/",
+      "date": "2026-09-02T20:12:12.000-05:00",
+      "excerpt": "Translating the Japanese philosophy of wabi-sabi into an interactive digital narrative.",
+      "image": "/content/images/dc64d7fbe0bb4161.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/09/imperfection.webp"
+    },
+    {
+      "id": "6a982ccdeb425c00014edb45",
+      "title": "Fractal Apertures, Quartic Inertia, and Hand-Drawn Compositing: Engineering the Illustrated Spatial World of TRAPNEST FIND",
+      "url": "https://henrywithu.com/fractal-apertures-quartic-inertia-and-hand-drawn-compositing-engineering-the-illustrated-spatial-world-of-trapnest-find/",
+      "date": "2026-09-02T09:05:19.000-05:00",
+      "excerpt": "An illustrated discovery world powered by PixiJS, quartic camera physics, and procedural GLSL aperture shaders.",
+      "image": "/content/images/810fc0a2308b0a69.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/09/find.webp"
+    },
+    {
+      "id": "6a96ae6ceb425c00014edb16",
+      "title": "Capillary Diffusion, GPGPU Fluid Dynamics, and 3D Color LUTs: Engineering the Living Watercolor Canvas of Trapnest Paint",
+      "url": "https://henrywithu.com/capillary-diffusion-gpgpu-fluid-dynamics-and-3d-color-luts-engineering-the-living-watercolor-canvas-of-trapnest-paint/",
+      "date": "2026-09-01T05:54:07.000-05:00",
+      "excerpt": "Begin here, where color remembers the shape of a feeling, and every quiet page leans toward you.",
+      "image": "/content/images/275d23e6cca5a799.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/09/paint.webp"
+    },
+    {
+      "id": "6a919743eb425c00014edac9",
+      "title": "Spatial Constellations, Screen-Space Fluid Dynamics, and Instanced Point Clouds: Engineering Trapnest VVerse",
+      "url": "https://henrywithu.com/spatial-constellations-screen-space-fluid-dynamics-and-instanced-point-clouds-engineering-trapnest-vverse/",
+      "date": "2026-08-28T09:14:29.000-05:00",
+      "excerpt": "An interactive 3D WebGL index orchestrating thirteen canonical essays into an explorable particle constellation powered by real-time GPU fluid dynamics, instanced point clouds, and custom optical shaders.",
+      "image": "/content/images/0c7dc8f670dc11ba.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/08/vverse.webp"
+    },
+    {
+      "id": "6a8efac9eb425c00014edab1",
+      "title": "Volumetric Caustics, Particle Typography, and Instanced Glass Matrices: Engineering the Spatial Web of Mesh",
+      "url": "https://henrywithu.com/volumetric-caustics-particle-typography-and-instanced-glass-matrices-engineering-the-spatial-web-of-mesh/",
+      "date": "2026-08-26T09:42:37.000-05:00",
+      "excerpt": "An interactive 3D WebGL journey weaving procedural terrain, particle typography, and instanced glass.",
+      "image": "/content/images/4c539991a0fcd49a.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/08/mesh.webp"
+    },
+    {
+      "id": "6a8c0937eb425c00014eda9a",
+      "title": "Temporal Orbits, GPGPU Holograms, and Procedural Atmospheres: Engineering the Spatial Time Archive of Trapnest Plaza",
+      "url": "https://henrywithu.com/temporal-orbits-gpgpu-holograms-and-procedural-atmospheres-engineering-the-spatial-time-archive-of-trapnest-plaza/",
+      "date": "2026-08-24T04:08:55.000-05:00",
+      "excerpt": "An interactive 3D WebGL spatial journal and time archive exploring 100 years across six distinct eras",
+      "image": "/content/images/087820bcf17bd0a9.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/08/plaza.webp"
+    },
+    {
+      "id": "6a7dddbeeb425c00014eda7d",
+      "title": "Precision, Springs, and Shaders: Building a 60fps WebGL Arcade Engine and the Launch of Trapnest Egghunt",
+      "url": "https://henrywithu.com/precision-springs-and-shaders-building-a-60fps-webgl-arcade-engine-and-the-launch-of-trapnest-egghunt/",
+      "date": "2026-08-13T10:11:27.000-05:00",
+      "excerpt": "Trapnest Egghunt brings high-octane 60fps WebGL arcade platforming to the browser.",
+      "image": "/content/images/fe0bcf4c4dd1df65.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/08/egghunt.webp"
+    },
+    {
+      "id": "6a7db7f4eb425c00014eda69",
+      "title": "Vintage Nostalgia, Multimodal Gemini AI, and the Interactive 3D Canvas: Engineering Trapnest Locket",
+      "url": "https://henrywithu.com/vintage-nostalgia-multimodal-gemini-ai-and-the-interactive-3d-canvas-engineering-trapnest-locket/",
+      "date": "2026-08-13T07:28:44.000-05:00",
+      "excerpt": "Introducing Trapnest Locket: an interactive 3D WebGL Valentine experience combining multimodal Gemini AI portrait editing, Japanese voice narration, retro CRT nostalgia, and dynamic Spline texture projection.",
+      "image": "/content/images/ff9687e626c6ba2d.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/08/locket-1.webp"
+    },
+    {
+      "id": "6a7bf44feb425c00014eda4d",
+      "title": "Speed, Shaders, and Silence: Building a 60fps WebGL Arcade Engine and the Launch of Trapnest Turbo",
+      "url": "https://henrywithu.com/speed-shaders-and-silence-building-a-60fps-webgl-arcade-engine-and-the-launch-of-trapnest-turbo/",
+      "date": "2026-08-11T23:21:13.000-05:00",
+      "excerpt": "Trapnest Turbo brings high-octane 60fps WebGL racing to the browser with procedural biomes, custom GLSL shaders, dynamic Web Audio, and ultra-responsive physics.",
+      "image": "/content/images/c164040e8d8bf661.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/08/turbo.webp"
+    },
+    {
+      "id": "6a795217eb425c00014eda37",
+      "title": "Real-Time WebGL Arcade, Gamified Lookbook Engineering, and the Launch of Tiebreak",
+      "url": "https://henrywithu.com/real-time-webgl-arcade-gamified-lookbook-engineering-and-the-launch-of-tiebreak/",
+      "date": "2026-08-09T23:25:06.000-05:00",
+      "excerpt": "Introducing Tiebreak: an interactive 3D WebGL tennis game",
+      "image": "/content/images/83c522bfacc57f71.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/08/tiebreak.webp"
+    },
+    {
+      "id": "6a7067ff8a5314000125ae26",
+      "title": "Beyond the Horizon: Real-Time 3D WebGL Flight, Interactive Web Audio, and the Launch of Journey",
+      "url": "https://henrywithu.com/beyond-the-horizon-real-time-3d-webgl-flight-interactive-web-audio-and-the-launch-of-journey/",
+      "date": "2026-08-03T05:07:52.000-05:00",
+      "excerpt": "An interactive 3D WebGL flight experience guiding a crimson airship through dreamlike cloudscapes, frozen lakes, and starry nights",
+      "image": "/content/images/525c8f1edc9fcaf7.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/08/journey.webp"
+    },
+    {
+      "id": "6a67fd918a5314000125ae09",
+      "title": "Creating the Unexpected: Interactive Spatial Motion, 3D Media Spheres, and the Launch of World",
+      "url": "https://henrywithu.com/creating-the-unexpected-interactive-spatial-motion-3d-media-spheres-and-the-launch-of-world/",
+      "date": "2026-07-27T20:00:53.000-05:00",
+      "excerpt": "Introducing World: an interactive spatial canvas blending real-time WebGL architectural environments, draggable 3D media spheres, and fluid motion design.",
+      "image": "/content/images/eed871ad0d0630b4.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/07/world-1.webp"
+    },
+    {
+      "id": "6a60e1f18a5314000125adeb",
+      "title": "Orchestrating L.A.S.T.: Architecture, Engineering, and the Launch of Luna",
+      "url": "https://henrywithu.com/orchestrating-l-a-s-t-architecture-engineering-and-the-launch-of-luna/",
+      "date": "2026-07-22T10:33:16.000-05:00",
+      "excerpt": "Introducing Luna: a living 3D interactive canvas synthesizing Lifestyle, Art, Science, and Technology (L.A.S.T.).",
+      "image": "/content/images/96026372b71b239c.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/07/luna.webp"
+    },
+    {
+      "id": "6a565b558a5314000125adc5",
+      "title": "Hello Again: Stepping into New Territories & The Launch of Showcase",
+      "url": "https://henrywithu.com/hello-again-stepping-into-new-territories-the-launch-of-showcase/",
+      "date": "2026-07-14T10:55:22.000-05:00",
+      "excerpt": "After a brief hiatus navigating personal affairs and exploring the rapid evolution of AI, I'm back to introduce a brand-new, elegant showcase site displaying my latest cutting-edge projects and ideas.",
+      "image": "/content/images/8fbc40070bc583ad.webp",
+      "sourceImage": "https://henrywithu.com/content/images/2026/07/last-showcase-1.webp"
+    }
+  ]
+}

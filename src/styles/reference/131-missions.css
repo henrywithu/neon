@@ -1,0 +1,9 @@
+.phone-friends {
+  position: relative;
+  display: grid;
+  place-items: center;
+  color: #c084fc;
+}
+.phone-friends .ph-icon {
+  font-size: 34px;
+}

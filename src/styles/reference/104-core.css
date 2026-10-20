@@ -1,0 +1,10 @@
+@keyframes sigilIconIn {
+  0% {
+    transform: scale(1.6) rotate(-25deg);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}

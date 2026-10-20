@@ -1,0 +1,3 @@
+html.touch-drive-active body.mission-running .drift-hud {
+  top: calc(var(--td-top) + 52px);
+}

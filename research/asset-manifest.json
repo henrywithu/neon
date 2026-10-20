@@ -622,5 +622,1259 @@
     "bytes": 3951325,
     "sha256": "9932a506c8331239f0727d34fb81dc0f7a2fbda110f465a1f2bc281c40e45e5e",
     "source": "https://www.threejspunk.com/audio/radio/synthwave-the-mountain.mp3"
+  },
+  {
+    "path": "/audio/voice/fuse/423b70e6.mp3",
+    "bytes": 13417,
+    "sha256": "40a3bc5b4a1e3ea568bc42875284e667c86b0e2ccff828ca5f549d6ed88fac09",
+    "source": "https://www.threejspunk.com/audio/voice/fuse/423b70e6.mp3"
+  },
+  {
+    "path": "/audio/voice/fuse/65b216e6.mp3",
+    "bytes": 20940,
+    "sha256": "468a5f2e95cadcff17f776ec29d5fbc3533d0de838751e8606f8970be69539d8",
+    "source": "https://www.threejspunk.com/audio/voice/fuse/65b216e6.mp3"
+  },
+  {
+    "path": "/audio/voice/fuse/1e89498b.mp3",
+    "bytes": 41838,
+    "sha256": "4c9a4e636eac55bd5865ba0b5a9877bd5aac2161b5ab07407db423f91b23ecd3",
+    "source": "https://www.threejspunk.com/audio/voice/fuse/1e89498b.mp3"
+  },
+  {
+    "path": "/audio/voice/fuse/781116a1.mp3",
+    "bytes": 12790,
+    "sha256": "11ebda963952545db3e75710de26fc9c94bbf45d20c30b118ce6ea346aa795fb",
+    "source": "https://www.threejspunk.com/audio/voice/fuse/781116a1.mp3"
+  },
+  {
+    "path": "/audio/voice/fuse/28b8ee84.mp3",
+    "bytes": 16343,
+    "sha256": "6f7ed80ce5b0c150fa977e8cace6d0ba0cd20e4921db29936573755e6321f440",
+    "source": "https://www.threejspunk.com/audio/voice/fuse/28b8ee84.mp3"
+  },
+  {
+    "path": "/audio/voice/fuse/526b3f86.mp3",
+    "bytes": 12790,
+    "sha256": "8cf6c552e898e0e63ac21fd12a92595c1b522c15a402108546af678bc525f8de",
+    "source": "https://www.threejspunk.com/audio/voice/fuse/526b3f86.mp3"
+  },
+  {
+    "path": "/audio/voice/fuse/1b501314.mp3",
+    "bytes": 15925,
+    "sha256": "3016b7284aeb35a9e68f90a74ce648d5ba934b5cdd985561d81d1dd4e8c5f0fc",
+    "source": "https://www.threejspunk.com/audio/voice/fuse/1b501314.mp3"
+  },
+  {
+    "path": "/audio/voice/fuse/07de7644.mp3",
+    "bytes": 70051,
+    "sha256": "8933578139a941a72739f3a4350f3f10570a3c8484b4ec1cefdeef863e3a7341",
+    "source": "https://www.threejspunk.com/audio/voice/fuse/07de7644.mp3"
+  },
+  {
+    "path": "/audio/voice/fuse/90848abf.mp3",
+    "bytes": 27837,
+    "sha256": "394686bce079940a726b049756bcab1599de266fdd9616ea0b3de1a2d0a64565",
+    "source": "https://www.threejspunk.com/audio/voice/fuse/90848abf.mp3"
+  },
+  {
+    "path": "/audio/voice/fuse/d3a31077.mp3",
+    "bytes": 30972,
+    "sha256": "92d6548914b2a9d28779b106bbd621bc8fc5cba8c8015d7a9f283cb224239e69",
+    "source": "https://www.threejspunk.com/audio/voice/fuse/d3a31077.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/0587f788.mp3",
+    "bytes": 30763,
+    "sha256": "687c302e2649afaa1dc44351c63db9b5d15454fb7931d33d0a70ea2265e572b4",
+    "source": "https://www.threejspunk.com/audio/voice/hex/0587f788.mp3"
+  },
+  {
+    "path": "/audio/voice/fuse/cf3dff97.mp3",
+    "bytes": 74021,
+    "sha256": "775adde8a83c3a6c3147a6e142ff9b8f840d6dd19c5d86d0f5f80b971bbce957",
+    "source": "https://www.threejspunk.com/audio/voice/fuse/cf3dff97.mp3"
+  },
+  {
+    "path": "/audio/voice/fuse/91559bc0.mp3",
+    "bytes": 51034,
+    "sha256": "4b13b803012db6d45212ce945c3256942cce0bd0e2aea454c1f77c87910765a9",
+    "source": "https://www.threejspunk.com/audio/voice/fuse/91559bc0.mp3"
+  },
+  {
+    "path": "/audio/voice/fuse/879ee08f.mp3",
+    "bytes": 31389,
+    "sha256": "55428b4d09ab5c5eff05f2bdc4694ad65b810c158fee15f9bdf6b4aa42ab55fa",
+    "source": "https://www.threejspunk.com/audio/voice/fuse/879ee08f.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/1541a947.mp3",
+    "bytes": 18851,
+    "sha256": "9b0001b9373a2f7e6f521ee4492087f844074926d8cc6a516430cde58653b427",
+    "source": "https://www.threejspunk.com/audio/voice/hex/1541a947.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/0450abc2.mp3",
+    "bytes": 35778,
+    "sha256": "bad8fbb4f884cbc11107d92078771f6c4006ad3b38ecf4ad042120e244459a9e",
+    "source": "https://www.threejspunk.com/audio/voice/hex/0450abc2.mp3"
+  },
+  {
+    "path": "/audio/voice/fuse/dcfe9de7.mp3",
+    "bytes": 27837,
+    "sha256": "6aa9d37eed48a8d703bf09a22b1e658e4b1c44406ed599c4d8b39ac053d44a03",
+    "source": "https://www.threejspunk.com/audio/voice/fuse/dcfe9de7.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/166df018.mp3",
+    "bytes": 20314,
+    "sha256": "038581509eeee07b4c4f45087c8298f55fe9e68ca37830013f6e09647d9b4c00",
+    "source": "https://www.threejspunk.com/audio/voice/hex/166df018.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/2156e8ad.mp3",
+    "bytes": 40794,
+    "sha256": "ef001c2646aa2c9655061ee4437c95a0bbf5b86c84d55a81fcd0c06657c97f22",
+    "source": "https://www.threejspunk.com/audio/voice/hex/2156e8ad.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/0f267a1a.mp3",
+    "bytes": 22821,
+    "sha256": "1af831513fa12742fb0022ec376ed951501dd02c4a7fdeec9e2b8023438142c6",
+    "source": "https://www.threejspunk.com/audio/voice/hex/0f267a1a.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/06550410.mp3",
+    "bytes": 21358,
+    "sha256": "7ac567af5698c962fdacd466d6b7ccda074ba5f5aff72b4159f00513b54785bc",
+    "source": "https://www.threejspunk.com/audio/voice/hex/06550410.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/1f33d8b0.mp3",
+    "bytes": 25538,
+    "sha256": "b7a9612d1e7a617ef58ce1ffdbed0142391b9b1de116ccc23e9b2d6ec525b044",
+    "source": "https://www.threejspunk.com/audio/voice/hex/1f33d8b0.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/2b8e17bc.mp3",
+    "bytes": 32434,
+    "sha256": "7c5d82f1bd93ec36b03b313ee83da7f90075e5f6b1bbdb50f087000bd56dddc5",
+    "source": "https://www.threejspunk.com/audio/voice/hex/2b8e17bc.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/36f7a2e6.mp3",
+    "bytes": 32016,
+    "sha256": "38803b7e4c3b094d6d11ce22a269703e9b1bb925703b5f07347ff72b368231d1",
+    "source": "https://www.threejspunk.com/audio/voice/hex/36f7a2e6.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/252b1fbb.mp3",
+    "bytes": 42256,
+    "sha256": "0d3ac5a168191ad05a2f99516f2b821cbcdb0a4e00d1df4db7a2c5d9b28434d7",
+    "source": "https://www.threejspunk.com/audio/voice/hex/252b1fbb.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/397feda1.mp3",
+    "bytes": 25538,
+    "sha256": "79dff5b723be5e38c95773e82b3d99a5c4c784662c7536d3cfb8286cd9785c08",
+    "source": "https://www.threejspunk.com/audio/voice/hex/397feda1.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/23f45b68.mp3",
+    "bytes": 63781,
+    "sha256": "c49612f025cc190008708453f21c983bd4a5adf4551472a96eeceacd6b40b28e",
+    "source": "https://www.threejspunk.com/audio/voice/hex/23f45b68.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/29a20da1.mp3",
+    "bytes": 22194,
+    "sha256": "78ec8c0cd08ab0546a922548090817d92386b5e19fc978810b2d06029e9045b3",
+    "source": "https://www.threejspunk.com/audio/voice/hex/29a20da1.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/2b9fbc5e.mp3",
+    "bytes": 17806,
+    "sha256": "125461ab652d84416426a964c7238470957e88f2e02a8d71b1b81c458b790c6b",
+    "source": "https://www.threejspunk.com/audio/voice/hex/2b9fbc5e.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/2c39354c.mp3",
+    "bytes": 24493,
+    "sha256": "721f8796e820ad90ecd5bb0d2d47a354afd68d4ebe56e978230285ba0d469a34",
+    "source": "https://www.threejspunk.com/audio/voice/hex/2c39354c.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/4d2d30c5.mp3",
+    "bytes": 20523,
+    "sha256": "783e5b00d21bd993c90e67b1e0cb7a7e954cc25c20eea2761d5d24895845c51e",
+    "source": "https://www.threejspunk.com/audio/voice/hex/4d2d30c5.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/3b59a7ef.mp3",
+    "bytes": 18851,
+    "sha256": "65cab9b16b6744921e5c2f7f5dea5f483cd67633fd2fd024dd3391c0ad6afe04",
+    "source": "https://www.threejspunk.com/audio/voice/hex/3b59a7ef.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/5255debd.mp3",
+    "bytes": 18224,
+    "sha256": "8f96d2b16ec92b44180639c872207dc264c83d9e1609b6ff0b5d080f97374b83",
+    "source": "https://www.threejspunk.com/audio/voice/hex/5255debd.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/5dd27bda.mp3",
+    "bytes": 23657,
+    "sha256": "e42cde2ca3dbdb15dba4119aaefb7536ca73e3e706e394d535371f695e16a549",
+    "source": "https://www.threejspunk.com/audio/voice/hex/5dd27bda.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/4bea3659.mp3",
+    "bytes": 27837,
+    "sha256": "768fdbc2e6e004521ad8bb0a5549d43872cc8841898c18bf7ae3d87f9610f548",
+    "source": "https://www.threejspunk.com/audio/voice/hex/4bea3659.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/64a00689.mp3",
+    "bytes": 21985,
+    "sha256": "593d5c42c0195a10a42666cdc550de8eb6592961a12bdc2f0676f74697069db8",
+    "source": "https://www.threejspunk.com/audio/voice/hex/64a00689.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/42069b9f.mp3",
+    "bytes": 20523,
+    "sha256": "732da388610d4be7c6d9978b0fa05db84d6ab3beb412c784e57cbbf56cfde400",
+    "source": "https://www.threejspunk.com/audio/voice/hex/42069b9f.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/68731bce.mp3",
+    "bytes": 23448,
+    "sha256": "26837fa8a627d56d52552e7d091c6e7972c5cff947252ffd8bfcff6716834b1d",
+    "source": "https://www.threejspunk.com/audio/voice/hex/68731bce.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/596be9c0.mp3",
+    "bytes": 28464,
+    "sha256": "d6647a4449ea73a9a18e379e421e1f154ce843c2b020ea5d26e3b6ddde33b699",
+    "source": "https://www.threejspunk.com/audio/voice/hex/596be9c0.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/79225494.mp3",
+    "bytes": 20314,
+    "sha256": "6da88d5b8800c722e683cb5d0ecfb99639adf48978b3467f9faacc89ea5690e6",
+    "source": "https://www.threejspunk.com/audio/voice/hex/79225494.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/7e83bd26.mp3",
+    "bytes": 21567,
+    "sha256": "e0e75c1e4227eecd6e0e1bd871a9e495aa22f958a46378ebd71916ef57a99d03",
+    "source": "https://www.threejspunk.com/audio/voice/hex/7e83bd26.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/6b27a1c7.mp3",
+    "bytes": 27210,
+    "sha256": "cfdef9e60f73e75ec8d5fb5fa978ef7858aabe7d26f03a501a256fb6ef9054cd",
+    "source": "https://www.threejspunk.com/audio/voice/hex/6b27a1c7.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/82895f32.mp3",
+    "bytes": 47272,
+    "sha256": "fcc6f65dcc1296179e34035297c669e85cb7429a47cd700a4fc2be8be31a61e2",
+    "source": "https://www.threejspunk.com/audio/voice/hex/82895f32.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/6cfdd8bd.mp3",
+    "bytes": 29091,
+    "sha256": "7f8fa63ff52bfcffd3880c748dc59c3ce9215d7b16fb8c097f21a384d8bc907e",
+    "source": "https://www.threejspunk.com/audio/voice/hex/6cfdd8bd.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/8096cb20.mp3",
+    "bytes": 25538,
+    "sha256": "839d699108df37b6cd543250d773039ca0bbf4f9c7ea88ce2de499006437dca9",
+    "source": "https://www.threejspunk.com/audio/voice/hex/8096cb20.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/70dce58f.mp3",
+    "bytes": 20940,
+    "sha256": "06192d41eafedabd233165042dea7ae0953670647d606ed8888ef896bd4b174d",
+    "source": "https://www.threejspunk.com/audio/voice/hex/70dce58f.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/75a4da47.mp3",
+    "bytes": 28255,
+    "sha256": "b650b11685951726c5bb017762cae34454faab5e55b1f3e7ff9ceb31c2d9d093",
+    "source": "https://www.threejspunk.com/audio/voice/hex/75a4da47.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/884ac450.mp3",
+    "bytes": 20732,
+    "sha256": "a696d08a56ef2e95a1e821841bd676ae9f84601d04ef1a420319c186e134bca3",
+    "source": "https://www.threejspunk.com/audio/voice/hex/884ac450.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/71d707a9.mp3",
+    "bytes": 33061,
+    "sha256": "0d66fcd8f510e745e44e7242f8d2adb6ce364e3f806473309fcdae35136c8517",
+    "source": "https://www.threejspunk.com/audio/voice/hex/71d707a9.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/8be052fa.mp3",
+    "bytes": 24702,
+    "sha256": "27775056e3cd8a0480a1616b41cc9defd706c5772926fd006742f6879cc837ca",
+    "source": "https://www.threejspunk.com/audio/voice/hex/8be052fa.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/8f325506.mp3",
+    "bytes": 26792,
+    "sha256": "d219a7863d1d731faa69fd14edf5356cbc7bd446a7a8cb1c780ee597d4a1fd7b",
+    "source": "https://www.threejspunk.com/audio/voice/hex/8f325506.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/8dd41128.mp3",
+    "bytes": 18015,
+    "sha256": "1cd123e4c2a105f2cfa4fb1e0caea62738fec682ea64b35ce56290e8914bcf8c",
+    "source": "https://www.threejspunk.com/audio/voice/hex/8dd41128.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/97acb2df.mp3",
+    "bytes": 23030,
+    "sha256": "d75480d9fed1ba62677260a73d214693004cdc8b5314e77f9649128fd5cc2c64",
+    "source": "https://www.threejspunk.com/audio/voice/hex/97acb2df.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/9c5edba3.mp3",
+    "bytes": 39958,
+    "sha256": "3f2b15269b7260aff009f709bfde20491ff83f3e9c1c1404df2dcdab25c3f0c4",
+    "source": "https://www.threejspunk.com/audio/voice/hex/9c5edba3.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/9a79db29.mp3",
+    "bytes": 24075,
+    "sha256": "7de4f238e2285cba7737fc6e6259e33b36b4e1ce50e7edf36848c704a44e8f31",
+    "source": "https://www.threejspunk.com/audio/voice/hex/9a79db29.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/abe05443.mp3",
+    "bytes": 24493,
+    "sha256": "fcd806ab0dea769085905e265bc0d32ac402fd0485897da88370c4c3de0e1c6c",
+    "source": "https://www.threejspunk.com/audio/voice/hex/abe05443.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/85b280c6.mp3",
+    "bytes": 36823,
+    "sha256": "04ce327a2671dbdadb956992b588945c48e7d2a909f161643c7a64984c9812de",
+    "source": "https://www.threejspunk.com/audio/voice/hex/85b280c6.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/b9527d2c.mp3",
+    "bytes": 25956,
+    "sha256": "b7f87920d053f5fab2341a4156fd7f27236362d74cd720dc7b48e2a81994283e",
+    "source": "https://www.threejspunk.com/audio/voice/hex/b9527d2c.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/9ed2a1e1.mp3",
+    "bytes": 22612,
+    "sha256": "60e2fdaca0e85283cf280248e0651cbb3402326972a6a96292123934b07689eb",
+    "source": "https://www.threejspunk.com/audio/voice/hex/9ed2a1e1.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/ccde8e89.mp3",
+    "bytes": 19687,
+    "sha256": "2dbcbfc76592d915ff23104416ca22c5972aded91cbb450b2924ab764a2102f5",
+    "source": "https://www.threejspunk.com/audio/voice/hex/ccde8e89.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/92331387.mp3",
+    "bytes": 22403,
+    "sha256": "11902606648e2d786f7848c6bb581a465b5586b75fd06ceb71b67dcc47c53a5c",
+    "source": "https://www.threejspunk.com/audio/voice/hex/92331387.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/b2afc644.mp3",
+    "bytes": 36823,
+    "sha256": "1c8a54457b823e7ee17d9e9bf15ee26d0161ebb32239d38433d0ffada38e5eec",
+    "source": "https://www.threejspunk.com/audio/voice/hex/b2afc644.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/b3eb4e5c.mp3",
+    "bytes": 22612,
+    "sha256": "8a2fd05b0ece893c1fe5a168366714e342d6ca2abc6a9b1e3cb575d95c754997",
+    "source": "https://www.threejspunk.com/audio/voice/hex/b3eb4e5c.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/c74215c8.mp3",
+    "bytes": 28464,
+    "sha256": "40abd8671c2fa4b716b54162bfcc002dd278707feb5e3fc5e5a2104d7ad45912",
+    "source": "https://www.threejspunk.com/audio/voice/hex/c74215c8.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/b0700375.mp3",
+    "bytes": 19687,
+    "sha256": "964cb7c447a4aa3073be0367b3c696e74d60f5f8de1402bb85fd3e362597615f",
+    "source": "https://www.threejspunk.com/audio/voice/hex/b0700375.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/d3135f7c.mp3",
+    "bytes": 33688,
+    "sha256": "5ea3f0c7c3669b921a9febc886a1789a3c16398a190247ba01d6371121f86477",
+    "source": "https://www.threejspunk.com/audio/voice/hex/d3135f7c.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/f5065638.mp3",
+    "bytes": 21567,
+    "sha256": "c219d4d627161a233f4fe001664127af661dcae73bab4b81cbf7e74ecd9ce7ec",
+    "source": "https://www.threejspunk.com/audio/voice/hex/f5065638.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/ea0d8ff3.mp3",
+    "bytes": 21985,
+    "sha256": "47f0e359bd88319093c44c33d496e89db7c516f8c374bd0dd953318a77bd16fa",
+    "source": "https://www.threejspunk.com/audio/voice/hex/ea0d8ff3.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/e31a0729.mp3",
+    "bytes": 19478,
+    "sha256": "590f60fde04c624b98eacd3372bc6bd6d3451383317c41346d5caebab2773ded",
+    "source": "https://www.threejspunk.com/audio/voice/hex/e31a0729.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/e57d642a.mp3",
+    "bytes": 21567,
+    "sha256": "6912c53cf5d9455563cf86c077469e51e8defd07d220f209c46635534f130c9d",
+    "source": "https://www.threejspunk.com/audio/voice/hex/e57d642a.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/e5a7b96c.mp3",
+    "bytes": 13835,
+    "sha256": "26a8e8aa83937508e366c67899b322a553eea39c1bb05bf9058613b06f7ef793",
+    "source": "https://www.threejspunk.com/audio/voice/hex/e5a7b96c.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/ff6df04f.mp3",
+    "bytes": 23448,
+    "sha256": "86a31f03b8b805193732cf5c4979c5dad8727a991d4312b187e52e36a3469cb2",
+    "source": "https://www.threejspunk.com/audio/voice/hex/ff6df04f.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/eeca935d.mp3",
+    "bytes": 33897,
+    "sha256": "3c0cc8c73314ee1e2ca13cbecc8b2971ca3dc0a5d5b78dafe852878bd3df2ffc",
+    "source": "https://www.threejspunk.com/audio/voice/hex/eeca935d.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/f538fe09.mp3",
+    "bytes": 19687,
+    "sha256": "194164286f65d81411bfd59bc4760305b81eb69a7123f87cd24e25f2ce9f5244",
+    "source": "https://www.threejspunk.com/audio/voice/hex/f538fe09.mp3"
+  },
+  {
+    "path": "/audio/voice/lux/29a5cb43.mp3",
+    "bytes": 39540,
+    "sha256": "5ecbd6764489ac85c083de17d2c318ac2d2fcec861bf5a621abd6b5f20602d7b",
+    "source": "https://www.threejspunk.com/audio/voice/lux/29a5cb43.mp3"
+  },
+  {
+    "path": "/audio/voice/lux/3ec354c3.mp3",
+    "bytes": 24911,
+    "sha256": "06a74855660a8105f5ba631bc8d679cd4bd3890b579427a651bc61eda97d46be",
+    "source": "https://www.threejspunk.com/audio/voice/lux/3ec354c3.mp3"
+  },
+  {
+    "path": "/audio/voice/hex/fe5bb127.mp3",
+    "bytes": 41629,
+    "sha256": "74cc343616c02133ae547f35c9dcb3edd7944142219e0144b03980b42270af4f",
+    "source": "https://www.threejspunk.com/audio/voice/hex/fe5bb127.mp3"
+  },
+  {
+    "path": "/audio/voice/lux/2459d76c.mp3",
+    "bytes": 50407,
+    "sha256": "60af797cfd7d3635075f23f8ee3638166120c0809be462b049a87804f831ce77",
+    "source": "https://www.threejspunk.com/audio/voice/lux/2459d76c.mp3"
+  },
+  {
+    "path": "/audio/voice/lux/09db91f0.mp3",
+    "bytes": 66916,
+    "sha256": "b149dda81ebec94bf2cdbfae0853208066a54991d82f40805ef7a2a59a401599",
+    "source": "https://www.threejspunk.com/audio/voice/lux/09db91f0.mp3"
+  },
+  {
+    "path": "/audio/voice/lux/15b9b561.mp3",
+    "bytes": 53123,
+    "sha256": "f8b8d86f857b329746fab8a8f572378d4b051d7d163287497f2a5a41ed723a3d",
+    "source": "https://www.threejspunk.com/audio/voice/lux/15b9b561.mp3"
+  },
+  {
+    "path": "/audio/voice/lux/3eda9e0f.mp3",
+    "bytes": 24493,
+    "sha256": "6e0d4cd206bf75dce539798edb8f4a74a0ff5a0c50e115c5f354c8c0d8c60c29",
+    "source": "https://www.threejspunk.com/audio/voice/lux/3eda9e0f.mp3"
+  },
+  {
+    "path": "/audio/voice/lux/29925fc6.mp3",
+    "bytes": 27837,
+    "sha256": "efe0ffbdb34c8af944d2231a0a3b2ac23d9d8bfb2129631f592c4ea5aebbdcb8",
+    "source": "https://www.threejspunk.com/audio/voice/lux/29925fc6.mp3"
+  },
+  {
+    "path": "/audio/voice/lux/c19b7696.mp3",
+    "bytes": 21567,
+    "sha256": "1fdcaa1a86a6aefc37c55d10b8f8e2683876efafa724f282ecfb8fa21e64cbf9",
+    "source": "https://www.threejspunk.com/audio/voice/lux/c19b7696.mp3"
+  },
+  {
+    "path": "/audio/voice/lux/89d80f3a.mp3",
+    "bytes": 16134,
+    "sha256": "2dafa2f7209f6a07cc323912150fb28274c5ee0d3b9f17c002686e7735228a9c",
+    "source": "https://www.threejspunk.com/audio/voice/lux/89d80f3a.mp3"
+  },
+  {
+    "path": "/audio/voice/lux/e735a539.mp3",
+    "bytes": 10283,
+    "sha256": "38b504debc40dd7f4b24ed917e47938677f48e8fe1adf3b522d9c51df2fdc8dc",
+    "source": "https://www.threejspunk.com/audio/voice/lux/e735a539.mp3"
+  },
+  {
+    "path": "/audio/voice/lux/e7c12864.mp3",
+    "bytes": 14253,
+    "sha256": "d8f4ed28c1f46cd2649bac5253687da03bb3e4cd1a8da5709e767142534daf66",
+    "source": "https://www.threejspunk.com/audio/voice/lux/e7c12864.mp3"
+  },
+  {
+    "path": "/audio/voice/lux/f0ef45b9.mp3",
+    "bytes": 69215,
+    "sha256": "d189723da76071f94ca7c16d19096c7d96ba0cd7c0296fcca5bf223ab5831c8f",
+    "source": "https://www.threejspunk.com/audio/voice/lux/f0ef45b9.mp3"
+  },
+  {
+    "path": "/audio/voice/lux/4b1d72b7.mp3",
+    "bytes": 11954,
+    "sha256": "df2cabb7e93a3866d75b13358207c4fea68d0d1c0f8ae242f25c843112190e8b",
+    "source": "https://www.threejspunk.com/audio/voice/lux/4b1d72b7.mp3"
+  },
+  {
+    "path": "/audio/voice/nyx/64caa166.mp3",
+    "bytes": 16970,
+    "sha256": "d4d286e2c104f487f8a0a8c5045e8e2ba491318bb358d4dd231bfbd82a6c789c",
+    "source": "https://www.threejspunk.com/audio/voice/nyx/64caa166.mp3"
+  },
+  {
+    "path": "/audio/voice/lux/ee78b867.mp3",
+    "bytes": 59602,
+    "sha256": "73a8c3f01cffd3b87180fb06a25cb18165e3bebf6c83aa3aa107719045e4e7c1",
+    "source": "https://www.threejspunk.com/audio/voice/lux/ee78b867.mp3"
+  },
+  {
+    "path": "/audio/voice/lux/ab3b4b12.mp3",
+    "bytes": 28882,
+    "sha256": "55f2aaa44427b50c4feac539cbcd38c0ea15f3e0fa3ee1f63610743be42cb8cd",
+    "source": "https://www.threejspunk.com/audio/voice/lux/ab3b4b12.mp3"
+  },
+  {
+    "path": "/audio/voice/lux/b29c04c4.mp3",
+    "bytes": 11745,
+    "sha256": "830b1f4c571327ceb625b428a6f37f8ae1d83682ff60e4c1b450c9a3e3ec5872",
+    "source": "https://www.threejspunk.com/audio/voice/lux/b29c04c4.mp3"
+  },
+  {
+    "path": "/audio/voice/nyx/81a62bbf.mp3",
+    "bytes": 10492,
+    "sha256": "31c017b09789a596992c1c3d79159b1c8a1b93d765759f8e4d23ece271c9fbf2",
+    "source": "https://www.threejspunk.com/audio/voice/nyx/81a62bbf.mp3"
+  },
+  {
+    "path": "/audio/voice/nyx/f11a39d3.mp3",
+    "bytes": 16761,
+    "sha256": "ccd5d2d73c678e5f41c2b55d49221e439d2533b48be420c1554e281600b58174",
+    "source": "https://www.threejspunk.com/audio/voice/nyx/f11a39d3.mp3"
+  },
+  {
+    "path": "/audio/voice/nyx/aee1915d.mp3",
+    "bytes": 104532,
+    "sha256": "690eae1f496f2f2e3c7ce2e277ff063602b2e19b02fda8355cf26c7880f78037",
+    "source": "https://www.threejspunk.com/audio/voice/nyx/aee1915d.mp3"
+  },
+  {
+    "path": "/audio/voice/nyx/bcae1c09.mp3",
+    "bytes": 70678,
+    "sha256": "5555a08d66be44c77bf80f99007017f0d19d7570ced48743a1b1a74433239288",
+    "source": "https://www.threejspunk.com/audio/voice/nyx/bcae1c09.mp3"
+  },
+  {
+    "path": "/audio/voice/nyx/521163a4.mp3",
+    "bytes": 35569,
+    "sha256": "65648dda3d9c79f3d860c916eb1391d845d4e7ac46c03d11ca7a3ebfefb5a04b",
+    "source": "https://www.threejspunk.com/audio/voice/nyx/521163a4.mp3"
+  },
+  {
+    "path": "/audio/voice/nyx/welcome-fresh.mp3",
+    "bytes": 29509,
+    "sha256": "26bd05627536956a22217775f77e94e07c821b9fab5eadaa09678598311c2c4b",
+    "source": "https://www.threejspunk.com/audio/voice/nyx/welcome-fresh.mp3"
+  },
+  {
+    "path": "/audio/voice/nyx/welcome-mixed.mp3",
+    "bytes": 49362,
+    "sha256": "95d4a97e4fce67faa513d5ad5cbaf1521f2367e937bde34c544e719a863a68ab",
+    "source": "https://www.threejspunk.com/audio/voice/nyx/welcome-mixed.mp3"
+  },
+  {
+    "path": "/audio/voice/nyx/6be5c81a.mp3",
+    "bytes": 131700,
+    "sha256": "51ab90377e6130082aaf9a53a69fad7f50181e0c09d4acf26aaa7905a1b8cc61",
+    "source": "https://www.threejspunk.com/audio/voice/nyx/6be5c81a.mp3"
+  },
+  {
+    "path": "/audio/voice/nyx/b6e2ae0a.mp3",
+    "bytes": 15507,
+    "sha256": "7f9c8fde527b1c0bad69cd74258a0701b578cc483ac50c5554bca798c04acfd1",
+    "source": "https://www.threejspunk.com/audio/voice/nyx/b6e2ae0a.mp3"
+  },
+  {
+    "path": "/audio/voice/nyx/7241775f.mp3",
+    "bytes": 64408,
+    "sha256": "953707db0584217d5e64bfd087239addd368ecdb65602cc708fc7b8f6e09449a",
+    "source": "https://www.threejspunk.com/audio/voice/nyx/7241775f.mp3"
+  },
+  {
+    "path": "/audio/voice/nyx/welcome-complete.mp3",
+    "bytes": 28882,
+    "sha256": "6ee3b37a705b97c9a9fd1a441904eeb77d1a548592165cdd373133123d43098f",
+    "source": "https://www.threejspunk.com/audio/voice/nyx/welcome-complete.mp3"
+  },
+  {
+    "path": "/audio/voice/pops/15790a59.mp3",
+    "bytes": 15089,
+    "sha256": "7f4325d544724c9274072946d72601983820ed43f2ebc0dce696014d489aa983",
+    "source": "https://www.threejspunk.com/audio/voice/pops/15790a59.mp3"
+  },
+  {
+    "path": "/audio/voice/nyx/welcome-races.mp3",
+    "bytes": 56676,
+    "sha256": "99679ba43dd2154bf99db810b9e81cf7d8eb5c2e665c2bf0d74f9a810613f132",
+    "source": "https://www.threejspunk.com/audio/voice/nyx/welcome-races.mp3"
+  },
+  {
+    "path": "/audio/voice/pops/3c4f69c7.mp3",
+    "bytes": 47272,
+    "sha256": "f296b8131409c08cf8981ef0ecd93dd5e77eaa9ac4f0bf2c0e7d39ed7d7809a7",
+    "source": "https://www.threejspunk.com/audio/voice/pops/3c4f69c7.mp3"
+  },
+  {
+    "path": "/audio/voice/pops/23f099a2.mp3",
+    "bytes": 51243,
+    "sha256": "e9c6546ba75757f56e447a22173a034fc5dadcf4c23e2d63167044748abc81dd",
+    "source": "https://www.threejspunk.com/audio/voice/pops/23f099a2.mp3"
+  },
+  {
+    "path": "/audio/voice/nyx/welcome-sigils.mp3",
+    "bytes": 53123,
+    "sha256": "9348c07c8a4fa01d74a33dfbcef4b085f57a2f3172b5cef6619ea1aa8f8f49b8",
+    "source": "https://www.threejspunk.com/audio/voice/nyx/welcome-sigils.mp3"
+  },
+  {
+    "path": "/audio/voice/pops/5b88e2c1.mp3",
+    "bytes": 15716,
+    "sha256": "d2c39a850c7cfe8c38628d9445b9c0a535fee2c4d3a5ab6d1f8aa8dc19aff881",
+    "source": "https://www.threejspunk.com/audio/voice/pops/5b88e2c1.mp3"
+  },
+  {
+    "path": "/audio/voice/pops/97d87208.mp3",
+    "bytes": 28882,
+    "sha256": "f83abcd77076fadc103268675a4191bd6238ec3d9a3484d8f76ba40c66dec8e5",
+    "source": "https://www.threejspunk.com/audio/voice/pops/97d87208.mp3"
+  },
+  {
+    "path": "/audio/voice/nyx/welcome-jobs.mp3",
+    "bytes": 49362,
+    "sha256": "ab2b9e09316a825e9a08574f8af09b1b7291b51228b09ea750b469377e3a8997",
+    "source": "https://www.threejspunk.com/audio/voice/nyx/welcome-jobs.mp3"
+  },
+  {
+    "path": "/audio/voice/pops/90c09589.mp3",
+    "bytes": 35360,
+    "sha256": "6b1a1fff03ab4a59915490c30bd6f46669eb4486e10f102d429e2541c5b23dd9",
+    "source": "https://www.threejspunk.com/audio/voice/pops/90c09589.mp3"
+  },
+  {
+    "path": "/audio/voice/pops/aeb7422b.mp3",
+    "bytes": 51660,
+    "sha256": "3c27fa2d551a48a8e918519f5e715c638d7f91cb0cf776c5b25194c7789829a5",
+    "source": "https://www.threejspunk.com/audio/voice/pops/aeb7422b.mp3"
+  },
+  {
+    "path": "/audio/voice/pops/bc4716d9.mp3",
+    "bytes": 12790,
+    "sha256": "d2c193aec1b35148690ec7f2158f727772ac3c01137c1178cc9dc5aa2a71cfa2",
+    "source": "https://www.threejspunk.com/audio/voice/pops/bc4716d9.mp3"
+  },
+  {
+    "path": "/audio/voice/pops/b822522c.mp3",
+    "bytes": 31807,
+    "sha256": "c0e4998ad5637c6de9aa4b408c90cbb70835b29a283c48939d060104c6654d65",
+    "source": "https://www.threejspunk.com/audio/voice/pops/b822522c.mp3"
+  },
+  {
+    "path": "/audio/voice/pops/a8f90789.mp3",
+    "bytes": 46645,
+    "sha256": "96970c824abda42fbc578fa8b7b46794556cda688fdafaea9b4edecc699f1042",
+    "source": "https://www.threejspunk.com/audio/voice/pops/a8f90789.mp3"
+  },
+  {
+    "path": "/audio/voice/pops/47fd0af4.mp3",
+    "bytes": 63154,
+    "sha256": "5d31e7459293f4b47559a39ad6408f58a39813d084051022a28b0f2da011692e",
+    "source": "https://www.threejspunk.com/audio/voice/pops/47fd0af4.mp3"
+  },
+  {
+    "path": "/audio/voice/pops/ff15eefe.mp3",
+    "bytes": 14044,
+    "sha256": "96557e1eff02b72aaebea63dae5e93431c282036de3752e8af824e284a27a712",
+    "source": "https://www.threejspunk.com/audio/voice/pops/ff15eefe.mp3"
+  },
+  {
+    "path": "/audio/voice/pops/d48233f1.mp3",
+    "bytes": 32225,
+    "sha256": "295085a655934494fa0b3be6fdfae612f3d369cacc2c37620a4144d5728eb51c",
+    "source": "https://www.threejspunk.com/audio/voice/pops/d48233f1.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/0c62120b.mp3",
+    "bytes": 47690,
+    "sha256": "560ee41618d94c3fb3412d4563c996c941fa76f322a324b49034274c1221407a",
+    "source": "https://www.threejspunk.com/audio/voice/rio/0c62120b.mp3"
+  },
+  {
+    "path": "/audio/voice/pops/46ab7b7e.mp3",
+    "bytes": 39331,
+    "sha256": "7d1ad4d85ed1f8b10823d06215d2b505ba5351c298a9ceb625e3ce6853f065fe",
+    "source": "https://www.threejspunk.com/audio/voice/pops/46ab7b7e.mp3"
+  },
+  {
+    "path": "/audio/voice/pops/a6d7fda3.mp3",
+    "bytes": 12372,
+    "sha256": "fe0a942f92d918f5f337876b3638f57d33465d586852aeded405d2d33de713e1",
+    "source": "https://www.threejspunk.com/audio/voice/pops/a6d7fda3.mp3"
+  },
+  {
+    "path": "/audio/voice/pops/cffb2ce6.mp3",
+    "bytes": 12163,
+    "sha256": "fe6c3970fc560c8ba4f9504aedbdb616d4fbf18e4e5d283be3bb80f01c35d20d",
+    "source": "https://www.threejspunk.com/audio/voice/pops/cffb2ce6.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/10b245d3.mp3",
+    "bytes": 27419,
+    "sha256": "076180a646f5329b073f961976e9ed49c6774c666f33348fd4c76e2162db42d7",
+    "source": "https://www.threejspunk.com/audio/voice/rio/10b245d3.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/162aff44.mp3",
+    "bytes": 42256,
+    "sha256": "22053b082927011d5587ed32d5a7c06c69578f41c7cd9f4fc4973855a3a121b0",
+    "source": "https://www.threejspunk.com/audio/voice/rio/162aff44.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/48ffd750.mp3",
+    "bytes": 37450,
+    "sha256": "d41f0203f66d2cbc2d2a2dcaf4d53fdc19d634330bdb555429760f2496696172",
+    "source": "https://www.threejspunk.com/audio/voice/rio/48ffd750.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/27384cd5.mp3",
+    "bytes": 12999,
+    "sha256": "df5662120aee1b81191a512ae2deace1474b6e6ca716251a419844e87e2c4f18",
+    "source": "https://www.threejspunk.com/audio/voice/rio/27384cd5.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/49a32778.mp3",
+    "bytes": 45809,
+    "sha256": "10e6c44b32c4aff785c479ec70bb96379b763adc0a0dbcf227e77d05ba59394b",
+    "source": "https://www.threejspunk.com/audio/voice/rio/49a32778.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/015d2d9c.mp3",
+    "bytes": 39749,
+    "sha256": "89ff87a1b8fdb5fe8250cdb7b53f62a5288298cb7608dd62faf902249d3067b4",
+    "source": "https://www.threejspunk.com/audio/voice/rio/015d2d9c.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/0c738b2e.mp3",
+    "bytes": 30554,
+    "sha256": "3e18225ce7f1b051b082c8369db1d528abcb50d8882e92387c66c8bc9b7cd4ff",
+    "source": "https://www.threejspunk.com/audio/voice/rio/0c738b2e.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/58fc0268.mp3",
+    "bytes": 12999,
+    "sha256": "c1de2abdb9c048bf8016edd19cbe0e94d900c00e562946de32fa77dfe3cffc9a",
+    "source": "https://www.threejspunk.com/audio/voice/rio/58fc0268.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/5c36a912.mp3",
+    "bytes": 34524,
+    "sha256": "d57d14f758f4dbe38878d5f2aca530e6a917fce9bc2b098115d4550d6a849495",
+    "source": "https://www.threejspunk.com/audio/voice/rio/5c36a912.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/55b24888.mp3",
+    "bytes": 42883,
+    "sha256": "430533e41e76757560f02707bdb5599a93b16e88cdf2edd69b9960f1cbb27e74",
+    "source": "https://www.threejspunk.com/audio/voice/rio/55b24888.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/5abca728.mp3",
+    "bytes": 46227,
+    "sha256": "59afec651488313ec80a53239596c05676469e827ddbbb07908d6d115f833c28",
+    "source": "https://www.threejspunk.com/audio/voice/rio/5abca728.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/6ab8c882.mp3",
+    "bytes": 43510,
+    "sha256": "b7e4cbcd938e1e4bf93ef20faefeeea1c62edfdec9cb57c65b2af2e4ce4557ee",
+    "source": "https://www.threejspunk.com/audio/voice/rio/6ab8c882.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/4e7e872b.mp3",
+    "bytes": 45391,
+    "sha256": "ecdc9a8012368d47f367fee3d0531fa110ebeaa5e3823eec087da5dabd221b76",
+    "source": "https://www.threejspunk.com/audio/voice/rio/4e7e872b.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/6bf1a680.mp3",
+    "bytes": 9865,
+    "sha256": "423f984550aa413fab92f7c4fbc942f3fb4e5e2b8e0a3ecd184793a91521565c",
+    "source": "https://www.threejspunk.com/audio/voice/rio/6bf1a680.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/559c0991.mp3",
+    "bytes": 40167,
+    "sha256": "7a31041d62a13e48555ba964d9a8959da3678be53d64a5680c2666072f4aa42e",
+    "source": "https://www.threejspunk.com/audio/voice/rio/559c0991.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/7483ae1c.mp3",
+    "bytes": 45809,
+    "sha256": "4221bda7a25794b55c57b662a9f4372326ac26644d9f38fcaa735323f25a5d15",
+    "source": "https://www.threejspunk.com/audio/voice/rio/7483ae1c.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/77afe4b4.mp3",
+    "bytes": 45182,
+    "sha256": "4550b14af232ebfa07a3361870cd5a76e4318824594d136aabf1a442547ca2f4",
+    "source": "https://www.threejspunk.com/audio/voice/rio/77afe4b4.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/89afa36b.mp3",
+    "bytes": 37241,
+    "sha256": "56be04f0225c9a4590cb1af879964674b3cc709797c2fafdf7a0cbe8284a3953",
+    "source": "https://www.threejspunk.com/audio/voice/rio/89afa36b.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/7a8a8d04.mp3",
+    "bytes": 44764,
+    "sha256": "0f334dba8d0f0f18f08db899c2659c5486b252bddaaf1e4efb6560e33f7ee097",
+    "source": "https://www.threejspunk.com/audio/voice/rio/7a8a8d04.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/91265e7f.mp3",
+    "bytes": 40376,
+    "sha256": "8bd89881c8a5fb177025ab7197278d0e827dabde7e85fa26110e1c16a7a1b9fb",
+    "source": "https://www.threejspunk.com/audio/voice/rio/91265e7f.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/ab37f11c.mp3",
+    "bytes": 41212,
+    "sha256": "f64080740363d7b304402fb6089145bb2e32320416458b99100ea79930758a35",
+    "source": "https://www.threejspunk.com/audio/voice/rio/ab37f11c.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/8f212d51.mp3",
+    "bytes": 43510,
+    "sha256": "349faf68dcf400c05f64013d5425a1022246daf94ad86dcc1da7bc2421206795",
+    "source": "https://www.threejspunk.com/audio/voice/rio/8f212d51.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/d392b443.mp3",
+    "bytes": 37450,
+    "sha256": "8e29194d8459fb7a032de510cb07772af5acc7fffabed31382f89a907725e6c6",
+    "source": "https://www.threejspunk.com/audio/voice/rio/d392b443.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/9a2fcac7.mp3",
+    "bytes": 12163,
+    "sha256": "26b29a2588ef92f01ddf26fe705eddf85a0f6feb23399a0c4b746246d7f597a1",
+    "source": "https://www.threejspunk.com/audio/voice/rio/9a2fcac7.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/af732fe4.mp3",
+    "bytes": 39122,
+    "sha256": "082ea05f1e2cf11dcc87dda0b2939f4aea7f4a51d7c757f22456733c834ecad0",
+    "source": "https://www.threejspunk.com/audio/voice/rio/af732fe4.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/dd2f2388.mp3",
+    "bytes": 28046,
+    "sha256": "92e6484196ab61ba03196f8f435e0ed2e9834ce382408b5ba47881a818a1342c",
+    "source": "https://www.threejspunk.com/audio/voice/rio/dd2f2388.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/e409a3d0.mp3",
+    "bytes": 11327,
+    "sha256": "0390b53dde3dca8618e6d87fb36584096c9adee73fcba72aefd49e23649f8a6f",
+    "source": "https://www.threejspunk.com/audio/voice/rio/e409a3d0.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/e57dc0fa.mp3",
+    "bytes": 37450,
+    "sha256": "a317e1f805b891716e0c58f42ffb79d1912d84796a717685f36110d8a9a6fe10",
+    "source": "https://www.threejspunk.com/audio/voice/rio/e57dc0fa.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/e60e685f.mp3",
+    "bytes": 39122,
+    "sha256": "645c20d412d1d038ef049b58b7705cf1d4e189977c81268cc5af7f60b80291c5",
+    "source": "https://www.threejspunk.com/audio/voice/rio/e60e685f.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/f2cb9763.mp3",
+    "bytes": 50825,
+    "sha256": "6254068ab84f58a8b4e607f7e57894a6695ff58ea9f795f7ba508a2ca908ef0b",
+    "source": "https://www.threejspunk.com/audio/voice/rio/f2cb9763.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/dc184ae1.mp3",
+    "bytes": 13208,
+    "sha256": "bb4ccb3352e5fd4e10758e50f62e55b38154b5c8973fc86d1def139757a05740",
+    "source": "https://www.threejspunk.com/audio/voice/rio/dc184ae1.mp3"
+  },
+  {
+    "path": "/audio/voice/rio/fdc75805.mp3",
+    "bytes": 43092,
+    "sha256": "93e082af5af391b92649d5f6a2b1b1f1b26b482961a14bb7c50617c264497c93",
+    "source": "https://www.threejspunk.com/audio/voice/rio/fdc75805.mp3"
+  },
+  {
+    "path": "/models/game/sigils/bone-cage.svg",
+    "bytes": 3440,
+    "sha256": "52f07f14fca2f1c45d4f4e0578ba7213ba946e19eac9daaf88230170986db9ce",
+    "source": "https://www.threejspunk.com/models/game/sigils/bone-cage.svg"
+  },
+  {
+    "path": "/models/game/sigils/borrowed-time.svg",
+    "bytes": 687,
+    "sha256": "cd9ce0be3798c885ed8f8a0e47a989a3ee4cba0705ceea8a0618387426dd16bb",
+    "source": "https://www.threejspunk.com/models/game/sigils/borrowed-time.svg"
+  },
+  {
+    "path": "/models/game/sigils/cryo-lattice.svg",
+    "bytes": 1395,
+    "sha256": "a90f0ef17517b98407a5df976fd7f3791b804987515e2eb8b5793d6a4c2e5832",
+    "source": "https://www.threejspunk.com/models/game/sigils/cryo-lattice.svg"
+  },
+  {
+    "path": "/models/game/sigils/chrome-skull.svg",
+    "bytes": 865,
+    "sha256": "d0fb8eae951cf66123a6c12931c1e16773a0d9cab0dceecab0e5c33000fa0f35",
+    "source": "https://www.threejspunk.com/models/game/sigils/chrome-skull.svg"
+  },
+  {
+    "path": "/models/game/sigils/chrome-sentry.svg",
+    "bytes": 852,
+    "sha256": "a4e49861081dae8ebd96034e84fb74c5e1324ceaa855be33019fbd4797629f08",
+    "source": "https://www.threejspunk.com/models/game/sigils/chrome-sentry.svg"
+  },
+  {
+    "path": "/models/game/sigils/fortune-cookie.svg",
+    "bytes": 864,
+    "sha256": "908ed8a1f7303e43b660ce9ebecd463e2ae58ef21ce1a026435e8c8c399559a3",
+    "source": "https://www.threejspunk.com/models/game/sigils/fortune-cookie.svg"
+  },
+  {
+    "path": "/models/game/sigils/arcade-stick.svg",
+    "bytes": 662,
+    "sha256": "cc360d2cdda527a2a056b43d9f8a6219dd29404570be97ac3dd2c0c6c6414d74",
+    "source": "https://www.threejspunk.com/models/game/sigils/arcade-stick.svg"
+  },
+  {
+    "path": "/models/game/sigils/dead-mans-step.svg",
+    "bytes": 1835,
+    "sha256": "296981ca476189bbe57b6b497a4ccde7666885f94d2abe1e383c94359e602d36",
+    "source": "https://www.threejspunk.com/models/game/sigils/dead-mans-step.svg"
+  },
+  {
+    "path": "/models/game/sigils/crossed-katanas.svg",
+    "bytes": 1252,
+    "sha256": "09064dd18cf7f9790a59699713178c043dd68d8b7687f6c50d8428b2471a4af4",
+    "source": "https://www.threejspunk.com/models/game/sigils/crossed-katanas.svg"
+  },
+  {
+    "path": "/models/game/sigils/caldera-core.svg",
+    "bytes": 938,
+    "sha256": "612f20a7148204049977334576310ccd89c8a9f79ee0e6c380d1d02bf69fa87e",
+    "source": "https://www.threejspunk.com/models/game/sigils/caldera-core.svg"
+  },
+  {
+    "path": "/models/game/sigils/gold-molar.svg",
+    "bytes": 703,
+    "sha256": "bf61fc993d7d0e1c3756ae8dab8690ae93b94dc14a7b4bd4e6c31994369d47a0",
+    "source": "https://www.threejspunk.com/models/game/sigils/gold-molar.svg"
+  },
+  {
+    "path": "/models/game/sigils/ghost-chip.svg",
+    "bytes": 1263,
+    "sha256": "b4ee9c0f2e07f4132930f5f145448689f50a065ff259571fe32a0ecd8e2fb43c",
+    "source": "https://www.threejspunk.com/models/game/sigils/ghost-chip.svg"
+  },
+  {
+    "path": "/models/game/sigils/funnel-cloud.svg",
+    "bytes": 372,
+    "sha256": "aed3db52a44ac48b3301e7c1fed767545e0da7c8d2e196fa3430c70a17f7a171",
+    "source": "https://www.threejspunk.com/models/game/sigils/funnel-cloud.svg"
+  },
+  {
+    "path": "/models/game/sigils/dead-satellite.svg",
+    "bytes": 1760,
+    "sha256": "e72a19a6bf030651350dea5a315efc5daa02bce8f404d63c78bbb0eb3eee9096",
+    "source": "https://www.threejspunk.com/models/game/sigils/dead-satellite.svg"
+  },
+  {
+    "path": "/models/game/sigils/eclipse-moon.svg",
+    "bytes": 538,
+    "sha256": "2c81cff882adf304f84ab77886829b9f5964c303650cf1e2e2c6acec7bc9cd6d",
+    "source": "https://www.threejspunk.com/models/game/sigils/eclipse-moon.svg"
+  },
+  {
+    "path": "/models/game/sigils/loaded-die.svg",
+    "bytes": 1199,
+    "sha256": "014f70424fe183d8bbba0925113c57eaebfb7aa5b644b29435407f04feec79a1",
+    "source": "https://www.threejspunk.com/models/game/sigils/loaded-die.svg"
+  },
+  {
+    "path": "/models/game/sigils/ghost-hand.svg",
+    "bytes": 2701,
+    "sha256": "d757ad4195e6fbc77c19dd482688c05f6432bf21435c80d39c13b1e49e493c4b",
+    "source": "https://www.threejspunk.com/models/game/sigils/ghost-hand.svg"
+  },
+  {
+    "path": "/models/game/sigils/hydro-tear.svg",
+    "bytes": 719,
+    "sha256": "a171bee951cdb7122d99b782e6aad628ad9393cfa274cf2e4e9006bfeef4b3b2",
+    "source": "https://www.threejspunk.com/models/game/sigils/hydro-tear.svg"
+  },
+  {
+    "path": "/models/game/sigils/glitch-beetle.svg",
+    "bytes": 1604,
+    "sha256": "39279764e56d8cd444a8b2b3ba7aaf120418dc4375e67e3ba0e591b791ac8ef4",
+    "source": "https://www.threejspunk.com/models/game/sigils/glitch-beetle.svg"
+  },
+  {
+    "path": "/models/game/sigils/game-over.svg",
+    "bytes": 1064,
+    "sha256": "1daf12035c22ba5bf4578dcab1bfb5dd388c48f29bd01c8cc2e55d41104d66bf",
+    "source": "https://www.threejspunk.com/models/game/sigils/game-over.svg"
+  },
+  {
+    "path": "/models/game/sigils/knockout-glove.svg",
+    "bytes": 684,
+    "sha256": "c74abb33fd566d02ac34fe4c1eff276c575be54537c048c04caec1ee1af0c5b9",
+    "source": "https://www.threejspunk.com/models/game/sigils/knockout-glove.svg"
+  },
+  {
+    "path": "/models/game/sigils/last-vinyl.svg",
+    "bytes": 695,
+    "sha256": "28f417b9168a816b758c19c808b895ac628081d614a34f1b4459892588310adc",
+    "source": "https://www.threejspunk.com/models/game/sigils/last-vinyl.svg"
+  },
+  {
+    "path": "/models/game/sigils/iron-knight.svg",
+    "bytes": 528,
+    "sha256": "100e0a5b8f5622151663c49d90c3cd790231eef6a5e299e0883097a9f6373859",
+    "source": "https://www.threejspunk.com/models/game/sigils/iron-knight.svg"
+  },
+  {
+    "path": "/models/game/sigils/moonshot.svg",
+    "bytes": 1251,
+    "sha256": "a82581f5d3e01bc58c1d668eb178915dd300630b3e78cef939a7037e1053f76a",
+    "source": "https://www.threejspunk.com/models/game/sigils/moonshot.svg"
+  },
+  {
+    "path": "/models/game/sigils/mad-flask.svg",
+    "bytes": 476,
+    "sha256": "d76188adb547ae655d6360c8770455a8e322f504811938e25a9c1b23a162a0fb",
+    "source": "https://www.threejspunk.com/models/game/sigils/mad-flask.svg"
+  },
+  {
+    "path": "/models/game/sigils/phantom-owl.svg",
+    "bytes": 1259,
+    "sha256": "81bf1fbea7a365fa1f8ee3f7737b45c285a1eb81d9ff5c338af8cf7c82db0c8a",
+    "source": "https://www.threejspunk.com/models/game/sigils/phantom-owl.svg"
+  },
+  {
+    "path": "/models/game/sigils/lucky-femur.svg",
+    "bytes": 763,
+    "sha256": "9ccf37da7f8adf48fe222f14c9ed7cf2b93c81e42ed00a1aa8253a40d951d564",
+    "source": "https://www.threejspunk.com/models/game/sigils/lucky-femur.svg"
+  },
+  {
+    "path": "/models/game/sigils/null-orbit.svg",
+    "bytes": 1287,
+    "sha256": "aa3edd9d13f65ca8a4aaa96ba4ac565e95a74139024af2c0878571e287cee3f0",
+    "source": "https://www.threejspunk.com/models/game/sigils/null-orbit.svg"
+  },
+  {
+    "path": "/models/game/sigils/poison-apple.svg",
+    "bytes": 654,
+    "sha256": "cc88a58880c491c2892a81cf405c15bc78bfa68bc4d3677739513388f8a02702",
+    "source": "https://www.threejspunk.com/models/game/sigils/poison-apple.svg"
+  },
+  {
+    "path": "/models/game/sigils/midnight-ramen.svg",
+    "bytes": 786,
+    "sha256": "832f23e7db16f1d1cea56720b2a86f2b242b1e4421acb9e0d503e91b39b679d0",
+    "source": "https://www.threejspunk.com/models/game/sigils/midnight-ramen.svg"
+  },
+  {
+    "path": "/models/game/sigils/plasma-ember.svg",
+    "bytes": 873,
+    "sha256": "6bc70638071ae1cf2f74579968d2c4ad809c1b837036ab60228ab047911262f1",
+    "source": "https://www.threejspunk.com/models/game/sigils/plasma-ember.svg"
+  },
+  {
+    "path": "/models/game/sigils/overvolt-bolt.svg",
+    "bytes": 445,
+    "sha256": "f6cb6ec0c2a35b690caf6456631e02ddf8374abf3e11d2207534300e97cfce01",
+    "source": "https://www.threejspunk.com/models/game/sigils/overvolt-bolt.svg"
+  },
+  {
+    "path": "/models/game/sigils/pixie-dust.svg",
+    "bytes": 1341,
+    "sha256": "9f84f340f5da6e546018591fa398d9c90b1479966de7404a80f2b6c11ecd124f",
+    "source": "https://www.threejspunk.com/models/game/sigils/pixie-dust.svg"
+  },
+  {
+    "path": "/models/game/sigils/pirate-tower.svg",
+    "bytes": 1923,
+    "sha256": "1b6b73f552750142c6d2af3a5d918d279b6b3f3bd895efc184c0997a975829b9",
+    "source": "https://www.threejspunk.com/models/game/sigils/pirate-tower.svg"
+  },
+  {
+    "path": "/models/game/sigils/photosynth-leaf.svg",
+    "bytes": 619,
+    "sha256": "146a7a7724d3d48d2f6a69217c81167b907610e2259099b55413340d712c859d",
+    "source": "https://www.threejspunk.com/models/game/sigils/photosynth-leaf.svg"
+  },
+  {
+    "path": "/models/game/sigils/racers-helmet.svg",
+    "bytes": 613,
+    "sha256": "5808ec9045a71cb347893164797f5266b6e873175ec8e4dd856558515ec75c8f",
+    "source": "https://www.threejspunk.com/models/game/sigils/racers-helmet.svg"
+  },
+  {
+    "path": "/models/game/sigils/sewer-king.svg",
+    "bytes": 1297,
+    "sha256": "6776e89c79a36c1414209c6569ddd3a1482469dd106dcef97db8f052663dfe43",
+    "source": "https://www.threejspunk.com/models/game/sigils/sewer-king.svg"
+  },
+  {
+    "path": "/models/game/sigils/rust-wheel.svg",
+    "bytes": 2416,
+    "sha256": "c525000b16af6f7849a655e0fdf759902121f239534dafee40dceba963bc97ca",
+    "source": "https://www.threejspunk.com/models/game/sigils/rust-wheel.svg"
+  },
+  {
+    "path": "/models/game/sigils/rogue-planet.svg",
+    "bytes": 1435,
+    "sha256": "05aa5daf36c7a22c6f32db8366b56c8fed63887315a516d1c6018dabae66baf9",
+    "source": "https://www.threejspunk.com/models/game/sigils/rogue-planet.svg"
+  },
+  {
+    "path": "/models/game/sigils/rabbit-pill.svg",
+    "bytes": 473,
+    "sha256": "8f8c5f17dff7c9b240608ace5d3950c6686a0d95f93c69c8d7f6be866dfb77f6",
+    "source": "https://www.threejspunk.com/models/game/sigils/rabbit-pill.svg"
+  },
+  {
+    "path": "/models/game/sigils/pulse-heart.svg",
+    "bytes": 1073,
+    "sha256": "6c80a8e30a0a4ac968cad791f028488ea5b3be1605bd08b6b81ee4064811c6d3",
+    "source": "https://www.threejspunk.com/models/game/sigils/pulse-heart.svg"
+  },
+  {
+    "path": "/models/game/sigils/skywire-raven.svg",
+    "bytes": 1017,
+    "sha256": "03531ada23c24b7569d8bee9347a7f11bece25f4bc8403e38e673fc80add8816",
+    "source": "https://www.threejspunk.com/models/game/sigils/skywire-raven.svg"
+  },
+  {
+    "path": "/models/game/sigils/spliced-helix.svg",
+    "bytes": 1225,
+    "sha256": "5a107d2c05021f4e1c3c42c0d3cf023d7bf9dd27d63e369823c2ad38ac716a10",
+    "source": "https://www.threejspunk.com/models/game/sigils/spliced-helix.svg"
+  },
+  {
+    "path": "/models/game/sigils/stim-shot.svg",
+    "bytes": 1041,
+    "sha256": "9cd50e91accc828b42e28f4aa1e1371604f166c2b2219fc9207cacaa7b5c65e1",
+    "source": "https://www.threejspunk.com/models/game/sigils/stim-shot.svg"
+  },
+  {
+    "path": "/models/game/sigils/storm-cell.svg",
+    "bytes": 988,
+    "sha256": "03cf33e8d7eeea64bbbcaaaf73bc1fefdaff792b9bac4c2a52fc411628a49eb0",
+    "source": "https://www.threejspunk.com/models/game/sigils/storm-cell.svg"
+  },
+  {
+    "path": "/models/game/sigils/stolen-print.svg",
+    "bytes": 2358,
+    "sha256": "a6ddd6765da8ce92435baab189739849cb48bf651f09205eecbdd33759560089",
+    "source": "https://www.threejspunk.com/models/game/sigils/stolen-print.svg"
+  },
+  {
+    "path": "/models/game/sigils/third-eye.svg",
+    "bytes": 752,
+    "sha256": "fd7a48d2cf4fd0bc860aa8de314e302f953de38185e0f941482b71bedec54b29",
+    "source": "https://www.threejspunk.com/models/game/sigils/third-eye.svg"
+  },
+  {
+    "path": "/models/game/sigils/solar-flare.svg",
+    "bytes": 1791,
+    "sha256": "704c31f5ec878b021e82a93ce7fdc73642ce9f5a17568e55a8d1d19a08a8d79d",
+    "source": "https://www.threejspunk.com/models/game/sigils/solar-flare.svg"
+  },
+  {
+    "path": "/models/game/sigils/skeleton-key.svg",
+    "bytes": 737,
+    "sha256": "581306ad8003f702f14b309e568e93248d1462946741278e7f1caac2f6349455",
+    "source": "https://www.threejspunk.com/models/game/sigils/skeleton-key.svg"
+  },
+  {
+    "path": "/models/game/sigils/smog-lungs.svg",
+    "bytes": 1042,
+    "sha256": "1e2a0120deea033ae4f798e89188299c15feb42dac5d73cfe7c05d815d1323bd",
+    "source": "https://www.threejspunk.com/models/game/sigils/smog-lungs.svg"
+  },
+  {
+    "path": "/models/game/sigils/toxin-spore.svg",
+    "bytes": 2454,
+    "sha256": "38a6639bf2b212b825b2b060de74ec6dd318b00dfd62363d24a014d5aa9cd95f",
+    "source": "https://www.threejspunk.com/models/game/sigils/toxin-spore.svg"
+  },
+  {
+    "path": "/models/game/sigils/wetware-brain.svg",
+    "bytes": 797,
+    "sha256": "58ea0bf510bea5d30629666b3b893f493a3d63a097ea8cf2b6631f53454f75ba",
+    "source": "https://www.threejspunk.com/models/game/sigils/wetware-brain.svg"
+  },
+  {
+    "path": "/models/game/sigils/tidal-surge.svg",
+    "bytes": 1903,
+    "sha256": "f092029fdfc38e7733346135b06901071b9660b9263e358fd106286421ba25d9",
+    "source": "https://www.threejspunk.com/models/game/sigils/tidal-surge.svg"
+  },
+  {
+    "path": "/models/game/sigils/white-rabbit.svg",
+    "bytes": 2180,
+    "sha256": "3549171f0fa8b1f6b3361bae6cb012563667e853f4f07084b08fda90ab334ee3",
+    "source": "https://www.threejspunk.com/models/game/sigils/white-rabbit.svg"
   }
 ]

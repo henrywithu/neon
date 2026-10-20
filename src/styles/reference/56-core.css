@@ -1,0 +1,167 @@
+.ach-mission__body {
+  min-width: 0;
+  flex: 1;
+}
+.ach-mission__tier {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: #ffd60a;
+}
+.ach-mission h4 {
+  margin: 2px 0 6px;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.ach-mission__goal {
+  margin: 0 0 8px;
+  font-size: 11px;
+  line-height: 1.55;
+  letter-spacing: 0.04em;
+  color: #e2e8ffd9;
+}
+.ach-mission__status {
+  margin: 0;
+  font-size: 10.5px;
+  letter-spacing: 0.16em;
+  color: #fff9;
+}
+.ach-mission.is-done .ach-mission__status {
+  color: #22d3ee;
+}
+.ach-mission__gps {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 7px 9px;
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  color: #ffffffbf;
+  background: #ffffff0a;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  cursor: pointer;
+}
+.ach-mission__gps .ach-icon {
+  width: 18px;
+  height: 18px;
+}
+.ach-mission__gps:hover {
+  color: #ff2d9a;
+  border-color: #ff2d9a;
+}
+.achievements__sigils {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(112px, 1fr));
+  gap: 10px;
+}
+.ach-sigil {
+  --c: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 8px 12px;
+  text-align: center;
+  background: #ffffff06;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+.ach-sigil__icon {
+  width: 56px;
+  height: 56px;
+  background: #ffffff17;
+  -webkit-mask: var(--icon) center / contain no-repeat;
+  mask: var(--icon) center / contain no-repeat;
+}
+.ach-sigil span {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff6;
+}
+.ach-sigil.is-found {
+  background: radial-gradient(
+    circle at 50% 30%,
+    color-mix(in srgb, var(--c) 18%, transparent),
+    transparent 70%
+  );
+  border-color: color-mix(in srgb, var(--c) 45%, transparent);
+}
+.ach-sigil.is-found .ach-sigil__icon {
+  background: var(--c);
+  filter: drop-shadow(0 0 8px var(--c));
+}
+.ach-sigil.is-found span {
+  color: var(--c);
+}
+.ach-rewards {
+  margin: 0 0 16px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(var(--n, 3), 1fr);
+}
+.ach-reward {
+  --k: 0;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px 9px;
+  min-width: 0;
+}
+.ach-reward__meter {
+  grid-column: 1 / -1;
+  display: block;
+  height: 5px;
+  margin-right: 3px;
+  background: #ffffff14;
+}
+.ach-reward:last-child .ach-reward__meter {
+  margin-right: 0;
+}
+.ach-reward__meter b {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #ff2d9a, #22d3ee);
+  box-shadow: 0 0 10px #22d3ee73;
+  transform: scaleX(var(--k));
+  transform-origin: left;
+}
+.ach-reward .ach-icon {
+  width: 20px;
+  height: 20px;
+  color: #ffffff52;
+}
+.ach-reward h5 {
+  margin: 0 0 3px;
+  overflow: hidden;
+  font-size: 12.5px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #ffffff9e;
+}
+.ach-reward p {
+  margin: 0;
+  font-size: 10.5px;
+  letter-spacing: 0.14em;
+  color: #fff9;
+}
+.ach-reward.is-open .ach-reward__meter b {
+  background: #4ade80;
+  box-shadow: 0 0 10px #4ade8080;
+}
+.ach-reward.is-open .ach-icon,
+.ach-reward.is-open h5,
+.ach-reward.is-open p {
+  color: #4ade80;
+}

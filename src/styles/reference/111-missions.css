@@ -1,0 +1,38 @@
+.phone-toast__main {
+  display: grid;
+  grid-template-columns: 26px 62px minmax(0, 1fr);
+  align-items: start;
+  gap: 13px;
+}
+.phone-toast__ring {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  margin-top: 4px;
+  font-size: 22px;
+  color: var(--sys);
+}
+.phone-toast.is-visible .phone-toast__ring .phone-icon {
+  animation: phoneBuzz 0.55s linear 0.35s 3;
+}
+.phone-toast__ring:before,
+.phone-toast__ring:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  bottom: -3px;
+  left: -3px;
+  border: 1px solid var(--sys);
+  border-radius: 50%;
+  opacity: 0;
+}
+.phone-toast.is-visible .phone-toast__ring:before,
+.phone-toast.is-visible .phone-toast__ring:after {
+  animation: phoneRing 1.8s ease-out 0.35s infinite;
+}
+.phone-toast.is-visible .phone-toast__ring:after {
+  animation-delay: 1.25s;
+}

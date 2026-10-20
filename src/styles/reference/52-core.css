@@ -1,0 +1,77 @@
+.ach-crew__head div {
+  flex: 1;
+  min-width: 0;
+}
+.ach-crew__head h4 {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 0 0 4px;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  color: var(--c);
+  text-shadow: 0 0 14px color-mix(in srgb, var(--c) 45%, transparent);
+}
+.ach-crew__head h4 span {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.26em;
+  color: #ffffffb8;
+  text-shadow: none;
+}
+.ach-crew__head p {
+  margin: 0;
+  font-size: 11px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #e2e8ffbf;
+}
+.ach-crew__head > b {
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  color: #ffffffd9;
+}
+.ach-crew.is-done .ach-crew__head > b {
+  color: var(--c);
+}
+.ach-crew__head--sigils,
+.ach-crew__head--races {
+  margin-bottom: 8px;
+}
+.achievements__total.is-owner .achievements__total-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #ffd60a;
+  text-shadow: 0 0 14px rgba(255, 214, 10, 0.6);
+}
+.achievements__total.is-owner .ach-icon {
+  width: 20px;
+  height: 20px;
+}
+.achievements__missions {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+}
+.ach-mission {
+  position: relative;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  padding: 12px 12px 12px 14px;
+  background: #ffffff08;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  clip-path: polygon(
+    0 0,
+    calc(100% - 10px) 0,
+    100% 10px,
+    100% 100%,
+    10px 100%,
+    0 calc(100% - 10px)
+  );
+}

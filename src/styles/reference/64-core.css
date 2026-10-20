@@ -1,0 +1,11 @@
+@keyframes walkPromptPulse {
+  0%,
+  to {
+    opacity: 0.35;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.02);
+  }
+}

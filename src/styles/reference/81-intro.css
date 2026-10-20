@@ -1,0 +1,11 @@
+.performance-notice--visible {
+  opacity: 1;
+  transform: translate(-50%);
+}
+@media (max-height: 520px) and (orientation: landscape) {
+  .performance-notice {
+    bottom: max(4px, env(safe-area-inset-bottom));
+    padding: 0.4rem 0.9rem;
+    font-size: 0.58rem;
+  }
+}

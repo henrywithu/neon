@@ -1,0 +1,51 @@
+.phone__map {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  background:
+    linear-gradient(
+      90deg,
+      transparent 44%,
+      rgba(34, 211, 238, 0.28) 44% 52%,
+      transparent 52%
+    ),
+    linear-gradient(
+      0deg,
+      transparent 30%,
+      rgba(34, 211, 238, 0.22) 30% 36%,
+      transparent 36%
+    ),
+    linear-gradient(
+      0deg,
+      transparent 72%,
+      rgba(34, 211, 238, 0.16) 72% 76%,
+      transparent 76%
+    ),
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px) 0 0 / 10px
+      10px,
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px) 0 0 /
+      10px 10px,
+    #0a0f1c;
+  border: 1px solid rgba(34, 211, 238, 0.3);
+}
+.phone__map:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 34px;
+  height: 34px;
+  margin: -17px 0 0 -17px;
+  border: 1px solid var(--msg);
+  border-radius: 50%;
+  animation: phoneRing 1.6s ease-out infinite;
+}
+.phone__attach--sigil .phone__map:before {
+  border-color: var(--c);
+}
+.phone__chat.is-done .phone__map:before {
+  display: none;
+}

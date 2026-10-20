@@ -1,0 +1,101 @@
+.phone-toast.is-hidden,
+.phone-chip.is-hidden {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+.phone-toast.is-hidden,
+.phone-toast.is-hidden * {
+  animation-play-state: paused !important;
+}
+.phone-screen {
+  --frame: #8ea2ff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1180;
+  color: #fff;
+}
+.phone-screen.is-closing {
+  pointer-events: none;
+}
+.phone-screen__veil {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background:
+    radial-gradient(
+      ellipse 46% 70% at 26% 50%,
+      rgba(142, 162, 255, 0.1),
+      transparent 70%
+    ),
+    linear-gradient(90deg, #030208e0, #03020899 55%, #03020840);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+.phone-screen.is-open .phone-screen__veil {
+  opacity: 1;
+}
+.phone-screen__close {
+  position: absolute;
+  top: max(18px, env(safe-area-inset-top));
+  right: max(20px, env(safe-area-inset-right));
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  color: #fff9;
+  background: #07060b66;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+  opacity: 0;
+  transition:
+    opacity 0.3s ease 0.2s,
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+.phone-screen.is-open .phone-screen__close {
+  opacity: 1;
+}
+.phone-screen__close:hover,
+.phone-screen__close:focus-visible {
+  color: #fff;
+  border-color: var(--frame);
+}
+.phone-screen__close kbd {
+  color: inherit;
+  border-color: currentColor;
+  background: transparent;
+  opacity: 0.8;
+}
+.phone-wrap {
+  position: absolute;
+  left: clamp(24px, 6vw, 110px);
+  top: 50%;
+  width: min(690px, calc(100vw - 48px));
+  height: min(560px, calc(100vh - 56px));
+  height: min(560px, calc(100dvh - 56px));
+  opacity: 0;
+  transform: translateY(calc(-50% + 60px)) rotate(-1.2deg);
+  transition:
+    opacity 0.3s ease,
+    transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.phone-screen.is-open .phone-wrap {
+  opacity: 1;
+  transform: translateY(-50%);
+}
+.phone-screen.is-closing .phone-wrap {
+  opacity: 0;
+  transform: translateY(calc(-50% + 40px));
+  transition:
+    opacity 0.3s ease,
+    transform 0.38s cubic-bezier(0.55, 0, 0.8, 0.3);
+}

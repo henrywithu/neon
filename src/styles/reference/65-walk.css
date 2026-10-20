@@ -1,0 +1,13 @@
+@media (max-width: 640px) {
+  .walk-prompt {
+    bottom: clamp(64px, 12vh, 96px);
+    max-width: calc(100vw - 32px);
+  }
+  .walk-prompt-title {
+    white-space: normal;
+    text-align: center;
+  }
+  .walk-prompt-inner {
+    padding: 14px 18px;
+  }
+}

@@ -1,0 +1,10 @@
+.phone__attach--friends {
+  background: #c084fc14;
+  border-color: #c084fc80;
+}
+.phone__attach--friends .phone__attach-kicker {
+  color: #c084fc;
+}
+.phone__attach--friends .phone__map:before {
+  border-color: #c084fc;
+}

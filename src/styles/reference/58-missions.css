@@ -1,0 +1,209 @@
+:root {
+  --story-mono:
+    "SF Mono", ui-monospace, "Cascadia Mono", "Roboto Mono", Menlo, Consolas,
+    "Liberation Mono", monospace;
+}
+.typed {
+  --type-glow: var(--c, #22d3ee);
+}
+.typed__reader {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.typed__word {
+  white-space: nowrap;
+}
+.typed__ch {
+  position: relative;
+  color: transparent;
+}
+.typed__ch.is-on {
+  color: inherit;
+  animation: typedIn 0.45s ease-out;
+}
+.typed.is-instant .typed__ch.is-on {
+  animation: none;
+}
+@keyframes typedIn {
+  0% {
+    color: #fff;
+  }
+}
+.typed__ch.is-glitch:after {
+  content: attr(data-g);
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--type-glow);
+  opacity: 0.8;
+}
+.typed__ch.is-caret:after {
+  content: "";
+  position: absolute;
+  left: calc(100% + 0.12em);
+  top: 0.16em;
+  bottom: 0.06em;
+  width: 0.5em;
+  background: var(--type-glow);
+}
+.typed.is-done .typed__ch.is-caret:after {
+  animation: typedCaret 1.05s steps(1, end) infinite;
+}
+@keyframes typedCaret {
+  50% {
+    opacity: 0;
+  }
+}
+.story-portrait {
+  --c: #22d3ee;
+  position: relative;
+  display: block;
+  flex-shrink: 0;
+  width: 64px;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--c) 40%, #07060b);
+  clip-path: polygon(
+    0 0,
+    calc(100% - 10px) 0,
+    100% 10px,
+    100% 100%,
+    10px 100%,
+    0 calc(100% - 10px)
+  );
+}
+.story-portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 24%;
+}
+.story-portrait:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid color-mix(in srgb, var(--c) 75%, transparent);
+  background:
+    repeating-linear-gradient(
+      0deg,
+      rgba(4, 2, 10, 0.2) 0 1px,
+      transparent 1px 3px
+    ),
+    linear-gradient(
+      180deg,
+      transparent 55%,
+      color-mix(in srgb, var(--c) 18%, transparent)
+    );
+  pointer-events: none;
+}
+.story-portrait--full {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  clip-path: polygon(
+    0 0,
+    calc(100% - 26px) 0,
+    100% 26px,
+    100% 100%,
+    26px 100%,
+    0 calc(100% - 26px)
+  );
+}
+.story-portrait--full img {
+  object-position: 50% 30%;
+}
+.story-screen,
+.story-screen * {
+  box-sizing: border-box;
+  font-family: Orbitron, sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.story-screen {
+  --c: #ffd60a;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1180;
+  display: grid;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: max(24px, env(safe-area-inset-top))
+    max(24px, env(safe-area-inset-right)) max(24px, env(safe-area-inset-bottom))
+    max(24px, env(safe-area-inset-left));
+  color: #fff;
+  transition: opacity 0.4s ease;
+}
+.story-screen.is-closing {
+  opacity: 0;
+  pointer-events: none;
+}
+.story-screen__veil {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background:
+    radial-gradient(
+      ellipse 60% 85% at 26% 55%,
+      color-mix(in srgb, var(--c) 14%, transparent),
+      transparent 70%
+    ),
+    linear-gradient(90deg, #030208cc, #0302088c 60%, #030208b8);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.story-screen.is-open .story-screen__veil {
+  opacity: 1;
+}
+.story-screen__card {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(200px, 340px) minmax(0, 580px);
+  align-items: center;
+  gap: clamp(20px, 3.6vw, 48px);
+  width: min(1000px, 100%);
+  margin: auto;
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity 0.5s ease 0.1s,
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.1s;
+}
+.story-screen.is-open .story-screen__card {
+  opacity: 1;
+  transform: none;
+}
+.story-screen__who {
+  position: relative;
+  margin: 0;
+}
+.story-screen__who .story-portrait:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background: linear-gradient(
+    180deg,
+    var(--c),
+    color-mix(in srgb, var(--c) 45%, #07060b)
+  );
+  transform-origin: 50% 100%;
+}
+.story-screen.is-open .story-screen__who .story-portrait:before {
+  animation: storyWipe 0.8s steps(10, end) 0.1s both;
+}

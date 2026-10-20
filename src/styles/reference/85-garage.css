@@ -1,0 +1,4 @@
+.drift-hud .hud-gauge-fill {
+  background: linear-gradient(90deg, #a855f7, #f472b6, #22d3ee);
+  transition: width 0.12s linear;
+}

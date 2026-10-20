@@ -1,0 +1,5 @@
+@keyframes storyBlink {
+  50% {
+    opacity: 0.25;
+  }
+}

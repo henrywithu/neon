@@ -1,0 +1,63 @@
+.phone-chip {
+  --c: #19e3c5;
+  position: fixed;
+  left: max(28px, env(safe-area-inset-left));
+  top: 31%;
+  z-index: 46;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  height: 38px;
+  padding: 0 10px 0 11px;
+  font-size: 18px;
+  color: var(--msg);
+  background: #07040ed1;
+  border: 1px solid color-mix(in srgb, var(--sys) 40%, transparent);
+  border-left: 2px solid var(--sys);
+  clip-path: polygon(0 0, calc(100% - 9px) 0, 100% 9px, 100% 100%, 0 100%);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-14px);
+  pointer-events: none;
+  transition:
+    opacity 0.3s ease,
+    transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    visibility 0s linear 0.4s,
+    background 0.2s ease;
+}
+.phone-chip.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  pointer-events: auto;
+  transition:
+    opacity 0.3s ease 0.2s,
+    transform 0.4s cubic-bezier(0.22, 1, 0.36, 1) 0.2s,
+    visibility 0s linear 0s,
+    background 0.2s ease;
+}
+.phone-chip.is-visible:not(.is-hidden) .phone-icon {
+  animation: phoneChipGlow 2.4s ease-in-out infinite;
+}
+.phone-chip b {
+  display: grid;
+  place-items: center;
+  min-width: 16px;
+  height: 16px;
+  margin-left: -4px;
+  font-size: 9px;
+  font-weight: 900;
+  color: #07060b;
+  background: var(--sys);
+  border-radius: 50%;
+}
+.phone-chip span {
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  color: #ffffffd1;
+}
+.phone-chip:hover {
+  background: #1e0a1ce6;
+}

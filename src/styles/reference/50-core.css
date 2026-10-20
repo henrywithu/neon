@@ -1,0 +1,196 @@
+.achievements,
+.achievements * {
+  box-sizing: border-box;
+  font-family: Orbitron, sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.achievements {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: max(20px, env(safe-area-inset-top))
+    max(16px, env(safe-area-inset-right)) max(20px, env(safe-area-inset-bottom))
+    max(16px, env(safe-area-inset-left));
+}
+.achievements[hidden] {
+  display: none;
+}
+.achievements > .achievements__panel {
+  max-height: calc(100dvh - 40px);
+}
+.achievements__backdrop {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background:
+    radial-gradient(
+      ellipse at 50% 0%,
+      rgba(168, 85, 247, 0.16),
+      transparent 60%
+    ),
+    #030208b8;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+.achievements.is-open .achievements__backdrop {
+  opacity: 1;
+}
+.achievements__panel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: min(1080px, 100%);
+  max-height: 100%;
+  height: auto;
+  min-height: 0;
+  color: #fff;
+  background: #080412db;
+  border: 1px solid rgba(168, 85, 247, 0.35);
+  border-top: 2px solid #ffd60a;
+  clip-path: polygon(
+    0 0,
+    calc(100% - 22px) 0,
+    100% 22px,
+    100% 100%,
+    22px 100%,
+    0 calc(100% - 22px)
+  );
+  box-shadow: 0 0 60px #a855f72e;
+  opacity: 0;
+  transform: translateY(18px) scale(0.98);
+  transition:
+    opacity 0.35s ease,
+    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.achievements.is-open .achievements__panel {
+  opacity: 1;
+  transform: none;
+}
+.achievements__head {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 22px 26px 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.achievements__title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.achievements__title p {
+  margin: 0;
+  font-size: 10px;
+  letter-spacing: 0.34em;
+  color: #22d3eed9;
+}
+.achievements__title h2 {
+  margin: 2px 0 0;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+}
+.ach-icon {
+  display: block;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.achievements__trophy {
+  width: 38px;
+  height: 38px;
+  color: #ffd60a;
+  filter: drop-shadow(0 0 10px rgba(255, 214, 10, 0.6));
+}
+.achievements__total {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+.achievements__total-count {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+}
+.achievements__meter {
+  display: block;
+  width: min(320px, 100%);
+  height: 4px;
+  background: #ffffff1a;
+  overflow: hidden;
+}
+.achievements__meter b {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #a855f7, #22d3ee, #ffd60a);
+  transform-origin: left center;
+  transform: scaleX(0);
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  box-shadow: 0 0 10px #22d3eeb3;
+}
+.achievements__close {
+  width: 40px;
+  height: 40px;
+  padding: 9px;
+  color: #ffffffd9;
+  background: #ffffff0d;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+.achievements__close:hover {
+  color: #fff;
+  border-color: #22d3ee;
+}
+.achievements__scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 6px 26px 18px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(168, 85, 247, 0.5) transparent;
+}
+.achievements__section {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 18px 0 12px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  color: #22d3eee6;
+}
+.achievements__section b {
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  color: #fff;
+}
+.achievements__hint {
+  margin: -4px 0 14px;
+  font-size: 11.5px;
+  line-height: 1.6;
+  letter-spacing: 0.04em;
+  color: #e2e8ffc7;
+}
+.achievements__crews {
+  display: grid;
+  gap: 22px;
+}
+.ach-crew__head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0 0 10px;
+}

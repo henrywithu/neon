@@ -1,0 +1,30 @@
+.ph.ph-phone-call:before {
+  content: "";
+}
+.ph.ph-phone-disconnect:before {
+  content: "";
+}
+.ph.ph-phone-incoming:before {
+  content: "";
+}
+.ph.ph-phone-list:before {
+  content: "";
+}
+.ph.ph-phone-outgoing:before {
+  content: "";
+}
+.ph.ph-phone-pause:before {
+  content: "";
+}
+.ph.ph-phone-plus:before {
+  content: "";
+}
+.ph.ph-phone-slash:before {
+  content: "";
+}
+.ph.ph-phone-transfer:before {
+  content: "";
+}
+.ph.ph-phone-x:before {
+  content: "";
+}

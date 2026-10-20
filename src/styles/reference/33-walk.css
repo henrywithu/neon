@@ -1,0 +1,81 @@
+.cyber-hud,
+.cyber-hud * {
+  font-family: Orbitron, sans-serif;
+}
+.cyber-hud {
+  pointer-events: none;
+  flex-shrink: 0;
+}
+.cyber-hud-frame,
+.cyber-hud-inner,
+.hud-stats,
+.hud-avatar {
+  transition:
+    padding 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    gap 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    width 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    height 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.35s ease,
+    max-width 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.cyber-hud-frame {
+  position: relative;
+  padding: 2px;
+  background: linear-gradient(135deg, #a855f733, #22d3ee14, #a855f726);
+  clip-path: polygon(
+    0 8px,
+    8px 0,
+    calc(100% - 8px) 0,
+    100% 8px,
+    100% calc(100% - 8px),
+    calc(100% - 8px) 100%,
+    8px 100%,
+    0 calc(100% - 8px)
+  );
+}
+.cyber-hud-inner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 18px 12px 14px;
+  background: #08041252;
+  clip-path: polygon(
+    0 7px,
+    7px 0,
+    calc(100% - 7px) 0,
+    100% 7px,
+    100% calc(100% - 7px),
+    calc(100% - 7px) 100%,
+    7px 100%,
+    0 calc(100% - 7px)
+  );
+}
+.cyber-hud-corner {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-color: #22d3eeb3;
+  border-style: solid;
+  pointer-events: none;
+}
+.cyber-hud-corner--tl {
+  top: 4px;
+  left: 4px;
+  border-width: 1px 0 0 1px;
+}
+.cyber-hud-corner--tr {
+  top: 4px;
+  right: 4px;
+  border-width: 1px 1px 0 0;
+}
+.cyber-hud-corner--bl {
+  bottom: 4px;
+  left: 4px;
+  border-width: 0 0 1px 1px;
+}
+.cyber-hud-corner--br {
+  bottom: 4px;
+  right: 4px;
+  border-width: 0 1px 1px 0;
+}

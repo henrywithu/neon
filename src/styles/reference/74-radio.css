@@ -1,0 +1,13 @@
+.radio__title:after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: var(--r-cyan);
+  clip-path: inset(40% 0 44% 0);
+  transform: translate(0);
+  opacity: 0;
+  animation: radio-glitch 5.5s steps(1) infinite;
+}

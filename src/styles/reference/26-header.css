@@ -1,0 +1,8 @@
+body.ui-moving-compact .app-header {
+  background-image: none;
+  transition:
+    transform 2s ease-in-out,
+    opacity 0.8s ease,
+    visibility 0s linear 0s,
+    background-image 0.45s ease;
+}

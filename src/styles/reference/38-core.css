@@ -1,0 +1,65 @@
+@keyframes hudGaugePulse {
+  0%,
+  to {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.hud-substats {
+  display: flex;
+  gap: 12px;
+}
+.hud-stat-chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 8px 3px 6px;
+  background: #a855f70d;
+  border: 1px solid rgba(168, 85, 247, 0.18);
+  clip-path: polygon(
+    0 0,
+    calc(100% - 3px) 0,
+    100% 3px,
+    100% 100%,
+    3px 100%,
+    0 calc(100% - 3px)
+  );
+}
+.hud-stat-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.hud-stat-dot--energy {
+  background: #a855f7;
+  animation: hudDotBlink 1.8s ease-in-out infinite;
+}
+@keyframes hudDotBlink {
+  0%,
+  to {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.hud-stat-icon {
+  display: inline-flex;
+  align-items: center;
+  color: #22d3eed9;
+  flex-shrink: 0;
+}
+.hud-signal-icon {
+  width: 22px;
+  height: 11px;
+}
+.hud-stat-chip .hud-label {
+  font-size: 8px;
+}
+.hud-stat-chip .hud-value {
+  font-size: 9px;
+  margin-left: auto;
+}

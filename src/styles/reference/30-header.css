@@ -1,0 +1,206 @@
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  padding: 40px;
+  padding-left: max(40px, env(safe-area-inset-left));
+  padding-right: max(40px, env(safe-area-inset-right));
+  background-image: linear-gradient(175deg, #0000008c, #0000 30%);
+  width: 100%;
+  z-index: 1000;
+  pointer-events: none;
+  transform: translateY(calc(-100% - 24px));
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    transform 2s ease-in-out,
+    opacity 0.8s ease,
+    visibility 0s linear 0s;
+}
+.app-header-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  pointer-events: all;
+  opacity: 1;
+  transition: opacity 0.45s ease;
+}
+.app-header-brand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 0;
+  flex: 1 1 auto;
+  padding: 0;
+  gap: 0;
+  pointer-events: none;
+}
+.app-header.show {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+  transition:
+    transform 2s ease-in-out,
+    opacity 0.2s ease,
+    visibility 0s linear 0s;
+}
+.app-header.app-header--force-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    transform 2s ease-in-out,
+    opacity 0.8s ease,
+    visibility 0s linear 0.8s;
+}
+.hdr-btn {
+  --accent: #34f5e9;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height: 44px;
+  padding: 0 16px;
+  margin: 0;
+  color: #fffffff0;
+  font-family: Orbitron, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.8);
+  background: var(--cyber-bg);
+  backdrop-filter: blur(10px) saturate(130%);
+  -webkit-backdrop-filter: blur(10px) saturate(130%);
+  border: 1px solid var(--cyber-border);
+  clip-path: var(--cyber-clip-sm);
+  box-shadow: var(--cyber-glow);
+  cursor: pointer;
+  pointer-events: all;
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.hdr-btn:hover,
+.hdr-btn:focus-visible {
+  outline: none;
+  background: var(--cyber-bg-hover);
+  border-color: var(--accent);
+  box-shadow: 0 0 18px color-mix(in srgb, var(--accent) 35%, transparent);
+}
+.hdr-btn__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  color: var(--accent);
+  filter: drop-shadow(
+    0 0 6px color-mix(in srgb, var(--accent) 70%, transparent)
+  );
+}
+.hdr-btn__icon svg {
+  width: 20px;
+  height: 20px;
+}
+.hdr-btn__icon .ph-icon {
+  font-size: 20px;
+}
+.hdr-btn__label {
+  line-height: 1;
+  white-space: nowrap;
+}
+.hdr-btn__key {
+  padding: 3px 5px 2px;
+  font-family: Orbitron, sans-serif;
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  color: #ffffff9e;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: #ffffff0a;
+}
+.hdr-btn__badge {
+  position: absolute;
+  top: 5px;
+  left: 26px;
+  display: none;
+  place-items: center;
+  min-width: 15px;
+  height: 15px;
+  padding: 0 4px;
+  font-family: Orbitron, sans-serif;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 1;
+  color: #07060b;
+  text-shadow: none;
+  background: #ff4f5e;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ff4f5ecc;
+}
+.hdr-btn--messages.has-unread .hdr-btn__badge {
+  display: grid;
+}
+.hdr-btn--invite.is-live .hdr-btn__icon:after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 30px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4ade80;
+  box-shadow: 0 0 8px #4ade80;
+}
+.hdr-btn__new {
+  padding: 2px 5px 1px;
+  font-style: normal;
+  font-size: 7px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  line-height: 1.1;
+  color: #07060b;
+  text-shadow: none;
+  background: #c084fc;
+  box-shadow: 0 0 10px #c084fcb3;
+}
+.hdr-btn--invite.has-cue .hdr-btn__icon:after,
+.hdr-btn--menu.has-cue:after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 30px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #c084fc;
+  box-shadow: 0 0 8px #c084fc;
+}
+.hdr-btn--menu.has-cue:after {
+  top: 6px;
+  left: auto;
+  right: 6px;
+}
+.hdr-btn--friends {
+  display: none;
+}
+.hdr-btn--friends.is-live {
+  display: inline-flex;
+}
+.hdr-btn__badge--friends {
+  display: grid;
+  background: #c084fc;
+  box-shadow: 0 0 10px #c084fccc;
+}

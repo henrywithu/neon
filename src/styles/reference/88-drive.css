@@ -1,0 +1,91 @@
+html.touch-drive-active .drive-hud {
+  width: 112px;
+  top: max(4px, env(safe-area-inset-top));
+  right: auto;
+  bottom: auto;
+  left: 50%;
+  translate: -50% 0;
+}
+html.touch-drive-active .drive-hud.is-visible {
+  opacity: 0.8;
+}
+html.touch-drive-active .gps-hud {
+  top: calc(var(--td-top) + var(--td-icon) + 10px);
+  bottom: auto;
+  left: auto;
+  right: var(--td-right);
+  scale: 0.75;
+  transform-origin: top right;
+  transform: translateY(-8px);
+}
+html.touch-drive-active .gps-hud.is-visible {
+  transform: none;
+}
+html.touch-drive-active .drift-combo,
+html.touch-drive-active .launch-hud {
+  top: calc(var(--td-top) + 118px);
+}
+html.touch-drive-active .drive-hint,
+html.touch-drive-active .drive-controls {
+  display: none !important;
+}
+html.touch-drive-active .app-header {
+  left: auto;
+  width: auto;
+  padding: var(--td-top) max(12px, env(safe-area-inset-right)) 0 0;
+  background: none;
+}
+html.touch-drive-active .app-header-brand {
+  display: none;
+}
+html.touch-drive-active .app-header.show,
+html.touch-drive-active .app-header.show.app-header--force-hidden {
+  opacity: 0.85;
+  visibility: visible;
+  transition: opacity 0.2s ease;
+}
+html.touch-drive-active .app-header-actions > .hdr-btn {
+  width: var(--td-icon);
+  height: var(--td-icon);
+  padding: 0;
+  justify-content: center;
+}
+html.touch-drive-active .app-header-actions > .hdr-btn .hdr-btn__label,
+html.touch-drive-active .hdr-btn__key {
+  display: none;
+}
+html.touch-drive-active body.ui-moving-compact .app-header-actions {
+  opacity: 1 !important;
+  pointer-events: all !important;
+}
+@media (orientation: portrait) {
+  html.touch-drive-active .gps-hud {
+    top: calc(var(--td-top) + 118px);
+    right: auto;
+    left: 50%;
+    transform-origin: top center;
+    transform: translate(-50%, -8px);
+  }
+  html.touch-drive-active .gps-hud.is-visible {
+    transform: translate(-50%);
+  }
+}
+.touch-drive__steer,
+.touch-drive__pedals,
+.touch-drive__utils {
+  opacity: 0.75;
+}
+html.touch-drive-active .minimap.is-visible {
+  opacity: 0.6;
+}
+html.touch-drive-active .drift-hud.is-visible {
+  opacity: 0.7;
+}
+html.touch-drive-active .gps-hud.is-visible {
+  opacity: 0.8;
+}
+html.touch-drive-active .drive-hud__disc {
+  background: radial-gradient(circle, #0804126b, #0804124d 62%, #08041200 71%);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}

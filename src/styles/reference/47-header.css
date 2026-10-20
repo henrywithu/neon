@@ -1,0 +1,32 @@
+.audio-btn-wave.animated #Line_1 {
+  animation: music-on-graph 1s infinite alternate;
+  animation-delay: 0.15s;
+}
+.audio-btn-wave.animated #Line_2 {
+  animation: music-on-graph 1s infinite alternate;
+  animation-delay: 0.3s;
+}
+.audio-btn-wave.animated #Line_3 {
+  animation: music-on-graph 1s infinite alternate;
+  animation-delay: 0.45s;
+}
+.audio-btn-wave.animated #Line_4 {
+  animation: music-on-graph 1s infinite alternate;
+  animation-delay: 0.6s;
+}
+.audio-btn-wave.animated #Line_5 {
+  animation: music-on-graph 1s infinite alternate;
+  animation-delay: 0.75s;
+}
+@media (max-width: 768px) {
+  .audio-btn-root {
+    right: 16px;
+    bottom: 24px;
+    width: 48px;
+    height: 48px;
+  }
+  .audio-btn {
+    width: 48px;
+    height: 48px;
+  }
+}

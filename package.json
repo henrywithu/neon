@@ -5,13 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "tsc --noEmit && vite build",
+    "build": "tsc --noEmit && tsc --noEmit -p tsconfig.worker.json && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "check": "tsc --noEmit",
     "check:assets": "node scripts/check-assets.mjs",
     "deploy": "npm run build && wrangler deploy",
     "deploy:dry-run": "npm run build && wrangler deploy --dry-run",
-    "content:sync": "node scripts/sync-content.mjs"
+    "content:sync": "node scripts/sync-content.mjs",
+    "dev:rooms": "wrangler dev --local --port 8787",
+    "types:worker": "wrangler types worker-env.d.ts",
+    "check:worker": "tsc --noEmit -p tsconfig.worker.json"
   },
   "dependencies": {
     "@dimforge/rapier3d-compat": "0.20.0",

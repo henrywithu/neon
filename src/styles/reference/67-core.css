@@ -1,0 +1,58 @@
+.enter-car {
+  position: fixed;
+  left: 50%;
+  top: 60%;
+  z-index: 905;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px 10px 12px;
+  font-family: Orbitron, sans-serif;
+  color: #e2e8ff;
+  background: #060812c7;
+  border: 1px solid rgba(34, 211, 238, 0.45);
+  border-left: 3px solid #ff2d9a;
+  cursor: pointer;
+  opacity: 0;
+  transform: translate(-50%, 6px);
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+.enter-car[hidden] {
+  display: none;
+}
+.enter-car.is-visible {
+  opacity: 1;
+  transform: translate(-50%);
+}
+.enter-car:hover {
+  border-color: #22d3eee6;
+}
+.enter-car__keys {
+  display: flex;
+  gap: 4px;
+}
+.enter-car kbd {
+  min-width: 22px;
+  padding: 3px 5px;
+  font: inherit;
+  font-size: 10px;
+  line-height: 1;
+  text-align: center;
+  color: #22d3ee;
+  border: 1px solid rgba(34, 211, 238, 0.7);
+  border-radius: 3px;
+}
+.enter-car__label {
+  font-size: 11px;
+  letter-spacing: 0.26em;
+}
+@media (pointer: coarse) {
+  .enter-car__keys {
+    display: none;
+  }
+  .enter-car {
+    padding: 14px 20px;
+  }
+}

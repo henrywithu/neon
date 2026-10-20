@@ -385,51 +385,51 @@
     "length": 1067
   },
   {
-    "symbol": "BG",
+    "symbol": "DESKTOP_FOV",
     "original": "BG",
-    "module": "src/intro/createIntroFlow.ts",
+    "module": "src/bootstrap/createCamera.ts",
     "offset": 1716659,
     "length": 5
   },
   {
-    "symbol": "mhe",
+    "symbol": "MOBILE_FOV",
     "original": "mhe",
-    "module": "src/intro/createIntroFlow.ts",
+    "module": "src/bootstrap/createCamera.ts",
     "offset": 1716665,
     "length": 7
   },
   {
-    "symbol": "No",
+    "symbol": "cameraParameters",
     "original": "No",
-    "module": "src/intro/createIntroFlow.ts",
+    "module": "src/bootstrap/createCamera.ts",
     "offset": 1716673,
     "length": 164
   },
   {
-    "symbol": "WE",
+    "symbol": "initialCameraPose",
     "original": "WE",
-    "module": "src/intro/createIntroFlow.ts",
+    "module": "src/bootstrap/createCamera.ts",
     "offset": 1716838,
     "length": 57
   },
   {
-    "symbol": "r0",
+    "symbol": "getCameraFov",
     "original": "r0",
-    "module": "src/intro/createIntroFlow.ts",
+    "module": "src/bootstrap/createCamera.ts",
     "offset": 1716896,
     "length": 53
   },
   {
-    "symbol": "ghe",
+    "symbol": "createCamera",
     "original": "ghe",
-    "module": "src/intro/createIntroFlow.ts",
+    "module": "src/bootstrap/createCamera.ts",
     "offset": 1716949,
     "length": 156
   },
   {
-    "symbol": "Ahe",
+    "symbol": "createCameraLayout",
     "original": "Ahe",
-    "module": "src/intro/createIntroFlow.ts",
+    "module": "src/bootstrap/createCamera.ts",
     "offset": 1717105,
     "length": 394
   },
@@ -532,28 +532,28 @@
     "length": 322
   },
   {
-    "symbol": "Yde",
+    "symbol": "createRenderer",
     "original": "Yde",
     "module": "src/bootstrap/createRenderer.ts",
     "offset": 1700387,
     "length": 699
   },
   {
-    "symbol": "Xde",
+    "symbol": "createShadowUpdateController",
     "original": "Xde",
     "module": "src/bootstrap/createRenderer.ts",
     "offset": 1701086,
     "length": 175
   },
   {
-    "symbol": "uB",
+    "symbol": "resizeRendererAndPipeline",
     "original": "uB",
     "module": "src/bootstrap/createRenderer.ts",
     "offset": 1701261,
     "length": 169
   },
   {
-    "symbol": "Jde",
+    "symbol": "resizeRenderer",
     "original": "Jde",
     "module": "src/bootstrap/createRenderer.ts",
     "offset": 1701430,
@@ -588,7 +588,7 @@
     "length": 2397
   },
   {
-    "symbol": "Dde",
+    "symbol": "planeEngineUrl",
     "original": "Dde",
     "module": "src/audio/spatialAudio.ts",
     "offset": 1695543,
@@ -609,7 +609,7 @@
     "length": 658
   },
   {
-    "symbol": "Ode",
+    "symbol": "footstepUrls",
     "original": "Ode",
     "module": "src/audio/spatialAudio.ts",
     "offset": 1696268,
@@ -665,23 +665,23 @@
     "length": 1004
   },
   {
-    "symbol": "Gde",
+    "symbol": "shaderIdentifier",
     "original": "Gde",
-    "module": "src/audio/spatialAudio.ts",
+    "module": "src/bootstrap/canonicalShaders.ts",
     "offset": 1697490,
     "length": 45
   },
   {
-    "symbol": "FS",
+    "symbol": "canonicalizeShaderIdentifiers",
     "original": "FS",
-    "module": "src/audio/spatialAudio.ts",
+    "module": "src/bootstrap/canonicalShaders.ts",
     "offset": 1697536,
     "length": 190
   },
   {
-    "symbol": "Vde",
+    "symbol": "installCanonicalShaderNames",
     "original": "Vde",
-    "module": "src/audio/spatialAudio.ts",
+    "module": "src/bootstrap/canonicalShaders.ts",
     "offset": 1697726,
     "length": 277
   },
@@ -2184,7 +2184,7 @@
     "length": 31
   },
   {
-    "symbol": "_a",
+    "symbol": "sigilDefinitions",
     "original": "_a",
     "module": "src/game/story/definitions.ts",
     "offset": 1249446,
@@ -4599,308 +4599,308 @@
     "length": 723
   },
   {
-    "symbol": "Yce",
+    "symbol": "protocolVersion",
     "original": "Yce",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1604900,
     "length": 5
   },
   {
-    "symbol": "aA",
+    "symbol": "maxDrivers",
     "original": "aA",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1604906,
     "length": 4
   },
   {
-    "symbol": "U_",
+    "symbol": "publicRooms",
     "original": "U_",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1604911,
     "length": 244
   },
   {
     "symbol": "Xce",
     "original": "Xce",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1605156,
     "length": 34
   },
   {
-    "symbol": "la",
+    "symbol": "closeCodes",
     "original": "la",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1605191,
     "length": 125
   },
   {
-    "symbol": "or",
+    "symbol": "vehicleFlags",
     "original": "or",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1605317,
     "length": 82
   },
   {
     "symbol": "wp",
     "original": "wp",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1605400,
     "length": 102
   },
   {
-    "symbol": "rL",
+    "symbol": "messageCooldowns",
     "original": "rL",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1605503,
     "length": 72
   },
   {
     "symbol": "Jce",
     "original": "Jce",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1605576,
     "length": 38
   },
   {
     "symbol": "Zce",
     "original": "Zce",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1605615,
     "length": 22
   },
   {
     "symbol": "eue",
     "original": "eue",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1605638,
     "length": 116
   },
   {
     "symbol": "tue",
     "original": "tue",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1605760,
     "length": 48
   },
   {
-    "symbol": "zE",
+    "symbol": "normalizeRoomId",
     "original": "zE",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1605809,
     "length": 84
   },
   {
     "symbol": "uG",
     "original": "uG",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1605899,
     "length": 5
   },
   {
     "symbol": "dG",
     "original": "dG",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1605905,
     "length": 62
   },
   {
     "symbol": "nB",
     "original": "nB",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1605968,
     "length": 50
   },
   {
     "symbol": "Tf",
     "original": "Tf",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1606019,
     "length": 27
   },
   {
     "symbol": "sb",
     "original": "sb",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1606047,
     "length": 27
   },
   {
-    "symbol": "sue",
+    "symbol": "encodePose",
     "original": "sue",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1606075,
     "length": 151
   },
   {
-    "symbol": "nue",
+    "symbol": "decodePose",
     "original": "nue",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1606226,
     "length": 131
   },
   {
     "symbol": "iue",
     "original": "iue",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1606363,
     "length": 40
   },
   {
     "symbol": "U0",
     "original": "U0",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1606404,
     "length": 56
   },
   {
     "symbol": "hG",
     "original": "hG",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1606465,
     "length": 74
   },
   {
     "symbol": "rue",
     "original": "rue",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1606540,
     "length": 23
   },
   {
     "symbol": "oue",
     "original": "oue",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1606563,
     "length": 124
   },
   {
-    "symbol": "iB",
+    "symbol": "multiplayerSocketOrigin",
     "original": "iB",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1606687,
     "length": 52
   },
   {
-    "symbol": "fG",
+    "symbol": "lobbyUrl",
     "original": "fG",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1606739,
     "length": 74
   },
   {
-    "symbol": "z0",
+    "symbol": "isMultiplayerEnabled",
     "original": "z0",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1606819,
     "length": 33
   },
   {
-    "symbol": "aue",
+    "symbol": "roomUrl",
     "original": "aue",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1606853,
     "length": 134
   },
   {
     "symbol": "rB",
     "original": "rB",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1606987,
     "length": 101
   },
   {
     "symbol": "lue",
     "original": "lue",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1607088,
     "length": 191
   },
   {
     "symbol": "GE",
     "original": "GE",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1607285,
     "length": 30
   },
   {
     "symbol": "cue",
     "original": "cue",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1607316,
     "length": 118
   },
   {
     "symbol": "uue",
     "original": "uue",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/multiplayer/protocol.ts",
     "offset": 1607434,
     "length": 111
   },
   {
     "symbol": "pG",
     "original": "pG",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/ui/map/markers.ts",
     "offset": 1607551,
     "length": 12
   },
   {
     "symbol": "au",
     "original": "au",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/ui/map/markers.ts",
     "offset": 1607564,
     "length": 12
   },
   {
     "symbol": "mG",
     "original": "mG",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/ui/map/markers.ts",
     "offset": 1607577,
     "length": 12
   },
   {
     "symbol": "gG",
     "original": "gG",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/ui/map/markers.ts",
     "offset": 1607590,
     "length": 12
   },
   {
     "symbol": "AG",
     "original": "AG",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/ui/map/markers.ts",
     "offset": 1607603,
     "length": 20
   },
   {
     "symbol": "due",
     "original": "due",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/ui/map/markers.ts",
     "offset": 1607624,
     "length": 84
   },
   {
     "symbol": "hue",
     "original": "hue",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/ui/map/markers.ts",
     "offset": 1607709,
     "length": 34
   },
   {
     "symbol": "fue",
     "original": "fue",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/ui/map/markers.ts",
     "offset": 1607744,
     "length": 194
   },
   {
     "symbol": "cc",
     "original": "cc",
-    "module": "src/ui/drive/controlsHelp.ts",
+    "module": "src/ui/map/markers.ts",
     "offset": 1607939,
     "length": 440
   },
   {
-    "symbol": "fce",
+    "symbol": "createHudPanel",
     "original": "fce",
     "module": "src/ui/walk/hudPanel.ts",
     "offset": 1546489,
@@ -4914,7 +4914,7 @@
     "length": 19
   },
   {
-    "symbol": "yc",
+    "symbol": "glyphPaths",
     "original": "yc",
     "module": "src/ui/walk/hudPanel.ts",
     "offset": 1548570,
@@ -5859,72 +5859,72 @@
     "length": 2848
   },
   {
-    "symbol": "che",
+    "symbol": "createRainGlassIntro",
     "original": "che",
     "module": "src/audio/voice/createVoice.ts",
     "offset": 1711183,
     "length": 779
   },
   {
-    "symbol": "uhe",
+    "symbol": "splitIntroLetters",
     "original": "uhe",
     "module": "src/audio/voice/createVoice.ts",
     "offset": 1711962,
     "length": 278
   },
   {
-    "symbol": "OE",
+    "symbol": "audioListeners",
     "original": "OE",
-    "module": "src/ui/core/icons.ts",
+    "module": "src/audio/audioState.ts",
     "offset": 1563496,
     "length": 10
   },
   {
-    "symbol": "tB",
+    "symbol": "audioVolume",
     "original": "tB",
-    "module": "src/ui/core/icons.ts",
+    "module": "src/audio/audioState.ts",
     "offset": 1563511,
     "length": 5
   },
   {
-    "symbol": "O0",
+    "symbol": "audioPlaying",
     "original": "O0",
-    "module": "src/ui/core/icons.ts",
+    "module": "src/audio/audioState.ts",
     "offset": 1563517,
     "length": 5
   },
   {
-    "symbol": "pce",
+    "symbol": "notifyAudioState",
     "original": "pce",
-    "module": "src/ui/core/icons.ts",
+    "module": "src/audio/audioState.ts",
     "offset": 1563523,
     "length": 71
   },
   {
-    "symbol": "ah",
+    "symbol": "getAudioVolume",
     "original": "ah",
-    "module": "src/ui/core/icons.ts",
+    "module": "src/audio/audioState.ts",
     "offset": 1563594,
     "length": 24
   },
   {
-    "symbol": "Iu",
+    "symbol": "isAudioPlaying",
     "original": "Iu",
-    "module": "src/ui/core/icons.ts",
+    "module": "src/audio/audioState.ts",
     "offset": 1563618,
     "length": 24
   },
   {
-    "symbol": "_p",
+    "symbol": "setAudioPlaying",
     "original": "_p",
-    "module": "src/ui/core/icons.ts",
+    "module": "src/audio/audioState.ts",
     "offset": 1563642,
     "length": 36
   },
   {
-    "symbol": "La",
+    "symbol": "subscribeAudioState",
     "original": "La",
-    "module": "src/ui/core/icons.ts",
+    "module": "src/audio/audioState.ts",
     "offset": 1563678,
     "length": 87
   },
@@ -6020,7 +6020,7 @@
     "length": 49
   },
   {
-    "symbol": "CS",
+    "symbol": "svgIcon",
     "original": "CS",
     "module": "src/ui/core/icons.ts",
     "offset": 1564624,
@@ -6573,7 +6573,7 @@
     "length": 7
   },
   {
-    "symbol": "wue",
+    "symbol": "createSigils",
     "original": "wue",
     "module": "src/game/sigils/createSigils.ts",
     "offset": 1615385,
@@ -6776,114 +6776,114 @@
     "length": 89
   },
   {
-    "symbol": "$le",
+    "symbol": "createAppUiState",
     "original": "$le",
     "module": "src/ui/core/state.ts",
     "offset": 1542871,
     "length": 365
   },
   {
-    "symbol": "ln",
+    "symbol": "phosphorIcon",
     "original": "ln",
-    "module": "src/ui/core/state.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543236,
     "length": 77
   },
   {
     "symbol": "J3",
     "original": "J3",
-    "module": "src/ui/core/state.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543319,
     "length": 22
   },
   {
     "symbol": "oG",
     "original": "oG",
-    "module": "src/ui/core/state.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543342,
     "length": 30
   },
   {
     "symbol": "Kle",
     "original": "Kle",
-    "module": "src/ui/core/state.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543373,
     "length": 21
   },
   {
     "symbol": "jle",
     "original": "jle",
-    "module": "src/ui/core/state.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543395,
     "length": 18
   },
   {
     "symbol": "Z3",
     "original": "Z3",
-    "module": "src/ui/core/state.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543414,
     "length": 20
   },
   {
     "symbol": "Yle",
     "original": "Yle",
-    "module": "src/ui/core/state.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543435,
     "length": 20
   },
   {
     "symbol": "Xle",
     "original": "Xle",
-    "module": "src/ui/core/state.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543456,
     "length": 14
   },
   {
     "symbol": "eb",
     "original": "eb",
-    "module": "src/ui/core/state.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543471,
     "length": 32
   },
   {
     "symbol": "R1",
     "original": "R1",
-    "module": "src/ui/core/state.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543504,
     "length": 10
   },
   {
     "symbol": "eL",
     "original": "eL",
-    "module": "src/ui/core/state.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543515,
     "length": 13
   },
   {
     "symbol": "Jle",
     "original": "Jle",
-    "module": "src/ui/core/state.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543529,
     "length": 20
   },
   {
     "symbol": "Zle",
     "original": "Zle",
-    "module": "src/ui/core/state.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543550,
     "length": 21
   },
   {
     "symbol": "ece",
     "original": "ece",
-    "module": "src/ui/core/state.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543572,
     "length": 20
   },
   {
     "symbol": "tce",
     "original": "tce",
-    "module": "src/ui/core/state.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543593,
     "length": 20
   },
@@ -6981,42 +6981,42 @@
   {
     "symbol": "sce",
     "original": "sce",
-    "module": "src/ui/core/fullscreen.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543614,
     "length": 21
   },
   {
     "symbol": "nce",
     "original": "nce",
-    "module": "src/ui/core/fullscreen.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543636,
     "length": 19
   },
   {
     "symbol": "ice",
     "original": "ice",
-    "module": "src/ui/core/fullscreen.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543656,
     "length": 20
   },
   {
     "symbol": "aG",
     "original": "aG",
-    "module": "src/ui/core/fullscreen.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543677,
     "length": 24
   },
   {
     "symbol": "PE",
     "original": "PE",
-    "module": "src/ui/core/fullscreen.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543702,
     "length": 27
   },
   {
     "symbol": "Z2",
     "original": "Z2",
-    "module": "src/ui/core/fullscreen.ts",
+    "module": "src/ui/core/phosphorIcons.ts",
     "offset": 1543730,
     "length": 25
   },
@@ -7065,35 +7065,35 @@
   {
     "symbol": "cce",
     "original": "cce",
-    "module": "src/ui/core/fullscreen.ts",
+    "module": "src/ui/walk/hudPanel.ts",
     "offset": 1544689,
     "length": 6
   },
   {
     "symbol": "uce",
     "original": "uce",
-    "module": "src/ui/core/fullscreen.ts",
+    "module": "src/ui/walk/hudPanel.ts",
     "offset": 1544696,
     "length": 7
   },
   {
     "symbol": "ES",
     "original": "ES",
-    "module": "src/ui/core/fullscreen.ts",
+    "module": "src/ui/walk/hudPanel.ts",
     "offset": 1544704,
     "length": 5
   },
   {
     "symbol": "dce",
     "original": "dce",
-    "module": "src/ui/core/fullscreen.ts",
+    "module": "src/ui/walk/hudPanel.ts",
     "offset": 1544710,
     "length": 1235
   },
   {
     "symbol": "hce",
     "original": "hce",
-    "module": "src/ui/core/fullscreen.ts",
+    "module": "src/ui/walk/hudPanel.ts",
     "offset": 1545946,
     "length": 542
   },
@@ -7189,7 +7189,7 @@
     "length": 900
   },
   {
-    "symbol": "Gce",
+    "symbol": "createWalkHelp",
     "original": "Gce",
     "module": "src/ui/walk/controlsHelp.ts",
     "offset": 1595432,
@@ -7273,7 +7273,7 @@
     "length": 599
   },
   {
-    "symbol": "jce",
+    "symbol": "createControlsHelp",
     "original": "jce",
     "module": "src/ui/walk/controlsHelp.ts",
     "offset": 1601725,
@@ -7301,7 +7301,7 @@
     "length": 271
   },
   {
-    "symbol": "Lue",
+    "symbol": "createWalkPrompt",
     "original": "Lue",
     "module": "src/ui/walk/prompts.ts",
     "offset": 1634041,
@@ -7462,7 +7462,7 @@
     "length": 962
   },
   {
-    "symbol": "Pue",
+    "symbol": "createDriveTutorial",
     "original": "Pue",
     "module": "src/ui/drive/tutorial.ts",
     "offset": 1637964,
@@ -7476,7 +7476,7 @@
     "length": 665
   },
   {
-    "symbol": "Nue",
+    "symbol": "createAchievementsPanel",
     "original": "Nue",
     "module": "src/ui/achievements/createAchievementsPanel.ts",
     "offset": 1626866,
@@ -7966,7 +7966,7 @@
     "length": 130
   },
   {
-    "symbol": "s0e",
+    "symbol": "createGarageAudio",
     "original": "s0e",
     "module": "src/audio/garage.ts",
     "offset": 2024078,
@@ -8022,7 +8022,7 @@
     "length": 2781
   },
   {
-    "symbol": "hhe",
+    "symbol": "createTransitionOverlay",
     "original": "hhe",
     "module": "src/ui/intro/createIntroOverlay.ts",
     "offset": 1715021,
@@ -8036,7 +8036,7 @@
     "length": 1407
   },
   {
-    "symbol": "HG",
+    "symbol": "collectHeightPassHideObjects",
     "original": "HG",
     "module": "src/runtime/warmup.ts",
     "offset": 2025764,
@@ -9079,7 +9079,7 @@
     "length": 6
   },
   {
-    "symbol": "Qle",
+    "symbol": "getLoaderRevealRadius",
     "original": "Qle",
     "module": "src/ui/loader/createLoaderOverlay.ts",
     "offset": 1537337,

@@ -1,0 +1,128 @@
+.phone-row {
+  --c: #8ea2ff;
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 10px 9px 9px;
+  border-left: 2px solid transparent;
+  cursor: pointer;
+  transition:
+    background 0.18s ease,
+    border-color 0.18s ease;
+}
+.phone-row:hover {
+  background: #ffffff0a;
+}
+.phone-row.is-selected {
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--c) 16%, transparent),
+    color-mix(in srgb, var(--c) 4%, transparent)
+  );
+  border-left-color: var(--c);
+}
+.phone-row__who.story-portrait {
+  width: 38px;
+}
+.phone-row__body {
+  min-width: 0;
+}
+.phone-row__head {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 0 0 4px;
+}
+.phone-row__head b {
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  color: var(--c);
+}
+.phone-row__head em {
+  padding: 1px 4px;
+  font-style: normal;
+  font-size: 6.5px;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  color: #fff9;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.phone-row__text {
+  margin: 0;
+  overflow: hidden;
+  font-family: var(--story-mono);
+  font-size: 10.5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #e2e8ff99;
+}
+.phone-row.is-unread .phone-row__text {
+  color: #ffffffeb;
+}
+.phone-row__side {
+  display: grid;
+  justify-items: end;
+  gap: 6px;
+  align-self: start;
+  padding-top: 2px;
+}
+.phone-row__side time {
+  font-size: 7.5px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #ffffff73;
+}
+.phone-row__mark {
+  display: grid;
+  place-items: center;
+  width: 12px;
+  height: 12px;
+  font-style: normal;
+  font-size: 10px;
+  color: var(--key);
+}
+.phone-row__mark .phone-icon {
+  font-size: 12px;
+}
+.phone-row.is-unread .phone-row__mark:before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--sys);
+}
+.phone-row.is-done {
+  opacity: 0.5;
+}
+.phone-row.is-done .phone-row__mark {
+  color: #4ade80;
+}
+.phone-row--empty {
+  display: block;
+  padding: 22px 10px;
+  font-size: 9px;
+  letter-spacing: 0.3em;
+  text-align: center;
+  color: #ffffff59;
+  cursor: default;
+}
+.phone__inbox-keys {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 10px 18px 16px;
+  font-size: 8px;
+  letter-spacing: 0.24em;
+  color: #fff6;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+.phone__inbox-keys kbd {
+  padding: 2px 5px;
+  font-size: 8px;
+  color: #fff9;
+  border-color: #ffffff40;
+  background: transparent;
+}

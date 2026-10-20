@@ -1,0 +1,31 @@
+.phone__empty span {
+  font-family: var(--story-mono);
+  font-size: 12px;
+  color: #e2e8ff80;
+}
+@media (max-width: 860px) {
+  .phone {
+    grid-template-columns: 70px minmax(0, 1fr);
+  }
+  .phone__inbox-title span,
+  .phone__inbox-keys,
+  .phone-row__body,
+  .phone-row__side time {
+    display: none;
+  }
+  .phone__inbox-title {
+    justify-content: center;
+    padding: 14px 6px 10px;
+  }
+  .phone-row {
+    grid-template-columns: 38px;
+    justify-content: center;
+    position: relative;
+    padding: 8px 4px;
+  }
+  .phone-row__side {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+  }
+}

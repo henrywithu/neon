@@ -1,0 +1,4 @@
+.ach-mission .mission-badge {
+  opacity: 0.55;
+  filter: grayscale(0.4);
+}

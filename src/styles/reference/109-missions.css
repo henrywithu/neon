@@ -1,0 +1,44 @@
+.phone-toast.is-folding {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-10px) scaleX(0.16);
+  transform-origin: 0 50%;
+  transition:
+    opacity 0.3s ease 0.05s,
+    transform 0.35s cubic-bezier(0.55, 0, 0.8, 0.3),
+    visibility 0s linear 0.4s;
+}
+.phone-toast:hover {
+  background:
+    linear-gradient(90deg, #140818f0, #140818d6 62%, #14081866),
+    repeating-linear-gradient(
+      0deg,
+      rgba(255, 79, 94, 0.07) 0 1px,
+      transparent 1px 4px
+    );
+}
+.phone-toast__link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 9px;
+  font-family: var(--story-mono);
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  color: var(--sys);
+}
+.phone-toast__link * {
+  font-family: var(--story-mono);
+}
+.phone-toast__link > i {
+  width: 6px;
+  height: 6px;
+  flex-shrink: 0;
+  background: var(--sys);
+}
+.phone-toast.is-visible .phone-toast__link > i {
+  animation: phoneBlink 0.9s steps(1, end) infinite;
+}
+.phone-toast__link .phone-bars {
+  margin-left: auto;
+}

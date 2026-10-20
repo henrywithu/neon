@@ -1,0 +1,119 @@
+.mission-result__race {
+  display: grid;
+  gap: 4px;
+  margin: 0 0 12px;
+  padding: 8px 10px;
+  list-style: none;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  background: #26d0ff12;
+  border: 1px solid rgba(38, 208, 255, 0.3);
+}
+.mission-result__race[hidden] {
+  display: none;
+}
+.mission-result__race li {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #e2e8ffd1;
+}
+.mission-result__race i {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  font-style: normal;
+  font-size: 9px;
+  font-weight: 800;
+  color: #07060b;
+  background: #e2e8ff99;
+}
+.mission-result__race span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.mission-result__race em {
+  margin-left: auto;
+  flex: none;
+  font-style: normal;
+  color: #e2e8ffb3;
+}
+.mission-result__race li.is-you {
+  color: #fff;
+}
+.mission-result__race li.is-you i {
+  background: #ffd60a;
+}
+.mission-result__race li.is-finished em {
+  color: #ffd60a;
+}
+.mission-result__race li.is-out {
+  opacity: 0.5;
+}
+.sigil-toast,
+.sigil-toast *,
+.sigil-signal,
+.sigil-signal * {
+  box-sizing: border-box;
+  font-family: Orbitron, sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.sigil-toast {
+  --c: #22d3ee;
+  position: fixed;
+  left: 50%;
+  top: 58%;
+  z-index: 48;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  width: min(560px, calc(100vw - 32px));
+  padding: 16px 22px 16px 16px;
+  color: #fff;
+  background:
+    linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--c) 22%, transparent),
+      transparent 55%
+    ),
+    #080412cc;
+  border: 1px solid color-mix(in srgb, var(--c) 55%, transparent);
+  border-left: 3px solid var(--c);
+  clip-path: polygon(
+    0 0,
+    calc(100% - 16px) 0,
+    100% 16px,
+    100% 100%,
+    16px 100%,
+    0 calc(100% - 16px)
+  );
+  pointer-events: none;
+  opacity: 0;
+  transform: translate(-50%, calc(-50% - 10px)) scale(0.97);
+  transition:
+    opacity 0.5s ease,
+    transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.sigil-toast.is-visible {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+  transition:
+    opacity 0.25s ease,
+    transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.sigil-toast__icon {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  background: var(--c);
+  -webkit-mask: var(--icon) center / contain no-repeat;
+  mask: var(--icon) center / contain no-repeat;
+}
+.sigil-toast.is-visible .sigil-toast__icon {
+  animation: sigilIconIn 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
