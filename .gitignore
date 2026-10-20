@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.vite/
+.wrangler/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+research/original/
+artifacts/
+playwright-report/
+test-results/
+*.tsbuildinfo

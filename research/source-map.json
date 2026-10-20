@@ -1,0 +1,9109 @@
+[
+  {
+    "symbol": "bootstrapExperience",
+    "original": "P0e",
+    "module": "src/app/bootstrap.ts",
+    "offset": 2064829,
+    "length": 8856
+  },
+  {
+    "symbol": "performanceProfile",
+    "original": "ve",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1192117,
+    "length": 1464
+  },
+  {
+    "symbol": "C0",
+    "original": "C0",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1193582,
+    "length": 27
+  },
+  {
+    "symbol": "kU",
+    "original": "kU",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1193610,
+    "length": 10
+  },
+  {
+    "symbol": "FU",
+    "original": "FU",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1193621,
+    "length": 557
+  },
+  {
+    "symbol": "une",
+    "original": "une",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1194179,
+    "length": 18
+  },
+  {
+    "symbol": "dne",
+    "original": "dne",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1194198,
+    "length": 26
+  },
+  {
+    "symbol": "hne",
+    "original": "hne",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1194224,
+    "length": 24
+  },
+  {
+    "symbol": "DU",
+    "original": "DU",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1194248,
+    "length": 34
+  },
+  {
+    "symbol": "FN",
+    "original": "FN",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1194282,
+    "length": 108
+  },
+  {
+    "symbol": "PU",
+    "original": "PU",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1194390,
+    "length": 74
+  },
+  {
+    "symbol": "OU",
+    "original": "OU",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1194464,
+    "length": 100
+  },
+  {
+    "symbol": "fne",
+    "original": "fne",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1194570,
+    "length": 173
+  },
+  {
+    "symbol": "pne",
+    "original": "pne",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1194744,
+    "length": 11
+  },
+  {
+    "symbol": "mne",
+    "original": "mne",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1194756,
+    "length": 109
+  },
+  {
+    "symbol": "gne",
+    "original": "gne",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1194865,
+    "length": 62
+  },
+  {
+    "symbol": "applyDevicePerformanceDefaults",
+    "original": "Ane",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1194927,
+    "length": 1217
+  },
+  {
+    "symbol": "yne",
+    "original": "yne",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1196144,
+    "length": 149
+  },
+  {
+    "symbol": "bne",
+    "original": "bne",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1196293,
+    "length": 1052
+  },
+  {
+    "symbol": "xne",
+    "original": "xne",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1197345,
+    "length": 578
+  },
+  {
+    "symbol": "getStaticPixelRatio",
+    "original": "oh",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1197923,
+    "length": 72
+  },
+  {
+    "symbol": "applyPerformanceProfileToPipeline",
+    "original": "UU",
+    "module": "src/platform/performanceProfile.ts",
+    "offset": 1197995,
+    "length": 695
+  },
+  {
+    "symbol": "gF",
+    "original": "gF",
+    "module": "src/platform/deviceLayout.ts",
+    "offset": 1227,
+    "length": 23
+  },
+  {
+    "symbol": "isTouchDevice",
+    "original": "Dn",
+    "module": "src/platform/deviceLayout.ts",
+    "offset": 1251,
+    "length": 158
+  },
+  {
+    "symbol": "isDesktopPointer",
+    "original": "KG",
+    "module": "src/platform/deviceLayout.ts",
+    "offset": 1409,
+    "length": 33
+  },
+  {
+    "symbol": "isMobileLayout",
+    "original": "_u",
+    "module": "src/platform/deviceLayout.ts",
+    "offset": 1442,
+    "length": 111
+  },
+  {
+    "symbol": "isAppleMobile",
+    "original": "D1",
+    "module": "src/platform/deviceLayout.ts",
+    "offset": 1553,
+    "length": 175
+  },
+  {
+    "symbol": "jG",
+    "original": "jG",
+    "module": "src/platform/deviceLayout.ts",
+    "offset": 1734,
+    "length": 73
+  },
+  {
+    "symbol": "isOlderIPhone",
+    "original": "YG",
+    "module": "src/platform/deviceLayout.ts",
+    "offset": 1808,
+    "length": 199
+  },
+  {
+    "symbol": "isSafari",
+    "original": "AF",
+    "module": "src/platform/deviceLayout.ts",
+    "offset": 2007,
+    "length": 182
+  },
+  {
+    "symbol": "isMobileDevice",
+    "original": "P1",
+    "module": "src/platform/deviceLayout.ts",
+    "offset": 2189,
+    "length": 38
+  },
+  {
+    "symbol": "syncDeviceLayout",
+    "original": "V_",
+    "module": "src/platform/deviceLayout.ts",
+    "offset": 2227,
+    "length": 78
+  },
+  {
+    "symbol": "onDeviceLayoutChange",
+    "original": "eM",
+    "module": "src/platform/deviceLayout.ts",
+    "offset": 2305,
+    "length": 365
+  },
+  {
+    "symbol": "NU",
+    "original": "NU",
+    "module": "src/platform/userPreferences.ts",
+    "offset": 1190683,
+    "length": 34
+  },
+  {
+    "symbol": "d1",
+    "original": "d1",
+    "module": "src/platform/userPreferences.ts",
+    "offset": 1190718,
+    "length": 29
+  },
+  {
+    "symbol": "h1",
+    "original": "h1",
+    "module": "src/platform/userPreferences.ts",
+    "offset": 1190748,
+    "length": 25
+  },
+  {
+    "symbol": "f1",
+    "original": "f1",
+    "module": "src/platform/userPreferences.ts",
+    "offset": 1190774,
+    "length": 35
+  },
+  {
+    "symbol": "p1",
+    "original": "p1",
+    "module": "src/platform/userPreferences.ts",
+    "offset": 1190810,
+    "length": 33
+  },
+  {
+    "symbol": "m1",
+    "original": "m1",
+    "module": "src/platform/userPreferences.ts",
+    "offset": 1190844,
+    "length": 24
+  },
+  {
+    "symbol": "I2",
+    "original": "I2",
+    "module": "src/platform/userPreferences.ts",
+    "offset": 1190873,
+    "length": 5
+  },
+  {
+    "symbol": "isDevelopmentMode",
+    "original": "g1",
+    "module": "src/platform/userPreferences.ts",
+    "offset": 1190918,
+    "length": 24
+  },
+  {
+    "symbol": "setDevelopmentMode",
+    "original": "Zse",
+    "module": "src/platform/userPreferences.ts",
+    "offset": 1190942,
+    "length": 23
+  },
+  {
+    "symbol": "getLookPreference",
+    "original": "ene",
+    "module": "src/platform/userPreferences.ts",
+    "offset": 1190965,
+    "length": 70
+  },
+  {
+    "symbol": "setLookPreference",
+    "original": "tne",
+    "module": "src/platform/userPreferences.ts",
+    "offset": 1191035,
+    "length": 85
+  },
+  {
+    "symbol": "getQualityPreference",
+    "original": "LU",
+    "module": "src/platform/userPreferences.ts",
+    "offset": 1191120,
+    "length": 69
+  },
+  {
+    "symbol": "setQualityPreference",
+    "original": "sne",
+    "module": "src/platform/userPreferences.ts",
+    "offset": 1191189,
+    "length": 85
+  },
+  {
+    "symbol": "getResolutionPreference",
+    "original": "nne",
+    "module": "src/platform/userPreferences.ts",
+    "offset": 1191274,
+    "length": 123
+  },
+  {
+    "symbol": "setResolutionPreference",
+    "original": "ine",
+    "module": "src/platform/userPreferences.ts",
+    "offset": 1191397,
+    "length": 93
+  },
+  {
+    "symbol": "rne",
+    "original": "rne",
+    "module": "src/platform/userPreferences.ts",
+    "offset": 1191490,
+    "length": 108
+  },
+  {
+    "symbol": "one",
+    "original": "one",
+    "module": "src/platform/userPreferences.ts",
+    "offset": 1191598,
+    "length": 102
+  },
+  {
+    "symbol": "ane",
+    "original": "ane",
+    "module": "src/platform/userPreferences.ts",
+    "offset": 1191700,
+    "length": 108
+  },
+  {
+    "symbol": "lne",
+    "original": "lne",
+    "module": "src/platform/userPreferences.ts",
+    "offset": 1191808,
+    "length": 102
+  },
+  {
+    "symbol": "resetPreferences",
+    "original": "cne",
+    "module": "src/platform/userPreferences.ts",
+    "offset": 1191910,
+    "length": 201
+  },
+  {
+    "symbol": "fhe",
+    "original": "fhe",
+    "module": "src/intro/createIntroFlow.ts",
+    "offset": 1715547,
+    "length": 38
+  },
+  {
+    "symbol": "createIntroFlow",
+    "original": "phe",
+    "module": "src/intro/createIntroFlow.ts",
+    "offset": 1715586,
+    "length": 1067
+  },
+  {
+    "symbol": "BG",
+    "original": "BG",
+    "module": "src/intro/createIntroFlow.ts",
+    "offset": 1716659,
+    "length": 5
+  },
+  {
+    "symbol": "mhe",
+    "original": "mhe",
+    "module": "src/intro/createIntroFlow.ts",
+    "offset": 1716665,
+    "length": 7
+  },
+  {
+    "symbol": "No",
+    "original": "No",
+    "module": "src/intro/createIntroFlow.ts",
+    "offset": 1716673,
+    "length": 164
+  },
+  {
+    "symbol": "WE",
+    "original": "WE",
+    "module": "src/intro/createIntroFlow.ts",
+    "offset": 1716838,
+    "length": 57
+  },
+  {
+    "symbol": "r0",
+    "original": "r0",
+    "module": "src/intro/createIntroFlow.ts",
+    "offset": 1716896,
+    "length": 53
+  },
+  {
+    "symbol": "ghe",
+    "original": "ghe",
+    "module": "src/intro/createIntroFlow.ts",
+    "offset": 1716949,
+    "length": 156
+  },
+  {
+    "symbol": "Ahe",
+    "original": "Ahe",
+    "module": "src/intro/createIntroFlow.ts",
+    "offset": 1717105,
+    "length": 394
+  },
+  {
+    "symbol": "createShadowFilter",
+    "original": "Gee",
+    "module": "src/world/scene.ts",
+    "offset": 996303,
+    "length": 593
+  },
+  {
+    "symbol": "freezeWorldMatrices",
+    "original": "Vee",
+    "module": "src/world/scene.ts",
+    "offset": 996896,
+    "length": 96
+  },
+  {
+    "symbol": "addStaticObject",
+    "original": "Ny",
+    "module": "src/world/scene.ts",
+    "offset": 996992,
+    "length": 59
+  },
+  {
+    "symbol": "createScene",
+    "original": "Qee",
+    "module": "src/world/scene.ts",
+    "offset": 997051,
+    "length": 1028
+  },
+  {
+    "symbol": "Qde",
+    "original": "Qde",
+    "module": "src/bootstrap/createRenderer.ts",
+    "offset": 1698003,
+    "length": 1138
+  },
+  {
+    "symbol": "qde",
+    "original": "qde",
+    "module": "src/bootstrap/createRenderer.ts",
+    "offset": 1699141,
+    "length": 287
+  },
+  {
+    "symbol": "Hde",
+    "original": "Hde",
+    "module": "src/bootstrap/createRenderer.ts",
+    "offset": 1699428,
+    "length": 46
+  },
+  {
+    "symbol": "Wde",
+    "original": "Wde",
+    "module": "src/bootstrap/createRenderer.ts",
+    "offset": 1699474,
+    "length": 115
+  },
+  {
+    "symbol": "G_",
+    "original": "G_",
+    "module": "src/bootstrap/createRenderer.ts",
+    "offset": 1699589,
+    "length": 65
+  },
+  {
+    "symbol": "$de",
+    "original": "$de",
+    "module": "src/bootstrap/createRenderer.ts",
+    "offset": 1699654,
+    "length": 77
+  },
+  {
+    "symbol": "UL",
+    "original": "UL",
+    "module": "src/bootstrap/createRenderer.ts",
+    "offset": 1699731,
+    "length": 156
+  },
+  {
+    "symbol": "Kde",
+    "original": "Kde",
+    "module": "src/bootstrap/createRenderer.ts",
+    "offset": 1699887,
+    "length": 46
+  },
+  {
+    "symbol": "zL",
+    "original": "zL",
+    "module": "src/bootstrap/createRenderer.ts",
+    "offset": 1699933,
+    "length": 132
+  },
+  {
+    "symbol": "jde",
+    "original": "jde",
+    "module": "src/bootstrap/createRenderer.ts",
+    "offset": 1700065,
+    "length": 322
+  },
+  {
+    "symbol": "Yde",
+    "original": "Yde",
+    "module": "src/bootstrap/createRenderer.ts",
+    "offset": 1700387,
+    "length": 699
+  },
+  {
+    "symbol": "Xde",
+    "original": "Xde",
+    "module": "src/bootstrap/createRenderer.ts",
+    "offset": 1701086,
+    "length": 175
+  },
+  {
+    "symbol": "uB",
+    "original": "uB",
+    "module": "src/bootstrap/createRenderer.ts",
+    "offset": 1701261,
+    "length": 169
+  },
+  {
+    "symbol": "Jde",
+    "original": "Jde",
+    "module": "src/bootstrap/createRenderer.ts",
+    "offset": 1701430,
+    "length": 64
+  },
+  {
+    "symbol": "Zde",
+    "original": "Zde",
+    "module": "src/bootstrap/createRenderer.ts",
+    "offset": 1701500,
+    "length": 7
+  },
+  {
+    "symbol": "ehe",
+    "original": "ehe",
+    "module": "src/bootstrap/createRenderer.ts",
+    "offset": 1701508,
+    "length": 305
+  },
+  {
+    "symbol": "the",
+    "original": "the",
+    "module": "src/bootstrap/createRenderer.ts",
+    "offset": 1701814,
+    "length": 108
+  },
+  {
+    "symbol": "createSpatialAudio",
+    "original": "Fde",
+    "module": "src/audio/spatialAudio.ts",
+    "offset": 1693140,
+    "length": 2397
+  },
+  {
+    "symbol": "Dde",
+    "original": "Dde",
+    "module": "src/audio/spatialAudio.ts",
+    "offset": 1695543,
+    "length": 53
+  },
+  {
+    "symbol": "kL",
+    "original": "kL",
+    "module": "src/audio/spatialAudio.ts",
+    "offset": 1695597,
+    "length": 6
+  },
+  {
+    "symbol": "Pde",
+    "original": "Pde",
+    "module": "src/audio/spatialAudio.ts",
+    "offset": 1695604,
+    "length": 658
+  },
+  {
+    "symbol": "Ode",
+    "original": "Ode",
+    "module": "src/audio/spatialAudio.ts",
+    "offset": 1696268,
+    "length": 173
+  },
+  {
+    "symbol": "FL",
+    "original": "FL",
+    "module": "src/audio/spatialAudio.ts",
+    "offset": 1696442,
+    "length": 4
+  },
+  {
+    "symbol": "DL",
+    "original": "DL",
+    "module": "src/audio/spatialAudio.ts",
+    "offset": 1696447,
+    "length": 6
+  },
+  {
+    "symbol": "Ude",
+    "original": "Ude",
+    "module": "src/audio/spatialAudio.ts",
+    "offset": 1696454,
+    "length": 7
+  },
+  {
+    "symbol": "gg",
+    "original": "gg",
+    "module": "src/audio/spatialAudio.ts",
+    "offset": 1696462,
+    "length": 6
+  },
+  {
+    "symbol": "PL",
+    "original": "PL",
+    "module": "src/audio/spatialAudio.ts",
+    "offset": 1696469,
+    "length": 5
+  },
+  {
+    "symbol": "OL",
+    "original": "OL",
+    "module": "src/audio/spatialAudio.ts",
+    "offset": 1696475,
+    "length": 4
+  },
+  {
+    "symbol": "zde",
+    "original": "zde",
+    "module": "src/audio/spatialAudio.ts",
+    "offset": 1696480,
+    "length": 1004
+  },
+  {
+    "symbol": "Gde",
+    "original": "Gde",
+    "module": "src/audio/spatialAudio.ts",
+    "offset": 1697490,
+    "length": 45
+  },
+  {
+    "symbol": "FS",
+    "original": "FS",
+    "module": "src/audio/spatialAudio.ts",
+    "offset": 1697536,
+    "length": 190
+  },
+  {
+    "symbol": "Vde",
+    "original": "Vde",
+    "module": "src/audio/spatialAudio.ts",
+    "offset": 1697726,
+    "length": 277
+  },
+  {
+    "symbol": "qU",
+    "original": "qU",
+    "module": "src/world/city/instanceStorage.ts",
+    "offset": 1212006,
+    "length": 5
+  },
+  {
+    "symbol": "aie",
+    "original": "aie",
+    "module": "src/world/city/instanceStorage.ts",
+    "offset": 1212012,
+    "length": 92
+  },
+  {
+    "symbol": "gl",
+    "original": "gl",
+    "module": "src/world/city/instanceStorage.ts",
+    "offset": 1212104,
+    "length": 128
+  },
+  {
+    "symbol": "rA",
+    "original": "rA",
+    "module": "src/world/city/instanceStorage.ts",
+    "offset": 1212238,
+    "length": 4
+  },
+  {
+    "symbol": "Mu",
+    "original": "Mu",
+    "module": "src/world/city/instanceStorage.ts",
+    "offset": 1212243,
+    "length": 4
+  },
+  {
+    "symbol": "dl",
+    "original": "dl",
+    "module": "src/world/city/instanceStorage.ts",
+    "offset": 1212248,
+    "length": 4
+  },
+  {
+    "symbol": "B0",
+    "original": "B0",
+    "module": "src/world/city/instanceStorage.ts",
+    "offset": 1212253,
+    "length": 4
+  },
+  {
+    "symbol": "QN",
+    "original": "QN",
+    "module": "src/world/city/instanceStorage.ts",
+    "offset": 1212258,
+    "length": 5
+  },
+  {
+    "symbol": "A1",
+    "original": "A1",
+    "module": "src/world/city/instanceStorage.ts",
+    "offset": 1212264,
+    "length": 5
+  },
+  {
+    "symbol": "dg",
+    "original": "dg",
+    "module": "src/world/createWorld.ts",
+    "offset": 1353842,
+    "length": 79
+  },
+  {
+    "symbol": "FEATURES",
+    "original": "Sr",
+    "module": "src/world/createWorld.ts",
+    "offset": 1353922,
+    "length": 173
+  },
+  {
+    "symbol": "Soe",
+    "original": "Soe",
+    "module": "src/world/createWorld.ts",
+    "offset": 1354096,
+    "length": 128
+  },
+  {
+    "symbol": "createWorld",
+    "original": "voe",
+    "module": "src/world/createWorld.ts",
+    "offset": 1354224,
+    "length": 2979
+  },
+  {
+    "symbol": "Kre",
+    "original": "Kre",
+    "module": "src/world/city/createMetro.ts",
+    "offset": 1324889,
+    "length": 1089
+  },
+  {
+    "symbol": "jre",
+    "original": "jre",
+    "module": "src/world/city/createMetro.ts",
+    "offset": 1325978,
+    "length": 481
+  },
+  {
+    "symbol": "createMetro",
+    "original": "Yre",
+    "module": "src/world/city/createMetro.ts",
+    "offset": 1326459,
+    "length": 5376
+  },
+  {
+    "symbol": "Xre",
+    "original": "Xre",
+    "module": "src/world/city/createMetro.ts",
+    "offset": 1331835,
+    "length": 410
+  },
+  {
+    "symbol": "createOcclusion",
+    "original": "Hre",
+    "module": "src/world/city/occlusion.ts",
+    "offset": 1320609,
+    "length": 4215
+  },
+  {
+    "symbol": "e0",
+    "original": "e0",
+    "module": "src/world/city/occlusion.ts",
+    "offset": 1324830,
+    "length": 17
+  },
+  {
+    "symbol": "T3",
+    "original": "T3",
+    "module": "src/world/city/occlusion.ts",
+    "offset": 1324848,
+    "length": 4
+  },
+  {
+    "symbol": "Wre",
+    "original": "Wre",
+    "module": "src/world/city/occlusion.ts",
+    "offset": 1324853,
+    "length": 27
+  },
+  {
+    "symbol": "$re",
+    "original": "$re",
+    "module": "src/world/city/occlusion.ts",
+    "offset": 1324881,
+    "length": 7
+  },
+  {
+    "symbol": "og",
+    "original": "og",
+    "module": "src/world/city/buildingKit.ts",
+    "offset": 1268895,
+    "length": 23
+  },
+  {
+    "symbol": "ZN",
+    "original": "ZN",
+    "module": "src/world/city/buildingKit.ts",
+    "offset": 1268919,
+    "length": 8
+  },
+  {
+    "symbol": "Fie",
+    "original": "Fie",
+    "module": "src/world/city/buildingKit.ts",
+    "offset": 1268928,
+    "length": 701
+  },
+  {
+    "symbol": "GT",
+    "original": "GT",
+    "module": "src/world/city/buildingKit.ts",
+    "offset": 1269629,
+    "length": 150
+  },
+  {
+    "symbol": "loadBuildingKit",
+    "original": "Die",
+    "module": "src/world/city/buildingKit.ts",
+    "offset": 1269779,
+    "length": 852
+  },
+  {
+    "symbol": "e3",
+    "original": "e3",
+    "module": "src/world/city/buildingKit.ts",
+    "offset": 1270637,
+    "length": 105
+  },
+  {
+    "symbol": "zU",
+    "original": "zU",
+    "module": "src/world/loaders/createGltfLoaders.ts",
+    "offset": 1198690,
+    "length": 476
+  },
+  {
+    "symbol": "_ne",
+    "original": "_ne",
+    "module": "src/world/loaders/createGltfLoaders.ts",
+    "offset": 1199166,
+    "length": 191
+  },
+  {
+    "symbol": "wne",
+    "original": "wne",
+    "module": "src/world/loaders/createGltfLoaders.ts",
+    "offset": 1199363,
+    "length": 26
+  },
+  {
+    "symbol": "IT",
+    "original": "IT",
+    "module": "src/world/loaders/createGltfLoaders.ts",
+    "offset": 1199394,
+    "length": 2
+  },
+  {
+    "symbol": "jy",
+    "original": "jy",
+    "module": "src/world/loaders/createGltfLoaders.ts",
+    "offset": 1199397,
+    "length": 2
+  },
+  {
+    "symbol": "Pc",
+    "original": "Pc",
+    "module": "src/world/loaders/createGltfLoaders.ts",
+    "offset": 1199400,
+    "length": 2
+  },
+  {
+    "symbol": "mE",
+    "original": "mE",
+    "module": "src/world/loaders/createGltfLoaders.ts",
+    "offset": 1199403,
+    "length": 439
+  },
+  {
+    "symbol": "createGltfLoaders",
+    "original": "Ou",
+    "module": "src/world/loaders/createGltfLoaders.ts",
+    "offset": 1199842,
+    "length": 322
+  },
+  {
+    "symbol": "DN",
+    "original": "DN",
+    "module": "src/world/billboards/loadBillboards.ts",
+    "offset": 1200673,
+    "length": 23
+  },
+  {
+    "symbol": "Cne",
+    "original": "Cne",
+    "module": "src/world/billboards/loadBillboards.ts",
+    "offset": 1200697,
+    "length": 25
+  },
+  {
+    "symbol": "loadAdAtlas",
+    "original": "GU",
+    "module": "src/world/billboards/loadBillboards.ts",
+    "offset": 1200723,
+    "length": 489
+  },
+  {
+    "symbol": "Bne",
+    "original": "Bne",
+    "module": "src/world/billboards/loadBillboards.ts",
+    "offset": 1201218,
+    "length": 28
+  },
+  {
+    "symbol": "loadBillboards",
+    "original": "Rne",
+    "module": "src/world/billboards/loadBillboards.ts",
+    "offset": 1201247,
+    "length": 214
+  },
+  {
+    "symbol": "createBuildingMaterial",
+    "original": "Pie",
+    "module": "src/shaders/buildingMaterial.ts",
+    "offset": 1270743,
+    "length": 2806
+  },
+  {
+    "symbol": "VT",
+    "original": "VT",
+    "module": "src/shaders/buildingMaterial.ts",
+    "offset": 1273555,
+    "length": 9
+  },
+  {
+    "symbol": "t3",
+    "original": "t3",
+    "module": "src/shaders/buildingMaterial.ts",
+    "offset": 1273565,
+    "length": 9
+  },
+  {
+    "symbol": "QT",
+    "original": "QT",
+    "module": "src/shaders/buildingMaterial.ts",
+    "offset": 1273575,
+    "length": 9
+  },
+  {
+    "symbol": "Ha",
+    "original": "Ha",
+    "module": "src/shaders/buildingMaterial.ts",
+    "offset": 1273585,
+    "length": 9
+  },
+  {
+    "symbol": "s3",
+    "original": "s3",
+    "module": "src/shaders/buildingMaterial.ts",
+    "offset": 1273595,
+    "length": 9
+  },
+  {
+    "symbol": "createSignLighting",
+    "original": "Qre",
+    "module": "src/world/city/signLighting.ts",
+    "offset": 1317720,
+    "length": 2749
+  },
+  {
+    "symbol": "w3",
+    "original": "w3",
+    "module": "src/world/city/signLighting.ts",
+    "offset": 1320475,
+    "length": 9
+  },
+  {
+    "symbol": "tS",
+    "original": "tS",
+    "module": "src/world/city/signLighting.ts",
+    "offset": 1320485,
+    "length": 9
+  },
+  {
+    "symbol": "Ka",
+    "original": "Ka",
+    "module": "src/world/city/signLighting.ts",
+    "offset": 1320495,
+    "length": 8
+  },
+  {
+    "symbol": "qre",
+    "original": "qre",
+    "module": "src/world/city/signLighting.ts",
+    "offset": 1320504,
+    "length": 104
+  },
+  {
+    "symbol": "n3",
+    "original": "n3",
+    "module": "src/world/city/instancedPlacements.ts",
+    "offset": 1273605,
+    "length": 8
+  },
+  {
+    "symbol": "Jy",
+    "original": "Jy",
+    "module": "src/world/city/instancedPlacements.ts",
+    "offset": 1273614,
+    "length": 8
+  },
+  {
+    "symbol": "hd",
+    "original": "hd",
+    "module": "src/world/city/instancedPlacements.ts",
+    "offset": 1273623,
+    "length": 9
+  },
+  {
+    "symbol": "Oie",
+    "original": "Oie",
+    "module": "src/world/city/instancedPlacements.ts",
+    "offset": 1273633,
+    "length": 16
+  },
+  {
+    "symbol": "qT",
+    "original": "qT",
+    "module": "src/world/city/instancedPlacements.ts",
+    "offset": 1273650,
+    "length": 8
+  },
+  {
+    "symbol": "Uie",
+    "original": "Uie",
+    "module": "src/world/city/instancedPlacements.ts",
+    "offset": 1273659,
+    "length": 7
+  },
+  {
+    "symbol": "zie",
+    "original": "zie",
+    "module": "src/world/city/instancedPlacements.ts",
+    "offset": 1273667,
+    "length": 7
+  },
+  {
+    "symbol": "k2",
+    "original": "k2",
+    "module": "src/world/city/instancedPlacements.ts",
+    "offset": 1273675,
+    "length": 128
+  },
+  {
+    "symbol": "createInstancedPlacements",
+    "original": "np",
+    "module": "src/world/city/instancedPlacements.ts",
+    "offset": 1273803,
+    "length": 4950
+  },
+  {
+    "symbol": "createBlockProxies",
+    "original": "Gie",
+    "module": "src/world/city/instancedPlacements.ts",
+    "offset": 1278753,
+    "length": 2087
+  },
+  {
+    "symbol": "Gre",
+    "original": "Gre",
+    "module": "src/world/city/screens.ts",
+    "offset": 1316356,
+    "length": 16
+  },
+  {
+    "symbol": "createCityScreens",
+    "original": "Vre",
+    "module": "src/world/city/screens.ts",
+    "offset": 1316373,
+    "length": 1347
+  },
+  {
+    "symbol": "VU",
+    "original": "VU",
+    "module": "src/world/billboards/billboardMaterials.ts",
+    "offset": 1201461,
+    "length": 72
+  },
+  {
+    "symbol": "Ine",
+    "original": "Ine",
+    "module": "src/world/billboards/billboardMaterials.ts",
+    "offset": 1201533,
+    "length": 162
+  },
+  {
+    "symbol": "sampleBillboardAtlas",
+    "original": "QU",
+    "module": "src/world/billboards/billboardMaterials.ts",
+    "offset": 1201695,
+    "length": 582
+  },
+  {
+    "symbol": "createBillboardUniforms",
+    "original": "Nne",
+    "module": "src/world/billboards/billboardMaterials.ts",
+    "offset": 1202277,
+    "length": 189
+  },
+  {
+    "symbol": "createBillboardShader",
+    "original": "Lne",
+    "module": "src/world/billboards/billboardMaterials.ts",
+    "offset": 1202466,
+    "length": 295
+  },
+  {
+    "symbol": "kne",
+    "original": "kne",
+    "module": "src/world/billboards/billboardMaterials.ts",
+    "offset": 1202767,
+    "length": 56
+  },
+  {
+    "symbol": "Fne",
+    "original": "Fne",
+    "module": "src/world/billboards/billboardMaterials.ts",
+    "offset": 1202824,
+    "length": 232
+  },
+  {
+    "symbol": "Dne",
+    "original": "Dne",
+    "module": "src/world/billboards/billboardMaterials.ts",
+    "offset": 1203056,
+    "length": 86
+  },
+  {
+    "symbol": "ig",
+    "original": "ig",
+    "module": "src/world/billboards/billboardMaterials.ts",
+    "offset": 1203148,
+    "length": 22
+  },
+  {
+    "symbol": "li",
+    "original": "li",
+    "module": "src/world/billboards/billboardMaterials.ts",
+    "offset": 1203171,
+    "length": 25
+  },
+  {
+    "symbol": "NT",
+    "original": "NT",
+    "module": "src/world/billboards/billboardMaterials.ts",
+    "offset": 1203197,
+    "length": 8
+  },
+  {
+    "symbol": "LT",
+    "original": "LT",
+    "module": "src/world/billboards/billboardMaterials.ts",
+    "offset": 1203206,
+    "length": 8
+  },
+  {
+    "symbol": "PN",
+    "original": "PN",
+    "module": "src/world/billboards/billboardMaterials.ts",
+    "offset": 1203215,
+    "length": 8
+  },
+  {
+    "symbol": "ON",
+    "original": "ON",
+    "module": "src/world/billboards/billboardMaterials.ts",
+    "offset": 1203224,
+    "length": 8
+  },
+  {
+    "symbol": "Pne",
+    "original": "Pne",
+    "module": "src/world/billboards/billboardMaterials.ts",
+    "offset": 1203233,
+    "length": 853
+  },
+  {
+    "symbol": "One",
+    "original": "One",
+    "module": "src/world/billboards/billboardMaterials.ts",
+    "offset": 1204086,
+    "length": 447
+  },
+  {
+    "symbol": "Une",
+    "original": "Une",
+    "module": "src/world/billboards/billboardMaterials.ts",
+    "offset": 1204533,
+    "length": 48
+  },
+  {
+    "symbol": "applyBillboardMaterials",
+    "original": "zne",
+    "module": "src/world/billboards/billboardMaterials.ts",
+    "offset": 1204581,
+    "length": 130
+  },
+  {
+    "symbol": "JT",
+    "original": "JT",
+    "module": "src/world/city/wires.ts",
+    "offset": 1314702,
+    "length": 7
+  },
+  {
+    "symbol": "b3",
+    "original": "b3",
+    "module": "src/world/city/wires.ts",
+    "offset": 1314710,
+    "length": 6
+  },
+  {
+    "symbol": "createWires",
+    "original": "zre",
+    "module": "src/world/city/wires.ts",
+    "offset": 1314717,
+    "length": 1595
+  },
+  {
+    "symbol": "x3",
+    "original": "x3",
+    "module": "src/world/city/wires.ts",
+    "offset": 1316318,
+    "length": 9
+  },
+  {
+    "symbol": "ZT",
+    "original": "ZT",
+    "module": "src/world/city/wires.ts",
+    "offset": 1316328,
+    "length": 9
+  },
+  {
+    "symbol": "eS",
+    "original": "eS",
+    "module": "src/world/city/wires.ts",
+    "offset": 1316338,
+    "length": 8
+  },
+  {
+    "symbol": "_3",
+    "original": "_3",
+    "module": "src/world/city/wires.ts",
+    "offset": 1316347,
+    "length": 8
+  },
+  {
+    "symbol": "createCityProps",
+    "original": "Ure",
+    "module": "src/world/city/props.ts",
+    "offset": 1314038,
+    "length": 652
+  },
+  {
+    "symbol": "XT",
+    "original": "XT",
+    "module": "src/world/city/props.ts",
+    "offset": 1314696,
+    "length": 5
+  },
+  {
+    "symbol": "lie",
+    "original": "lie",
+    "module": "src/world/car/carProxies.ts",
+    "offset": 1212270,
+    "length": 50
+  },
+  {
+    "symbol": "cie",
+    "original": "cie",
+    "module": "src/world/car/carProxies.ts",
+    "offset": 1212320,
+    "length": 604
+  },
+  {
+    "symbol": "uie",
+    "original": "uie",
+    "module": "src/world/car/carProxies.ts",
+    "offset": 1212924,
+    "length": 894
+  },
+  {
+    "symbol": "Fre",
+    "original": "Fre",
+    "module": "src/world/city/lamps.ts",
+    "offset": 1311917,
+    "length": 62
+  },
+  {
+    "symbol": "y3",
+    "original": "y3",
+    "module": "src/world/city/lamps.ts",
+    "offset": 1311980,
+    "length": 465
+  },
+  {
+    "symbol": "Dre",
+    "original": "Dre",
+    "module": "src/world/city/lamps.ts",
+    "offset": 1312445,
+    "length": 393
+  },
+  {
+    "symbol": "createStreetLamps",
+    "original": "Pre",
+    "module": "src/world/city/lamps.ts",
+    "offset": 1312838,
+    "length": 1017
+  },
+  {
+    "symbol": "Ore",
+    "original": "Ore",
+    "module": "src/world/city/lamps.ts",
+    "offset": 1313861,
+    "length": 176
+  },
+  {
+    "symbol": "Vie",
+    "original": "Vie",
+    "module": "src/world/ground/water.ts",
+    "offset": 1281126,
+    "length": 38
+  },
+  {
+    "symbol": "createWater",
+    "original": "Qie",
+    "module": "src/world/ground/water.ts",
+    "offset": 1281165,
+    "length": 686
+  },
+  {
+    "symbol": "$f",
+    "original": "$f",
+    "module": "src/world/ground/water.ts",
+    "offset": 1281857,
+    "length": 4
+  },
+  {
+    "symbol": "qie",
+    "original": "qie",
+    "module": "src/world/ground/water.ts",
+    "offset": 1281862,
+    "length": 9
+  },
+  {
+    "symbol": "Hie",
+    "original": "Hie",
+    "module": "src/world/ground/water.ts",
+    "offset": 1281872,
+    "length": 24
+  },
+  {
+    "symbol": "Wie",
+    "original": "Wie",
+    "module": "src/world/ground/water.ts",
+    "offset": 1281897,
+    "length": 15
+  },
+  {
+    "symbol": "r3",
+    "original": "r3",
+    "module": "src/world/ground/water.ts",
+    "offset": 1281913,
+    "length": 114
+  },
+  {
+    "symbol": "$ie",
+    "original": "$ie",
+    "module": "src/world/ground/water.ts",
+    "offset": 1282028,
+    "length": 118
+  },
+  {
+    "symbol": "i3",
+    "original": "i3",
+    "module": "src/world/loaders/surfaceTextures.ts",
+    "offset": 1280846,
+    "length": 10
+  },
+  {
+    "symbol": "loadSurfaceTexture",
+    "original": "Zg",
+    "module": "src/world/loaders/surfaceTextures.ts",
+    "offset": 1280857,
+    "length": 263
+  },
+  {
+    "symbol": "tz",
+    "original": "tz",
+    "module": "src/world/city/highways.ts",
+    "offset": 1296872,
+    "length": 4
+  },
+  {
+    "symbol": "Oc",
+    "original": "Oc",
+    "module": "src/world/city/highways.ts",
+    "offset": 1296877,
+    "length": 4
+  },
+  {
+    "symbol": "jb",
+    "original": "jb",
+    "module": "src/world/city/highways.ts",
+    "offset": 1296882,
+    "length": 4
+  },
+  {
+    "symbol": "d3",
+    "original": "d3",
+    "module": "src/world/city/highways.ts",
+    "offset": 1296887,
+    "length": 4
+  },
+  {
+    "symbol": "sz",
+    "original": "sz",
+    "module": "src/world/city/highways.ts",
+    "offset": 1296892,
+    "length": 6
+  },
+  {
+    "symbol": "nz",
+    "original": "nz",
+    "module": "src/world/city/highways.ts",
+    "offset": 1296899,
+    "length": 7
+  },
+  {
+    "symbol": "ip",
+    "original": "ip",
+    "module": "src/world/city/highways.ts",
+    "offset": 1296907,
+    "length": 5
+  },
+  {
+    "symbol": "h3",
+    "original": "h3",
+    "module": "src/world/city/highways.ts",
+    "offset": 1296913,
+    "length": 5
+  },
+  {
+    "symbol": "gre",
+    "original": "gre",
+    "module": "src/world/city/highways.ts",
+    "offset": 1296919,
+    "length": 7
+  },
+  {
+    "symbol": "Are",
+    "original": "Are",
+    "module": "src/world/city/highways.ts",
+    "offset": 1296927,
+    "length": 7
+  },
+  {
+    "symbol": "Rg",
+    "original": "Rg",
+    "module": "src/world/city/highways.ts",
+    "offset": 1296935,
+    "length": 49
+  },
+  {
+    "symbol": "yre",
+    "original": "yre",
+    "module": "src/world/city/highways.ts",
+    "offset": 1296985,
+    "length": 5
+  },
+  {
+    "symbol": "bre",
+    "original": "bre",
+    "module": "src/world/city/highways.ts",
+    "offset": 1296991,
+    "length": 335
+  },
+  {
+    "symbol": "xre",
+    "original": "xre",
+    "module": "src/world/city/highways.ts",
+    "offset": 1297326,
+    "length": 378
+  },
+  {
+    "symbol": "_re",
+    "original": "_re",
+    "module": "src/world/city/highways.ts",
+    "offset": 1297704,
+    "length": 2174
+  },
+  {
+    "symbol": "jT",
+    "original": "jT",
+    "module": "src/world/city/highways.ts",
+    "offset": 1299878,
+    "length": 52
+  },
+  {
+    "symbol": "wre",
+    "original": "wre",
+    "module": "src/world/city/highways.ts",
+    "offset": 1299930,
+    "length": 1392
+  },
+  {
+    "symbol": "Tre",
+    "original": "Tre",
+    "module": "src/world/city/highways.ts",
+    "offset": 1301322,
+    "length": 716
+  },
+  {
+    "symbol": "Sre",
+    "original": "Sre",
+    "module": "src/world/city/highways.ts",
+    "offset": 1302038,
+    "length": 889
+  },
+  {
+    "symbol": "vre",
+    "original": "vre",
+    "module": "src/world/city/highways.ts",
+    "offset": 1302927,
+    "length": 564
+  },
+  {
+    "symbol": "createHighways",
+    "original": "Ere",
+    "module": "src/world/city/highways.ts",
+    "offset": 1303491,
+    "length": 1112
+  },
+  {
+    "symbol": "hre",
+    "original": "hre",
+    "module": "src/world/weather/createCollisionRain.ts",
+    "offset": 1283256,
+    "length": 11
+  },
+  {
+    "symbol": "ag",
+    "original": "ag",
+    "module": "src/world/weather/createCollisionRain.ts",
+    "offset": 1283268,
+    "length": 8
+  },
+  {
+    "symbol": "c3",
+    "original": "c3",
+    "module": "src/world/weather/createCollisionRain.ts",
+    "offset": 1283277,
+    "length": 55
+  },
+  {
+    "symbol": "fre",
+    "original": "fre",
+    "module": "src/world/weather/createCollisionRain.ts",
+    "offset": 1283332,
+    "length": 73
+  },
+  {
+    "symbol": "createCollisionRain",
+    "original": "pre",
+    "module": "src/world/weather/createCollisionRain.ts",
+    "offset": 1283405,
+    "length": 6057
+  },
+  {
+    "symbol": "JU",
+    "original": "JU",
+    "module": "src/world/weather/createCollisionRain.ts",
+    "offset": 1289468,
+    "length": 37
+  },
+  {
+    "symbol": "ZU",
+    "original": "ZU",
+    "module": "src/world/weather/createCollisionRain.ts",
+    "offset": 1289506,
+    "length": 40
+  },
+  {
+    "symbol": "ez",
+    "original": "ez",
+    "module": "src/world/weather/createCollisionRain.ts",
+    "offset": 1289547,
+    "length": 37
+  },
+  {
+    "symbol": "HT",
+    "original": "HT",
+    "module": "src/world/weather/createCollisionRain.ts",
+    "offset": 1289585,
+    "length": 9
+  },
+  {
+    "symbol": "lg",
+    "original": "lg",
+    "module": "src/world/weather/createCollisionRain.ts",
+    "offset": 1289595,
+    "length": 8
+  },
+  {
+    "symbol": "WT",
+    "original": "WT",
+    "module": "src/world/weather/createCollisionRain.ts",
+    "offset": 1289604,
+    "length": 8
+  },
+  {
+    "symbol": "$T",
+    "original": "$T",
+    "module": "src/world/weather/createCollisionRain.ts",
+    "offset": 1289613,
+    "length": 8
+  },
+  {
+    "symbol": "u3",
+    "original": "u3",
+    "module": "src/world/weather/createCollisionRain.ts",
+    "offset": 1289622,
+    "length": 8
+  },
+  {
+    "symbol": "KT",
+    "original": "KT",
+    "module": "src/world/weather/createCollisionRain.ts",
+    "offset": 1289631,
+    "length": 8
+  },
+  {
+    "symbol": "hf",
+    "original": "hf",
+    "module": "src/world/weather/createCollisionRain.ts",
+    "offset": 1289640,
+    "length": 8
+  },
+  {
+    "symbol": "cg",
+    "original": "cg",
+    "module": "src/world/weather/createCollisionRain.ts",
+    "offset": 1289649,
+    "length": 9
+  },
+  {
+    "symbol": "ff",
+    "original": "ff",
+    "module": "src/world/weather/createCollisionRain.ts",
+    "offset": 1289659,
+    "length": 9
+  },
+  {
+    "symbol": "Wa",
+    "original": "Wa",
+    "module": "src/world/weather/createCollisionRain.ts",
+    "offset": 1289669,
+    "length": 9
+  },
+  {
+    "symbol": "ug",
+    "original": "ug",
+    "module": "src/world/weather/createCollisionRain.ts",
+    "offset": 1289679,
+    "length": 9
+  },
+  {
+    "symbol": "Mre",
+    "original": "Mre",
+    "module": "src/world/city/canals.ts",
+    "offset": 1304609,
+    "length": 7
+  },
+  {
+    "symbol": "f3",
+    "original": "f3",
+    "module": "src/world/city/canals.ts",
+    "offset": 1304617,
+    "length": 5
+  },
+  {
+    "symbol": "createCanals",
+    "original": "Cre",
+    "module": "src/world/city/canals.ts",
+    "offset": 1304623,
+    "length": 1241
+  },
+  {
+    "symbol": "p3",
+    "original": "p3",
+    "module": "src/world/city/curbs.ts",
+    "offset": 1305870,
+    "length": 6
+  },
+  {
+    "symbol": "YT",
+    "original": "YT",
+    "module": "src/world/city/curbs.ts",
+    "offset": 1305877,
+    "length": 6
+  },
+  {
+    "symbol": "m3",
+    "original": "m3",
+    "module": "src/world/city/curbs.ts",
+    "offset": 1305884,
+    "length": 6
+  },
+  {
+    "symbol": "g3",
+    "original": "g3",
+    "module": "src/world/city/curbs.ts",
+    "offset": 1305891,
+    "length": 6
+  },
+  {
+    "symbol": "Bre",
+    "original": "Bre",
+    "module": "src/world/city/curbs.ts",
+    "offset": 1305898,
+    "length": 7
+  },
+  {
+    "symbol": "Rre",
+    "original": "Rre",
+    "module": "src/world/city/curbs.ts",
+    "offset": 1305906,
+    "length": 14
+  },
+  {
+    "symbol": "createCurbs",
+    "original": "Ire",
+    "module": "src/world/city/curbs.ts",
+    "offset": 1305921,
+    "length": 1231
+  },
+  {
+    "symbol": "$a",
+    "original": "$a",
+    "module": "src/world/city/curbs.ts",
+    "offset": 1307158,
+    "length": 7
+  },
+  {
+    "symbol": "ir",
+    "original": "ir",
+    "module": "src/world/city/curbs.ts",
+    "offset": 1307166,
+    "length": 8
+  },
+  {
+    "symbol": "To",
+    "original": "To",
+    "module": "src/world/city/curbs.ts",
+    "offset": 1307175,
+    "length": 8
+  },
+  {
+    "symbol": "pf",
+    "original": "pf",
+    "module": "src/world/city/lightPools.ts",
+    "offset": 1307184,
+    "length": 9
+  },
+  {
+    "symbol": "Nre",
+    "original": "Nre",
+    "module": "src/world/city/lightPools.ts",
+    "offset": 1307194,
+    "length": 10
+  },
+  {
+    "symbol": "A3",
+    "original": "A3",
+    "module": "src/world/city/lightPools.ts",
+    "offset": 1307205,
+    "length": 8
+  },
+  {
+    "symbol": "Lre",
+    "original": "Lre",
+    "module": "src/world/city/lightPools.ts",
+    "offset": 1307214,
+    "length": 16
+  },
+  {
+    "symbol": "createLightPools",
+    "original": "kre",
+    "module": "src/world/city/lightPools.ts",
+    "offset": 1307231,
+    "length": 4680
+  },
+  {
+    "symbol": "Tne",
+    "original": "Tne",
+    "module": "src/world/city/loadAlley.ts",
+    "offset": 1200170,
+    "length": 38
+  },
+  {
+    "symbol": "Sne",
+    "original": "Sne",
+    "module": "src/world/city/loadAlley.ts",
+    "offset": 1200209,
+    "length": 25
+  },
+  {
+    "symbol": "N2",
+    "original": "N2",
+    "module": "src/world/city/loadAlley.ts",
+    "offset": 1200235,
+    "length": 6
+  },
+  {
+    "symbol": "vne",
+    "original": "vne",
+    "module": "src/world/city/loadAlley.ts",
+    "offset": 1200242,
+    "length": 99
+  },
+  {
+    "symbol": "Ene",
+    "original": "Ene",
+    "module": "src/world/city/loadAlley.ts",
+    "offset": 1200341,
+    "length": 167
+  },
+  {
+    "symbol": "loadAlley",
+    "original": "Mne",
+    "module": "src/world/city/loadAlley.ts",
+    "offset": 1200508,
+    "length": 159
+  },
+  {
+    "symbol": "TN",
+    "original": "TN",
+    "module": "src/world/bvh.ts",
+    "offset": 1047932,
+    "length": 5
+  },
+  {
+    "symbol": "installBvh",
+    "original": "U8",
+    "module": "src/world/bvh.ts",
+    "offset": 1047938,
+    "length": 121
+  },
+  {
+    "symbol": "buildObjectBvh",
+    "original": "F_",
+    "module": "src/world/bvh.ts",
+    "offset": 1048059,
+    "length": 162
+  },
+  {
+    "symbol": "yE",
+    "original": "yE",
+    "module": "src/game/vehicles/catalog.ts",
+    "offset": 1257805,
+    "length": 15
+  },
+  {
+    "symbol": "Bie",
+    "original": "Bie",
+    "module": "src/game/vehicles/catalog.ts",
+    "offset": 1257821,
+    "length": 27
+  },
+  {
+    "symbol": "vehicleCatalog",
+    "original": "wa",
+    "module": "src/game/vehicles/catalog.ts",
+    "offset": 1257849,
+    "length": 9201
+  },
+  {
+    "symbol": "zT",
+    "original": "zT",
+    "module": "src/game/vehicles/catalog.ts",
+    "offset": 1267051,
+    "length": 11
+  },
+  {
+    "symbol": "getVehicleDefinition",
+    "original": "gp",
+    "module": "src/game/vehicles/catalog.ts",
+    "offset": 1267063,
+    "length": 54
+  },
+  {
+    "symbol": "gm",
+    "original": "gm",
+    "module": "src/game/vehicles/catalog.ts",
+    "offset": 1267117,
+    "length": 429
+  },
+  {
+    "symbol": "isVehicleUnlocked",
+    "original": "Ma",
+    "module": "src/game/vehicles/catalog.ts",
+    "offset": 1267546,
+    "length": 134
+  },
+  {
+    "symbol": "Rie",
+    "original": "Rie",
+    "module": "src/game/vehicles/catalog.ts",
+    "offset": 1267680,
+    "length": 57
+  },
+  {
+    "symbol": "Iie",
+    "original": "Iie",
+    "module": "src/game/vehicles/catalog.ts",
+    "offset": 1267737,
+    "length": 54
+  },
+  {
+    "symbol": "Nie",
+    "original": "Nie",
+    "module": "src/game/vehicles/catalog.ts",
+    "offset": 1267791,
+    "length": 55
+  },
+  {
+    "symbol": "getUnlockDescription",
+    "original": "XU",
+    "module": "src/game/vehicles/catalog.ts",
+    "offset": 1267846,
+    "length": 338
+  },
+  {
+    "symbol": "Lie",
+    "original": "Lie",
+    "module": "src/game/vehicles/catalog.ts",
+    "offset": 1268184,
+    "length": 122
+  },
+  {
+    "symbol": "getSavedVehicle",
+    "original": "kie",
+    "module": "src/game/vehicles/catalog.ts",
+    "offset": 1268306,
+    "length": 583
+  },
+  {
+    "symbol": "kn",
+    "original": "kn",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1216962,
+    "length": 14
+  },
+  {
+    "symbol": "quadraConfiguration",
+    "original": "Uu",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1216977,
+    "length": 3108
+  },
+  {
+    "symbol": "bh",
+    "original": "bh",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1220086,
+    "length": 210
+  },
+  {
+    "symbol": "fie",
+    "original": "fie",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1220302,
+    "length": 825
+  },
+  {
+    "symbol": "pie",
+    "original": "pie",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1221128,
+    "length": 786
+  },
+  {
+    "symbol": "mie",
+    "original": "mie",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1221915,
+    "length": 1056
+  },
+  {
+    "symbol": "gie",
+    "original": "gie",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1222972,
+    "length": 776
+  },
+  {
+    "symbol": "Aie",
+    "original": "Aie",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1223749,
+    "length": 1089
+  },
+  {
+    "symbol": "yie",
+    "original": "yie",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1224839,
+    "length": 1038
+  },
+  {
+    "symbol": "bie",
+    "original": "bie",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1225878,
+    "length": 890
+  },
+  {
+    "symbol": "jU",
+    "original": "jU",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1226769,
+    "length": 49
+  },
+  {
+    "symbol": "$N",
+    "original": "$N",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1226819,
+    "length": 6
+  },
+  {
+    "symbol": "KN",
+    "original": "KN",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1226826,
+    "length": 6
+  },
+  {
+    "symbol": "lf",
+    "original": "lf",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1226833,
+    "length": 4
+  },
+  {
+    "symbol": "dd",
+    "original": "dd",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1226838,
+    "length": 5
+  },
+  {
+    "symbol": "xie",
+    "original": "xie",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1226844,
+    "length": 7
+  },
+  {
+    "symbol": "FT",
+    "original": "FT",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1226852,
+    "length": 6
+  },
+  {
+    "symbol": "cf",
+    "original": "cf",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1226859,
+    "length": 5
+  },
+  {
+    "symbol": "YU",
+    "original": "YU",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1226865,
+    "length": 148
+  },
+  {
+    "symbol": "Xy",
+    "original": "Xy",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1227014,
+    "length": 8
+  },
+  {
+    "symbol": "rg",
+    "original": "rg",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1227023,
+    "length": 8
+  },
+  {
+    "symbol": "jN",
+    "original": "jN",
+    "module": "src/game/vehicles/configurations.ts",
+    "offset": 1227032,
+    "length": 9
+  },
+  {
+    "symbol": "mm",
+    "original": "mm",
+    "module": "src/game/story/definitions.ts",
+    "offset": 1243401,
+    "length": 5995
+  },
+  {
+    "symbol": "y1",
+    "original": "y1",
+    "module": "src/game/story/definitions.ts",
+    "offset": 1249397,
+    "length": 16
+  },
+  {
+    "symbol": "UT",
+    "original": "UT",
+    "module": "src/game/story/definitions.ts",
+    "offset": 1249414,
+    "length": 31
+  },
+  {
+    "symbol": "_a",
+    "original": "_a",
+    "module": "src/game/story/definitions.ts",
+    "offset": 1249446,
+    "length": 7863
+  },
+  {
+    "symbol": "AE",
+    "original": "AE",
+    "module": "src/game/story/definitions.ts",
+    "offset": 1257310,
+    "length": 31
+  },
+  {
+    "symbol": "Eie",
+    "original": "Eie",
+    "module": "src/game/story/definitions.ts",
+    "offset": 1257342,
+    "length": 361
+  },
+  {
+    "symbol": "b1",
+    "original": "b1",
+    "module": "src/game/story/definitions.ts",
+    "offset": 1257704,
+    "length": 15
+  },
+  {
+    "symbol": "Mie",
+    "original": "Mie",
+    "module": "src/game/story/definitions.ts",
+    "offset": 1257720,
+    "length": 5
+  },
+  {
+    "symbol": "JN",
+    "original": "JN",
+    "module": "src/game/story/definitions.ts",
+    "offset": 1257726,
+    "length": 25
+  },
+  {
+    "symbol": "Cie",
+    "original": "Cie",
+    "module": "src/game/story/definitions.ts",
+    "offset": 1257752,
+    "length": 52
+  },
+  {
+    "symbol": "L2",
+    "original": "L2",
+    "module": "src/game/missions/definitions.ts",
+    "offset": 1236644,
+    "length": 17
+  },
+  {
+    "symbol": "An",
+    "original": "An",
+    "module": "src/game/missions/definitions.ts",
+    "offset": 1236662,
+    "length": 31
+  },
+  {
+    "symbol": "uf",
+    "original": "uf",
+    "module": "src/game/missions/definitions.ts",
+    "offset": 1236694,
+    "length": 21
+  },
+  {
+    "symbol": "qa",
+    "original": "qa",
+    "module": "src/game/missions/definitions.ts",
+    "offset": 1236716,
+    "length": 21
+  },
+  {
+    "symbol": "XN",
+    "original": "XN",
+    "module": "src/game/missions/definitions.ts",
+    "offset": 1236738,
+    "length": 20
+  },
+  {
+    "symbol": "missionDefinitions",
+    "original": "mc",
+    "module": "src/game/missions/definitions.ts",
+    "offset": 1236759,
+    "length": 6606
+  },
+  {
+    "symbol": "HU",
+    "original": "HU",
+    "module": "src/world/car/loadCar.ts",
+    "offset": 1213824,
+    "length": 23
+  },
+  {
+    "symbol": "WU",
+    "original": "WU",
+    "module": "src/world/car/loadCar.ts",
+    "offset": 1213848,
+    "length": 88
+  },
+  {
+    "symbol": "$U",
+    "original": "$U",
+    "module": "src/world/car/loadCar.ts",
+    "offset": 1213936,
+    "length": 151
+  },
+  {
+    "symbol": "die",
+    "original": "die",
+    "module": "src/world/car/loadCar.ts",
+    "offset": 1214087,
+    "length": 101
+  },
+  {
+    "symbol": "vehicleSpawn",
+    "original": "qN",
+    "module": "src/world/car/loadCar.ts",
+    "offset": 1214194,
+    "length": 52
+  },
+  {
+    "symbol": "Yy",
+    "original": "Yy",
+    "module": "src/world/car/loadCar.ts",
+    "offset": 1214247,
+    "length": 6
+  },
+  {
+    "symbol": "HN",
+    "original": "HN",
+    "module": "src/world/car/loadCar.ts",
+    "offset": 1214254,
+    "length": 6
+  },
+  {
+    "symbol": "getVehicleBounds",
+    "original": "WN",
+    "module": "src/world/car/loadCar.ts",
+    "offset": 1214261,
+    "length": 1003
+  },
+  {
+    "symbol": "loadVehicle",
+    "original": "KU",
+    "module": "src/world/car/loadCar.ts",
+    "offset": 1215264,
+    "length": 769
+  },
+  {
+    "symbol": "loadPlayerCar",
+    "original": "hie",
+    "module": "src/world/car/loadCar.ts",
+    "offset": 1216033,
+    "length": 923
+  },
+  {
+    "symbol": "GN",
+    "original": "GN",
+    "module": "src/world/car/applyCarSurfaceRain.ts",
+    "offset": 1207852,
+    "length": 6
+  },
+  {
+    "symbol": "VN",
+    "original": "VN",
+    "module": "src/world/car/applyCarSurfaceRain.ts",
+    "offset": 1207859,
+    "length": 8
+  },
+  {
+    "symbol": "Yne",
+    "original": "Yne",
+    "module": "src/world/car/applyCarSurfaceRain.ts",
+    "offset": 1207868,
+    "length": 21
+  },
+  {
+    "symbol": "Xne",
+    "original": "Xne",
+    "module": "src/world/car/applyCarSurfaceRain.ts",
+    "offset": 1207890,
+    "length": 23
+  },
+  {
+    "symbol": "Jne",
+    "original": "Jne",
+    "module": "src/world/car/applyCarSurfaceRain.ts",
+    "offset": 1207914,
+    "length": 26
+  },
+  {
+    "symbol": "ud",
+    "original": "ud",
+    "module": "src/world/car/applyCarSurfaceRain.ts",
+    "offset": 1207941,
+    "length": 127
+  },
+  {
+    "symbol": "Zne",
+    "original": "Zne",
+    "module": "src/world/car/applyCarSurfaceRain.ts",
+    "offset": 1208069,
+    "length": 93
+  },
+  {
+    "symbol": "eie",
+    "original": "eie",
+    "module": "src/world/car/applyCarSurfaceRain.ts",
+    "offset": 1208162,
+    "length": 295
+  },
+  {
+    "symbol": "tie",
+    "original": "tie",
+    "module": "src/world/car/applyCarSurfaceRain.ts",
+    "offset": 1208457,
+    "length": 322
+  },
+  {
+    "symbol": "sie",
+    "original": "sie",
+    "module": "src/world/car/applyCarSurfaceRain.ts",
+    "offset": 1208779,
+    "length": 86
+  },
+  {
+    "symbol": "nie",
+    "original": "nie",
+    "module": "src/world/car/applyCarSurfaceRain.ts",
+    "offset": 1208865,
+    "length": 643
+  },
+  {
+    "symbol": "iie",
+    "original": "iie",
+    "module": "src/world/car/applyCarSurfaceRain.ts",
+    "offset": 1209508,
+    "length": 564
+  },
+  {
+    "symbol": "attachSurfaceRain",
+    "original": "rie",
+    "module": "src/world/car/applyCarSurfaceRain.ts",
+    "offset": 1210072,
+    "length": 839
+  },
+  {
+    "symbol": "applyCarSurfaceRain",
+    "original": "oie",
+    "module": "src/world/car/applyCarSurfaceRain.ts",
+    "offset": 1210911,
+    "length": 1091
+  },
+  {
+    "symbol": "Qne",
+    "original": "Qne",
+    "module": "src/shaders/surfaceRain.ts",
+    "offset": 1205849,
+    "length": 180
+  },
+  {
+    "symbol": "qne",
+    "original": "qne",
+    "module": "src/shaders/surfaceRain.ts",
+    "offset": 1206030,
+    "length": 52
+  },
+  {
+    "symbol": "Hne",
+    "original": "Hne",
+    "module": "src/shaders/surfaceRain.ts",
+    "offset": 1206083,
+    "length": 47
+  },
+  {
+    "symbol": "zN",
+    "original": "zN",
+    "module": "src/shaders/surfaceRain.ts",
+    "offset": 1206131,
+    "length": 880
+  },
+  {
+    "symbol": "surfaceRain",
+    "original": "kT",
+    "module": "src/shaders/surfaceRain.ts",
+    "offset": 1207012,
+    "length": 143
+  },
+  {
+    "symbol": "Wne",
+    "original": "Wne",
+    "module": "src/shaders/surfaceRain.ts",
+    "offset": 1207156,
+    "length": 92
+  },
+  {
+    "symbol": "$ne",
+    "original": "$ne",
+    "module": "src/shaders/surfaceRain.ts",
+    "offset": 1207248,
+    "length": 213
+  },
+  {
+    "symbol": "createSurfaceRainUniforms",
+    "original": "Kne",
+    "module": "src/shaders/surfaceRain.ts",
+    "offset": 1207461,
+    "length": 245
+  },
+  {
+    "symbol": "surfaceRainNormal",
+    "original": "jne",
+    "module": "src/shaders/surfaceRain.ts",
+    "offset": 1207706,
+    "length": 140
+  },
+  {
+    "symbol": "Zre",
+    "original": "Zre",
+    "module": "src/world/environment.ts",
+    "offset": 1335526,
+    "length": 37
+  },
+  {
+    "symbol": "loadEnvironment",
+    "original": "eoe",
+    "module": "src/world/environment.ts",
+    "offset": 1335564,
+    "length": 85
+  },
+  {
+    "symbol": "applyEnvironment",
+    "original": "toe",
+    "module": "src/world/environment.ts",
+    "offset": 1335649,
+    "length": 176
+  },
+  {
+    "symbol": "createGround",
+    "original": "mre",
+    "module": "src/world/ground/createGround.ts",
+    "offset": 1289689,
+    "length": 7177
+  },
+  {
+    "symbol": "createRainRipples",
+    "original": "Kie",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1282147,
+    "length": 898
+  },
+  {
+    "symbol": "x1",
+    "original": "x1",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283051,
+    "length": 4
+  },
+  {
+    "symbol": "jie",
+    "original": "jie",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283056,
+    "length": 33
+  },
+  {
+    "symbol": "o3",
+    "original": "o3",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283090,
+    "length": 6
+  },
+  {
+    "symbol": "df",
+    "original": "df",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283097,
+    "length": 4
+  },
+  {
+    "symbol": "Yie",
+    "original": "Yie",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283102,
+    "length": 5
+  },
+  {
+    "symbol": "Xie",
+    "original": "Xie",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283108,
+    "length": 24
+  },
+  {
+    "symbol": "Jie",
+    "original": "Jie",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283133,
+    "length": 7
+  },
+  {
+    "symbol": "Zie",
+    "original": "Zie",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283141,
+    "length": 7
+  },
+  {
+    "symbol": "ere",
+    "original": "ere",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283149,
+    "length": 7
+  },
+  {
+    "symbol": "tre",
+    "original": "tre",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283157,
+    "length": 6
+  },
+  {
+    "symbol": "sre",
+    "original": "sre",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283164,
+    "length": 7
+  },
+  {
+    "symbol": "nre",
+    "original": "nre",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283172,
+    "length": 6
+  },
+  {
+    "symbol": "ire",
+    "original": "ire",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283179,
+    "length": 7
+  },
+  {
+    "symbol": "rre",
+    "original": "rre",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283187,
+    "length": 5
+  },
+  {
+    "symbol": "a3",
+    "original": "a3",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283193,
+    "length": 6
+  },
+  {
+    "symbol": "ore",
+    "original": "ore",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283200,
+    "length": 7
+  },
+  {
+    "symbol": "l3",
+    "original": "l3",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283208,
+    "length": 6
+  },
+  {
+    "symbol": "are",
+    "original": "are",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283215,
+    "length": 6
+  },
+  {
+    "symbol": "lre",
+    "original": "lre",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283222,
+    "length": 7
+  },
+  {
+    "symbol": "cre",
+    "original": "cre",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283230,
+    "length": 7
+  },
+  {
+    "symbol": "ure",
+    "original": "ure",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283238,
+    "length": 6
+  },
+  {
+    "symbol": "dre",
+    "original": "dre",
+    "module": "src/shaders/rainRipples.ts",
+    "offset": 1283245,
+    "length": 10
+  },
+  {
+    "symbol": "_1",
+    "original": "_1",
+    "module": "src/world/effects/smoke.ts",
+    "offset": 1337870,
+    "length": 4
+  },
+  {
+    "symbol": "ioe",
+    "original": "ioe",
+    "module": "src/world/effects/smoke.ts",
+    "offset": 1337875,
+    "length": 56
+  },
+  {
+    "symbol": "rz",
+    "original": "rz",
+    "module": "src/world/effects/smoke.ts",
+    "offset": 1337931,
+    "length": 72
+  },
+  {
+    "symbol": "roe",
+    "original": "roe",
+    "module": "src/world/effects/smoke.ts",
+    "offset": 1338003,
+    "length": 135
+  },
+  {
+    "symbol": "S3",
+    "original": "S3",
+    "module": "src/world/effects/smoke.ts",
+    "offset": 1338138,
+    "length": 669
+  },
+  {
+    "symbol": "createSmoke",
+    "original": "ooe",
+    "module": "src/world/effects/smoke.ts",
+    "offset": 1338807,
+    "length": 2667
+  },
+  {
+    "symbol": "CollisionHeight",
+    "original": "soe",
+    "module": "src/world/weather/createCollisionHeight.ts",
+    "offset": 1335825,
+    "length": 898
+  },
+  {
+    "symbol": "createCollisionHeight",
+    "original": "noe",
+    "module": "src/world/weather/createCollisionHeight.ts",
+    "offset": 1336723,
+    "length": 1116
+  },
+  {
+    "symbol": "iz",
+    "original": "iz",
+    "module": "src/world/weather/createCollisionHeight.ts",
+    "offset": 1337845,
+    "length": 24
+  },
+  {
+    "symbol": "aoe",
+    "original": "aoe",
+    "module": "src/world/effects/flyingPlanes.ts",
+    "offset": 1341480,
+    "length": 23
+  },
+  {
+    "symbol": "loe",
+    "original": "loe",
+    "module": "src/world/effects/flyingPlanes.ts",
+    "offset": 1341504,
+    "length": 63
+  },
+  {
+    "symbol": "v3",
+    "original": "v3",
+    "module": "src/world/effects/flyingPlanes.ts",
+    "offset": 1341573,
+    "length": 6
+  },
+  {
+    "symbol": "coe",
+    "original": "coe",
+    "module": "src/world/effects/flyingPlanes.ts",
+    "offset": 1341580,
+    "length": 6
+  },
+  {
+    "symbol": "bE",
+    "original": "bE",
+    "module": "src/world/effects/flyingPlanes.ts",
+    "offset": 1341587,
+    "length": 5
+  },
+  {
+    "symbol": "uoe",
+    "original": "uoe",
+    "module": "src/world/effects/flyingPlanes.ts",
+    "offset": 1341593,
+    "length": 362
+  },
+  {
+    "symbol": "doe",
+    "original": "doe",
+    "module": "src/world/effects/flyingPlanes.ts",
+    "offset": 1341956,
+    "length": 204
+  },
+  {
+    "symbol": "E3",
+    "original": "E3",
+    "module": "src/world/effects/flyingPlanes.ts",
+    "offset": 1342160,
+    "length": 151
+  },
+  {
+    "symbol": "M3",
+    "original": "M3",
+    "module": "src/world/effects/flyingPlanes.ts",
+    "offset": 1342311,
+    "length": 73
+  },
+  {
+    "symbol": "hoe",
+    "original": "hoe",
+    "module": "src/world/effects/flyingPlanes.ts",
+    "offset": 1342384,
+    "length": 80
+  },
+  {
+    "symbol": "foe",
+    "original": "foe",
+    "module": "src/world/effects/flyingPlanes.ts",
+    "offset": 1342464,
+    "length": 112
+  },
+  {
+    "symbol": "poe",
+    "original": "poe",
+    "module": "src/world/effects/flyingPlanes.ts",
+    "offset": 1342576,
+    "length": 92
+  },
+  {
+    "symbol": "createFlyingPlanes",
+    "original": "moe",
+    "module": "src/world/effects/flyingPlanes.ts",
+    "offset": 1342668,
+    "length": 2769
+  },
+  {
+    "symbol": "goe",
+    "original": "goe",
+    "module": "src/world/effects/flyingPlanes.ts",
+    "offset": 1345443,
+    "length": 24
+  },
+  {
+    "symbol": "Aoe",
+    "original": "Aoe",
+    "module": "src/world/sky/cloudSky.ts",
+    "offset": 1345468,
+    "length": 25
+  },
+  {
+    "symbol": "C3",
+    "original": "C3",
+    "module": "src/world/sky/cloudSky.ts",
+    "offset": 1345494,
+    "length": 130
+  },
+  {
+    "symbol": "yoe",
+    "original": "yoe",
+    "module": "src/world/sky/cloudSky.ts",
+    "offset": 1345624,
+    "length": 130
+  },
+  {
+    "symbol": "createCloudMaterial",
+    "original": "boe",
+    "module": "src/world/sky/cloudSky.ts",
+    "offset": 1345754,
+    "length": 2398
+  },
+  {
+    "symbol": "xoe",
+    "original": "xoe",
+    "module": "src/world/sky/cloudSky.ts",
+    "offset": 1348158,
+    "length": 277
+  },
+  {
+    "symbol": "_oe",
+    "original": "_oe",
+    "module": "src/world/sky/cloudSky.ts",
+    "offset": 1348436,
+    "length": 271
+  },
+  {
+    "symbol": "woe",
+    "original": "woe",
+    "module": "src/world/sky/cloudSky.ts",
+    "offset": 1348708,
+    "length": 277
+  },
+  {
+    "symbol": "Uc",
+    "original": "Uc",
+    "module": "src/world/sky/cloudSky.ts",
+    "offset": 1348986,
+    "length": 44
+  },
+  {
+    "symbol": "zc",
+    "original": "zc",
+    "module": "src/world/sky/cloudSky.ts",
+    "offset": 1349030,
+    "length": 80
+  },
+  {
+    "symbol": "B3",
+    "original": "B3",
+    "module": "src/world/sky/cloudSky.ts",
+    "offset": 1349110,
+    "length": 743
+  },
+  {
+    "symbol": "R3",
+    "original": "R3",
+    "module": "src/world/sky/cloudSky.ts",
+    "offset": 1349853,
+    "length": 60
+  },
+  {
+    "symbol": "createCloudSky",
+    "original": "Toe",
+    "module": "src/world/sky/cloudSky.ts",
+    "offset": 1349913,
+    "length": 3923
+  },
+  {
+    "symbol": "createLightingController",
+    "original": "Eoe",
+    "module": "src/world/lighting.ts",
+    "offset": 1357203,
+    "length": 230
+  },
+  {
+    "symbol": "Noe",
+    "original": "Noe",
+    "module": "src/world/lighting.ts",
+    "offset": 1363283,
+    "length": 35
+  },
+  {
+    "symbol": "oz",
+    "original": "oz",
+    "module": "src/world/lighting.ts",
+    "offset": 1416260,
+    "length": 20
+  },
+  {
+    "symbol": "Goe",
+    "original": "Goe",
+    "module": "src/world/lighting.ts",
+    "offset": 1421959,
+    "length": 35
+  },
+  {
+    "symbol": "Woe",
+    "original": "Woe",
+    "module": "src/world/lighting.ts",
+    "offset": 1429006,
+    "length": 43
+  },
+  {
+    "symbol": "Koe",
+    "original": "Koe",
+    "module": "src/world/lighting.ts",
+    "offset": 1432338,
+    "length": 21
+  },
+  {
+    "symbol": "Gf",
+    "original": "Gf",
+    "module": "src/world/car/followLighting.ts",
+    "offset": 2043315,
+    "length": 8
+  },
+  {
+    "symbol": "kb",
+    "original": "kb",
+    "module": "src/world/car/followLighting.ts",
+    "offset": 2043324,
+    "length": 8
+  },
+  {
+    "symbol": "pv",
+    "original": "pv",
+    "module": "src/world/car/followLighting.ts",
+    "offset": 2043333,
+    "length": 8
+  },
+  {
+    "symbol": "A0e",
+    "original": "A0e",
+    "module": "src/world/car/followLighting.ts",
+    "offset": 2043342,
+    "length": 16
+  },
+  {
+    "symbol": "wd",
+    "original": "wd",
+    "module": "src/world/car/followLighting.ts",
+    "offset": 2043359,
+    "length": 8
+  },
+  {
+    "symbol": "Vf",
+    "original": "Vf",
+    "module": "src/world/car/followLighting.ts",
+    "offset": 2043368,
+    "length": 8
+  },
+  {
+    "symbol": "createFollowShadow",
+    "original": "y0e",
+    "module": "src/world/car/followLighting.ts",
+    "offset": 2043377,
+    "length": 940
+  },
+  {
+    "symbol": "dF",
+    "original": "dF",
+    "module": "src/world/car/followLighting.ts",
+    "offset": 2044323,
+    "length": 6
+  },
+  {
+    "symbol": "hF",
+    "original": "hF",
+    "module": "src/world/car/followLighting.ts",
+    "offset": 2044330,
+    "length": 5
+  },
+  {
+    "symbol": "b0e",
+    "original": "b0e",
+    "module": "src/world/car/followLighting.ts",
+    "offset": 2044336,
+    "length": 416
+  },
+  {
+    "symbol": "createMetroLighting",
+    "original": "x0e",
+    "module": "src/world/car/followLighting.ts",
+    "offset": 2044752,
+    "length": 1146
+  },
+  {
+    "symbol": "_0e",
+    "original": "_0e",
+    "module": "src/world/car/reflectionProbe.ts",
+    "offset": 2045898,
+    "length": 336
+  },
+  {
+    "symbol": "w0e",
+    "original": "w0e",
+    "module": "src/world/car/reflectionProbe.ts",
+    "offset": 2046240,
+    "length": 27
+  },
+  {
+    "symbol": "fF",
+    "original": "fF",
+    "module": "src/world/car/reflectionProbe.ts",
+    "offset": 2046268,
+    "length": 8
+  },
+  {
+    "symbol": "mv",
+    "original": "mv",
+    "module": "src/world/car/reflectionProbe.ts",
+    "offset": 2046277,
+    "length": 8
+  },
+  {
+    "symbol": "createReflectionProbe",
+    "original": "T0e",
+    "module": "src/world/car/reflectionProbe.ts",
+    "offset": 2046286,
+    "length": 3089
+  },
+  {
+    "symbol": "xae",
+    "original": "xae",
+    "module": "src/post/postprocessing.ts",
+    "offset": 1460459,
+    "length": 128
+  },
+  {
+    "symbol": "_ae",
+    "original": "_ae",
+    "module": "src/post/postprocessing.ts",
+    "offset": 1460587,
+    "length": 121
+  },
+  {
+    "symbol": "wae",
+    "original": "wae",
+    "module": "src/post/postprocessing.ts",
+    "offset": 1460708,
+    "length": 137
+  },
+  {
+    "symbol": "createPostprocessing",
+    "original": "Tae",
+    "module": "src/post/postprocessing.ts",
+    "offset": 1460845,
+    "length": 5483
+  },
+  {
+    "symbol": "Zoe",
+    "original": "Zoe",
+    "module": "src/shaders/post/sharpUpscale.ts",
+    "offset": 1441158,
+    "length": 39
+  },
+  {
+    "symbol": "dS",
+    "original": "dS",
+    "module": "src/shaders/post/sharpUpscale.ts",
+    "offset": 1441198,
+    "length": 9
+  },
+  {
+    "symbol": "hS",
+    "original": "hS",
+    "module": "src/shaders/post/sharpUpscale.ts",
+    "offset": 1441208,
+    "length": 9
+  },
+  {
+    "symbol": "fS",
+    "original": "fS",
+    "module": "src/shaders/post/sharpUpscale.ts",
+    "offset": 1441222,
+    "length": 2
+  },
+  {
+    "symbol": "SharpUpscaleNode",
+    "original": "eae",
+    "module": "src/shaders/post/sharpUpscale.ts",
+    "offset": 1441225,
+    "length": 2162
+  },
+  {
+    "symbol": "tae",
+    "original": "tae",
+    "module": "src/shaders/post/sharpUpscale.ts",
+    "offset": 1443393,
+    "length": 27
+  },
+  {
+    "symbol": "Yoe",
+    "original": "Yoe",
+    "module": "src/shaders/post/mipBloom.ts",
+    "offset": 1437365,
+    "length": 31
+  },
+  {
+    "symbol": "Af",
+    "original": "Af",
+    "module": "src/shaders/post/mipBloom.ts",
+    "offset": 1437397,
+    "length": 9
+  },
+  {
+    "symbol": "lS",
+    "original": "lS",
+    "module": "src/shaders/post/mipBloom.ts",
+    "offset": 1437407,
+    "length": 9
+  },
+  {
+    "symbol": "cS",
+    "original": "cS",
+    "module": "src/shaders/post/mipBloom.ts",
+    "offset": 1437421,
+    "length": 2
+  },
+  {
+    "symbol": "uS",
+    "original": "uS",
+    "module": "src/shaders/post/mipBloom.ts",
+    "offset": 1437430,
+    "length": 25
+  },
+  {
+    "symbol": "Xoe",
+    "original": "Xoe",
+    "module": "src/shaders/post/mipBloom.ts",
+    "offset": 1437456,
+    "length": 102
+  },
+  {
+    "symbol": "MipBloomNode",
+    "original": "Joe",
+    "module": "src/shaders/post/mipBloom.ts",
+    "offset": 1437559,
+    "length": 3593
+  },
+  {
+    "symbol": "pS",
+    "original": "pS",
+    "module": "src/post/cyberpunkLook.ts",
+    "offset": 1445353,
+    "length": 93
+  },
+  {
+    "symbol": "sl",
+    "original": "sl",
+    "module": "src/post/cyberpunkLook.ts",
+    "offset": 1445452,
+    "length": 64
+  },
+  {
+    "symbol": "yf",
+    "original": "yf",
+    "module": "src/post/cyberpunkLook.ts",
+    "offset": 1445517,
+    "length": 176
+  },
+  {
+    "symbol": "bf",
+    "original": "bf",
+    "module": "src/post/cyberpunkLook.ts",
+    "offset": 1445693,
+    "length": 551
+  },
+  {
+    "symbol": "lookPresets",
+    "original": "Kl",
+    "module": "src/post/cyberpunkLook.ts",
+    "offset": 1446250,
+    "length": 2234
+  },
+  {
+    "symbol": "N3",
+    "original": "N3",
+    "module": "src/post/cyberpunkLook.ts",
+    "offset": 1448485,
+    "length": 41
+  },
+  {
+    "symbol": "createCyberpunkLook",
+    "original": "uae",
+    "module": "src/post/cyberpunkLook.ts",
+    "offset": 1448526,
+    "length": 2830
+  },
+  {
+    "symbol": "hae",
+    "original": "hae",
+    "module": "src/post/cyberpunkLook.ts",
+    "offset": 1454456,
+    "length": 38
+  },
+  {
+    "symbol": "az",
+    "original": "az",
+    "module": "src/post/cyberpunkLook.ts",
+    "offset": 1454495,
+    "length": 179
+  },
+  {
+    "symbol": "fae",
+    "original": "fae",
+    "module": "src/post/cyberpunkLook.ts",
+    "offset": 1454675,
+    "length": 52
+  },
+  {
+    "symbol": "lz",
+    "original": "lz",
+    "module": "src/post/cyberpunkLook.ts",
+    "offset": 1454728,
+    "length": 46
+  },
+  {
+    "symbol": "w1",
+    "original": "w1",
+    "module": "src/post/cyberpunkLook.ts",
+    "offset": 1454775,
+    "length": 901
+  },
+  {
+    "symbol": "cz",
+    "original": "cz",
+    "module": "src/post/cyberpunkLook.ts",
+    "offset": 1455677,
+    "length": 265
+  },
+  {
+    "symbol": "gS",
+    "original": "gS",
+    "module": "src/post/cyberpunkLook.ts",
+    "offset": 1455943,
+    "length": 160
+  },
+  {
+    "symbol": "AS",
+    "original": "AS",
+    "module": "src/post/cyberpunkLook.ts",
+    "offset": 1456104,
+    "length": 174
+  },
+  {
+    "symbol": "pae",
+    "original": "pae",
+    "module": "src/post/cyberpunkLook.ts",
+    "offset": 1456279,
+    "length": 77
+  },
+  {
+    "symbol": "EdgeChromaticAberrationNode",
+    "original": "sae",
+    "module": "src/shaders/post/edgeChromaticAberration.ts",
+    "offset": 1443421,
+    "length": 1017
+  },
+  {
+    "symbol": "nae",
+    "original": "nae",
+    "module": "src/shaders/post/edgeChromaticAberration.ts",
+    "offset": 1444444,
+    "length": 86
+  },
+  {
+    "symbol": "rae",
+    "original": "rae",
+    "module": "src/shaders/post/edgeChromaticAberration.ts",
+    "offset": 1444915,
+    "length": 12
+  },
+  {
+    "symbol": "Ap",
+    "original": "Ap",
+    "module": "src/shaders/post/edgeChromaticAberration.ts",
+    "offset": 1444928,
+    "length": 13
+  },
+  {
+    "symbol": "oae",
+    "original": "oae",
+    "module": "src/shaders/post/edgeChromaticAberration.ts",
+    "offset": 1444942,
+    "length": 146
+  },
+  {
+    "symbol": "aae",
+    "original": "aae",
+    "module": "src/shaders/post/edgeChromaticAberration.ts",
+    "offset": 1445089,
+    "length": 60
+  },
+  {
+    "symbol": "I3",
+    "original": "I3",
+    "module": "src/shaders/post/edgeChromaticAberration.ts",
+    "offset": 1445150,
+    "length": 6
+  },
+  {
+    "symbol": "lae",
+    "original": "lae",
+    "module": "src/shaders/post/edgeChromaticAberration.ts",
+    "offset": 1445157,
+    "length": 124
+  },
+  {
+    "symbol": "cae",
+    "original": "cae",
+    "module": "src/shaders/post/edgeChromaticAberration.ts",
+    "offset": 1445282,
+    "length": 70
+  },
+  {
+    "symbol": "createLensRain",
+    "original": "mae",
+    "module": "src/post/lensRain.ts",
+    "offset": 1456357,
+    "length": 895
+  },
+  {
+    "symbol": "yae",
+    "original": "yae",
+    "module": "src/post/speedBlur.ts",
+    "offset": 1458669,
+    "length": 26
+  },
+  {
+    "symbol": "createSpeedBlur",
+    "original": "bae",
+    "module": "src/post/speedBlur.ts",
+    "offset": 1458696,
+    "length": 1763
+  },
+  {
+    "symbol": "createRainGlassUniforms",
+    "original": "gae",
+    "module": "src/shaders/rainGlass.ts",
+    "offset": 1457252,
+    "length": 205
+  },
+  {
+    "symbol": "createRainGlassShader",
+    "original": "Aae",
+    "module": "src/shaders/rainGlass.ts",
+    "offset": 1457457,
+    "length": 950
+  },
+  {
+    "symbol": "Yb",
+    "original": "Yb",
+    "module": "src/shaders/rainGlass.ts",
+    "offset": 1458413,
+    "length": 255
+  },
+  {
+    "symbol": "createAdaptiveDpr",
+    "original": "D0e",
+    "module": "src/platform/adaptiveDpr.ts",
+    "offset": 2063773,
+    "length": 852
+  },
+  {
+    "symbol": "v0e",
+    "original": "v0e",
+    "module": "src/debug/performance.ts",
+    "offset": 2050788,
+    "length": 114
+  },
+  {
+    "symbol": "E0e",
+    "original": "E0e",
+    "module": "src/debug/performance.ts",
+    "offset": 2050903,
+    "length": 397
+  },
+  {
+    "symbol": "createPerformanceMonitor",
+    "original": "M0e",
+    "module": "src/debug/performance.ts",
+    "offset": 2051300,
+    "length": 2166
+  },
+  {
+    "symbol": "C0e",
+    "original": "C0e",
+    "module": "src/debug/performance.ts",
+    "offset": 2053466,
+    "length": 1069
+  },
+  {
+    "symbol": "createInspectorSession",
+    "original": "B0e",
+    "module": "src/debug/performance.ts",
+    "offset": 2054535,
+    "length": 722
+  },
+  {
+    "symbol": "R0e",
+    "original": "R0e",
+    "module": "src/debug/performance.ts",
+    "offset": 2055263,
+    "length": 342
+  },
+  {
+    "symbol": "I0e",
+    "original": "I0e",
+    "module": "src/debug/performance.ts",
+    "offset": 2055606,
+    "length": 172
+  },
+  {
+    "symbol": "createPerformanceProfiler",
+    "original": "N0e",
+    "module": "src/debug/performance.ts",
+    "offset": 2055778,
+    "length": 6167
+  },
+  {
+    "symbol": "L0e",
+    "original": "L0e",
+    "module": "src/debug/performance.ts",
+    "offset": 2061951,
+    "length": 501
+  },
+  {
+    "symbol": "k0e",
+    "original": "k0e",
+    "module": "src/debug/performance.ts",
+    "offset": 2062453,
+    "length": 1256
+  },
+  {
+    "symbol": "createDevApi",
+    "original": "F0e",
+    "module": "src/debug/performance.ts",
+    "offset": 2063709,
+    "length": 64
+  },
+  {
+    "symbol": "createCameraDirector",
+    "original": "Ohe",
+    "module": "src/runtime/createCameraDirector.ts",
+    "offset": 1745484,
+    "length": 3108
+  },
+  {
+    "symbol": "US",
+    "original": "US",
+    "module": "src/runtime/createCameraDirector.ts",
+    "offset": 1748598,
+    "length": 355
+  },
+  {
+    "symbol": "Nhe",
+    "original": "Nhe",
+    "module": "src/controls/createWalkControls.ts",
+    "offset": 1737485,
+    "length": 355
+  },
+  {
+    "symbol": "Bf",
+    "original": "Bf",
+    "module": "src/controls/createWalkControls.ts",
+    "offset": 1737841,
+    "length": 6
+  },
+  {
+    "symbol": "Lhe",
+    "original": "Lhe",
+    "module": "src/controls/createWalkControls.ts",
+    "offset": 1737848,
+    "length": 6
+  },
+  {
+    "symbol": "db",
+    "original": "db",
+    "module": "src/controls/createWalkControls.ts",
+    "offset": 1737855,
+    "length": 6
+  },
+  {
+    "symbol": "qL",
+    "original": "qL",
+    "module": "src/controls/createWalkControls.ts",
+    "offset": 1737862,
+    "length": 135
+  },
+  {
+    "symbol": "khe",
+    "original": "khe",
+    "module": "src/controls/createWalkControls.ts",
+    "offset": 1737998,
+    "length": 144
+  },
+  {
+    "symbol": "OS",
+    "original": "OS",
+    "module": "src/controls/createWalkControls.ts",
+    "offset": 1738142,
+    "length": 41
+  },
+  {
+    "symbol": "createWalkControls",
+    "original": "Fhe",
+    "module": "src/controls/createWalkControls.ts",
+    "offset": 1738183,
+    "length": 7144
+  },
+  {
+    "symbol": "Dhe",
+    "original": "Dhe",
+    "module": "src/controls/createWalkControls.ts",
+    "offset": 1745333,
+    "length": 6
+  },
+  {
+    "symbol": "Phe",
+    "original": "Phe",
+    "module": "src/controls/createWalkControls.ts",
+    "offset": 1745340,
+    "length": 144
+  },
+  {
+    "symbol": "vpe",
+    "original": "vpe",
+    "module": "src/game/drive/createDriveMode.ts",
+    "offset": 1872211,
+    "length": 7
+  },
+  {
+    "symbol": "Epe",
+    "original": "Epe",
+    "module": "src/game/drive/createDriveMode.ts",
+    "offset": 1872219,
+    "length": 48
+  },
+  {
+    "symbol": "ca",
+    "original": "ca",
+    "module": "src/game/drive/createDriveMode.ts",
+    "offset": 1872268,
+    "length": 8
+  },
+  {
+    "symbol": "Mpe",
+    "original": "Mpe",
+    "module": "src/game/drive/createDriveMode.ts",
+    "offset": 1872277,
+    "length": 568
+  },
+  {
+    "symbol": "Cpe",
+    "original": "Cpe",
+    "module": "src/game/drive/createDriveMode.ts",
+    "offset": 1872845,
+    "length": 359
+  },
+  {
+    "symbol": "Bpe",
+    "original": "Bpe",
+    "module": "src/game/drive/createDriveMode.ts",
+    "offset": 1873204,
+    "length": 799
+  },
+  {
+    "symbol": "Rpe",
+    "original": "Rpe",
+    "module": "src/game/drive/createDriveMode.ts",
+    "offset": 1874003,
+    "length": 315
+  },
+  {
+    "symbol": "createDriveMode",
+    "original": "Ipe",
+    "module": "src/game/drive/createDriveMode.ts",
+    "offset": 1874318,
+    "length": 16103
+  },
+  {
+    "symbol": "zS",
+    "original": "zS",
+    "module": "src/game/physics/createPhysicsWorld.ts",
+    "offset": 1748958,
+    "length": 7
+  },
+  {
+    "symbol": "loadRapier",
+    "original": "Uhe",
+    "module": "src/game/physics/createPhysicsWorld.ts",
+    "offset": 1748966,
+    "length": 138
+  },
+  {
+    "symbol": "createPhysicsWorld",
+    "original": "zhe",
+    "module": "src/game/physics/createPhysicsWorld.ts",
+    "offset": 1749104,
+    "length": 1669
+  },
+  {
+    "symbol": "ype",
+    "original": "ype",
+    "module": "src/game/traffic/createTraffic.ts",
+    "offset": 1866818,
+    "length": 6
+  },
+  {
+    "symbol": "bpe",
+    "original": "bpe",
+    "module": "src/game/traffic/createTraffic.ts",
+    "offset": 1866825,
+    "length": 7
+  },
+  {
+    "symbol": "vk",
+    "original": "vk",
+    "module": "src/game/traffic/createTraffic.ts",
+    "offset": 1866833,
+    "length": 5
+  },
+  {
+    "symbol": "xpe",
+    "original": "xpe",
+    "module": "src/game/traffic/createTraffic.ts",
+    "offset": 1866839,
+    "length": 13
+  },
+  {
+    "symbol": "Ek",
+    "original": "Ek",
+    "module": "src/game/traffic/createTraffic.ts",
+    "offset": 1866853,
+    "length": 4
+  },
+  {
+    "symbol": "_pe",
+    "original": "_pe",
+    "module": "src/game/traffic/createTraffic.ts",
+    "offset": 1866858,
+    "length": 6
+  },
+  {
+    "symbol": "Mk",
+    "original": "Mk",
+    "module": "src/game/traffic/createTraffic.ts",
+    "offset": 1866865,
+    "length": 5
+  },
+  {
+    "symbol": "wpe",
+    "original": "wpe",
+    "module": "src/game/traffic/createTraffic.ts",
+    "offset": 1866871,
+    "length": 5
+  },
+  {
+    "symbol": "createTraffic",
+    "original": "Tpe",
+    "module": "src/game/traffic/createTraffic.ts",
+    "offset": 1866877,
+    "length": 5280
+  },
+  {
+    "symbol": "_r",
+    "original": "_r",
+    "module": "src/game/traffic/createTraffic.ts",
+    "offset": 1872163,
+    "length": 7
+  },
+  {
+    "symbol": "Spe",
+    "original": "Spe",
+    "module": "src/game/traffic/createTraffic.ts",
+    "offset": 1872171,
+    "length": 39
+  },
+  {
+    "symbol": "fk",
+    "original": "fk",
+    "module": "src/game/physics/dynamicProps.ts",
+    "offset": 1843688,
+    "length": 3267
+  },
+  {
+    "symbol": "Bfe",
+    "original": "Bfe",
+    "module": "src/game/physics/dynamicProps.ts",
+    "offset": 1846955,
+    "length": 919
+  },
+  {
+    "symbol": "pk",
+    "original": "pk",
+    "module": "src/game/physics/dynamicProps.ts",
+    "offset": 1847880,
+    "length": 49
+  },
+  {
+    "symbol": "Rfe",
+    "original": "Rfe",
+    "module": "src/game/physics/dynamicProps.ts",
+    "offset": 1847930,
+    "length": 7
+  },
+  {
+    "symbol": "mk",
+    "original": "mk",
+    "module": "src/game/physics/dynamicProps.ts",
+    "offset": 1847938,
+    "length": 7
+  },
+  {
+    "symbol": "Ife",
+    "original": "Ife",
+    "module": "src/game/physics/dynamicProps.ts",
+    "offset": 1847946,
+    "length": 6
+  },
+  {
+    "symbol": "DG",
+    "original": "DG",
+    "module": "src/game/physics/dynamicProps.ts",
+    "offset": 1847953,
+    "length": 6
+  },
+  {
+    "symbol": "PG",
+    "original": "PG",
+    "module": "src/game/physics/dynamicProps.ts",
+    "offset": 1847960,
+    "length": 7
+  },
+  {
+    "symbol": "YE",
+    "original": "YE",
+    "module": "src/game/physics/dynamicProps.ts",
+    "offset": 1847968,
+    "length": 6
+  },
+  {
+    "symbol": "Nfe",
+    "original": "Nfe",
+    "module": "src/game/physics/dynamicProps.ts",
+    "offset": 1847975,
+    "length": 6
+  },
+  {
+    "symbol": "createGpsHud",
+    "original": "Cfe",
+    "module": "src/ui/map/gpsHud.ts",
+    "offset": 1842355,
+    "length": 1299
+  },
+  {
+    "symbol": "Dl",
+    "original": "Dl",
+    "module": "src/ui/map/gpsHud.ts",
+    "offset": 1843660,
+    "length": 8
+  },
+  {
+    "symbol": "jn",
+    "original": "jn",
+    "module": "src/ui/map/gpsHud.ts",
+    "offset": 1843669,
+    "length": 9
+  },
+  {
+    "symbol": "qc",
+    "original": "qc",
+    "module": "src/ui/map/gpsHud.ts",
+    "offset": 1843679,
+    "length": 8
+  },
+  {
+    "symbol": "gs",
+    "original": "gs",
+    "module": "src/game/physics/createVehicle.ts",
+    "offset": 1759217,
+    "length": 40
+  },
+  {
+    "symbol": "pb",
+    "original": "pb",
+    "module": "src/game/physics/createVehicle.ts",
+    "offset": 1759257,
+    "length": 212
+  },
+  {
+    "symbol": "nn",
+    "original": "nn",
+    "module": "src/game/physics/createVehicle.ts",
+    "offset": 1759475,
+    "length": 33
+  },
+  {
+    "symbol": "Jhe",
+    "original": "Jhe",
+    "module": "src/game/physics/createVehicle.ts",
+    "offset": 1759509,
+    "length": 107
+  },
+  {
+    "symbol": "Zhe",
+    "original": "Zhe",
+    "module": "src/game/physics/createVehicle.ts",
+    "offset": 1759616,
+    "length": 81
+  },
+  {
+    "symbol": "Mi",
+    "original": "Mi",
+    "module": "src/game/physics/createVehicle.ts",
+    "offset": 1759703,
+    "length": 33
+  },
+  {
+    "symbol": "createVehicle",
+    "original": "KL",
+    "module": "src/game/physics/createVehicle.ts",
+    "offset": 1759737,
+    "length": 18746
+  },
+  {
+    "symbol": "qhe",
+    "original": "qhe",
+    "module": "src/game/physics/launchControl.ts",
+    "offset": 1757262,
+    "length": 11
+  },
+  {
+    "symbol": "Hhe",
+    "original": "Hhe",
+    "module": "src/game/physics/launchControl.ts",
+    "offset": 1757274,
+    "length": 41
+  },
+  {
+    "symbol": "Whe",
+    "original": "Whe",
+    "module": "src/game/physics/launchControl.ts",
+    "offset": 1757315,
+    "length": 1836
+  },
+  {
+    "symbol": "hb",
+    "original": "hb",
+    "module": "src/game/physics/launchControl.ts",
+    "offset": 1759157,
+    "length": 4
+  },
+  {
+    "symbol": "$he",
+    "original": "$he",
+    "module": "src/game/physics/launchControl.ts",
+    "offset": 1759162,
+    "length": 5
+  },
+  {
+    "symbol": "fb",
+    "original": "fb",
+    "module": "src/game/physics/launchControl.ts",
+    "offset": 1759168,
+    "length": 6
+  },
+  {
+    "symbol": "$L",
+    "original": "$L",
+    "module": "src/game/physics/launchControl.ts",
+    "offset": 1759175,
+    "length": 4
+  },
+  {
+    "symbol": "Fl",
+    "original": "Fl",
+    "module": "src/game/physics/launchControl.ts",
+    "offset": 1759180,
+    "length": 7
+  },
+  {
+    "symbol": "Khe",
+    "original": "Khe",
+    "module": "src/game/physics/launchControl.ts",
+    "offset": 1759188,
+    "length": 6
+  },
+  {
+    "symbol": "jhe",
+    "original": "jhe",
+    "module": "src/game/physics/launchControl.ts",
+    "offset": 1759195,
+    "length": 5
+  },
+  {
+    "symbol": "Yhe",
+    "original": "Yhe",
+    "module": "src/game/physics/launchControl.ts",
+    "offset": 1759201,
+    "length": 7
+  },
+  {
+    "symbol": "Xhe",
+    "original": "Xhe",
+    "module": "src/game/physics/launchControl.ts",
+    "offset": 1759209,
+    "length": 7
+  },
+  {
+    "symbol": "HL",
+    "original": "HL",
+    "module": "src/game/physics/tires.ts",
+    "offset": 1750773,
+    "length": 201
+  },
+  {
+    "symbol": "WL",
+    "original": "WL",
+    "module": "src/game/physics/tires.ts",
+    "offset": 1750974,
+    "length": 86
+  },
+  {
+    "symbol": "Ghe",
+    "original": "Ghe",
+    "module": "src/game/physics/tires.ts",
+    "offset": 1751060,
+    "length": 124
+  },
+  {
+    "symbol": "GS",
+    "original": "GS",
+    "module": "src/game/physics/tires.ts",
+    "offset": 1751184,
+    "length": 429
+  },
+  {
+    "symbol": "VS",
+    "original": "VS",
+    "module": "src/game/physics/tires.ts",
+    "offset": 1751619,
+    "length": 15
+  },
+  {
+    "symbol": "vd",
+    "original": "vd",
+    "module": "src/game/physics/tires.ts",
+    "offset": 1751635,
+    "length": 17
+  },
+  {
+    "symbol": "So",
+    "original": "So",
+    "module": "src/game/physics/drivetrain.ts",
+    "offset": 1751653,
+    "length": 40
+  },
+  {
+    "symbol": "Vhe",
+    "original": "Vhe",
+    "module": "src/game/physics/drivetrain.ts",
+    "offset": 1751693,
+    "length": 202
+  },
+  {
+    "symbol": "createDrivetrain",
+    "original": "Qhe",
+    "module": "src/game/physics/drivetrain.ts",
+    "offset": 1751895,
+    "length": 5361
+  },
+  {
+    "symbol": "createVehicleRigSync",
+    "original": "jL",
+    "module": "src/game/vehicles/syncRig.ts",
+    "offset": 1778483,
+    "length": 1074
+  },
+  {
+    "symbol": "ja",
+    "original": "ja",
+    "module": "src/game/vehicles/syncRig.ts",
+    "offset": 1779563,
+    "length": 198
+  },
+  {
+    "symbol": "YL",
+    "original": "YL",
+    "module": "src/game/vehicles/syncRig.ts",
+    "offset": 1779762,
+    "length": 157
+  },
+  {
+    "symbol": "zi",
+    "original": "zi",
+    "module": "src/game/vehicles/syncRig.ts",
+    "offset": 1779920,
+    "length": 91
+  },
+  {
+    "symbol": "efe",
+    "original": "efe",
+    "module": "src/controls/createDriveInput.ts",
+    "offset": 1780012,
+    "length": 41
+  },
+  {
+    "symbol": "jr",
+    "original": "jr",
+    "module": "src/controls/createDriveInput.ts",
+    "offset": 1780053,
+    "length": 76
+  },
+  {
+    "symbol": "tfe",
+    "original": "tfe",
+    "module": "src/controls/createDriveInput.ts",
+    "offset": 1780129,
+    "length": 138
+  },
+  {
+    "symbol": "createDriveInput",
+    "original": "sfe",
+    "module": "src/controls/createDriveInput.ts",
+    "offset": 1780267,
+    "length": 3359
+  },
+  {
+    "symbol": "Vc",
+    "original": "Vc",
+    "module": "src/controls/createDriveInput.ts",
+    "offset": 1783632,
+    "length": 331
+  },
+  {
+    "symbol": "createTouchControls",
+    "original": "ufe",
+    "module": "src/ui/drive/touchControls.ts",
+    "offset": 1803176,
+    "length": 3218
+  },
+  {
+    "symbol": "Ad",
+    "original": "Ad",
+    "module": "src/runtime/createChaseCamera.ts",
+    "offset": 1783964,
+    "length": 317
+  },
+  {
+    "symbol": "rr",
+    "original": "rr",
+    "module": "src/runtime/createChaseCamera.ts",
+    "offset": 1784281,
+    "length": 58
+  },
+  {
+    "symbol": "XL",
+    "original": "XL",
+    "module": "src/runtime/createChaseCamera.ts",
+    "offset": 1784339,
+    "length": 83
+  },
+  {
+    "symbol": "createChaseCamera",
+    "original": "nfe",
+    "module": "src/runtime/createChaseCamera.ts",
+    "offset": 1784422,
+    "length": 4024
+  },
+  {
+    "symbol": "yr",
+    "original": "yr",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1788452,
+    "length": 6
+  },
+  {
+    "symbol": "br",
+    "original": "br",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1788459,
+    "length": 6
+  },
+  {
+    "symbol": "Ya",
+    "original": "Ya",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1788466,
+    "length": 6
+  },
+  {
+    "symbol": "Ed",
+    "original": "Ed",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1788473,
+    "length": 6
+  },
+  {
+    "symbol": "QS",
+    "original": "QS",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1788480,
+    "length": 6
+  },
+  {
+    "symbol": "Tp",
+    "original": "Tp",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1788487,
+    "length": 6
+  },
+  {
+    "symbol": "ife",
+    "original": "ife",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1788494,
+    "length": 6
+  },
+  {
+    "symbol": "JL",
+    "original": "JL",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1788501,
+    "length": 6
+  },
+  {
+    "symbol": "rfe",
+    "original": "rfe",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1788508,
+    "length": 7
+  },
+  {
+    "symbol": "mb",
+    "original": "mb",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1788516,
+    "length": 6
+  },
+  {
+    "symbol": "gb",
+    "original": "gb",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1788523,
+    "length": 6
+  },
+  {
+    "symbol": "qS",
+    "original": "qS",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1788530,
+    "length": 6
+  },
+  {
+    "symbol": "Sp",
+    "original": "Sp",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1788537,
+    "length": 81
+  },
+  {
+    "symbol": "yd",
+    "original": "yd",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1788618,
+    "length": 161
+  },
+  {
+    "symbol": "tx",
+    "original": "tx",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1788785,
+    "length": 13
+  },
+  {
+    "symbol": "ZL",
+    "original": "ZL",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1788799,
+    "length": 27
+  },
+  {
+    "symbol": "ek",
+    "original": "ek",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1788827,
+    "length": 438
+  },
+  {
+    "symbol": "createSpeedometer",
+    "original": "ofe",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1789265,
+    "length": 5025
+  },
+  {
+    "symbol": "$E",
+    "original": "$E",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1794296,
+    "length": 15
+  },
+  {
+    "symbol": "tk",
+    "original": "tk",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1794312,
+    "length": 4
+  },
+  {
+    "symbol": "sk",
+    "original": "sk",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1794317,
+    "length": 6
+  },
+  {
+    "symbol": "afe",
+    "original": "afe",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1794324,
+    "length": 1020
+  },
+  {
+    "symbol": "HS",
+    "original": "HS",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1795345,
+    "length": 43
+  },
+  {
+    "symbol": "nk",
+    "original": "nk",
+    "module": "src/ui/drive/speedometer.ts",
+    "offset": 1795389,
+    "length": 64
+  },
+  {
+    "symbol": "Ab",
+    "original": "Ab",
+    "module": "src/game/drive/driftScoring.ts",
+    "offset": 1806400,
+    "length": 14
+  },
+  {
+    "symbol": "IG",
+    "original": "IG",
+    "module": "src/game/drive/driftScoring.ts",
+    "offset": 1806415,
+    "length": 28
+  },
+  {
+    "symbol": "dfe",
+    "original": "dfe",
+    "module": "src/game/drive/driftScoring.ts",
+    "offset": 1806444,
+    "length": 111
+  },
+  {
+    "symbol": "hfe",
+    "original": "hfe",
+    "module": "src/game/drive/driftScoring.ts",
+    "offset": 1806555,
+    "length": 63
+  },
+  {
+    "symbol": "ffe",
+    "original": "ffe",
+    "module": "src/game/drive/driftScoring.ts",
+    "offset": 1806624,
+    "length": 100
+  },
+  {
+    "symbol": "pfe",
+    "original": "pfe",
+    "module": "src/game/drive/driftScoring.ts",
+    "offset": 1806725,
+    "length": 31
+  },
+  {
+    "symbol": "createDriftScoring",
+    "original": "mfe",
+    "module": "src/game/drive/driftScoring.ts",
+    "offset": 1806757,
+    "length": 1215
+  },
+  {
+    "symbol": "createDriftHud",
+    "original": "lfe",
+    "module": "src/ui/drive/driftHud.ts",
+    "offset": 1795454,
+    "length": 5056
+  },
+  {
+    "symbol": "ik",
+    "original": "ik",
+    "module": "src/ui/drive/launchHud.ts",
+    "offset": 1800516,
+    "length": 6
+  },
+  {
+    "symbol": "rk",
+    "original": "rk",
+    "module": "src/ui/drive/launchHud.ts",
+    "offset": 1800523,
+    "length": 48
+  },
+  {
+    "symbol": "ok",
+    "original": "ok",
+    "module": "src/ui/drive/launchHud.ts",
+    "offset": 1800572,
+    "length": 135
+  },
+  {
+    "symbol": "createLaunchHud",
+    "original": "cfe",
+    "module": "src/ui/drive/launchHud.ts",
+    "offset": 1800708,
+    "length": 2468
+  },
+  {
+    "symbol": "createMinimap",
+    "original": "gfe",
+    "module": "src/ui/map/minimap.ts",
+    "offset": 1807972,
+    "length": 3449
+  },
+  {
+    "symbol": "yb",
+    "original": "yb",
+    "module": "src/ui/map/minimap.ts",
+    "offset": 1811427,
+    "length": 44
+  },
+  {
+    "symbol": "oL",
+    "original": "oL",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1608385,
+    "length": 10
+  },
+  {
+    "symbol": "aL",
+    "original": "aL",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1608396,
+    "length": 77
+  },
+  {
+    "symbol": "yG",
+    "original": "yG",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1608473,
+    "length": 786
+  },
+  {
+    "symbol": "bG",
+    "original": "bG",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1609259,
+    "length": 397
+  },
+  {
+    "symbol": "I1",
+    "original": "I1",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1609662,
+    "length": 43
+  },
+  {
+    "symbol": "N1",
+    "original": "N1",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1609706,
+    "length": 215
+  },
+  {
+    "symbol": "xG",
+    "original": "xG",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1609921,
+    "length": 987
+  },
+  {
+    "symbol": "_G",
+    "original": "_G",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1610908,
+    "length": 253
+  },
+  {
+    "symbol": "md",
+    "original": "md",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1611167,
+    "length": 5
+  },
+  {
+    "symbol": "Gc",
+    "original": "Gc",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1611173,
+    "length": 5
+  },
+  {
+    "symbol": "pue",
+    "original": "pue",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1611179,
+    "length": 7
+  },
+  {
+    "symbol": "lL",
+    "original": "lL",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1611187,
+    "length": 5
+  },
+  {
+    "symbol": "mue",
+    "original": "mue",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1611193,
+    "length": 7
+  },
+  {
+    "symbol": "nb",
+    "original": "nb",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1611201,
+    "length": 5
+  },
+  {
+    "symbol": "Sf",
+    "original": "Sf",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1611207,
+    "length": 5
+  },
+  {
+    "symbol": "gue",
+    "original": "gue",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1611213,
+    "length": 3204
+  },
+  {
+    "symbol": "Aue",
+    "original": "Aue",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1614423,
+    "length": 29
+  },
+  {
+    "symbol": "oB",
+    "original": "oB",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1614453,
+    "length": 36
+  },
+  {
+    "symbol": "BS",
+    "original": "BS",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1614490,
+    "length": 6
+  },
+  {
+    "symbol": "yue",
+    "original": "yue",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1614497,
+    "length": 8
+  },
+  {
+    "symbol": "bue",
+    "original": "bue",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1614506,
+    "length": 7
+  },
+  {
+    "symbol": "xue",
+    "original": "xue",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1614514,
+    "length": 7
+  },
+  {
+    "symbol": "mg",
+    "original": "mg",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1614522,
+    "length": 7
+  },
+  {
+    "symbol": "cL",
+    "original": "cL",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1614530,
+    "length": 6
+  },
+  {
+    "symbol": "uL",
+    "original": "uL",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1614537,
+    "length": 6
+  },
+  {
+    "symbol": "dL",
+    "original": "dL",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1614544,
+    "length": 117
+  },
+  {
+    "symbol": "_ue",
+    "original": "_ue",
+    "module": "src/game/sigils/placements.ts",
+    "offset": 1614662,
+    "length": 723
+  },
+  {
+    "symbol": "Yce",
+    "original": "Yce",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1604900,
+    "length": 5
+  },
+  {
+    "symbol": "aA",
+    "original": "aA",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1604906,
+    "length": 4
+  },
+  {
+    "symbol": "U_",
+    "original": "U_",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1604911,
+    "length": 244
+  },
+  {
+    "symbol": "Xce",
+    "original": "Xce",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1605156,
+    "length": 34
+  },
+  {
+    "symbol": "la",
+    "original": "la",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1605191,
+    "length": 125
+  },
+  {
+    "symbol": "or",
+    "original": "or",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1605317,
+    "length": 82
+  },
+  {
+    "symbol": "wp",
+    "original": "wp",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1605400,
+    "length": 102
+  },
+  {
+    "symbol": "rL",
+    "original": "rL",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1605503,
+    "length": 72
+  },
+  {
+    "symbol": "Jce",
+    "original": "Jce",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1605576,
+    "length": 38
+  },
+  {
+    "symbol": "Zce",
+    "original": "Zce",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1605615,
+    "length": 22
+  },
+  {
+    "symbol": "eue",
+    "original": "eue",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1605638,
+    "length": 116
+  },
+  {
+    "symbol": "tue",
+    "original": "tue",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1605760,
+    "length": 48
+  },
+  {
+    "symbol": "zE",
+    "original": "zE",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1605809,
+    "length": 84
+  },
+  {
+    "symbol": "uG",
+    "original": "uG",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1605899,
+    "length": 5
+  },
+  {
+    "symbol": "dG",
+    "original": "dG",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1605905,
+    "length": 62
+  },
+  {
+    "symbol": "nB",
+    "original": "nB",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1605968,
+    "length": 50
+  },
+  {
+    "symbol": "Tf",
+    "original": "Tf",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1606019,
+    "length": 27
+  },
+  {
+    "symbol": "sb",
+    "original": "sb",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1606047,
+    "length": 27
+  },
+  {
+    "symbol": "sue",
+    "original": "sue",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1606075,
+    "length": 151
+  },
+  {
+    "symbol": "nue",
+    "original": "nue",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1606226,
+    "length": 131
+  },
+  {
+    "symbol": "iue",
+    "original": "iue",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1606363,
+    "length": 40
+  },
+  {
+    "symbol": "U0",
+    "original": "U0",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1606404,
+    "length": 56
+  },
+  {
+    "symbol": "hG",
+    "original": "hG",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1606465,
+    "length": 74
+  },
+  {
+    "symbol": "rue",
+    "original": "rue",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1606540,
+    "length": 23
+  },
+  {
+    "symbol": "oue",
+    "original": "oue",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1606563,
+    "length": 124
+  },
+  {
+    "symbol": "iB",
+    "original": "iB",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1606687,
+    "length": 52
+  },
+  {
+    "symbol": "fG",
+    "original": "fG",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1606739,
+    "length": 74
+  },
+  {
+    "symbol": "z0",
+    "original": "z0",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1606819,
+    "length": 33
+  },
+  {
+    "symbol": "aue",
+    "original": "aue",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1606853,
+    "length": 134
+  },
+  {
+    "symbol": "rB",
+    "original": "rB",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1606987,
+    "length": 101
+  },
+  {
+    "symbol": "lue",
+    "original": "lue",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1607088,
+    "length": 191
+  },
+  {
+    "symbol": "GE",
+    "original": "GE",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1607285,
+    "length": 30
+  },
+  {
+    "symbol": "cue",
+    "original": "cue",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1607316,
+    "length": 118
+  },
+  {
+    "symbol": "uue",
+    "original": "uue",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1607434,
+    "length": 111
+  },
+  {
+    "symbol": "pG",
+    "original": "pG",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1607551,
+    "length": 12
+  },
+  {
+    "symbol": "au",
+    "original": "au",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1607564,
+    "length": 12
+  },
+  {
+    "symbol": "mG",
+    "original": "mG",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1607577,
+    "length": 12
+  },
+  {
+    "symbol": "gG",
+    "original": "gG",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1607590,
+    "length": 12
+  },
+  {
+    "symbol": "AG",
+    "original": "AG",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1607603,
+    "length": 20
+  },
+  {
+    "symbol": "due",
+    "original": "due",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1607624,
+    "length": 84
+  },
+  {
+    "symbol": "hue",
+    "original": "hue",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1607709,
+    "length": 34
+  },
+  {
+    "symbol": "fue",
+    "original": "fue",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1607744,
+    "length": 194
+  },
+  {
+    "symbol": "cc",
+    "original": "cc",
+    "module": "src/ui/drive/controlsHelp.ts",
+    "offset": 1607939,
+    "length": 440
+  },
+  {
+    "symbol": "fce",
+    "original": "fce",
+    "module": "src/ui/walk/hudPanel.ts",
+    "offset": 1546489,
+    "length": 2055
+  },
+  {
+    "symbol": "lG",
+    "original": "lG",
+    "module": "src/ui/walk/hudPanel.ts",
+    "offset": 1548550,
+    "length": 19
+  },
+  {
+    "symbol": "yc",
+    "original": "yc",
+    "module": "src/ui/walk/hudPanel.ts",
+    "offset": 1548570,
+    "length": 14925
+  },
+  {
+    "symbol": "createRoadGraph",
+    "original": "NG",
+    "module": "src/game/navigation/roadGraph.ts",
+    "offset": 1826713,
+    "length": 3637
+  },
+  {
+    "symbol": "ak",
+    "original": "ak",
+    "module": "src/ui/map/cityMap.ts",
+    "offset": 1811472,
+    "length": 34
+  },
+  {
+    "symbol": "Rf",
+    "original": "Rf",
+    "module": "src/ui/map/cityMap.ts",
+    "offset": 1811507,
+    "length": 6
+  },
+  {
+    "symbol": "createCityMap",
+    "original": "Afe",
+    "module": "src/ui/map/cityMap.ts",
+    "offset": 1811514,
+    "length": 15138
+  },
+  {
+    "symbol": "yfe",
+    "original": "yfe",
+    "module": "src/ui/map/cityMap.ts",
+    "offset": 1826658,
+    "length": 39
+  },
+  {
+    "symbol": "bb",
+    "original": "bb",
+    "module": "src/ui/map/cityMap.ts",
+    "offset": 1826698,
+    "length": 6
+  },
+  {
+    "symbol": "bfe",
+    "original": "bfe",
+    "module": "src/ui/map/cityMap.ts",
+    "offset": 1826705,
+    "length": 7
+  },
+  {
+    "symbol": "Lg",
+    "original": "Lg",
+    "module": "src/game/navigation/gpsRibbon.ts",
+    "offset": 1837708,
+    "length": 4
+  },
+  {
+    "symbol": "kG",
+    "original": "kG",
+    "module": "src/game/navigation/gpsRibbon.ts",
+    "offset": 1837713,
+    "length": 6
+  },
+  {
+    "symbol": "xd",
+    "original": "xd",
+    "module": "src/game/navigation/gpsRibbon.ts",
+    "offset": 1837720,
+    "length": 21
+  },
+  {
+    "symbol": "createGpsRibbon",
+    "original": "Efe",
+    "module": "src/game/navigation/gpsRibbon.ts",
+    "offset": 1837742,
+    "length": 4070
+  },
+  {
+    "symbol": "Mfe",
+    "original": "Mfe",
+    "module": "src/game/navigation/gpsRibbon.ts",
+    "offset": 1841818,
+    "length": 18
+  },
+  {
+    "symbol": "KE",
+    "original": "KE",
+    "module": "src/game/navigation/gpsRibbon.ts",
+    "offset": 1841837,
+    "length": 41
+  },
+  {
+    "symbol": "jE",
+    "original": "jE",
+    "module": "src/game/navigation/gpsRibbon.ts",
+    "offset": 1841879,
+    "length": 33
+  },
+  {
+    "symbol": "jS",
+    "original": "jS",
+    "module": "src/game/navigation/gpsRibbon.ts",
+    "offset": 1841913,
+    "length": 79
+  },
+  {
+    "symbol": "FG",
+    "original": "FG",
+    "module": "src/game/navigation/gpsRibbon.ts",
+    "offset": 1841993,
+    "length": 362
+  },
+  {
+    "symbol": "LG",
+    "original": "LG",
+    "module": "src/world/car/lighting.ts",
+    "offset": 1830350,
+    "length": 767
+  },
+  {
+    "symbol": "Qc",
+    "original": "Qc",
+    "module": "src/world/effects/skidMarks.ts",
+    "offset": 1831123,
+    "length": 6
+  },
+  {
+    "symbol": "xfe",
+    "original": "xfe",
+    "module": "src/world/effects/skidMarks.ts",
+    "offset": 1831130,
+    "length": 6
+  },
+  {
+    "symbol": "lk",
+    "original": "lk",
+    "module": "src/world/effects/skidMarks.ts",
+    "offset": 1831137,
+    "length": 5
+  },
+  {
+    "symbol": "ck",
+    "original": "ck",
+    "module": "src/world/effects/skidMarks.ts",
+    "offset": 1831143,
+    "length": 8
+  },
+  {
+    "symbol": "bd",
+    "original": "bd",
+    "module": "src/world/effects/skidMarks.ts",
+    "offset": 1831152,
+    "length": 8
+  },
+  {
+    "symbol": "WS",
+    "original": "WS",
+    "module": "src/world/effects/skidMarks.ts",
+    "offset": 1831161,
+    "length": 8
+  },
+  {
+    "symbol": "Yr",
+    "original": "Yr",
+    "module": "src/world/effects/skidMarks.ts",
+    "offset": 1831170,
+    "length": 8
+  },
+  {
+    "symbol": "createSkidMarks",
+    "original": "_fe",
+    "module": "src/world/effects/skidMarks.ts",
+    "offset": 1831179,
+    "length": 2134
+  },
+  {
+    "symbol": "uk",
+    "original": "uk",
+    "module": "src/world/effects/tireSpray.ts",
+    "offset": 1833319,
+    "length": 6
+  },
+  {
+    "symbol": "If",
+    "original": "If",
+    "module": "src/world/effects/tireSpray.ts",
+    "offset": 1833326,
+    "length": 4
+  },
+  {
+    "symbol": "wfe",
+    "original": "wfe",
+    "module": "src/world/effects/tireSpray.ts",
+    "offset": 1833331,
+    "length": 7
+  },
+  {
+    "symbol": "xb",
+    "original": "xb",
+    "module": "src/world/effects/tireSpray.ts",
+    "offset": 1833339,
+    "length": 8
+  },
+  {
+    "symbol": "dk",
+    "original": "dk",
+    "module": "src/world/effects/tireSpray.ts",
+    "offset": 1833348,
+    "length": 8
+  },
+  {
+    "symbol": "$S",
+    "original": "$S",
+    "module": "src/world/effects/tireSpray.ts",
+    "offset": 1833357,
+    "length": 8
+  },
+  {
+    "symbol": "hk",
+    "original": "hk",
+    "module": "src/world/effects/tireSpray.ts",
+    "offset": 1833366,
+    "length": 8
+  },
+  {
+    "symbol": "KS",
+    "original": "KS",
+    "module": "src/world/effects/tireSpray.ts",
+    "offset": 1833375,
+    "length": 9
+  },
+  {
+    "symbol": "createTireSpray",
+    "original": "Tfe",
+    "module": "src/world/effects/tireSpray.ts",
+    "offset": 1833385,
+    "length": 2719
+  },
+  {
+    "symbol": "DT",
+    "original": "DT",
+    "module": "src/world/car/exhaustFlames.ts",
+    "offset": 1227042,
+    "length": 9
+  },
+  {
+    "symbol": "YN",
+    "original": "YN",
+    "module": "src/world/car/exhaustFlames.ts",
+    "offset": 1227052,
+    "length": 76
+  },
+  {
+    "symbol": "PT",
+    "original": "PT",
+    "module": "src/world/car/exhaustFlames.ts",
+    "offset": 1227129,
+    "length": 27
+  },
+  {
+    "symbol": "_ie",
+    "original": "_ie",
+    "module": "src/world/car/exhaustFlames.ts",
+    "offset": 1227157,
+    "length": 89
+  },
+  {
+    "symbol": "wie",
+    "original": "wie",
+    "module": "src/world/car/exhaustFlames.ts",
+    "offset": 1227247,
+    "length": 83
+  },
+  {
+    "symbol": "Tie",
+    "original": "Tie",
+    "module": "src/world/car/exhaustFlames.ts",
+    "offset": 1227331,
+    "length": 88
+  },
+  {
+    "symbol": "Qa",
+    "original": "Qa",
+    "module": "src/world/car/exhaustFlames.ts",
+    "offset": 1227424,
+    "length": 7
+  },
+  {
+    "symbol": "Sie",
+    "original": "Sie",
+    "module": "src/world/car/exhaustFlames.ts",
+    "offset": 1227432,
+    "length": 826
+  },
+  {
+    "symbol": "OT",
+    "original": "OT",
+    "module": "src/world/car/exhaustFlames.ts",
+    "offset": 1228258,
+    "length": 154
+  },
+  {
+    "symbol": "createExhaustFlames",
+    "original": "vie",
+    "module": "src/world/car/exhaustFlames.ts",
+    "offset": 1228412,
+    "length": 8226
+  },
+  {
+    "symbol": "Sfe",
+    "original": "Sfe",
+    "module": "src/game/drive/speedEffects.ts",
+    "offset": 1836104,
+    "length": 434
+  },
+  {
+    "symbol": "Ag",
+    "original": "Ag",
+    "module": "src/game/drive/speedEffects.ts",
+    "offset": 1836544,
+    "length": 8
+  },
+  {
+    "symbol": "vfe",
+    "original": "vfe",
+    "module": "src/game/drive/speedEffects.ts",
+    "offset": 1836553,
+    "length": 1149
+  },
+  {
+    "symbol": "spe",
+    "original": "spe",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1862033,
+    "length": 30
+  },
+  {
+    "symbol": "npe",
+    "original": "npe",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1862064,
+    "length": 5
+  },
+  {
+    "symbol": "ipe",
+    "original": "ipe",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1862070,
+    "length": 5
+  },
+  {
+    "symbol": "rpe",
+    "original": "rpe",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1862076,
+    "length": 5
+  },
+  {
+    "symbol": "ope",
+    "original": "ope",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1862082,
+    "length": 5
+  },
+  {
+    "symbol": "Mb",
+    "original": "Mb",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1862088,
+    "length": 168
+  },
+  {
+    "symbol": "ape",
+    "original": "ape",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1862256,
+    "length": 368
+  },
+  {
+    "symbol": "lpe",
+    "original": "lpe",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1862624,
+    "length": 772
+  },
+  {
+    "symbol": "cpe",
+    "original": "cpe",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1863396,
+    "length": 590
+  },
+  {
+    "symbol": "Sk",
+    "original": "Sk",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1863992,
+    "length": 145
+  },
+  {
+    "symbol": "upe",
+    "original": "upe",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1864138,
+    "length": 9
+  },
+  {
+    "symbol": "dpe",
+    "original": "dpe",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1864148,
+    "length": 707
+  },
+  {
+    "symbol": "hpe",
+    "original": "hpe",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1864855,
+    "length": 596
+  },
+  {
+    "symbol": "fpe",
+    "original": "fpe",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1865451,
+    "length": 574
+  },
+  {
+    "symbol": "ppe",
+    "original": "ppe",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1866025,
+    "length": 680
+  },
+  {
+    "symbol": "mpe",
+    "original": "mpe",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1866711,
+    "length": 10
+  },
+  {
+    "symbol": "Pl",
+    "original": "Pl",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1866722,
+    "length": 8
+  },
+  {
+    "symbol": "sv",
+    "original": "sv",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1866731,
+    "length": 9
+  },
+  {
+    "symbol": "gpe",
+    "original": "gpe",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1866741,
+    "length": 16
+  },
+  {
+    "symbol": "Ape",
+    "original": "Ape",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1866758,
+    "length": 16
+  },
+  {
+    "symbol": "Lf",
+    "original": "Lf",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1866775,
+    "length": 18
+  },
+  {
+    "symbol": "kf",
+    "original": "kf",
+    "module": "src/game/traffic/trafficModels.ts",
+    "offset": 1866794,
+    "length": 23
+  },
+  {
+    "symbol": "Lfe",
+    "original": "Lfe",
+    "module": "src/game/traffic/laneGraph.ts",
+    "offset": 1847982,
+    "length": 288
+  },
+  {
+    "symbol": "kfe",
+    "original": "kfe",
+    "module": "src/game/traffic/laneGraph.ts",
+    "offset": 1848270,
+    "length": 409
+  },
+  {
+    "symbol": "Ffe",
+    "original": "Ffe",
+    "module": "src/game/traffic/laneGraph.ts",
+    "offset": 1848679,
+    "length": 173
+  },
+  {
+    "symbol": "Dfe",
+    "original": "Dfe",
+    "module": "src/game/traffic/laneGraph.ts",
+    "offset": 1848852,
+    "length": 263
+  },
+  {
+    "symbol": "Pfe",
+    "original": "Pfe",
+    "module": "src/game/traffic/laneGraph.ts",
+    "offset": 1849115,
+    "length": 418
+  },
+  {
+    "symbol": "gk",
+    "original": "gk",
+    "module": "src/game/traffic/laneGraph.ts",
+    "offset": 1849533,
+    "length": 210
+  },
+  {
+    "symbol": "Ak",
+    "original": "Ak",
+    "module": "src/game/traffic/laneGraph.ts",
+    "offset": 1849743,
+    "length": 108
+  },
+  {
+    "symbol": "Ofe",
+    "original": "Ofe",
+    "module": "src/game/traffic/laneGraph.ts",
+    "offset": 1849851,
+    "length": 113
+  },
+  {
+    "symbol": "Ufe",
+    "original": "Ufe",
+    "module": "src/game/traffic/laneGraph.ts",
+    "offset": 1849964,
+    "length": 380
+  },
+  {
+    "symbol": "zfe",
+    "original": "zfe",
+    "module": "src/game/traffic/laneGraph.ts",
+    "offset": 1850344,
+    "length": 833
+  },
+  {
+    "symbol": "Gfe",
+    "original": "Gfe",
+    "module": "src/game/traffic/laneGraph.ts",
+    "offset": 1851177,
+    "length": 2567
+  },
+  {
+    "symbol": "tc",
+    "original": "tc",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1853744,
+    "length": 273
+  },
+  {
+    "symbol": "OG",
+    "original": "OG",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1854017,
+    "length": 198
+  },
+  {
+    "symbol": "Vfe",
+    "original": "Vfe",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1854215,
+    "length": 387
+  },
+  {
+    "symbol": "Vl",
+    "original": "Vl",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1854608,
+    "length": 7
+  },
+  {
+    "symbol": "_b",
+    "original": "_b",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1854616,
+    "length": 5
+  },
+  {
+    "symbol": "Qfe",
+    "original": "Qfe",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1854622,
+    "length": 7
+  },
+  {
+    "symbol": "qfe",
+    "original": "qfe",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1854630,
+    "length": 7
+  },
+  {
+    "symbol": "Hfe",
+    "original": "Hfe",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1854638,
+    "length": 6
+  },
+  {
+    "symbol": "wb",
+    "original": "wb",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1854645,
+    "length": 4
+  },
+  {
+    "symbol": "yg",
+    "original": "yg",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1854650,
+    "length": 4
+  },
+  {
+    "symbol": "YS",
+    "original": "YS",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1854655,
+    "length": 6
+  },
+  {
+    "symbol": "yk",
+    "original": "yk",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1854662,
+    "length": 4
+  },
+  {
+    "symbol": "eu",
+    "original": "eu",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1854667,
+    "length": 25
+  },
+  {
+    "symbol": "XS",
+    "original": "XS",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1854693,
+    "length": 75
+  },
+  {
+    "symbol": "Nf",
+    "original": "Nf",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1854769,
+    "length": 18
+  },
+  {
+    "symbol": "JS",
+    "original": "JS",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1854788,
+    "length": 18
+  },
+  {
+    "symbol": "Tb",
+    "original": "Tb",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1854807,
+    "length": 136
+  },
+  {
+    "symbol": "bk",
+    "original": "bk",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1854943,
+    "length": 202
+  },
+  {
+    "symbol": "Wfe",
+    "original": "Wfe",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1855145,
+    "length": 894
+  },
+  {
+    "symbol": "xk",
+    "original": "xk",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1856039,
+    "length": 106
+  },
+  {
+    "symbol": "ZS",
+    "original": "ZS",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1856151,
+    "length": 67
+  },
+  {
+    "symbol": "$fe",
+    "original": "$fe",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1856219,
+    "length": 3405
+  },
+  {
+    "symbol": "UG",
+    "original": "UG",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859630,
+    "length": 7
+  },
+  {
+    "symbol": "_k",
+    "original": "_k",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859638,
+    "length": 10
+  },
+  {
+    "symbol": "ev",
+    "original": "ev",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859649,
+    "length": 6
+  },
+  {
+    "symbol": "XE",
+    "original": "XE",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859656,
+    "length": 4
+  },
+  {
+    "symbol": "Sb",
+    "original": "Sb",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859661,
+    "length": 12
+  },
+  {
+    "symbol": "tv",
+    "original": "tv",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859674,
+    "length": 4
+  },
+  {
+    "symbol": "vb",
+    "original": "vb",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859679,
+    "length": 6
+  },
+  {
+    "symbol": "Eb",
+    "original": "Eb",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859686,
+    "length": 5
+  },
+  {
+    "symbol": "hB",
+    "original": "hB",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859692,
+    "length": 5
+  },
+  {
+    "symbol": "wk",
+    "original": "wk",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859698,
+    "length": 5
+  },
+  {
+    "symbol": "Kfe",
+    "original": "Kfe",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859704,
+    "length": 7
+  },
+  {
+    "symbol": "jfe",
+    "original": "jfe",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859712,
+    "length": 7
+  },
+  {
+    "symbol": "Yfe",
+    "original": "Yfe",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859720,
+    "length": 5
+  },
+  {
+    "symbol": "Xfe",
+    "original": "Xfe",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859726,
+    "length": 7
+  },
+  {
+    "symbol": "Jfe",
+    "original": "Jfe",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859734,
+    "length": 7
+  },
+  {
+    "symbol": "Tk",
+    "original": "Tk",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859742,
+    "length": 6
+  },
+  {
+    "symbol": "Zfe",
+    "original": "Zfe",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859749,
+    "length": 5
+  },
+  {
+    "symbol": "bg",
+    "original": "bg",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859755,
+    "length": 23
+  },
+  {
+    "symbol": "xg",
+    "original": "xg",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859779,
+    "length": 23
+  },
+  {
+    "symbol": "epe",
+    "original": "epe",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859803,
+    "length": 6
+  },
+  {
+    "symbol": "tpe",
+    "original": "tpe",
+    "module": "src/game/traffic/trafficSimulation.ts",
+    "offset": 1859810,
+    "length": 2217
+  },
+  {
+    "symbol": "iv",
+    "original": "iv",
+    "module": "src/game/progress/tutorialStore.ts",
+    "offset": 1958948,
+    "length": 26
+  },
+  {
+    "symbol": "Nme",
+    "original": "Nme",
+    "module": "src/game/progress/tutorialStore.ts",
+    "offset": 1958975,
+    "length": 332
+  },
+  {
+    "symbol": "CG",
+    "original": "CG",
+    "module": "src/audio/voice/createVoice.ts",
+    "offset": 1707880,
+    "length": 17
+  },
+  {
+    "symbol": "ihe",
+    "original": "ihe",
+    "module": "src/audio/voice/createVoice.ts",
+    "offset": 1707898,
+    "length": 41
+  },
+  {
+    "symbol": "GL",
+    "original": "GL",
+    "module": "src/audio/voice/createVoice.ts",
+    "offset": 1707940,
+    "length": 164
+  },
+  {
+    "symbol": "rhe",
+    "original": "rhe",
+    "module": "src/audio/voice/createVoice.ts",
+    "offset": 1708110,
+    "length": 25
+  },
+  {
+    "symbol": "ohe",
+    "original": "ohe",
+    "module": "src/audio/voice/createVoice.ts",
+    "offset": 1708136,
+    "length": 5
+  },
+  {
+    "symbol": "cb",
+    "original": "cb",
+    "module": "src/audio/voice/createVoice.ts",
+    "offset": 1708142,
+    "length": 7
+  },
+  {
+    "symbol": "DS",
+    "original": "DS",
+    "module": "src/audio/voice/createVoice.ts",
+    "offset": 1708150,
+    "length": 40
+  },
+  {
+    "symbol": "ahe",
+    "original": "ahe",
+    "module": "src/audio/voice/createVoice.ts",
+    "offset": 1708191,
+    "length": 144
+  },
+  {
+    "symbol": "createVoice",
+    "original": "lhe",
+    "module": "src/audio/voice/createVoice.ts",
+    "offset": 1708335,
+    "length": 2848
+  },
+  {
+    "symbol": "che",
+    "original": "che",
+    "module": "src/audio/voice/createVoice.ts",
+    "offset": 1711183,
+    "length": 779
+  },
+  {
+    "symbol": "uhe",
+    "original": "uhe",
+    "module": "src/audio/voice/createVoice.ts",
+    "offset": 1711962,
+    "length": 278
+  },
+  {
+    "symbol": "OE",
+    "original": "OE",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1563496,
+    "length": 10
+  },
+  {
+    "symbol": "tB",
+    "original": "tB",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1563511,
+    "length": 5
+  },
+  {
+    "symbol": "O0",
+    "original": "O0",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1563517,
+    "length": 5
+  },
+  {
+    "symbol": "pce",
+    "original": "pce",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1563523,
+    "length": 71
+  },
+  {
+    "symbol": "ah",
+    "original": "ah",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1563594,
+    "length": 24
+  },
+  {
+    "symbol": "Iu",
+    "original": "Iu",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1563618,
+    "length": 24
+  },
+  {
+    "symbol": "_p",
+    "original": "_p",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1563642,
+    "length": 36
+  },
+  {
+    "symbol": "La",
+    "original": "La",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1563678,
+    "length": 87
+  },
+  {
+    "symbol": "sB",
+    "original": "sB",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1563771,
+    "length": 382
+  },
+  {
+    "symbol": "mce",
+    "original": "mce",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1564154,
+    "length": 84
+  },
+  {
+    "symbol": "gce",
+    "original": "gce",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1564239,
+    "length": 75
+  },
+  {
+    "symbol": "ex",
+    "original": "ex",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1564315,
+    "length": 32
+  },
+  {
+    "symbol": "UE",
+    "original": "UE",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1564348,
+    "length": 36
+  },
+  {
+    "symbol": "Ace",
+    "original": "Ace",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1564385,
+    "length": 5
+  },
+  {
+    "symbol": "yce",
+    "original": "yce",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1564391,
+    "length": 5
+  },
+  {
+    "symbol": "bce",
+    "original": "bce",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1564397,
+    "length": 8
+  },
+  {
+    "symbol": "xce",
+    "original": "xce",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1564406,
+    "length": 7
+  },
+  {
+    "symbol": "_ce",
+    "original": "_ce",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1564414,
+    "length": 8
+  },
+  {
+    "symbol": "wce",
+    "original": "wce",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1564423,
+    "length": 83
+  },
+  {
+    "symbol": "MS",
+    "original": "MS",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1564512,
+    "length": 61
+  },
+  {
+    "symbol": "tL",
+    "original": "tL",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1564574,
+    "length": 49
+  },
+  {
+    "symbol": "CS",
+    "original": "CS",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1564624,
+    "length": 103
+  },
+  {
+    "symbol": "Tce",
+    "original": "Tce",
+    "module": "src/ui/core/icons.ts",
+    "offset": 1564728,
+    "length": 88
+  },
+  {
+    "symbol": "createGameplay",
+    "original": "Ime",
+    "module": "src/game/createGameplay.ts",
+    "offset": 1955229,
+    "length": 3713
+  },
+  {
+    "symbol": "zG",
+    "original": "zG",
+    "module": "src/game/progress/store.ts",
+    "offset": 1890427,
+    "length": 26
+  },
+  {
+    "symbol": "GG",
+    "original": "GG",
+    "module": "src/game/progress/store.ts",
+    "offset": 1890454,
+    "length": 4
+  },
+  {
+    "symbol": "JE",
+    "original": "JE",
+    "module": "src/game/progress/store.ts",
+    "offset": 1890459,
+    "length": 89
+  },
+  {
+    "symbol": "Npe",
+    "original": "Npe",
+    "module": "src/game/progress/store.ts",
+    "offset": 1890548,
+    "length": 387
+  },
+  {
+    "symbol": "createProgressStore",
+    "original": "Lpe",
+    "module": "src/game/progress/store.ts",
+    "offset": 1890935,
+    "length": 2555
+  },
+  {
+    "symbol": "createHornAudio",
+    "original": "Bme",
+    "module": "src/audio/horn.ts",
+    "offset": 1951981,
+    "length": 3145
+  },
+  {
+    "symbol": "Rme",
+    "original": "Rme",
+    "module": "src/audio/horn.ts",
+    "offset": 1955132,
+    "length": 96
+  },
+  {
+    "symbol": "createMissions",
+    "original": "sme",
+    "module": "src/game/missions/createMissions.ts",
+    "offset": 1911722,
+    "length": 13023
+  },
+  {
+    "symbol": "nme",
+    "original": "nme",
+    "module": "src/game/missions/createMissions.ts",
+    "offset": 1924751,
+    "length": 117
+  },
+  {
+    "symbol": "ime",
+    "original": "ime",
+    "module": "src/game/missions/createMissions.ts",
+    "offset": 1924869,
+    "length": 7
+  },
+  {
+    "symbol": "Lk",
+    "original": "Lk",
+    "module": "src/game/missions/createMissions.ts",
+    "offset": 1924877,
+    "length": 5
+  },
+  {
+    "symbol": "rme",
+    "original": "rme",
+    "module": "src/game/missions/createMissions.ts",
+    "offset": 1924883,
+    "length": 5
+  },
+  {
+    "symbol": "kpe",
+    "original": "kpe",
+    "module": "src/game/missions/routePlanning.ts",
+    "offset": 1893490,
+    "length": 1298
+  },
+  {
+    "symbol": "Ck",
+    "original": "Ck",
+    "module": "src/game/missions/routePlanning.ts",
+    "offset": 1894794,
+    "length": 5
+  },
+  {
+    "symbol": "wg",
+    "original": "wg",
+    "module": "src/ui/missions/createMissionUi.ts",
+    "offset": 1900497,
+    "length": 95
+  },
+  {
+    "symbol": "createMissionUi",
+    "original": "Wpe",
+    "module": "src/ui/missions/createMissionUi.ts",
+    "offset": 1900592,
+    "length": 11014
+  },
+  {
+    "symbol": "$pe",
+    "original": "$pe",
+    "module": "src/ui/missions/createMissionUi.ts",
+    "offset": 1911612,
+    "length": 5
+  },
+  {
+    "symbol": "Kpe",
+    "original": "Kpe",
+    "module": "src/ui/missions/createMissionUi.ts",
+    "offset": 1911618,
+    "length": 6
+  },
+  {
+    "symbol": "jpe",
+    "original": "jpe",
+    "module": "src/ui/missions/createMissionUi.ts",
+    "offset": 1911625,
+    "length": 6
+  },
+  {
+    "symbol": "Rk",
+    "original": "Rk",
+    "module": "src/ui/missions/createMissionUi.ts",
+    "offset": 1911632,
+    "length": 4
+  },
+  {
+    "symbol": "Ype",
+    "original": "Ype",
+    "module": "src/ui/missions/createMissionUi.ts",
+    "offset": 1911637,
+    "length": 8
+  },
+  {
+    "symbol": "Ik",
+    "original": "Ik",
+    "module": "src/ui/missions/createMissionUi.ts",
+    "offset": 1911646,
+    "length": 7
+  },
+  {
+    "symbol": "Xpe",
+    "original": "Xpe",
+    "module": "src/ui/missions/createMissionUi.ts",
+    "offset": 1911654,
+    "length": 6
+  },
+  {
+    "symbol": "Jpe",
+    "original": "Jpe",
+    "module": "src/ui/missions/createMissionUi.ts",
+    "offset": 1911661,
+    "length": 6
+  },
+  {
+    "symbol": "Nk",
+    "original": "Nk",
+    "module": "src/ui/missions/createMissionUi.ts",
+    "offset": 1911668,
+    "length": 6
+  },
+  {
+    "symbol": "Zpe",
+    "original": "Zpe",
+    "module": "src/ui/missions/createMissionUi.ts",
+    "offset": 1911675,
+    "length": 5
+  },
+  {
+    "symbol": "eme",
+    "original": "eme",
+    "module": "src/ui/missions/createMissionUi.ts",
+    "offset": 1911681,
+    "length": 7
+  },
+  {
+    "symbol": "tme",
+    "original": "tme",
+    "module": "src/ui/missions/createMissionUi.ts",
+    "offset": 1911689,
+    "length": 32
+  },
+  {
+    "symbol": "Ff",
+    "original": "Ff",
+    "module": "src/game/missions/checkpointBeacons.ts",
+    "offset": 1894800,
+    "length": 5
+  },
+  {
+    "symbol": "Ol",
+    "original": "Ol",
+    "module": "src/game/missions/checkpointBeacons.ts",
+    "offset": 1894806,
+    "length": 4
+  },
+  {
+    "symbol": "Df",
+    "original": "Df",
+    "module": "src/game/missions/checkpointBeacons.ts",
+    "offset": 1894811,
+    "length": 4
+  },
+  {
+    "symbol": "_d",
+    "original": "_d",
+    "module": "src/game/missions/checkpointBeacons.ts",
+    "offset": 1894816,
+    "length": 6
+  },
+  {
+    "symbol": "_g",
+    "original": "_g",
+    "module": "src/game/missions/checkpointBeacons.ts",
+    "offset": 1894823,
+    "length": 81
+  },
+  {
+    "symbol": "createCheckpointBeacons",
+    "original": "Fpe",
+    "module": "src/game/missions/checkpointBeacons.ts",
+    "offset": 1894905,
+    "length": 2942
+  },
+  {
+    "symbol": "Bk",
+    "original": "Bk",
+    "module": "src/game/missions/checkpointBeacons.ts",
+    "offset": 1897853,
+    "length": 29
+  },
+  {
+    "symbol": "Dpe",
+    "original": "Dpe",
+    "module": "src/game/missions/checkpointBeacons.ts",
+    "offset": 1897883,
+    "length": 5
+  },
+  {
+    "symbol": "Ppe",
+    "original": "Ppe",
+    "module": "src/game/missions/checkpointBeacons.ts",
+    "offset": 1897889,
+    "length": 6
+  },
+  {
+    "symbol": "Ope",
+    "original": "Ope",
+    "module": "src/game/missions/checkpointBeacons.ts",
+    "offset": 1897896,
+    "length": 60
+  },
+  {
+    "symbol": "Upe",
+    "original": "Upe",
+    "module": "src/game/missions/checkpointBeacons.ts",
+    "offset": 1897957,
+    "length": 7
+  },
+  {
+    "symbol": "zpe",
+    "original": "zpe",
+    "module": "src/game/missions/checkpointBeacons.ts",
+    "offset": 1897965,
+    "length": 7
+  },
+  {
+    "symbol": "Gpe",
+    "original": "Gpe",
+    "module": "src/game/missions/checkpointBeacons.ts",
+    "offset": 1897973,
+    "length": 5
+  },
+  {
+    "symbol": "Vpe",
+    "original": "Vpe",
+    "module": "src/game/missions/checkpointBeacons.ts",
+    "offset": 1897979,
+    "length": 5
+  },
+  {
+    "symbol": "Qpe",
+    "original": "Qpe",
+    "module": "src/game/missions/checkpointBeacons.ts",
+    "offset": 1897985,
+    "length": 93
+  },
+  {
+    "symbol": "TG",
+    "original": "TG",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1623106,
+    "length": 39
+  },
+  {
+    "symbol": "L1",
+    "original": "L1",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1623146,
+    "length": 39
+  },
+  {
+    "symbol": "hL",
+    "original": "hL",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1623186,
+    "length": 10
+  },
+  {
+    "symbol": "Sue",
+    "original": "Sue",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1623197,
+    "length": 192
+  },
+  {
+    "symbol": "fL",
+    "original": "fL",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1623395,
+    "length": 253
+  },
+  {
+    "symbol": "vue",
+    "original": "vue",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1623649,
+    "length": 627
+  },
+  {
+    "symbol": "Eue",
+    "original": "Eue",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1624276,
+    "length": 180
+  },
+  {
+    "symbol": "Mue",
+    "original": "Mue",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1624462,
+    "length": 21
+  },
+  {
+    "symbol": "RS",
+    "original": "RS",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1624484,
+    "length": 215
+  },
+  {
+    "symbol": "vf",
+    "original": "vf",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1624700,
+    "length": 198
+  },
+  {
+    "symbol": "ib",
+    "original": "ib",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1624899,
+    "length": 343
+  },
+  {
+    "symbol": "Cue",
+    "original": "Cue",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1625243,
+    "length": 118
+  },
+  {
+    "symbol": "pL",
+    "original": "pL",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1625362,
+    "length": 172
+  },
+  {
+    "symbol": "bu",
+    "original": "bu",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1625535,
+    "length": 275
+  },
+  {
+    "symbol": "mL",
+    "original": "mL",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1625810,
+    "length": 124
+  },
+  {
+    "symbol": "Bue",
+    "original": "Bue",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1625940,
+    "length": 31
+  },
+  {
+    "symbol": "Ef",
+    "original": "Ef",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1625972,
+    "length": 132
+  },
+  {
+    "symbol": "IS",
+    "original": "IS",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1626105,
+    "length": 228
+  },
+  {
+    "symbol": "gL",
+    "original": "gL",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1626339,
+    "length": 146
+  },
+  {
+    "symbol": "NS",
+    "original": "NS",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1626486,
+    "length": 104
+  },
+  {
+    "symbol": "Rue",
+    "original": "Rue",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1626591,
+    "length": 108
+  },
+  {
+    "symbol": "Iue",
+    "original": "Iue",
+    "module": "src/game/story/milestones.ts",
+    "offset": 1626700,
+    "length": 165
+  },
+  {
+    "symbol": "contacts",
+    "original": "Rr",
+    "module": "src/game/story/contacts.ts",
+    "offset": 1621459,
+    "length": 1565
+  },
+  {
+    "symbol": "Tue",
+    "original": "Tue",
+    "module": "src/game/story/contacts.ts",
+    "offset": 1623025,
+    "length": 37
+  },
+  {
+    "symbol": "aB",
+    "original": "aB",
+    "module": "src/game/story/contacts.ts",
+    "offset": 1623063,
+    "length": 8
+  },
+  {
+    "symbol": "wG",
+    "original": "wG",
+    "module": "src/game/story/contacts.ts",
+    "offset": 1623072,
+    "length": 33
+  },
+  {
+    "symbol": "typewriter",
+    "original": "Jp",
+    "module": "src/ui/story/typewriter.ts",
+    "offset": 1898079,
+    "length": 2288
+  },
+  {
+    "symbol": "qpe",
+    "original": "qpe",
+    "module": "src/ui/story/typewriter.ts",
+    "offset": 1900373,
+    "length": 74
+  },
+  {
+    "symbol": "Hpe",
+    "original": "Hpe",
+    "module": "src/ui/story/typewriter.ts",
+    "offset": 1900448,
+    "length": 48
+  },
+  {
+    "symbol": "createSigilToast",
+    "original": "ome",
+    "module": "src/ui/story/sigilToast.ts",
+    "offset": 1924889,
+    "length": 2170
+  },
+  {
+    "symbol": "kk",
+    "original": "kk",
+    "module": "src/ui/story/sigilToast.ts",
+    "offset": 1927065,
+    "length": 122
+  },
+  {
+    "symbol": "Fk",
+    "original": "Fk",
+    "module": "src/ui/story/sigilToast.ts",
+    "offset": 1927188,
+    "length": 5
+  },
+  {
+    "symbol": "ame",
+    "original": "ame",
+    "module": "src/ui/story/sigilToast.ts",
+    "offset": 1927194,
+    "length": 7
+  },
+  {
+    "symbol": "wue",
+    "original": "wue",
+    "module": "src/game/sigils/createSigils.ts",
+    "offset": 1615385,
+    "length": 6068
+  },
+  {
+    "symbol": "Pf",
+    "original": "Pf",
+    "module": "src/game/story/createInbox.ts",
+    "offset": 1944846,
+    "length": 231
+  },
+  {
+    "symbol": "createInbox",
+    "original": "Mme",
+    "module": "src/game/story/createInbox.ts",
+    "offset": 1945077,
+    "length": 6454
+  },
+  {
+    "symbol": "nv",
+    "original": "nv",
+    "module": "src/game/story/createInbox.ts",
+    "offset": 1951537,
+    "length": 112
+  },
+  {
+    "symbol": "Cme",
+    "original": "Cme",
+    "module": "src/game/story/createInbox.ts",
+    "offset": 1951650,
+    "length": 331
+  },
+  {
+    "symbol": "createStory",
+    "original": "dme",
+    "module": "src/game/story/createStory.ts",
+    "offset": 1930441,
+    "length": 2683
+  },
+  {
+    "symbol": "Ul",
+    "original": "Ul",
+    "module": "src/game/story/createStory.ts",
+    "offset": 1933130,
+    "length": 113
+  },
+  {
+    "symbol": "createStoryModal",
+    "original": "lme",
+    "module": "src/ui/story/storyModal.ts",
+    "offset": 1927202,
+    "length": 3219
+  },
+  {
+    "symbol": "cme",
+    "original": "cme",
+    "module": "src/ui/story/storyModal.ts",
+    "offset": 1930427,
+    "length": 5
+  },
+  {
+    "symbol": "ume",
+    "original": "ume",
+    "module": "src/ui/story/storyModal.ts",
+    "offset": 1930433,
+    "length": 7
+  },
+  {
+    "symbol": "hme",
+    "original": "hme",
+    "module": "src/ui/story/createMessagesPanel.ts",
+    "offset": 1933244,
+    "length": 6
+  },
+  {
+    "symbol": "fme",
+    "original": "fme",
+    "module": "src/ui/story/createMessagesPanel.ts",
+    "offset": 1933251,
+    "length": 6
+  },
+  {
+    "symbol": "pme",
+    "original": "pme",
+    "module": "src/ui/story/createMessagesPanel.ts",
+    "offset": 1933258,
+    "length": 7
+  },
+  {
+    "symbol": "mme",
+    "original": "mme",
+    "module": "src/ui/story/createMessagesPanel.ts",
+    "offset": 1933266,
+    "length": 8
+  },
+  {
+    "symbol": "Dk",
+    "original": "Dk",
+    "module": "src/ui/story/createMessagesPanel.ts",
+    "offset": 1933275,
+    "length": 134
+  },
+  {
+    "symbol": "gme",
+    "original": "gme",
+    "module": "src/ui/story/createMessagesPanel.ts",
+    "offset": 1933409,
+    "length": 150
+  },
+  {
+    "symbol": "Ame",
+    "original": "Ame",
+    "module": "src/ui/story/createMessagesPanel.ts",
+    "offset": 1933565,
+    "length": 8
+  },
+  {
+    "symbol": "yme",
+    "original": "yme",
+    "module": "src/ui/story/createMessagesPanel.ts",
+    "offset": 1933574,
+    "length": 144
+  },
+  {
+    "symbol": "bme",
+    "original": "bme",
+    "module": "src/ui/story/createMessagesPanel.ts",
+    "offset": 1933719,
+    "length": 48
+  },
+  {
+    "symbol": "xme",
+    "original": "xme",
+    "module": "src/ui/story/createMessagesPanel.ts",
+    "offset": 1933768,
+    "length": 89
+  },
+  {
+    "symbol": "createMessagesPanel",
+    "original": "_me",
+    "module": "src/ui/story/createMessagesPanel.ts",
+    "offset": 1933858,
+    "length": 10848
+  },
+  {
+    "symbol": "wme",
+    "original": "wme",
+    "module": "src/ui/story/createMessagesPanel.ts",
+    "offset": 1944712,
+    "length": 5
+  },
+  {
+    "symbol": "Pk",
+    "original": "Pk",
+    "module": "src/ui/story/createMessagesPanel.ts",
+    "offset": 1944718,
+    "length": 4
+  },
+  {
+    "symbol": "Ok",
+    "original": "Ok",
+    "module": "src/ui/story/createMessagesPanel.ts",
+    "offset": 1944723,
+    "length": 5
+  },
+  {
+    "symbol": "Tme",
+    "original": "Tme",
+    "module": "src/ui/story/createMessagesPanel.ts",
+    "offset": 1944729,
+    "length": 7
+  },
+  {
+    "symbol": "Sme",
+    "original": "Sme",
+    "module": "src/ui/story/createMessagesPanel.ts",
+    "offset": 1944737,
+    "length": 5
+  },
+  {
+    "symbol": "Uk",
+    "original": "Uk",
+    "module": "src/ui/story/createMessagesPanel.ts",
+    "offset": 1944743,
+    "length": 5
+  },
+  {
+    "symbol": "vme",
+    "original": "vme",
+    "module": "src/ui/story/createMessagesPanel.ts",
+    "offset": 1944749,
+    "length": 6
+  },
+  {
+    "symbol": "Eme",
+    "original": "Eme",
+    "module": "src/ui/story/createMessagesPanel.ts",
+    "offset": 1944756,
+    "length": 89
+  },
+  {
+    "symbol": "$le",
+    "original": "$le",
+    "module": "src/ui/core/state.ts",
+    "offset": 1542871,
+    "length": 365
+  },
+  {
+    "symbol": "ln",
+    "original": "ln",
+    "module": "src/ui/core/state.ts",
+    "offset": 1543236,
+    "length": 77
+  },
+  {
+    "symbol": "J3",
+    "original": "J3",
+    "module": "src/ui/core/state.ts",
+    "offset": 1543319,
+    "length": 22
+  },
+  {
+    "symbol": "oG",
+    "original": "oG",
+    "module": "src/ui/core/state.ts",
+    "offset": 1543342,
+    "length": 30
+  },
+  {
+    "symbol": "Kle",
+    "original": "Kle",
+    "module": "src/ui/core/state.ts",
+    "offset": 1543373,
+    "length": 21
+  },
+  {
+    "symbol": "jle",
+    "original": "jle",
+    "module": "src/ui/core/state.ts",
+    "offset": 1543395,
+    "length": 18
+  },
+  {
+    "symbol": "Z3",
+    "original": "Z3",
+    "module": "src/ui/core/state.ts",
+    "offset": 1543414,
+    "length": 20
+  },
+  {
+    "symbol": "Yle",
+    "original": "Yle",
+    "module": "src/ui/core/state.ts",
+    "offset": 1543435,
+    "length": 20
+  },
+  {
+    "symbol": "Xle",
+    "original": "Xle",
+    "module": "src/ui/core/state.ts",
+    "offset": 1543456,
+    "length": 14
+  },
+  {
+    "symbol": "eb",
+    "original": "eb",
+    "module": "src/ui/core/state.ts",
+    "offset": 1543471,
+    "length": 32
+  },
+  {
+    "symbol": "R1",
+    "original": "R1",
+    "module": "src/ui/core/state.ts",
+    "offset": 1543504,
+    "length": 10
+  },
+  {
+    "symbol": "eL",
+    "original": "eL",
+    "module": "src/ui/core/state.ts",
+    "offset": 1543515,
+    "length": 13
+  },
+  {
+    "symbol": "Jle",
+    "original": "Jle",
+    "module": "src/ui/core/state.ts",
+    "offset": 1543529,
+    "length": 20
+  },
+  {
+    "symbol": "Zle",
+    "original": "Zle",
+    "module": "src/ui/core/state.ts",
+    "offset": 1543550,
+    "length": 21
+  },
+  {
+    "symbol": "ece",
+    "original": "ece",
+    "module": "src/ui/core/state.ts",
+    "offset": 1543572,
+    "length": 20
+  },
+  {
+    "symbol": "tce",
+    "original": "tce",
+    "module": "src/ui/core/state.ts",
+    "offset": 1543593,
+    "length": 20
+  },
+  {
+    "symbol": "createFleet",
+    "original": "Lme",
+    "module": "src/game/vehicles/createFleet.ts",
+    "offset": 1959307,
+    "length": 1358
+  },
+  {
+    "symbol": "she",
+    "original": "she",
+    "module": "src/app/createAppShell.ts",
+    "offset": 1701923,
+    "length": 17
+  },
+  {
+    "symbol": "createAppShell",
+    "original": "nhe",
+    "module": "src/app/createAppShell.ts",
+    "offset": 1701941,
+    "length": 5933
+  },
+  {
+    "symbol": "RL",
+    "original": "RL",
+    "module": "src/audio/uiSounds.ts",
+    "offset": 1692035,
+    "length": 15
+  },
+  {
+    "symbol": "Nde",
+    "original": "Nde",
+    "module": "src/audio/uiSounds.ts",
+    "offset": 1692051,
+    "length": 194
+  },
+  {
+    "symbol": "lb",
+    "original": "lb",
+    "module": "src/audio/uiSounds.ts",
+    "offset": 1692246,
+    "length": 39
+  },
+  {
+    "symbol": "IL",
+    "original": "IL",
+    "module": "src/audio/uiSounds.ts",
+    "offset": 1692286,
+    "length": 132
+  },
+  {
+    "symbol": "NL",
+    "original": "NL",
+    "module": "src/audio/uiSounds.ts",
+    "offset": 1692419,
+    "length": 32
+  },
+  {
+    "symbol": "LL",
+    "original": "LL",
+    "module": "src/audio/uiSounds.ts",
+    "offset": 1692452,
+    "length": 58
+  },
+  {
+    "symbol": "Lde",
+    "original": "Lde",
+    "module": "src/audio/uiSounds.ts",
+    "offset": 1692511,
+    "length": 408
+  },
+  {
+    "symbol": "kde",
+    "original": "kde",
+    "module": "src/audio/uiSounds.ts",
+    "offset": 1692919,
+    "length": 221
+  },
+  {
+    "symbol": "createHeader",
+    "original": "Sce",
+    "module": "src/ui/chrome/createHeader.ts",
+    "offset": 1564817,
+    "length": 7733
+  },
+  {
+    "symbol": "vce",
+    "original": "vce",
+    "module": "src/ui/chrome/createHeader.ts",
+    "offset": 1572556,
+    "length": 271
+  },
+  {
+    "symbol": "sce",
+    "original": "sce",
+    "module": "src/ui/core/fullscreen.ts",
+    "offset": 1543614,
+    "length": 21
+  },
+  {
+    "symbol": "nce",
+    "original": "nce",
+    "module": "src/ui/core/fullscreen.ts",
+    "offset": 1543636,
+    "length": 19
+  },
+  {
+    "symbol": "ice",
+    "original": "ice",
+    "module": "src/ui/core/fullscreen.ts",
+    "offset": 1543656,
+    "length": 20
+  },
+  {
+    "symbol": "aG",
+    "original": "aG",
+    "module": "src/ui/core/fullscreen.ts",
+    "offset": 1543677,
+    "length": 24
+  },
+  {
+    "symbol": "PE",
+    "original": "PE",
+    "module": "src/ui/core/fullscreen.ts",
+    "offset": 1543702,
+    "length": 27
+  },
+  {
+    "symbol": "Z2",
+    "original": "Z2",
+    "module": "src/ui/core/fullscreen.ts",
+    "offset": 1543730,
+    "length": 25
+  },
+  {
+    "symbol": "Vo",
+    "original": "Vo",
+    "module": "src/ui/core/fullscreen.ts",
+    "offset": 1543756,
+    "length": 11
+  },
+  {
+    "symbol": "rce",
+    "original": "rce",
+    "module": "src/ui/core/fullscreen.ts",
+    "offset": 1543768,
+    "length": 74
+  },
+  {
+    "symbol": "eB",
+    "original": "eB",
+    "module": "src/ui/core/fullscreen.ts",
+    "offset": 1543842,
+    "length": 73
+  },
+  {
+    "symbol": "oce",
+    "original": "oce",
+    "module": "src/ui/core/fullscreen.ts",
+    "offset": 1543915,
+    "length": 235
+  },
+  {
+    "symbol": "ace",
+    "original": "ace",
+    "module": "src/ui/core/fullscreen.ts",
+    "offset": 1544150,
+    "length": 298
+  },
+  {
+    "symbol": "lce",
+    "original": "lce",
+    "module": "src/ui/core/fullscreen.ts",
+    "offset": 1544448,
+    "length": 235
+  },
+  {
+    "symbol": "cce",
+    "original": "cce",
+    "module": "src/ui/core/fullscreen.ts",
+    "offset": 1544689,
+    "length": 6
+  },
+  {
+    "symbol": "uce",
+    "original": "uce",
+    "module": "src/ui/core/fullscreen.ts",
+    "offset": 1544696,
+    "length": 7
+  },
+  {
+    "symbol": "ES",
+    "original": "ES",
+    "module": "src/ui/core/fullscreen.ts",
+    "offset": 1544704,
+    "length": 5
+  },
+  {
+    "symbol": "dce",
+    "original": "dce",
+    "module": "src/ui/core/fullscreen.ts",
+    "offset": 1544710,
+    "length": 1235
+  },
+  {
+    "symbol": "hce",
+    "original": "hce",
+    "module": "src/ui/core/fullscreen.ts",
+    "offset": 1545946,
+    "length": 542
+  },
+  {
+    "symbol": "createAboutPanel",
+    "original": "Ece",
+    "module": "src/ui/chrome/createAboutPanel.ts",
+    "offset": 1572828,
+    "length": 4035
+  },
+  {
+    "symbol": "Mce",
+    "original": "Mce",
+    "module": "src/ui/chrome/createAboutPanel.ts",
+    "offset": 1576863,
+    "length": 326
+  },
+  {
+    "symbol": "sL",
+    "original": "sL",
+    "module": "src/ui/chrome/createAboutPanel.ts",
+    "offset": 1577189,
+    "length": 351
+  },
+  {
+    "symbol": "Xue",
+    "original": "Xue",
+    "module": "src/ui/walk/virtualJoystick.ts",
+    "offset": 1648562,
+    "length": 2239
+  },
+  {
+    "symbol": "Jue",
+    "original": "Jue",
+    "module": "src/ui/walk/virtualJoystick.ts",
+    "offset": 1650801,
+    "length": 399
+  },
+  {
+    "symbol": "Zue",
+    "original": "Zue",
+    "module": "src/ui/walk/virtualJoystick.ts",
+    "offset": 1651206,
+    "length": 17
+  },
+  {
+    "symbol": "bL",
+    "original": "bL",
+    "module": "src/ui/walk/virtualJoystick.ts",
+    "offset": 1651224,
+    "length": 6
+  },
+  {
+    "symbol": "ede",
+    "original": "ede",
+    "module": "src/ui/walk/virtualJoystick.ts",
+    "offset": 1651231,
+    "length": 763
+  },
+  {
+    "symbol": "Oce",
+    "original": "Oce",
+    "module": "src/ui/walk/controlsHelp.ts",
+    "offset": 1592791,
+    "length": 600
+  },
+  {
+    "symbol": "wf",
+    "original": "wf",
+    "module": "src/ui/walk/controlsHelp.ts",
+    "offset": 1593392,
+    "length": 311
+  },
+  {
+    "symbol": "Uce",
+    "original": "Uce",
+    "module": "src/ui/walk/controlsHelp.ts",
+    "offset": 1593703,
+    "length": 510
+  },
+  {
+    "symbol": "tb",
+    "original": "tb",
+    "module": "src/ui/walk/controlsHelp.ts",
+    "offset": 1594213,
+    "length": 319
+  },
+  {
+    "symbol": "zce",
+    "original": "zce",
+    "module": "src/ui/walk/controlsHelp.ts",
+    "offset": 1594532,
+    "length": 900
+  },
+  {
+    "symbol": "Gce",
+    "original": "Gce",
+    "module": "src/ui/walk/controlsHelp.ts",
+    "offset": 1595432,
+    "length": 3166
+  },
+  {
+    "symbol": "Vce",
+    "original": "Vce",
+    "module": "src/ui/walk/controlsHelp.ts",
+    "offset": 1598604,
+    "length": 237
+  },
+  {
+    "symbol": "Qce",
+    "original": "Qce",
+    "module": "src/ui/walk/controlsHelp.ts",
+    "offset": 1598842,
+    "length": 545
+  },
+  {
+    "symbol": "qce",
+    "original": "qce",
+    "module": "src/ui/walk/controlsHelp.ts",
+    "offset": 1599388,
+    "length": 38
+  },
+  {
+    "symbol": "Hce",
+    "original": "Hce",
+    "module": "src/ui/walk/controlsHelp.ts",
+    "offset": 1599427,
+    "length": 13
+  },
+  {
+    "symbol": "Wce",
+    "original": "Wce",
+    "module": "src/ui/walk/controlsHelp.ts",
+    "offset": 1599441,
+    "length": 44
+  },
+  {
+    "symbol": "nL",
+    "original": "nL",
+    "module": "src/ui/walk/controlsHelp.ts",
+    "offset": 1599486,
+    "length": 80
+  },
+  {
+    "symbol": "iL",
+    "original": "iL",
+    "module": "src/ui/walk/controlsHelp.ts",
+    "offset": 1599567,
+    "length": 494
+  },
+  {
+    "symbol": "$ce",
+    "original": "$ce",
+    "module": "src/ui/walk/controlsHelp.ts",
+    "offset": 1600062,
+    "length": 566
+  },
+  {
+    "symbol": "cG",
+    "original": "cG",
+    "module": "src/ui/walk/controlsHelp.ts",
+    "offset": 1600629,
+    "length": 78
+  },
+  {
+    "symbol": "pg",
+    "original": "pg",
+    "module": "src/ui/walk/controlsHelp.ts",
+    "offset": 1600708,
+    "length": 416
+  },
+  {
+    "symbol": "Kce",
+    "original": "Kce",
+    "module": "src/ui/walk/controlsHelp.ts",
+    "offset": 1601125,
+    "length": 599
+  },
+  {
+    "symbol": "jce",
+    "original": "jce",
+    "module": "src/ui/walk/controlsHelp.ts",
+    "offset": 1601725,
+    "length": 3169
+  },
+  {
+    "symbol": "Fce",
+    "original": "Fce",
+    "module": "src/ui/chrome/visibility.ts",
+    "offset": 1590101,
+    "length": 1223
+  },
+  {
+    "symbol": "createVisibilityCoordinator",
+    "original": "Dce",
+    "module": "src/ui/chrome/visibility.ts",
+    "offset": 1591324,
+    "length": 1189
+  },
+  {
+    "symbol": "Pce",
+    "original": "Pce",
+    "module": "src/ui/chrome/visibility.ts",
+    "offset": 1592519,
+    "length": 271
+  },
+  {
+    "symbol": "Lue",
+    "original": "Lue",
+    "module": "src/ui/walk/prompts.ts",
+    "offset": 1634041,
+    "length": 2096
+  },
+  {
+    "symbol": "kue",
+    "original": "kue",
+    "module": "src/ui/walk/prompts.ts",
+    "offset": 1636143,
+    "length": 5
+  },
+  {
+    "symbol": "Fue",
+    "original": "Fue",
+    "module": "src/ui/walk/prompts.ts",
+    "offset": 1636149,
+    "length": 6
+  },
+  {
+    "symbol": "Due",
+    "original": "Due",
+    "module": "src/ui/walk/prompts.ts",
+    "offset": 1636156,
+    "length": 7
+  },
+  {
+    "symbol": "AL",
+    "original": "AL",
+    "module": "src/ui/walk/prompts.ts",
+    "offset": 1636164,
+    "length": 1799
+  },
+  {
+    "symbol": "Kue",
+    "original": "Kue",
+    "module": "src/ui/walk/moveHint.ts",
+    "offset": 1646548,
+    "length": 1880
+  },
+  {
+    "symbol": "jue",
+    "original": "jue",
+    "module": "src/ui/walk/moveHint.ts",
+    "offset": 1648434,
+    "length": 7
+  },
+  {
+    "symbol": "Yue",
+    "original": "Yue",
+    "module": "src/ui/walk/moveHint.ts",
+    "offset": 1648442,
+    "length": 120
+  },
+  {
+    "symbol": "SG",
+    "original": "SG",
+    "module": "src/audio/engine/settings.ts",
+    "offset": 1641520,
+    "length": 4
+  },
+  {
+    "symbol": "lB",
+    "original": "lB",
+    "module": "src/audio/engine/settings.ts",
+    "offset": 1641525,
+    "length": 31
+  },
+  {
+    "symbol": "VE",
+    "original": "VE",
+    "module": "src/audio/engine/settings.ts",
+    "offset": 1641557,
+    "length": 37
+  },
+  {
+    "symbol": "Uue",
+    "original": "Uue",
+    "module": "src/audio/engine/settings.ts",
+    "offset": 1641595,
+    "length": 27
+  },
+  {
+    "symbol": "cB",
+    "original": "cB",
+    "module": "src/audio/engine/settings.ts",
+    "offset": 1641623,
+    "length": 2230
+  },
+  {
+    "symbol": "i0",
+    "original": "i0",
+    "module": "src/audio/engine/settings.ts",
+    "offset": 1643854,
+    "length": 45
+  },
+  {
+    "symbol": "yL",
+    "original": "yL",
+    "module": "src/audio/engine/settings.ts",
+    "offset": 1643900,
+    "length": 46
+  },
+  {
+    "symbol": "zue",
+    "original": "zue",
+    "module": "src/audio/engine/settings.ts",
+    "offset": 1643947,
+    "length": 164
+  },
+  {
+    "symbol": "Gue",
+    "original": "Gue",
+    "module": "src/audio/engine/settings.ts",
+    "offset": 1644111,
+    "length": 91
+  },
+  {
+    "symbol": "Vue",
+    "original": "Vue",
+    "module": "src/audio/engine/settings.ts",
+    "offset": 1644202,
+    "length": 55
+  },
+  {
+    "symbol": "Que",
+    "original": "Que",
+    "module": "src/audio/engine/settings.ts",
+    "offset": 1644263,
+    "length": 70
+  },
+  {
+    "symbol": "que",
+    "original": "que",
+    "module": "src/audio/engine/settings.ts",
+    "offset": 1644334,
+    "length": 1148
+  },
+  {
+    "symbol": "Hue",
+    "original": "Hue",
+    "module": "src/audio/engine/settings.ts",
+    "offset": 1645488,
+    "length": 7
+  },
+  {
+    "symbol": "Wue",
+    "original": "Wue",
+    "module": "src/audio/engine/settings.ts",
+    "offset": 1645496,
+    "length": 89
+  },
+  {
+    "symbol": "$ue",
+    "original": "$ue",
+    "module": "src/audio/engine/settings.ts",
+    "offset": 1645586,
+    "length": 962
+  },
+  {
+    "symbol": "Pue",
+    "original": "Pue",
+    "module": "src/ui/drive/tutorial.ts",
+    "offset": 1637964,
+    "length": 2885
+  },
+  {
+    "symbol": "Oue",
+    "original": "Oue",
+    "module": "src/ui/drive/tutorial.ts",
+    "offset": 1640849,
+    "length": 665
+  },
+  {
+    "symbol": "Nue",
+    "original": "Nue",
+    "module": "src/ui/achievements/createAchievementsPanel.ts",
+    "offset": 1626866,
+    "length": 7175
+  },
+  {
+    "symbol": "createSettingsPanel",
+    "original": "Cce",
+    "module": "src/ui/chrome/createSettingsPanel.ts",
+    "offset": 1577540,
+    "length": 9396
+  },
+  {
+    "symbol": "Bce",
+    "original": "Bce",
+    "module": "src/ui/chrome/createSettingsPanel.ts",
+    "offset": 1586942,
+    "length": 65
+  },
+  {
+    "symbol": "Rce",
+    "original": "Rce",
+    "module": "src/ui/chrome/createSettingsPanel.ts",
+    "offset": 1587008,
+    "length": 876
+  },
+  {
+    "symbol": "createAudioButton",
+    "original": "Ice",
+    "module": "src/ui/chrome/audioButton.ts",
+    "offset": 1587885,
+    "length": 2136
+  },
+  {
+    "symbol": "Nce",
+    "original": "Nce",
+    "module": "src/ui/chrome/audioButton.ts",
+    "offset": 1590027,
+    "length": 7
+  },
+  {
+    "symbol": "Lce",
+    "original": "Lce",
+    "module": "src/ui/chrome/audioButton.ts",
+    "offset": 1590035,
+    "length": 8
+  },
+  {
+    "symbol": "kce",
+    "original": "kce",
+    "module": "src/ui/chrome/audioButton.ts",
+    "offset": 1590044,
+    "length": 57
+  },
+  {
+    "symbol": "createRadio",
+    "original": "Rde",
+    "module": "src/audio/radio/createRadio.ts",
+    "offset": 1674947,
+    "length": 4094
+  },
+  {
+    "symbol": "ab",
+    "original": "ab",
+    "module": "src/audio/radio/createRadio.ts",
+    "offset": 1679047,
+    "length": 6
+  },
+  {
+    "symbol": "kS",
+    "original": "kS",
+    "module": "src/audio/radio/createRadio.ts",
+    "offset": 1679054,
+    "length": 163
+  },
+  {
+    "symbol": "kl",
+    "original": "kl",
+    "module": "src/audio/radio/createRadio.ts",
+    "offset": 1679223,
+    "length": 1208
+  },
+  {
+    "symbol": "HE",
+    "original": "HE",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1661207,
+    "length": 28
+  },
+  {
+    "symbol": "yde",
+    "original": "yde",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1661236,
+    "length": 6
+  },
+  {
+    "symbol": "SL",
+    "original": "SL",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1661243,
+    "length": 5
+  },
+  {
+    "symbol": "bde",
+    "original": "bde",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1661249,
+    "length": 165
+  },
+  {
+    "symbol": "vL",
+    "original": "vL",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1661414,
+    "length": 436
+  },
+  {
+    "symbol": "xde",
+    "original": "xde",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1661850,
+    "length": 204
+  },
+  {
+    "symbol": "Mf",
+    "original": "Mf",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1662054,
+    "length": 140
+  },
+  {
+    "symbol": "na",
+    "original": "na",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1662200,
+    "length": 31
+  },
+  {
+    "symbol": "EL",
+    "original": "EL",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1662232,
+    "length": 4
+  },
+  {
+    "symbol": "ML",
+    "original": "ML",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1662237,
+    "length": 4
+  },
+  {
+    "symbol": "gd",
+    "original": "gd",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1662242,
+    "length": 12
+  },
+  {
+    "symbol": "_de",
+    "original": "_de",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1662255,
+    "length": 5
+  },
+  {
+    "symbol": "wde",
+    "original": "wde",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1662261,
+    "length": 7
+  },
+  {
+    "symbol": "Tde",
+    "original": "Tde",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1662269,
+    "length": 6
+  },
+  {
+    "symbol": "Sde",
+    "original": "Sde",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1662276,
+    "length": 8
+  },
+  {
+    "symbol": "CL",
+    "original": "CL",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1662285,
+    "length": 7
+  },
+  {
+    "symbol": "BL",
+    "original": "BL",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1662293,
+    "length": 38
+  },
+  {
+    "symbol": "vde",
+    "original": "vde",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1662332,
+    "length": 443
+  },
+  {
+    "symbol": "createCarEngineAudio",
+    "original": "Ede",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1662775,
+    "length": 11942
+  },
+  {
+    "symbol": "Mde",
+    "original": "Mde",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1674723,
+    "length": 32
+  },
+  {
+    "symbol": "MG",
+    "original": "MG",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1674756,
+    "length": 23
+  },
+  {
+    "symbol": "Cde",
+    "original": "Cde",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1674780,
+    "length": 7
+  },
+  {
+    "symbol": "Bde",
+    "original": "Bde",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1674788,
+    "length": 89
+  },
+  {
+    "symbol": "Cf",
+    "original": "Cf",
+    "module": "src/audio/engine/createCarEngineAudio.ts",
+    "offset": 1674877,
+    "length": 70
+  },
+  {
+    "symbol": "createRadioPanel",
+    "original": "Ide",
+    "module": "src/ui/radio/createRadioPanel.ts",
+    "offset": 1680432,
+    "length": 11597
+  },
+  {
+    "symbol": "xu",
+    "original": "xu",
+    "module": "src/audio/engine/transients.ts",
+    "offset": 1653916,
+    "length": 28
+  },
+  {
+    "symbol": "uc",
+    "original": "uc",
+    "module": "src/audio/engine/transients.ts",
+    "offset": 1653945,
+    "length": 582
+  },
+  {
+    "symbol": "k1",
+    "original": "k1",
+    "module": "src/audio/engine/transients.ts",
+    "offset": 1654527,
+    "length": 346
+  },
+  {
+    "symbol": "_L",
+    "original": "_L",
+    "module": "src/audio/engine/transients.ts",
+    "offset": 1654879,
+    "length": 29
+  },
+  {
+    "symbol": "QE",
+    "original": "QE",
+    "module": "src/audio/engine/transients.ts",
+    "offset": 1654909,
+    "length": 90
+  },
+  {
+    "symbol": "wL",
+    "original": "wL",
+    "module": "src/audio/engine/transients.ts",
+    "offset": 1654999,
+    "length": 112
+  },
+  {
+    "symbol": "qE",
+    "original": "qE",
+    "module": "src/audio/engine/transients.ts",
+    "offset": 1655111,
+    "length": 1420
+  },
+  {
+    "symbol": "cde",
+    "original": "cde",
+    "module": "src/audio/engine/transients.ts",
+    "offset": 1656537,
+    "length": 250
+  },
+  {
+    "symbol": "ude",
+    "original": "ude",
+    "module": "src/audio/engine/transients.ts",
+    "offset": 1656788,
+    "length": 1998
+  },
+  {
+    "symbol": "ob",
+    "original": "ob",
+    "module": "src/audio/engine/transients.ts",
+    "offset": 1658786,
+    "length": 189
+  },
+  {
+    "symbol": "EG",
+    "original": "EG",
+    "module": "src/audio/engine/transients.ts",
+    "offset": 1658975,
+    "length": 200
+  },
+  {
+    "symbol": "dde",
+    "original": "dde",
+    "module": "src/audio/engine/transients.ts",
+    "offset": 1659175,
+    "length": 107
+  },
+  {
+    "symbol": "LS",
+    "original": "LS",
+    "module": "src/audio/engine/transients.ts",
+    "offset": 1659282,
+    "length": 528
+  },
+  {
+    "symbol": "hde",
+    "original": "hde",
+    "module": "src/audio/engine/transients.ts",
+    "offset": 1659810,
+    "length": 311
+  },
+  {
+    "symbol": "fde",
+    "original": "fde",
+    "module": "src/audio/engine/transients.ts",
+    "offset": 1660121,
+    "length": 954
+  },
+  {
+    "symbol": "TL",
+    "original": "TL",
+    "module": "src/audio/engine/transients.ts",
+    "offset": 1661081,
+    "length": 26
+  },
+  {
+    "symbol": "pde",
+    "original": "pde",
+    "module": "src/audio/engine/transients.ts",
+    "offset": 1661108,
+    "length": 28
+  },
+  {
+    "symbol": "mde",
+    "original": "mde",
+    "module": "src/audio/engine/transients.ts",
+    "offset": 1661137,
+    "length": 28
+  },
+  {
+    "symbol": "gde",
+    "original": "gde",
+    "module": "src/audio/engine/transients.ts",
+    "offset": 1661166,
+    "length": 32
+  },
+  {
+    "symbol": "Ade",
+    "original": "Ade",
+    "module": "src/audio/engine/transients.ts",
+    "offset": 1661199,
+    "length": 7
+  },
+  {
+    "symbol": "tde",
+    "original": "tde",
+    "module": "src/audio/engine/acoustics.ts",
+    "offset": 1652000,
+    "length": 45
+  },
+  {
+    "symbol": "sde",
+    "original": "sde",
+    "module": "src/audio/engine/acoustics.ts",
+    "offset": 1652046,
+    "length": 47
+  },
+  {
+    "symbol": "nde",
+    "original": "nde",
+    "module": "src/audio/engine/acoustics.ts",
+    "offset": 1652094,
+    "length": 7
+  },
+  {
+    "symbol": "xL",
+    "original": "xL",
+    "module": "src/audio/engine/acoustics.ts",
+    "offset": 1652102,
+    "length": 5
+  },
+  {
+    "symbol": "ide",
+    "original": "ide",
+    "module": "src/audio/engine/acoustics.ts",
+    "offset": 1652108,
+    "length": 49
+  },
+  {
+    "symbol": "rb",
+    "original": "rb",
+    "module": "src/audio/engine/acoustics.ts",
+    "offset": 1652157,
+    "length": 63
+  },
+  {
+    "symbol": "rde",
+    "original": "rde",
+    "module": "src/audio/engine/acoustics.ts",
+    "offset": 1652220,
+    "length": 247
+  },
+  {
+    "symbol": "ode",
+    "original": "ode",
+    "module": "src/audio/engine/acoustics.ts",
+    "offset": 1652467,
+    "length": 1256
+  },
+  {
+    "symbol": "z_",
+    "original": "z_",
+    "module": "src/audio/engine/acoustics.ts",
+    "offset": 1653729,
+    "length": 12
+  },
+  {
+    "symbol": "ade",
+    "original": "ade",
+    "module": "src/audio/engine/acoustics.ts",
+    "offset": 1653742,
+    "length": 6
+  },
+  {
+    "symbol": "lde",
+    "original": "lde",
+    "module": "src/audio/engine/acoustics.ts",
+    "offset": 1653749,
+    "length": 8
+  },
+  {
+    "symbol": "vG",
+    "original": "vG",
+    "module": "src/audio/engine/acoustics.ts",
+    "offset": 1653758,
+    "length": 152
+  },
+  {
+    "symbol": "t0e",
+    "original": "t0e",
+    "module": "src/audio/garage.ts",
+    "offset": 2023948,
+    "length": 130
+  },
+  {
+    "symbol": "s0e",
+    "original": "s0e",
+    "module": "src/audio/garage.ts",
+    "offset": 2024078,
+    "length": 1686
+  },
+  {
+    "symbol": "createMultiplayer",
+    "original": "Jge",
+    "module": "src/multiplayer/createMultiplayer.ts",
+    "offset": 2011218,
+    "length": 12687
+  },
+  {
+    "symbol": "Zge",
+    "original": "Zge",
+    "module": "src/multiplayer/createMultiplayer.ts",
+    "offset": 2023911,
+    "length": 5
+  },
+  {
+    "symbol": "Nb",
+    "original": "Nb",
+    "module": "src/multiplayer/createMultiplayer.ts",
+    "offset": 2023917,
+    "length": 6
+  },
+  {
+    "symbol": "nF",
+    "original": "nF",
+    "module": "src/multiplayer/createMultiplayer.ts",
+    "offset": 2023924,
+    "length": 7
+  },
+  {
+    "symbol": "e0e",
+    "original": "e0e",
+    "module": "src/multiplayer/createMultiplayer.ts",
+    "offset": 2023932,
+    "length": 8
+  },
+  {
+    "symbol": "iF",
+    "original": "iF",
+    "module": "src/multiplayer/createMultiplayer.ts",
+    "offset": 2023941,
+    "length": 6
+  },
+  {
+    "symbol": "createIntroOverlay",
+    "original": "dhe",
+    "module": "src/ui/intro/createIntroOverlay.ts",
+    "offset": 1712240,
+    "length": 2781
+  },
+  {
+    "symbol": "hhe",
+    "original": "hhe",
+    "module": "src/ui/intro/createIntroOverlay.ts",
+    "offset": 1715021,
+    "length": 520
+  },
+  {
+    "symbol": "createRenderLoop",
+    "original": "S0e",
+    "module": "src/runtime/createRenderLoop.ts",
+    "offset": 2049375,
+    "length": 1407
+  },
+  {
+    "symbol": "HG",
+    "original": "HG",
+    "module": "src/runtime/warmup.ts",
+    "offset": 2025764,
+    "length": 336
+  },
+  {
+    "symbol": "G0",
+    "original": "G0",
+    "module": "src/runtime/warmup.ts",
+    "offset": 2026100,
+    "length": 607
+  },
+  {
+    "symbol": "n0e",
+    "original": "n0e",
+    "module": "src/runtime/warmup.ts",
+    "offset": 2026707,
+    "length": 213
+  },
+  {
+    "symbol": "WG",
+    "original": "WG",
+    "module": "src/runtime/warmup.ts",
+    "offset": 2026920,
+    "length": 148
+  },
+  {
+    "symbol": "i0e",
+    "original": "i0e",
+    "module": "src/runtime/warmup.ts",
+    "offset": 2027068,
+    "length": 626
+  },
+  {
+    "symbol": "warmupWorld",
+    "original": "r0e",
+    "module": "src/runtime/warmup.ts",
+    "offset": 2027694,
+    "length": 839
+  },
+  {
+    "symbol": "o0e",
+    "original": "o0e",
+    "module": "src/runtime/warmup.ts",
+    "offset": 2028533,
+    "length": 274
+  },
+  {
+    "symbol": "a0e",
+    "original": "a0e",
+    "module": "src/runtime/warmup.ts",
+    "offset": 2028807,
+    "length": 154
+  },
+  {
+    "symbol": "rF",
+    "original": "rF",
+    "module": "src/runtime/warmup.ts",
+    "offset": 2028967,
+    "length": 6
+  },
+  {
+    "symbol": "oF",
+    "original": "oF",
+    "module": "src/runtime/warmup.ts",
+    "offset": 2028974,
+    "length": 6
+  },
+  {
+    "symbol": "aF",
+    "original": "aF",
+    "module": "src/runtime/warmup.ts",
+    "offset": 2028981,
+    "length": 6
+  },
+  {
+    "symbol": "lF",
+    "original": "lF",
+    "module": "src/runtime/warmup.ts",
+    "offset": 2028988,
+    "length": 6
+  },
+  {
+    "symbol": "cF",
+    "original": "cF",
+    "module": "src/runtime/warmup.ts",
+    "offset": 2028995,
+    "length": 37
+  },
+  {
+    "symbol": "c0e",
+    "original": "c0e",
+    "module": "src/game/garage/createGarage.ts",
+    "offset": 2030310,
+    "length": 6
+  },
+  {
+    "symbol": "u0e",
+    "original": "u0e",
+    "module": "src/game/garage/createGarage.ts",
+    "offset": 2030317,
+    "length": 88
+  },
+  {
+    "symbol": "d0e",
+    "original": "d0e",
+    "module": "src/game/garage/createGarage.ts",
+    "offset": 2030406,
+    "length": 6
+  },
+  {
+    "symbol": "ra",
+    "original": "ra",
+    "module": "src/game/garage/createGarage.ts",
+    "offset": 2030413,
+    "length": 76
+  },
+  {
+    "symbol": "h0e",
+    "original": "h0e",
+    "module": "src/game/garage/createGarage.ts",
+    "offset": 2030490,
+    "length": 7
+  },
+  {
+    "symbol": "Tg",
+    "original": "Tg",
+    "module": "src/game/garage/createGarage.ts",
+    "offset": 2030498,
+    "length": 135
+  },
+  {
+    "symbol": "uF",
+    "original": "uF",
+    "module": "src/game/garage/createGarage.ts",
+    "offset": 2030634,
+    "length": 174
+  },
+  {
+    "symbol": "f0e",
+    "original": "f0e",
+    "module": "src/game/garage/createGarage.ts",
+    "offset": 2030809,
+    "length": 165
+  },
+  {
+    "symbol": "p0e",
+    "original": "p0e",
+    "module": "src/game/garage/createGarage.ts",
+    "offset": 2030975,
+    "length": 94
+  },
+  {
+    "symbol": "Lb",
+    "original": "Lb",
+    "module": "src/game/garage/createGarage.ts",
+    "offset": 2031070,
+    "length": 37
+  },
+  {
+    "symbol": "m0e",
+    "original": "m0e",
+    "module": "src/game/garage/createGarage.ts",
+    "offset": 2031108,
+    "length": 17
+  },
+  {
+    "symbol": "createGarage",
+    "original": "g0e",
+    "module": "src/game/garage/createGarage.ts",
+    "offset": 2031126,
+    "length": 12183
+  },
+  {
+    "symbol": "l0e",
+    "original": "l0e",
+    "module": "src/ui/garage/transitions.ts",
+    "offset": 2029033,
+    "length": 1242
+  },
+  {
+    "symbol": "ia",
+    "original": "ia",
+    "module": "src/ui/garage/transitions.ts",
+    "offset": 2030281,
+    "length": 28
+  },
+  {
+    "symbol": "Gk",
+    "original": "Gk",
+    "module": "src/multiplayer/roster.ts",
+    "offset": 1970401,
+    "length": 20
+  },
+  {
+    "symbol": "Yme",
+    "original": "Yme",
+    "module": "src/multiplayer/roster.ts",
+    "offset": 1970422,
+    "length": 101
+  },
+  {
+    "symbol": "Xme",
+    "original": "Xme",
+    "module": "src/multiplayer/roster.ts",
+    "offset": 1970529,
+    "length": 97
+  },
+  {
+    "symbol": "createRoster",
+    "original": "Jme",
+    "module": "src/multiplayer/roster.ts",
+    "offset": 1970627,
+    "length": 2982
+  },
+  {
+    "symbol": "vo",
+    "original": "vo",
+    "module": "src/multiplayer/roster.ts",
+    "offset": 1973615,
+    "length": 8
+  },
+  {
+    "symbol": "Cb",
+    "original": "Cb",
+    "module": "src/multiplayer/roster.ts",
+    "offset": 1973624,
+    "length": 8
+  },
+  {
+    "symbol": "Vk",
+    "original": "Vk",
+    "module": "src/multiplayer/roster.ts",
+    "offset": 1973633,
+    "length": 8
+  },
+  {
+    "symbol": "Zme",
+    "original": "Zme",
+    "module": "src/multiplayer/roster.ts",
+    "offset": 1973642,
+    "length": 7
+  },
+  {
+    "symbol": "ege",
+    "original": "ege",
+    "module": "src/multiplayer/roster.ts",
+    "offset": 1973650,
+    "length": 7
+  },
+  {
+    "symbol": "tge",
+    "original": "tge",
+    "module": "src/multiplayer/roster.ts",
+    "offset": 1973658,
+    "length": 8
+  },
+  {
+    "symbol": "sge",
+    "original": "sge",
+    "module": "src/multiplayer/roster.ts",
+    "offset": 1973667,
+    "length": 7
+  },
+  {
+    "symbol": "Gme",
+    "original": "Gme",
+    "module": "src/multiplayer/rooms.ts",
+    "offset": 1962607,
+    "length": 7
+  },
+  {
+    "symbol": "Lo",
+    "original": "Lo",
+    "module": "src/multiplayer/rooms.ts",
+    "offset": 1962615,
+    "length": 611
+  },
+  {
+    "symbol": "Vme",
+    "original": "Vme",
+    "module": "src/multiplayer/rooms.ts",
+    "offset": 1963227,
+    "length": 66
+  },
+  {
+    "symbol": "VG",
+    "original": "VG",
+    "module": "src/multiplayer/rooms.ts",
+    "offset": 1963294,
+    "length": 943
+  },
+  {
+    "symbol": "QG",
+    "original": "QG",
+    "module": "src/multiplayer/rooms.ts",
+    "offset": 1964243,
+    "length": 4
+  },
+  {
+    "symbol": "qG",
+    "original": "qG",
+    "module": "src/multiplayer/rooms.ts",
+    "offset": 1964248,
+    "length": 4
+  },
+  {
+    "symbol": "Qme",
+    "original": "Qme",
+    "module": "src/multiplayer/rooms.ts",
+    "offset": 1964253,
+    "length": 109
+  },
+  {
+    "symbol": "qme",
+    "original": "qme",
+    "module": "src/multiplayer/rooms.ts",
+    "offset": 1964362,
+    "length": 104
+  },
+  {
+    "symbol": "Hme",
+    "original": "Hme",
+    "module": "src/multiplayer/rooms.ts",
+    "offset": 1964466,
+    "length": 123
+  },
+  {
+    "symbol": "Wme",
+    "original": "Wme",
+    "module": "src/multiplayer/rooms.ts",
+    "offset": 1964595,
+    "length": 8
+  },
+  {
+    "symbol": "zk",
+    "original": "zk",
+    "module": "src/multiplayer/rooms.ts",
+    "offset": 1964604,
+    "length": 91
+  },
+  {
+    "symbol": "$me",
+    "original": "$me",
+    "module": "src/multiplayer/rooms.ts",
+    "offset": 1964696,
+    "length": 5677
+  },
+  {
+    "symbol": "Kme",
+    "original": "Kme",
+    "module": "src/multiplayer/rooms.ts",
+    "offset": 1970379,
+    "length": 13
+  },
+  {
+    "symbol": "jme",
+    "original": "jme",
+    "module": "src/multiplayer/rooms.ts",
+    "offset": 1970393,
+    "length": 7
+  },
+  {
+    "symbol": "createNameTags",
+    "original": "nge",
+    "module": "src/multiplayer/nameTags.ts",
+    "offset": 1973675,
+    "length": 3281
+  },
+  {
+    "symbol": "cge",
+    "original": "cge",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1984689,
+    "length": 478
+  },
+  {
+    "symbol": "Rb",
+    "original": "Rb",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1985173,
+    "length": 4
+  },
+  {
+    "symbol": "uge",
+    "original": "uge",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1985178,
+    "length": 20
+  },
+  {
+    "symbol": "Md",
+    "original": "Md",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1985199,
+    "length": 49
+  },
+  {
+    "symbol": "Kk",
+    "original": "Kk",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1985249,
+    "length": 18
+  },
+  {
+    "symbol": "jk",
+    "original": "jk",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1985268,
+    "length": 12
+  },
+  {
+    "symbol": "dge",
+    "original": "dge",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1985281,
+    "length": 7
+  },
+  {
+    "symbol": "hge",
+    "original": "hge",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1985289,
+    "length": 7
+  },
+  {
+    "symbol": "fge",
+    "original": "fge",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1985297,
+    "length": 7
+  },
+  {
+    "symbol": "pge",
+    "original": "pge",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1985305,
+    "length": 7
+  },
+  {
+    "symbol": "mge",
+    "original": "mge",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1985313,
+    "length": 7
+  },
+  {
+    "symbol": "gge",
+    "original": "gge",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1985321,
+    "length": 15
+  },
+  {
+    "symbol": "Of",
+    "original": "Of",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1985337,
+    "length": 40
+  },
+  {
+    "symbol": "Age",
+    "original": "Age",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1985378,
+    "length": 126
+  },
+  {
+    "symbol": "yge",
+    "original": "yge",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1985504,
+    "length": 732
+  },
+  {
+    "symbol": "createGhostCars",
+    "original": "bge",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1986236,
+    "length": 6638
+  },
+  {
+    "symbol": "xge",
+    "original": "xge",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1992880,
+    "length": 7
+  },
+  {
+    "symbol": "_ge",
+    "original": "_ge",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1992888,
+    "length": 7
+  },
+  {
+    "symbol": "wge",
+    "original": "wge",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1992896,
+    "length": 5
+  },
+  {
+    "symbol": "Tge",
+    "original": "Tge",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1992902,
+    "length": 7
+  },
+  {
+    "symbol": "Yk",
+    "original": "Yk",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1992910,
+    "length": 5
+  },
+  {
+    "symbol": "Uf",
+    "original": "Uf",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1992916,
+    "length": 40
+  },
+  {
+    "symbol": "Sge",
+    "original": "Sge",
+    "module": "src/multiplayer/ghosts.ts",
+    "offset": 1992957,
+    "length": 42
+  },
+  {
+    "symbol": "Kf",
+    "original": "Kf",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1976962,
+    "length": 64
+  },
+  {
+    "symbol": "Qk",
+    "original": "Qk",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1977027,
+    "length": 7
+  },
+  {
+    "symbol": "rv",
+    "original": "rv",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1977035,
+    "length": 1232
+  },
+  {
+    "symbol": "fB",
+    "original": "fB",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1978267,
+    "length": 137
+  },
+  {
+    "symbol": "qk",
+    "original": "qk",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1978404,
+    "length": 858
+  },
+  {
+    "symbol": "Eo",
+    "original": "Eo",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1979268,
+    "length": 21
+  },
+  {
+    "symbol": "Hk",
+    "original": "Hk",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1979290,
+    "length": 188
+  },
+  {
+    "symbol": "ige",
+    "original": "ige",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1979479,
+    "length": 135
+  },
+  {
+    "symbol": "rge",
+    "original": "rge",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1979615,
+    "length": 242
+  },
+  {
+    "symbol": "ov",
+    "original": "ov",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1979857,
+    "length": 207
+  },
+  {
+    "symbol": "oge",
+    "original": "oge",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1980064,
+    "length": 439
+  },
+  {
+    "symbol": "ZE",
+    "original": "ZE",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1980503,
+    "length": 254
+  },
+  {
+    "symbol": "sx",
+    "original": "sx",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1980763,
+    "length": 7
+  },
+  {
+    "symbol": "age",
+    "original": "age",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1980771,
+    "length": 8
+  },
+  {
+    "symbol": "Wk",
+    "original": "Wk",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1980780,
+    "length": 4
+  },
+  {
+    "symbol": "av",
+    "original": "av",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1980785,
+    "length": 9
+  },
+  {
+    "symbol": "kg",
+    "original": "kg",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1980795,
+    "length": 8
+  },
+  {
+    "symbol": "Bb",
+    "original": "Bb",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1980804,
+    "length": 8
+  },
+  {
+    "symbol": "$k",
+    "original": "$k",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1980813,
+    "length": 274
+  },
+  {
+    "symbol": "lv",
+    "original": "lv",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1981087,
+    "length": 776
+  },
+  {
+    "symbol": "lge",
+    "original": "lge",
+    "module": "src/multiplayer/ghostGeometry.ts",
+    "offset": 1981863,
+    "length": 2826
+  },
+  {
+    "symbol": "vge",
+    "original": "vge",
+    "module": "src/multiplayer/spectatorCamera.ts",
+    "offset": 1993000,
+    "length": 744
+  },
+  {
+    "symbol": "Xk",
+    "original": "Xk",
+    "module": "src/multiplayer/spectatorCamera.ts",
+    "offset": 1993750,
+    "length": 66
+  },
+  {
+    "symbol": "createFriendsPanel",
+    "original": "Ege",
+    "module": "src/ui/multiplayer/createFriendsPanel.ts",
+    "offset": 1993817,
+    "length": 7113
+  },
+  {
+    "symbol": "Mge",
+    "original": "Mge",
+    "module": "src/ui/multiplayer/createFriendsPanel.ts",
+    "offset": 2000936,
+    "length": 7
+  },
+  {
+    "symbol": "kme",
+    "original": "kme",
+    "module": "src/multiplayer/transport.ts",
+    "offset": 1960671,
+    "length": 7
+  },
+  {
+    "symbol": "Fme",
+    "original": "Fme",
+    "module": "src/multiplayer/transport.ts",
+    "offset": 1960679,
+    "length": 7
+  },
+  {
+    "symbol": "Dme",
+    "original": "Dme",
+    "module": "src/multiplayer/transport.ts",
+    "offset": 1960687,
+    "length": 11
+  },
+  {
+    "symbol": "Pme",
+    "original": "Pme",
+    "module": "src/multiplayer/transport.ts",
+    "offset": 1960699,
+    "length": 7
+  },
+  {
+    "symbol": "createMultiplayerTransport",
+    "original": "Ome",
+    "module": "src/multiplayer/transport.ts",
+    "offset": 1960707,
+    "length": 1372
+  },
+  {
+    "symbol": "Ume",
+    "original": "Ume",
+    "module": "src/multiplayer/transport.ts",
+    "offset": 1962079,
+    "length": 514
+  },
+  {
+    "symbol": "zme",
+    "original": "zme",
+    "module": "src/multiplayer/transport.ts",
+    "offset": 1962599,
+    "length": 7
+  },
+  {
+    "symbol": "Cge",
+    "original": "Cge",
+    "module": "src/ui/multiplayer/quickChat.ts",
+    "offset": 2000944,
+    "length": 138
+  },
+  {
+    "symbol": "createQuickChat",
+    "original": "Bge",
+    "module": "src/ui/multiplayer/quickChat.ts",
+    "offset": 2001082,
+    "length": 1853
+  },
+  {
+    "symbol": "Rge",
+    "original": "Rge",
+    "module": "src/ui/multiplayer/quickChat.ts",
+    "offset": 2002941,
+    "length": 35
+  },
+  {
+    "symbol": "Qge",
+    "original": "Qge",
+    "module": "src/multiplayer/convoy.ts",
+    "offset": 2009317,
+    "length": 77
+  },
+  {
+    "symbol": "createConvoy",
+    "original": "qge",
+    "module": "src/multiplayer/convoy.ts",
+    "offset": 2009395,
+    "length": 1703
+  },
+  {
+    "symbol": "hv",
+    "original": "hv",
+    "module": "src/multiplayer/convoy.ts",
+    "offset": 2011104,
+    "length": 8
+  },
+  {
+    "symbol": "Hge",
+    "original": "Hge",
+    "module": "src/multiplayer/convoy.ts",
+    "offset": 2011113,
+    "length": 8
+  },
+  {
+    "symbol": "Wge",
+    "original": "Wge",
+    "module": "src/multiplayer/convoy.ts",
+    "offset": 2011122,
+    "length": 7
+  },
+  {
+    "symbol": "fv",
+    "original": "fv",
+    "module": "src/multiplayer/convoy.ts",
+    "offset": 2011130,
+    "length": 6
+  },
+  {
+    "symbol": "$ge",
+    "original": "$ge",
+    "module": "src/multiplayer/convoy.ts",
+    "offset": 2011137,
+    "length": 7
+  },
+  {
+    "symbol": "Kge",
+    "original": "Kge",
+    "module": "src/multiplayer/convoy.ts",
+    "offset": 2011145,
+    "length": 21
+  },
+  {
+    "symbol": "sF",
+    "original": "sF",
+    "module": "src/multiplayer/convoy.ts",
+    "offset": 2011167,
+    "length": 5
+  },
+  {
+    "symbol": "jge",
+    "original": "jge",
+    "module": "src/multiplayer/convoy.ts",
+    "offset": 2011173,
+    "length": 7
+  },
+  {
+    "symbol": "Yge",
+    "original": "Yge",
+    "module": "src/multiplayer/convoy.ts",
+    "offset": 2011181,
+    "length": 7
+  },
+  {
+    "symbol": "zf",
+    "original": "zf",
+    "module": "src/multiplayer/convoy.ts",
+    "offset": 2011189,
+    "length": 12
+  },
+  {
+    "symbol": "Xge",
+    "original": "Xge",
+    "module": "src/multiplayer/convoy.ts",
+    "offset": 2011202,
+    "length": 15
+  },
+  {
+    "symbol": "Jk",
+    "original": "Jk",
+    "module": "src/multiplayer/race.ts",
+    "offset": 2002977,
+    "length": 112
+  },
+  {
+    "symbol": "Ige",
+    "original": "Ige",
+    "module": "src/multiplayer/race.ts",
+    "offset": 2003089,
+    "length": 1286
+  },
+  {
+    "symbol": "cv",
+    "original": "cv",
+    "module": "src/multiplayer/race.ts",
+    "offset": 2004381,
+    "length": 6
+  },
+  {
+    "symbol": "Nge",
+    "original": "Nge",
+    "module": "src/multiplayer/race.ts",
+    "offset": 2004388,
+    "length": 8
+  },
+  {
+    "symbol": "Lge",
+    "original": "Lge",
+    "module": "src/multiplayer/race.ts",
+    "offset": 2004397,
+    "length": 7
+  },
+  {
+    "symbol": "kge",
+    "original": "kge",
+    "module": "src/multiplayer/race.ts",
+    "offset": 2004405,
+    "length": 8
+  },
+  {
+    "symbol": "Fge",
+    "original": "Fge",
+    "module": "src/multiplayer/race.ts",
+    "offset": 2004414,
+    "length": 7
+  },
+  {
+    "symbol": "Ib",
+    "original": "Ib",
+    "module": "src/multiplayer/race.ts",
+    "offset": 2004422,
+    "length": 12
+  },
+  {
+    "symbol": "Dge",
+    "original": "Dge",
+    "module": "src/multiplayer/race.ts",
+    "offset": 2004435,
+    "length": 47
+  },
+  {
+    "symbol": "Pge",
+    "original": "Pge",
+    "module": "src/multiplayer/race.ts",
+    "offset": 2004483,
+    "length": 67
+  },
+  {
+    "symbol": "createMultiplayerRace",
+    "original": "Oge",
+    "module": "src/multiplayer/race.ts",
+    "offset": 2004551,
+    "length": 4645
+  },
+  {
+    "symbol": "uv",
+    "original": "uv",
+    "module": "src/multiplayer/race.ts",
+    "offset": 2009202,
+    "length": 4
+  },
+  {
+    "symbol": "Zk",
+    "original": "Zk",
+    "module": "src/multiplayer/race.ts",
+    "offset": 2009207,
+    "length": 5
+  },
+  {
+    "symbol": "Uge",
+    "original": "Uge",
+    "module": "src/multiplayer/race.ts",
+    "offset": 2009213,
+    "length": 5
+  },
+  {
+    "symbol": "dv",
+    "original": "dv",
+    "module": "src/multiplayer/race.ts",
+    "offset": 2009219,
+    "length": 5
+  },
+  {
+    "symbol": "zge",
+    "original": "zge",
+    "module": "src/multiplayer/race.ts",
+    "offset": 2009225,
+    "length": 6
+  },
+  {
+    "symbol": "Gge",
+    "original": "Gge",
+    "module": "src/multiplayer/race.ts",
+    "offset": 2009232,
+    "length": 6
+  },
+  {
+    "symbol": "eF",
+    "original": "eF",
+    "module": "src/multiplayer/race.ts",
+    "offset": 2009239,
+    "length": 6
+  },
+  {
+    "symbol": "tF",
+    "original": "tF",
+    "module": "src/multiplayer/race.ts",
+    "offset": 2009246,
+    "length": 28
+  },
+  {
+    "symbol": "Vge",
+    "original": "Vge",
+    "module": "src/multiplayer/race.ts",
+    "offset": 2009275,
+    "length": 41
+  },
+  {
+    "symbol": "X3",
+    "original": "X3",
+    "module": "src/ui/loader/createLoaderOverlay.ts",
+    "offset": 1537280,
+    "length": 21
+  },
+  {
+    "symbol": "kE",
+    "original": "kE",
+    "module": "src/ui/loader/createLoaderOverlay.ts",
+    "offset": 1537302,
+    "length": 5
+  },
+  {
+    "symbol": "FE",
+    "original": "FE",
+    "module": "src/ui/loader/createLoaderOverlay.ts",
+    "offset": 1537308,
+    "length": 15
+  },
+  {
+    "symbol": "DE",
+    "original": "DE",
+    "module": "src/ui/loader/createLoaderOverlay.ts",
+    "offset": 1537324,
+    "length": 5
+  },
+  {
+    "symbol": "ua",
+    "original": "ua",
+    "module": "src/ui/loader/createLoaderOverlay.ts",
+    "offset": 1537330,
+    "length": 6
+  },
+  {
+    "symbol": "Qle",
+    "original": "Qle",
+    "module": "src/ui/loader/createLoaderOverlay.ts",
+    "offset": 1537337,
+    "length": 97
+  },
+  {
+    "symbol": "injectLoaderStyles",
+    "original": "qle",
+    "module": "src/ui/loader/createLoaderOverlay.ts",
+    "offset": 1537434,
+    "length": 3348
+  },
+  {
+    "symbol": "Hle",
+    "original": "Hle",
+    "module": "src/ui/loader/createLoaderOverlay.ts",
+    "offset": 1540782,
+    "length": 49
+  },
+  {
+    "symbol": "createLoaderOverlay",
+    "original": "Wle",
+    "module": "src/ui/loader/createLoaderOverlay.ts",
+    "offset": 1540831,
+    "length": 2040
+  }
+]

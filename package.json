@@ -1,0 +1,30 @@
+{
+  "name": "trapnest-neon",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "check": "tsc --noEmit",
+    "check:assets": "node scripts/check-assets.mjs",
+    "deploy": "npm run build && wrangler deploy",
+    "deploy:dry-run": "npm run build && wrangler deploy --dry-run",
+    "content:sync": "node scripts/sync-content.mjs"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "0.20.0",
+    "gsap": "3.15.0",
+    "three": "0.186.1",
+    "three-mesh-bvh": "0.9.13"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/three": "^0.183.0",
+    "sharp": "^0.34.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "wrangler": "^4.76.0"
+  }
+}

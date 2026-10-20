@@ -1,0 +1,626 @@
+[
+  {
+    "path": "/assets/applyNeonLook-UrqqEMcw.js",
+    "bytes": 3106,
+    "sha256": "74670351594c807d27390ced5d0f912ae81cf311ad8f888035ed52b313ddb542",
+    "source": "https://www.threejspunk.com/assets/applyNeonLook-UrqqEMcw.js"
+  },
+  {
+    "path": "/audio/engine/v8.json",
+    "bytes": 4990,
+    "sha256": "cc69c92533de85c4976948ce736dca883f6486c4920933c12b63f0b3a660800b",
+    "source": "https://www.threejspunk.com/audio/engine/v8.json"
+  },
+  {
+    "path": "/assets/loadVehicleRig-CzHQE2u8.js",
+    "bytes": 661,
+    "sha256": "d61d9c1b7fb6f64c08fab0bffd40cbde3604c68efbbe32ac4343fd7ddb01c728",
+    "source": "https://www.threejspunk.com/assets/loadVehicleRig-CzHQE2u8.js"
+  },
+  {
+    "path": "/audio/engine/v12.json",
+    "bytes": 3540,
+    "sha256": "f8be5eccabd7b90fef29b40488ed6248767e4685cbbead81071db4054cd7fac7",
+    "source": "https://www.threejspunk.com/audio/engine/v12.json"
+  },
+  {
+    "path": "/audio/engine/v8.wav",
+    "bytes": 436634,
+    "sha256": "6aeeadfb28d5d50f622789b0953bf489e00aac63a3299200975deb297f0d7b91",
+    "source": "https://www.threejspunk.com/audio/engine/v8.wav"
+  },
+  {
+    "path": "/audio/radio/playlist.json",
+    "bytes": 4255,
+    "sha256": "6a01fe002a6c706c6f508a7c3ee007901b1d3037f8c8c9b0d1f2b5ffca399fea",
+    "source": "https://www.threejspunk.com/audio/radio/playlist.json"
+  },
+  {
+    "path": "/audio/turbo/releases.json",
+    "bytes": 1209,
+    "sha256": "fe81a2d3006bda29890040f9e5b12fdb483c698fb249d0442fd0d61e5bb4e2f1",
+    "source": "https://www.threejspunk.com/audio/turbo/releases.json"
+  },
+  {
+    "path": "/audio/engine/v12.wav",
+    "bytes": 302570,
+    "sha256": "7b4021473f55b6dd52b7c894d2a0fa8315f01935d5a7109d286ce589cc409434",
+    "source": "https://www.threejspunk.com/audio/engine/v12.wav"
+  },
+  {
+    "path": "/audio/nitro-turbo.mp3",
+    "bytes": 269165,
+    "sha256": "f0cdab565f6a95a69b214bc517356cf8ba79d5cccb7af61723994a3379af3246",
+    "source": "https://www.threejspunk.com/audio/nitro-turbo.mp3"
+  },
+  {
+    "path": "/audio/tire-squeal.wav",
+    "bytes": 97064,
+    "sha256": "f6622da6342468cf4730cb7bd7b17782c5b64afa3fae9e3ec131c94e797781c6",
+    "source": "https://www.threejspunk.com/audio/tire-squeal.wav"
+  },
+  {
+    "path": "/audio/ui/click.mp3",
+    "bytes": 7340,
+    "sha256": "b37152892d6c01802fd8f5b6a3776cf76a701574993098c0549473a8edbdd59b",
+    "source": "https://www.threejspunk.com/audio/ui/click.mp3"
+  },
+  {
+    "path": "/audio/ui/drift-celebrate.mp3",
+    "bytes": 14252,
+    "sha256": "c71ac3bcc03cf2e36952c5cabdcdf56279e420262382d75f245387def9ffdba2",
+    "source": "https://www.threejspunk.com/audio/ui/drift-celebrate.mp3"
+  },
+  {
+    "path": "/audio/voice/manifest.json",
+    "bytes": 7311,
+    "sha256": "82b85eea08792d376c2301c6547188a6eb965ab6c5180f71b46b75dfabc1093c",
+    "source": "https://www.threejspunk.com/audio/voice/manifest.json"
+  },
+  {
+    "path": "/assets/rapier-CGfTHJBj.js",
+    "bytes": 3089156,
+    "sha256": "7c30b7302c1b6203317f0466404403ab563d4c2fd16486136e7b8f11ad30a57b",
+    "source": "https://www.threejspunk.com/assets/rapier-CGfTHJBj.js"
+  },
+  {
+    "path": "/audio/ui/hover.mp3",
+    "bytes": 5804,
+    "sha256": "e6bb3f3fb83566455d7f5297fa7fee99001f94781c1471dd5618508a4b2751f1",
+    "source": "https://www.threejspunk.com/audio/ui/hover.mp3"
+  },
+  {
+    "path": "/audio/turbo/releases.wav",
+    "bytes": 637660,
+    "sha256": "547f71b1c73aa603e22668fc7718937178de5fc14fe8171869929389c0e0a272",
+    "source": "https://www.threejspunk.com/audio/turbo/releases.wav"
+  },
+  {
+    "path": "/audio/ui/open.mp3",
+    "bytes": 18476,
+    "sha256": "55cab44b8229c8d875d6d59ea7f52226e98a3f1465da3517a626f169bb441f27",
+    "source": "https://www.threejspunk.com/audio/ui/open.mp3"
+  },
+  {
+    "path": "/audio/ui/typing.mp3",
+    "bytes": 19052,
+    "sha256": "556cc14ddebbb70a8d9776cd89e8981ebae05f6dc5681433072e7644378d4f61",
+    "source": "https://www.threejspunk.com/audio/ui/typing.mp3"
+  },
+  {
+    "path": "/audio/ui/confirm.mp3",
+    "bytes": 13100,
+    "sha256": "a78fb440b4c420984ecd39bde2167793b3d12e7a771f9139e3ef6fa0738a06d0",
+    "source": "https://www.threejspunk.com/audio/ui/confirm.mp3"
+  },
+  {
+    "path": "/audio/ui/close.mp3",
+    "bytes": 8402,
+    "sha256": "7ad75cbaab4c93279c9a57d45c0d0cee38474bab9d2ba6629c87ce9d9b9d7abc",
+    "source": "https://www.threejspunk.com/audio/ui/close.mp3"
+  },
+  {
+    "path": "/custom_noise.webp",
+    "bytes": 16692,
+    "sha256": "4c65d7c41c126a5662fea82318cea3ca6778e9ebcf5e42362e6080de4cf04ad0",
+    "source": "https://www.threejspunk.com/custom_noise.webp"
+  },
+  {
+    "path": "/fonts/phosphor/Phosphor.woff2",
+    "bytes": 147380,
+    "sha256": "c2ea45ea05ff5c7df1936770c104725f2a68f43fd343f35f3da23a30b27de32a",
+    "source": "https://www.threejspunk.com/fonts/phosphor/Phosphor.woff2"
+  },
+  {
+    "path": "/icons/favicon-32.png",
+    "bytes": 3097,
+    "sha256": "c00d83aae929b839aac7243b02a698f48c7b3006de58fb75523ac162308aa3b7",
+    "source": "https://www.threejspunk.com/icons/favicon-32.png"
+  },
+  {
+    "path": "/hdri/sunflowers_puresky_1k.hdr",
+    "bytes": 1482923,
+    "sha256": "39a18be788fda30e1b1929d4ebd78b5da14433a6e2271eff1928a35e481c5111",
+    "source": "https://www.threejspunk.com/hdri/sunflowers_puresky_1k.hdr"
+  },
+  {
+    "path": "/audio/voice/nyx/6be5c81a.mp3",
+    "bytes": 131700,
+    "sha256": "51ab90377e6130082aaf9a53a69fad7f50181e0c09d4acf26aaa7905a1b8cc61",
+    "source": "https://www.threejspunk.com/audio/voice/nyx/6be5c81a.mp3"
+  },
+  {
+    "path": "/custom_perlin.webp",
+    "bytes": 89878,
+    "sha256": "a61440777841c434f81dd53baead30674f08cb17600cd02a30599ca1228a9afa",
+    "source": "https://www.threejspunk.com/custom_perlin.webp"
+  },
+  {
+    "path": "/engine.mp3",
+    "bytes": 117028,
+    "sha256": "09f20bfe5780b7c2b7ea316d7d39566563875f1ac10fe8aeea1a1ca7b3c86436",
+    "source": "https://www.threejspunk.com/engine.mp3"
+  },
+  {
+    "path": "/libs/basis/basis_transcoder.wasm",
+    "bytes": 527333,
+    "sha256": "6cf17dc889352c42e9acf8897107978d127005fe3386c36a0e3845e27967630a",
+    "source": "https://www.threejspunk.com/libs/basis/basis_transcoder.wasm"
+  },
+  {
+    "path": "/fonts/orbitron-latin.woff2",
+    "bytes": 11768,
+    "sha256": "967b3909a7d6a5cc6365e9947775060fca15efdb62bc70099aef2e7d86e10205",
+    "source": "https://www.threejspunk.com/fonts/orbitron-latin.woff2"
+  },
+  {
+    "path": "/libs/draco/draco_wasm_wrapper.js",
+    "bytes": 58456,
+    "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6",
+    "source": "https://www.threejspunk.com/libs/draco/draco_wasm_wrapper.js"
+  },
+  {
+    "path": "/libs/basis/basis_transcoder.js",
+    "bytes": 57529,
+    "sha256": "8478b5b6d6b74e7d3082b89f6417321d8d1dc0307f2b30d4484bb11b441696a1",
+    "source": "https://www.threejspunk.com/libs/basis/basis_transcoder.js"
+  },
+  {
+    "path": "/maps/metro/map.json",
+    "bytes": 987048,
+    "sha256": "31af81391567920749520adc80890ebb1c2d2c57f9360e75a47e9b218bc73d17",
+    "source": "https://www.threejspunk.com/maps/metro/map.json"
+  },
+  {
+    "path": "/maps/metro/minimap.webp",
+    "bytes": 205522,
+    "sha256": "7e9eec929d91364e084e7f9da4e1131dfab2c13bea7bcbca2a3161c8192934c3",
+    "source": "https://www.threejspunk.com/maps/metro/minimap.webp"
+  },
+  {
+    "path": "/freesound_community-plasma-engine-fx-33559.mp3",
+    "bytes": 821280,
+    "sha256": "1944f49a2ca5e6debce4ab505b41ccba4e2e023441ef0bc8689a924a493ba475",
+    "source": "https://www.threejspunk.com/freesound_community-plasma-engine-fx-33559.mp3"
+  },
+  {
+    "path": "/models/colider.glb",
+    "bytes": 2700,
+    "sha256": "fc928780d0b184871513f9c4dec0dcb195e27f6bb7ba29a13d59e78dda0e5ecc",
+    "source": "https://www.threejspunk.com/models/colider.glb"
+  },
+  {
+    "path": "/maps/metro/landuse.webp",
+    "bytes": 1121430,
+    "sha256": "26ef976242849bdb508b2d70a4a194d08717d8107c8da41812fd96fac469484f",
+    "source": "https://www.threejspunk.com/maps/metro/landuse.webp"
+  },
+  {
+    "path": "/models/billboards.glb",
+    "bytes": 7968,
+    "sha256": "9a8a53eb1445b8935e2918584e83d4e2f6a22b619d7e7ebcfaaade6184a0598c",
+    "source": "https://www.threejspunk.com/models/billboards.glb"
+  },
+  {
+    "path": "/models/game/city/plaster_color.ktx2",
+    "bytes": 6927,
+    "sha256": "cc11a5e04a4365b7cdb65372c7511ac0101993d2c8bf00d436bc5ae1ac0d9c4d",
+    "source": "https://www.threejspunk.com/models/game/city/plaster_color.ktx2"
+  },
+  {
+    "path": "/models/game/city/kit.json",
+    "bytes": 59670,
+    "sha256": "853ce1b1f19f931d7abaab4e530ea971371015ca1de0da8d81e02c2f879a273d",
+    "source": "https://www.threejspunk.com/models/game/city/kit.json"
+  },
+  {
+    "path": "/models/game/chrysalis_rig.glb",
+    "bytes": 999320,
+    "sha256": "6f431242c46ac5b147dccef259c10705b73d76c2ed7e213dd9df2460afd00f55",
+    "source": "https://www.threejspunk.com/models/game/chrysalis_rig.glb"
+  },
+  {
+    "path": "/models/game/city/plaster_normal.ktx2",
+    "bytes": 1141720,
+    "sha256": "6b0e447d519cca4c824ac412fbd97c51a04ad1328fa660003aba81d62fcbe916",
+    "source": "https://www.threejspunk.com/models/game/city/plaster_normal.ktx2"
+  },
+  {
+    "path": "/libs/draco/draco_decoder.wasm",
+    "bytes": 192420,
+    "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac",
+    "source": "https://www.threejspunk.com/libs/draco/draco_decoder.wasm"
+  },
+  {
+    "path": "/light-rain.mp3",
+    "bytes": 3339493,
+    "sha256": "cd93fb3b707033aa844866b67abbc65c774fb4216105480dbc6114a0a5a968f8",
+    "source": "https://www.threejspunk.com/light-rain.mp3"
+  },
+  {
+    "path": "/models/game/city/plaster_orm.ktx2",
+    "bytes": 160537,
+    "sha256": "dd04fc6b967fd6de86ff03a33f80629aec9a0dc652de1b007bb0c9c412340972",
+    "source": "https://www.threejspunk.com/models/game/city/plaster_orm.ktx2"
+  },
+  {
+    "path": "/models/game/npc_car.glb",
+    "bytes": 259496,
+    "sha256": "406c5568ab07cd0b5be2468b31b35156e1e28d73e699bd69e7330f36c5fdae90",
+    "source": "https://www.threejspunk.com/models/game/npc_car.glb"
+  },
+  {
+    "path": "/models/cyberpunk_compressed.glb",
+    "bytes": 4747816,
+    "sha256": "f28aa552177bdc758ad2863e5c0b2642a41226774239c35a6d9617144fb53ba4",
+    "source": "https://www.threejspunk.com/models/cyberpunk_compressed.glb"
+  },
+  {
+    "path": "/models/game/katana_rig.glb",
+    "bytes": 2013628,
+    "sha256": "f977c5b51b4438c612dbabcd6ba79ca7f4178f819759a8d4a8fbddef9eaf59a3",
+    "source": "https://www.threejspunk.com/models/game/katana_rig.glb"
+  },
+  {
+    "path": "/models/game/city/kit.glb",
+    "bytes": 9408404,
+    "sha256": "f38336e874dd7f301dee458cf7039058e6ccc64fdd1776233b9205c472fe18f9",
+    "source": "https://www.threejspunk.com/models/game/city/kit.glb"
+  },
+  {
+    "path": "/models/game/tachyon_rig.glb",
+    "bytes": 1394012,
+    "sha256": "35a2c0d71f54552b5011dfffe8c8f0370b3417d6e69fce3f2f86547635396da8",
+    "source": "https://www.threejspunk.com/models/game/tachyon_rig.glb"
+  },
+  {
+    "path": "/models/game/vanta_rig.glb",
+    "bytes": 1042444,
+    "sha256": "f0634a47c3fd7eebc4312f51d09497d6938c38fbcba2ee66fec93d29c2ded582",
+    "source": "https://www.threejspunk.com/models/game/vanta_rig.glb"
+  },
+  {
+    "path": "/models/game/quadra_rig.glb",
+    "bytes": 3035168,
+    "sha256": "6025577fe9f82c7de7c5fca916ab2db264b2d2fd976c2e444114c48134fdef22",
+    "source": "https://www.threejspunk.com/models/game/quadra_rig.glb"
+  },
+  {
+    "path": "/models/game/sigils.glb",
+    "bytes": 298068,
+    "sha256": "6dfa37bf327a6fa53e91c09846e37e4ac9e4b3fe751c6279d8485189bafd33cc",
+    "source": "https://www.threejspunk.com/models/game/sigils.glb"
+  },
+  {
+    "path": "/textures/screens/ads.json",
+    "bytes": 734,
+    "sha256": "5afc2b080c4fd3364c0833403c82a2484b8471f1092e77294ff0281f51488e87",
+    "source": "https://www.threejspunk.com/textures/screens/ads.json"
+  },
+  {
+    "path": "/models/game/tsurugi_rig.glb",
+    "bytes": 1365052,
+    "sha256": "be5c676078a0f3509e4d5b909a6e3a5deabf221558a3da92801b9f65f97c9632",
+    "source": "https://www.threejspunk.com/models/game/tsurugi_rig.glb"
+  },
+  {
+    "path": "/models/game/velora_rig.glb",
+    "bytes": 1480508,
+    "sha256": "d77e0b69c3dcf806c82d2b0b2f49707a11f25c11969f7b05f79f9b37f97de073",
+    "source": "https://www.threejspunk.com/models/game/velora_rig.glb"
+  },
+  {
+    "path": "/models/game/raijin_rig.glb",
+    "bytes": 2397512,
+    "sha256": "4b1d41f1a5b60f4ac839eb59bffc518479d547db9e43e3b12e6ac8d7c5bcae7b",
+    "source": "https://www.threejspunk.com/models/game/raijin_rig.glb"
+  },
+  {
+    "path": "/textures/story/fuse-thumb.webp",
+    "bytes": 12008,
+    "sha256": "ab17c9b61a60e49fae18a6520d7ce732698b149bd327ea40b8805d9015d8c902",
+    "source": "https://www.threejspunk.com/textures/story/fuse-thumb.webp"
+  },
+  {
+    "path": "/textures/smoke.png",
+    "bytes": 182047,
+    "sha256": "45bd83b65d18ede6f9a2ec7ea45fedfd77c86e60c2041ac535d5f44b5d99c6be",
+    "source": "https://www.threejspunk.com/textures/smoke.png"
+  },
+  {
+    "path": "/textures/story/hex-thumb.webp",
+    "bytes": 9930,
+    "sha256": "a0cdb8042907efaec7185e067150e95394ba35485285d90a8014f0299d3fee40",
+    "source": "https://www.threejspunk.com/textures/story/hex-thumb.webp"
+  },
+  {
+    "path": "/preview.jpg",
+    "bytes": 762087,
+    "sha256": "b1b8a4046f0a70a7421b4ed9a5cb31453d80a698a35c7418f944e274b6e1be15",
+    "source": "https://www.threejspunk.com/preview.jpg"
+  },
+  {
+    "path": "/textures/story/lux-thumb.webp",
+    "bytes": 10064,
+    "sha256": "b01d448096eae1441dffbec2f3526145d2f6011f340c7524e80dbd7fd90900b0",
+    "source": "https://www.threejspunk.com/textures/story/lux-thumb.webp"
+  },
+  {
+    "path": "/textures/story/lux.webp",
+    "bytes": 71536,
+    "sha256": "a1b4e3a1970b7c25c32e55bfb7b4a893bdd51e634a6964480b10ab6f57bf9af3",
+    "source": "https://www.threejspunk.com/textures/story/lux.webp"
+  },
+  {
+    "path": "/models/plane.glb",
+    "bytes": 2478132,
+    "sha256": "26f238dd8e9146078f6120b2074cd7061ab57ad8751c085170fdae8fa7ab4e9f",
+    "source": "https://www.threejspunk.com/models/plane.glb"
+  },
+  {
+    "path": "/textures/story/nyx.webp",
+    "bytes": 70538,
+    "sha256": "42cc34bc2c8523bf1882e409ae39bced8bc7e5f1b3cf88f521fdd841d4ec100a",
+    "source": "https://www.threejspunk.com/textures/story/nyx.webp"
+  },
+  {
+    "path": "/textures/screens/ads.ktx2",
+    "bytes": 1068557,
+    "sha256": "39107fba27beddc17f436bf5c7e34e7b15fda3af932bbe34946bd16ecf093cf1",
+    "source": "https://www.threejspunk.com/textures/screens/ads.ktx2"
+  },
+  {
+    "path": "/textures/story/hex.webp",
+    "bytes": 70184,
+    "sha256": "b7b131ce78cde3aea2e076bc603dea10ac01098293d0a5837ace61a2e376c3c8",
+    "source": "https://www.threejspunk.com/textures/story/hex.webp"
+  },
+  {
+    "path": "/night-ambience.mp3",
+    "bytes": 7361280,
+    "sha256": "758d0a12ea04c2d64021ae7277adae18a8d70c97b2e5bdb5eade8d974bdd5c0a",
+    "source": "https://www.threejspunk.com/night-ambience.mp3"
+  },
+  {
+    "path": "/textures/story/fuse.webp",
+    "bytes": 88608,
+    "sha256": "3ebc106bf921be3fed172a8da585723aef9b74c5e74322f416f1a0b120d91803",
+    "source": "https://www.threejspunk.com/textures/story/fuse.webp"
+  },
+  {
+    "path": "/textures/story/pops-thumb.webp",
+    "bytes": 9940,
+    "sha256": "52f65a97f57a38a7ab64a6fdcb4230bf281dd0b1697e86035a6addcfeb068aa3",
+    "source": "https://www.threejspunk.com/textures/story/pops-thumb.webp"
+  },
+  {
+    "path": "/textures/story/rio.webp",
+    "bytes": 78422,
+    "sha256": "ea825cbdcde227bedbebd25cea10d4b3509a85fe9b5243ae10e758e8945eacbb",
+    "source": "https://www.threejspunk.com/textures/story/rio.webp"
+  },
+  {
+    "path": "/textures/story/pops.webp",
+    "bytes": 85336,
+    "sha256": "0a5676dfa805d853d1914f848c03ef87ff2f437fbc5291d11e47528cbe107cd0",
+    "source": "https://www.threejspunk.com/textures/story/pops.webp"
+  },
+  {
+    "path": "/textures/story/nyx-thumb.webp",
+    "bytes": 10384,
+    "sha256": "7e9a5b3da383b95b4809d447925e097374ab9eb3426a4a63b9742d3c395a3237",
+    "source": "https://www.threejspunk.com/textures/story/nyx-thumb.webp"
+  },
+  {
+    "path": "/textures/story/rio-thumb.webp",
+    "bytes": 11020,
+    "sha256": "93a066d690e5cdb55bb6f2f95c89e3d2dd816154c280532f17abcaf6d49de101",
+    "source": "https://www.threejspunk.com/textures/story/rio-thumb.webp"
+  },
+  {
+    "path": "/models/quadra.glb",
+    "bytes": 2675848,
+    "sha256": "cc856c042226cec255d9f686cc9966149a7ba191cbe81a9c0addea9e1cea59d0",
+    "source": "https://www.threejspunk.com/models/quadra.glb"
+  },
+  {
+    "path": "/textures/water-splash.webp",
+    "bytes": 3442,
+    "sha256": "7090659cf8a470b9fdd9cc0b765e8881c8a8e0ad50507e9d9d08d6ee1a297dc5",
+    "source": "https://www.threejspunk.com/textures/water-splash.webp"
+  },
+  {
+    "path": "/wet_footstep-step-02.mp3",
+    "bytes": 11954,
+    "sha256": "1552f95a95000ecce88be16d2b8bb852ab57fdf3a731359a7a6f8c61349d3cab",
+    "source": "https://www.threejspunk.com/wet_footstep-step-02.mp3"
+  },
+  {
+    "path": "/wet_footstep-step-04.mp3",
+    "bytes": 11118,
+    "sha256": "e8f51e0b019c0250b831cec6d8625b661deca2008b90be1eab34c579e4bf0f36",
+    "source": "https://www.threejspunk.com/wet_footstep-step-04.mp3"
+  },
+  {
+    "path": "/wet_footstep-step-01.mp3",
+    "bytes": 10283,
+    "sha256": "883a880ca0c6971d9ce19f24b6999782662836af2c024bc3144ada5f71df2dd4",
+    "source": "https://www.threejspunk.com/wet_footstep-step-01.mp3"
+  },
+  {
+    "path": "/wet_footstep-step-05.mp3",
+    "bytes": 13626,
+    "sha256": "baa8cb51b38a703d8c942af1b7595c9c10d83ffc7cd49620367062ffdef8f4ed",
+    "source": "https://www.threejspunk.com/wet_footstep-step-05.mp3"
+  },
+  {
+    "path": "/thunderstorm.mp3",
+    "bytes": 2425920,
+    "sha256": "54b495216446e60fe3aa7e61da0116ebe9723d926faa3bf5ae12c708d28f56bd",
+    "source": "https://www.threejspunk.com/thunderstorm.mp3"
+  },
+  {
+    "path": "/wet_footstep-step-06.mp3",
+    "bytes": 13208,
+    "sha256": "c235403982463d54f54e3ba2d08c82825a8db2aa5a7bf13c69c4a5eb5739a18b",
+    "source": "https://www.threejspunk.com/wet_footstep-step-06.mp3"
+  },
+  {
+    "path": "/wet_footstep-step-03.mp3",
+    "bytes": 10701,
+    "sha256": "256e1fd9bb52fc795da79e2a0bd17337c5029585b95f829ca6fefecc55601bb6",
+    "source": "https://www.threejspunk.com/wet_footstep-step-03.mp3"
+  },
+  {
+    "path": "/textures/wet-puddles-roughness.jpg",
+    "bytes": 1303850,
+    "sha256": "736eb52bf60596ee1b42ae5830e0b761ae82295dda5c8138880e2b42ad8cd5bd",
+    "source": "https://www.threejspunk.com/textures/wet-puddles-roughness.jpg"
+  },
+  {
+    "path": "/textures/wet-puddles-normal.jpg",
+    "bytes": 1124507,
+    "sha256": "37ba6e3cb14567e3b892be65e36477d8626b2c8b02207c936d2535e792504591",
+    "source": "https://www.threejspunk.com/textures/wet-puddles-normal.jpg"
+  },
+  {
+    "path": "/textures/wet-puddles-albedo.jpg",
+    "bytes": 995495,
+    "sha256": "02b5d56bbf392b8eb17128a24c824bac427df1fb223da8d4992519444db6bff0",
+    "source": "https://www.threejspunk.com/textures/wet-puddles-albedo.jpg"
+  },
+  {
+    "path": "/assets/engineSynth.worklet-tkiTUezc.js",
+    "bytes": 6177,
+    "sha256": "6af52b575a99e49fc04af9a3cce55e6997af4385f5b7d4c13cd1d96894bd2060",
+    "source": "https://www.threejspunk.com/assets/engineSynth.worklet-tkiTUezc.js"
+  },
+  {
+    "path": "/assets/engineSampler.worklet-CiauAed6.js",
+    "bytes": 14036,
+    "sha256": "9e3c666e713e52c34598ed487a3b38af77932a5b81bdc941105422e9b9909035",
+    "source": "https://www.threejspunk.com/assets/engineSampler.worklet-CiauAed6.js"
+  },
+  {
+    "path": "/audio/radio/arcade-retro-nights.mp3",
+    "bytes": 2748648,
+    "sha256": "506f9aef81dc9c60639e40ecffec2a89a5a9e5dbb4aec099baeaed207305035a",
+    "source": "https://www.threejspunk.com/audio/radio/arcade-retro-nights.mp3"
+  },
+  {
+    "path": "/audio/radio/80s-retro-background.mp3",
+    "bytes": 2610721,
+    "sha256": "752a844cf8abf7b0f1426e0cfe189c844ad67c1d88c60c15cd46fc89e1cbf56c",
+    "source": "https://www.threejspunk.com/audio/radio/80s-retro-background.mp3"
+  },
+  {
+    "path": "/audio/radio/lofi-synthwave.mp3",
+    "bytes": 2922623,
+    "sha256": "5b5968cb80650e659e7071ae5fb98babef45c9e11bc0584b4aa50cb0b851a825",
+    "source": "https://www.threejspunk.com/audio/radio/lofi-synthwave.mp3"
+  },
+  {
+    "path": "/audio/radio/instrumental-synthwave.mp3",
+    "bytes": 2682819,
+    "sha256": "9c0d0c0eacda68e40451dae0e3016a917b1e616bf4f75d2e01174563e7301ddf",
+    "source": "https://www.threejspunk.com/audio/radio/instrumental-synthwave.mp3"
+  },
+  {
+    "path": "/audio/radio/cyberpunk-synthwave.mp3",
+    "bytes": 4282558,
+    "sha256": "f083a54782cea0d0e6617cc7d4b3ba5549025ebece752afd06198a3fc31c7144",
+    "source": "https://www.threejspunk.com/audio/radio/cyberpunk-synthwave.mp3"
+  },
+  {
+    "path": "/audio/radio/dark-retro-80s.mp3",
+    "bytes": 4081937,
+    "sha256": "e564952583fc1bcb30916e212f0656156890569e180eabbf93b242a8b899bf32",
+    "source": "https://www.threejspunk.com/audio/radio/dark-retro-80s.mp3"
+  },
+  {
+    "path": "/audio/radio/midnight-run.mp3",
+    "bytes": 5562035,
+    "sha256": "8fed1eaa7360523d03ab1ed5fb31e4453d4f4db1b5bd85757d822e3716d6f317",
+    "source": "https://www.threejspunk.com/audio/radio/midnight-run.mp3"
+  },
+  {
+    "path": "/audio/radio/neon-drive-horizon.mp3",
+    "bytes": 4266362,
+    "sha256": "61664f8cbc8503d7b33162a967b353312f61e45199ca5611cae0d30b57e0a4af",
+    "source": "https://www.threejspunk.com/audio/radio/neon-drive-horizon.mp3"
+  },
+  {
+    "path": "/audio/radio/neon-nights.mp3",
+    "bytes": 2401742,
+    "sha256": "62e06fa29110762eb304cb2c05678bc04d8dac23ecd3e7379448e2f3f96d2ddf",
+    "source": "https://www.threejspunk.com/audio/radio/neon-nights.mp3"
+  },
+  {
+    "path": "/fonts/fonts.css",
+    "bytes": 1375,
+    "sha256": "4ccf792b7ed9b65cb6faa8849467d6f04d5a0567b9796dddad0d011e0aa269be",
+    "source": "https://www.threejspunk.com/fonts/fonts.css"
+  },
+  {
+    "path": "/audio/radio/neon-synthwave-drive.mp3",
+    "bytes": 3351554,
+    "sha256": "6cf456fe2200fedd51f408dfe4419a69f6ae9cca8ac1e6227cf73a39712e4b37",
+    "source": "https://www.threejspunk.com/audio/radio/neon-synthwave-drive.mp3"
+  },
+  {
+    "path": "/fonts/phosphor/style.css",
+    "bytes": 78123,
+    "sha256": "18c055e53e8d19344f5ef6a6848aed1b97621dfae2f6c02948e5c8b0fb4c3503",
+    "source": "https://www.threejspunk.com/fonts/phosphor/style.css"
+  },
+  {
+    "path": "/audio/radio/spectral.mp3",
+    "bytes": 2401742,
+    "sha256": "2e7883f928c52bd02dde52a5b2a6086bf7bcf08607a650609caffc9c3824c262",
+    "source": "https://www.threejspunk.com/audio/radio/spectral.mp3"
+  },
+  {
+    "path": "/audio/radio/retro-synthwave-soundtrack.mp3",
+    "bytes": 3018754,
+    "sha256": "d21464995e263f493d567263228a187043dc2a279eb0390d1a91f7d5567c1ecb",
+    "source": "https://www.threejspunk.com/audio/radio/retro-synthwave-soundtrack.mp3"
+  },
+  {
+    "path": "/audio/radio/synthwave-arpmedia.mp3",
+    "bytes": 3401709,
+    "sha256": "7d635a04a17d6148796623b66f82444b209521e9ac20ada168b7842238c5f679",
+    "source": "https://www.threejspunk.com/audio/radio/synthwave-arpmedia.mp3"
+  },
+  {
+    "path": "/audio/radio/synthwave-soundscape.mp3",
+    "bytes": 4725595,
+    "sha256": "f9a10ea609a142e732b3240158d79a2a3a663bdd1ea3de39f4c375712a34bb40",
+    "source": "https://www.threejspunk.com/audio/radio/synthwave-soundscape.mp3"
+  },
+  {
+    "path": "/audio/radio/synthwave-the-mountain.mp3",
+    "bytes": 3951325,
+    "sha256": "9932a506c8331239f0727d34fb81dc0f7a2fbda110f465a1f2bc281c40e45e5e",
+    "source": "https://www.threejspunk.com/audio/radio/synthwave-the-mountain.mp3"
+  }
+]
