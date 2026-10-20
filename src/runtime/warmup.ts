@@ -115,12 +115,12 @@ export async function warmupWorld({
 }) {
   var f, p, m, A;
   loaderOverlay.setProgress(.88);
-  loaderOverlay.setStatus("SYNCING LIGHTS");
+  loaderOverlay.setStatus("Setting the night light");
   syncLighting();
   requestShadowMapUpdate == null || requestShadowMapUpdate("startup-lighting");
   const u = pipeline.beautyCamera ?? camera;
   loaderOverlay.setProgress(1);
-  loaderOverlay.setStatus("COMPILING SHADERS");
+  loaderOverlay.setStatus("Almost ready");
   (p = (f = world.ground) == null ? undefined : f.syncReflectionSize) == null || p.call(f, renderer);
   const d = () => {
       var g, b;

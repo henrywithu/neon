@@ -1,10 +1,12 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { isGameInputBlocked } from "../core/inputBoundary.ts";
+import { isTouchDevice } from "../../platform/deviceLayout.ts";
 import { isAppleMobile } from "../../platform/deviceLayout.ts";
 export function createTouchControls({
   input: input
 }) {
-  if (!(typeof window.matchMedia == "function" && window.matchMedia("(pointer: coarse)").matches) && !isAppleMobile()) return null;
+  if (!isTouchDevice() && !isAppleMobile()) return null;
   const t = document.createElement("div");
   t.className = "touch-drive";
   t.hidden = true;
@@ -59,6 +61,7 @@ export function createTouchControls({
   }
   s.addEventListener("pointerdown", m => {
     var A;
+    if (!l || isGameInputBlocked()) return;
     u(m);
     (A = s.setPointerCapture) == null || A.call(s, m.pointerId);
     a.set(m.pointerId, d(m.clientX));
@@ -86,6 +89,7 @@ export function createTouchControls({
       };
     m.addEventListener("pointerdown", y => {
       var _;
+      if (!l || isGameInputBlocked()) return;
       u(y);
       (_ = m.setPointerCapture) == null || _.call(m, y.pointerId);
       g.add(y.pointerId);
@@ -118,11 +122,16 @@ export function createTouchControls({
     m = !!m;
     m !== l && (l = m, t.hidden = !l, document.documentElement.classList.toggle("touch-drive-active", l), f());
   }
+  window.addEventListener("neon:clear-input", f);
+  window.addEventListener("blur", f);
   return {
+    clear: f,
     root: t,
     setVisible: p,
     dispose() {
       p(false);
+      window.removeEventListener("neon:clear-input", f);
+      window.removeEventListener("blur", f);
       t.remove();
     }
   };

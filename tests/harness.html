@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><head><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Local UI regression harness</title></head><body>
+<canvas width="844" height="390" aria-label="Road"></canvas><button id="open" style="position:fixed;top:10px;left:10px;z-index:20">Settings</button>
+<script type="module">
+import '/src/styles/index.css'; import '/src/styles/trapnest.css'; import '/src/styles/night.css';
+import { installModalBoundary } from '/src/ui/core/modalBoundary.ts';
+import { createAppUiState } from '/src/ui/core/state.ts';
+import { createSettingsPanel } from '/src/ui/chrome/createSettingsPanel.ts';
+import { createAboutPanel } from '/src/ui/chrome/createAboutPanel.ts';
+import { createControlsHelp } from '/src/ui/walk/controlsHelp.ts';
+import { createDriveInput } from '/src/controls/createDriveInput.ts';
+import { createTouchControls } from '/src/ui/drive/touchControls.ts';
+import { createPause } from '/src/ui/chrome/pause.ts';
+import { observeViewport, measureViewport } from '/src/platform/viewport.ts';
+import { resizeRendererAndPipeline } from '/src/bootstrap/createRenderer.ts';
+import { showRecovery } from '/src/runtime/recovery.ts';
+installModalBoundary();
+const state = createAppUiState(); const input = createDriveInput(); input.setEnabled(true);
+const touch = createTouchControls({ input }); touch?.setVisible(true);
+const about = createAboutPanel({ state });
+const settings = createSettingsPanel({ state, onOpenAbout: () => state.openPanel('about'), onRestart: () => {}, onResetGame: () => {} });
+const help = createControlsHelp({ state }); help.setDriving(true);
+const pause = createPause({ onHelp: () => help.open(), onMap: () => {}, onSettings: () => { state.openPanel('settings'); settings.open(); } });
+document.querySelector('#open').onclick = () => { state.openPanel('settings'); settings.open(); };
+observeViewport(() => resizeRendererAndPipeline({ setPixelRatio(){}, setSize(w,h){ const c=document.querySelector('canvas'); c.width=w; c.height=h; } }, null, 1));
+window.harness = { state, settings, help, input, touch, pause, measureViewport, showRecovery };
+</script></body></html>

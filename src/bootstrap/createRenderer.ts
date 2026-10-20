@@ -1,6 +1,8 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
 import { REVISION, InspectorBase, WebGPURenderer, PCFShadowMap, ACESFilmicToneMapping } from "three/webgpu";
+import { measureViewport } from "../platform/viewport.ts";
+import { setStartupStage, showRecovery } from "../runtime/recovery.ts";
 import { isSafari } from "../platform/deviceLayout.ts";
 import { getStaticPixelRatio, performanceProfile } from "../platform/performanceProfile.ts";
 import { installCanonicalShaderNames } from "./canonicalShaders.ts";
@@ -97,6 +99,9 @@ export async function jde() {
 }
 async function createRenderer() {
   var s;
+  setStartupStage("capability");
+  const diagnosticWebgl = new URLSearchParams(location.search).get("backend") === "webgl";
+  if (!navigator.gpu && !diagnosticWebgl) throw new Error("WebGPU is unavailable in this browser or context.");
   const i = await jde(),
     e = new WebGPURenderer({
       forceWebGL: new URLSearchParams(location.search).get("backend") === "webgl",
@@ -107,7 +112,8 @@ async function createRenderer() {
       requiredLimits: i
     });
   e.setPixelRatio(getStaticPixelRatio());
-  e.setSize(window.innerWidth, window.innerHeight);
+  const viewport = measureViewport();
+  e.setSize(viewport.width, viewport.height, false);
   e.shadowMap.enabled = true;
   e.shadowMap.type = PCFShadowMap;
   e.shadowMap.autoUpdate = false;
@@ -118,10 +124,13 @@ async function createRenderer() {
   e.domElement.style.transition = "opacity 220ms ease";
   document.body.appendChild(e.domElement);
   await e.init();
+  if (!diagnosticWebgl && !e.backend.isWebGPUBackend) throw new Error("No supported WebGPU adapter is available.");
+  e.domElement.addEventListener("webglcontextlost", event => { event.preventDefault(); e.setAnimationLoop(null); showRecovery("Graphics context lost", "device"); });
   performanceProfile.canonicalShaders && e.backend.isWebGPUBackend && installCanonicalShaderNames(e);
   const t = e.backend.device;
   (s = t == null ? undefined : t.lost) == null || s.then(n => {
-    console.error(`[renderer] GPUDevice lost (${n.reason}): ${n.message}`);
+    e.setAnimationLoop(null);
+    showRecovery(n.message || n.reason, "device");
   });
   Qde(e);
   G_(e);
@@ -147,10 +156,9 @@ function createShadowUpdateController({
 export { createShadowUpdateController };
 function resizeRendererAndPipeline(i, e, t) {
   var r;
-  const s = window.innerWidth,
-    n = window.innerHeight;
+  const { width: s, height: n } = measureViewport();
   i.setPixelRatio(t);
-  i.setSize(s, n);
+  i.setSize(s, n, false);
   (r = e == null ? undefined : e.resizePostProcessing) == null || r.call(e, s, n);
 }
 export { resizeRendererAndPipeline };

@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { isGameInputBlocked } from "../../ui/core/inputBoundary.ts";
 import { _r, Spe, createTraffic } from "../traffic/createTraffic.ts";
 import { Vector3, Quaternion, MathUtils } from "three/webgpu";
 import { createPhysicsWorld } from "../physics/createPhysicsWorld.ts";
@@ -595,12 +596,14 @@ export async function createDriveMode({
   }
   let hs = false;
   function ge() {
-    return !!(ye != null && ye.isOpen) || hs;
+    return !!(ye != null && ye.isOpen) || hs || isGameInputBlocked();
   }
   function Le() {
     var ce;
+    if (ge()) { E.clear(); C?.clear(); }
     (ce = J == null ? undefined : J.setPaused) == null || ce.call(J, ge());
   }
+  window.addEventListener("neon:boundary-change", Le);
   function Oe(ce) {
     var Tt, js, Cs, vs, er;
     if (C == null || C.setVisible(je && !ge()), ge()) {

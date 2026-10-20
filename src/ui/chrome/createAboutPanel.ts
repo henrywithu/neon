@@ -1,5 +1,5 @@
 import { vce } from './createHeader';
-import { isMobileLayout, onDeviceLayoutChange } from '../../platform/deviceLayout';
+import { isTouchDevice, isMobileLayout, onDeviceLayoutChange } from '../../platform/deviceLayout';
 import { createJournal } from './createJournal';
 import type { AppUiState, PanelComponent } from '../core/types';
 
@@ -51,7 +51,7 @@ export function createAboutPanel({
   const desktop = root.querySelector<HTMLElement>('.about-recommended--desktop')!;
   const mobile = root.querySelector<HTMLElement>('.about-recommended--mobile')!;
   function syncLayout(): void {
-    const compact: boolean = isMobileLayout();
+    const compact: boolean = isTouchDevice();
     desktop.hidden = compact;
     mobile.hidden = !compact;
   }

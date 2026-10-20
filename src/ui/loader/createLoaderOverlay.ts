@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { showRecovery } from "../../runtime/recovery.ts";
 import { gsap } from "gsap";
 export const X3 = "app-loader-style";
 export const kE = 66;
@@ -181,10 +182,10 @@ export function createLoaderOverlay() {
   document.body.appendChild(i);
   function c() {
     if (l) {
-      i.setAttribute("aria-label", a >= 1 ? l : `Loading ${Math.round(a * 100)}%. ${l}`);
+      i.setAttribute("aria-label", l);
       return;
     }
-    i.setAttribute("aria-label", `Loading ${Math.round(a * 100)}%`);
+    i.setAttribute("aria-label", "Preparing the city");
   }
   function u(p) {
     if (!t || r) return;
@@ -204,14 +205,14 @@ export function createLoaderOverlay() {
     n.classList.toggle("is-visible", m.length > 0);
     c();
   }
-  function h() {
-    u(1);
-    d("LINK FAILED");
-    i.setAttribute("aria-label", "Failed to load");
+  function h(error: unknown = new Error("Initialization failed")) {
+    i.setAttribute("aria-busy", "false");
+    showRecovery(error);
   }
   function f({
     onRevealUpdate: onRevealUpdate
   } = {}) {
+    if (matchMedia("(prefers-reduced-motion: reduce)").matches) { i.remove(); return Promise.resolve(); }
     return o || (r ? Promise.resolve() : (r = true, i.setAttribute("aria-busy", "false"), u(1), o = new Promise(m => {
       const A = getLoaderRevealRadius(),
         g = {

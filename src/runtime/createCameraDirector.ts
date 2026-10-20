@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { isGameInputBlocked } from "../ui/core/inputBoundary.ts";
 import { initialCameraPose, getCameraFov, cameraParameters } from "../bootstrap/createCamera.ts";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import { Vector3, Quaternion } from "three/webgpu";
@@ -115,7 +116,7 @@ export function createCameraDirector({
   }
   const w = new Set(["KeyF", "KeyE", "Enter", "NumpadEnter"]);
   function S(R) {
-    !w.has(R.code) || R.repeat || Phe(R.target) || R.code.endsWith("Enter") && R.target instanceof HTMLElement && R.target.closest("button, a, [role='dialog']") || f === "walk" && getFinishedIntro != null && getFinishedIntro() && _();
+    isGameInputBlocked() || !w.has(R.code) || R.repeat || Phe(R.target) || R.code.endsWith("Enter") && R.target instanceof HTMLElement && R.target.closest("button, a, [role='dialog']") || f === "walk" && getFinishedIntro != null && getFinishedIntro() && _();
   }
   window.addEventListener("keydown", S);
   function T(R) {

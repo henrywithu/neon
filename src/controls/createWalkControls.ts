@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { isGameInputBlocked } from "../ui/core/inputBoundary.ts";
 import { Euler, Vector2, Vector3, Raycaster, MathUtils } from "three/webgpu";
 import { isTouchDevice } from "../platform/deviceLayout.ts";
 export const Nhe = {
@@ -240,7 +241,7 @@ export function createWalkControls({
     f !== oe && (f = oe, Q());
   }
   function de(q) {
-    if (!M || khe(q.target)) return;
+    if (!M || isGameInputBlocked() || khe(q.target)) return;
     if (J(q), U(q)) {
       d.sprint = true;
       return;
@@ -262,7 +263,7 @@ export function createWalkControls({
     oe && (d[oe] = false);
   }
   function V(q, oe) {
-    M && (p.y -= q * l.mouseSensitivity, p.x -= oe * l.mouseSensitivity, p.x = Math.max(-Math.PI / 2, Math.min(Math.PI / 2, p.x)), Y(), onLookChange == null || onLookChange());
+    M && !isGameInputBlocked() && (p.y -= q * l.mouseSensitivity, p.x -= oe * l.mouseSensitivity, p.x = Math.max(-Math.PI / 2, Math.min(Math.PI / 2, p.x)), Y(), onLookChange == null || onLookChange());
   }
   function te(q) {
     !M || !B || isTouchDevice() || (J(q), V(q.movementX, q.movementY));
@@ -294,7 +295,7 @@ export function createWalkControls({
     (oe = domElement.hasPointerCapture) != null && oe.call(domElement, q.pointerId) && ((xe = domElement.releasePointerCapture) == null || xe.call(domElement, q.pointerId));
   }
   function Be(q, oe) {
-    F.set(q, oe);
+    if (!isGameInputBlocked()) F.set(q, oe);
   }
   function He() {
     if (m.set(0, 0), F.lengthSq() > db * db) {
@@ -316,6 +317,8 @@ export function createWalkControls({
     var oe;
     !M || B || q.button !== 0 || isTouchDevice() || q.target === domElement && ((oe = domElement.requestPointerLock) == null || oe.call(domElement));
   }
+  function clearHeld() { for (const key of Object.keys(d)) d[key] = false; F.set(0, 0); b.set(0, 0, 0); O.clear(); }
+  window.addEventListener("neon:clear-input", clearHeld);
   function Fe() {
     window.addEventListener("keydown", de);
     window.addEventListener("keyup", K);
@@ -361,7 +364,7 @@ export function createWalkControls({
     }
   }
   function Te(q) {
-    if (!M || q <= 0) return R = false, false;
+    if (!M || isGameInputBlocked() || q <= 0) return R = false, false;
     if (!W()) return F.set(0, 0), b.set(0, 0, 0), L = l.moveSpeed, G(), R && (R = false, P()), false;
     He();
     const oe = m.lengthSq() > 0;
@@ -382,6 +385,7 @@ export function createWalkControls({
   }
   function ue() {
     je(false);
+    window.removeEventListener("neon:clear-input", clearHeld);
     Je();
     H.clear();
   }

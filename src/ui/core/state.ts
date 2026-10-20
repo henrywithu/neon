@@ -1,9 +1,11 @@
+import { setInputBoundary } from './inputBoundary';
 import type { AppUiState, UiSnapshot } from './types';
 export function createAppUiState(): AppUiState {
   const listeners = new Set<(snapshot: UiSnapshot) => void>();
   let openedPanel: string | null = null;
   let uiVisible = true;
   function notify(): void {
+    setInputBoundary("panel", openedPanel !== null);
     for (const listener of listeners) listener({
       openedPanel,
       uiVisible

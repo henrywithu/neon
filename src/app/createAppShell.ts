@@ -1,5 +1,7 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { markUsableDrive } from "../debug/sessionRecord.ts";
+import { createPause } from "../ui/chrome/pause.ts";
 import { aG, PE, Z2 } from "../ui/core/phosphorIcons.ts";
 import { createAppUiState } from "../ui/core/state.ts";
 import { FEATURES } from "../world/createWorld.ts";
@@ -74,8 +76,12 @@ export function createAppShell({
     v = () => onRadioToggle == null ? undefined : onRadioToggle(Object.values(T).some(Boolean));
   let E = null,
     C = null;
+  let pause = null;
   const M = createHeader({
     state: x,
+    onOpenHelp: () => { W.setDriving(true); W.open(); },
+    onPause: () => pause?.open(),
+    onOpenMap: () => drive?.cityMap?.open(),
     onOpenSettings: () => C == null ? undefined : C.open(),
     onOpenRadio: () => ye == null ? undefined : ye.toggle(),
     onOpenAchievements: gameplay ? () => E == null ? undefined : E.toggle() : null,
@@ -206,6 +212,7 @@ export function createAppShell({
       }
     });
   C = ne;
+  pause = createPause({ onHelp: () => { W.setDriving(true); W.open(); }, onMap: () => drive?.cityMap?.open(), onSettings: () => { x.openPanel("settings"); ne.open(); } });
   let se = null,
     re = null,
     le = null,
@@ -308,6 +315,7 @@ export function createAppShell({
   function V() {
     var Ae;
     S = true;
+    markUsableDrive();
     Q == null || Q.refresh();
     M == null || M.show();
     se == null || se.setVisible(true);
@@ -326,6 +334,7 @@ export function createAppShell({
     L == null || L.setEnabled(Be);
   }
   return {
+    pause,
     uiState: x,
     setMenuOpen(Ae, Be) {
       T[Ae] = !!Be;

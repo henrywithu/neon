@@ -1,3 +1,4 @@
+import { measureViewport } from '../platform/viewport';
 import { PerspectiveCamera } from 'three/webgpu';
 import { isMobileLayout } from '../platform/deviceLayout';
 export const DESKTOP_FOV = 65;
@@ -21,7 +22,7 @@ export function getCameraFov(): number {
   return isMobileLayout() ? cameraParameters.fovMobile : cameraParameters.fovDesktop;
 }
 export function createCamera(): PerspectiveCamera {
-  const camera = new PerspectiveCamera(DESKTOP_FOV, innerWidth / innerHeight, 0.1, 300);
+  const camera = new PerspectiveCamera(DESKTOP_FOV, measureViewport().width / measureViewport().height, 0.1, 300);
   camera.position.set(...initialCameraPose.position);
   camera.fov = getCameraFov();
   camera.updateProjectionMatrix();
@@ -53,7 +54,8 @@ export function createCameraLayout({
       getWalkControls?.()?.setEyeHeight(cameraParameters.walkEyeHeight);
     },
     onWindowResizeAspect() {
-      camera.aspect = innerWidth / innerHeight;
+      const viewport = measureViewport();
+      camera.aspect = viewport.width / viewport.height;
       applyCameraFovForLayout();
     }
   };

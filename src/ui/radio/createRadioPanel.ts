@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { isGameInputBlocked } from "../core/inputBoundary.ts";
 import { kl, ab, kS } from "../../audio/radio/createRadio.ts";
 import { isAudioPlaying, setAudioPlaying, subscribeAudioState } from "../../audio/audioState.ts";
 export function createRadioPanel({
@@ -298,8 +299,9 @@ export function createRadioPanel({
     if (Q.target instanceof HTMLElement && Q.target.matches("input, textarea, select")) return;
     const j = Q.code;
     if (!E) {
+      if (isGameInputBlocked()) return;
       if (Q.type !== "keydown" || Q.repeat) return;
-      if (j === "KeyM" || j === "KeyP") re(true);else if (j === "KeyN") radio.next();else return;
+      if (j === "KeyM") re(true);else if (j === "KeyN") radio.next();else return;
       Q.preventDefault();
       return;
     }

@@ -48,7 +48,7 @@ export async function createWorld({
 }) {
   var M, B, R, I, k;
   loaderOverlay.setProgress(.35);
-  loaderOverlay.setStatus("STREAMING MESHES");
+  loaderOverlay.setStatus("Bringing the streets into view");
   const r = [],
     o = FEATURES.cityMode === "metro";
   r.push(o ? createMetro({
@@ -75,7 +75,7 @@ export async function createWorld({
     x = (u == null ? undefined : u.surfaceRain) ?? null,
     y = (u == null ? undefined : u.rig) ?? null;
   loaderOverlay.setProgress(.7);
-  loaderOverlay.setStatus("WIRING WORLD");
+  loaderOverlay.setStatus("Preparing the city");
   h && addStaticObject(scene, h);
   p && addStaticObject(scene, p);
   c && (addStaticObject(scene, c), c.userData.billboardMaterials = applyBillboardMaterials(c, c.userData.adAtlas));

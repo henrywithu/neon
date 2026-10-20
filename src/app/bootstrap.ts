@@ -1,5 +1,7 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { observeViewport } from "../platform/viewport.ts";
+import { setStartupStage } from "../runtime/recovery.ts";
 import { applyDevicePerformanceDefaults, performanceProfile, applyPerformanceProfileToPipeline } from "../platform/performanceProfile.ts";
 import { syncDeviceLayout, onDeviceLayoutChange } from "../platform/deviceLayout.ts";
 import { createCamera, createCameraLayout, cameraParameters } from "../bootstrap/createCamera.ts";
@@ -38,7 +40,7 @@ export async function bootstrapExperience(loader) {
   applyDevicePerformanceDefaults();
   syncDeviceLayout();
   loader.setProgress(.03);
-  loader.setStatus("BOOTING SCENE");
+  loader.setStatus("Preparing the city");
   const camera = createCamera(),
     sceneResult = createScene(),
     {
@@ -46,25 +48,25 @@ export async function bootstrapExperience(loader) {
       sunLight: sunLight
     } = sceneResult;
   loader.setProgress(.1);
-  loader.setStatus("SPINNING UP RENDERER");
+  loader.setStatus("Connecting to graphics");
   const {
     renderer: renderer
   } = await createRenderer();
   loader.setProgress(.2);
-  loader.setStatus("LINKING WEBGPU");
+  loader.setStatus("Preparing the city");
   const {
       requestShadowMapUpdate: requestShadowMapUpdate
     } = createShadowUpdateController({
       renderer: renderer,
       getSunLight: () => sunLight
     }),
-    world = await createWorld({
+    world = await (setStartupStage("asset"), createWorld({
       scene: scene,
       renderer: renderer,
       camera: camera,
       loaderOverlay: loader,
       requestShadowMapUpdate: requestShadowMapUpdate
-    }),
+    })),
     environmentIntensity = {
       value: .08
     },
@@ -106,7 +108,8 @@ export async function bootstrapExperience(loader) {
   });
   scene.environmentRotation.set(0, MathUtils.degToRad(70), MathUtils.degToRad(51));
   loader.setProgress(.85);
-  loader.setStatus("WIRING POST FX");
+  loader.setStatus("Setting the night light");
+  setStartupStage("shader");
   const pipeline = createPostprocessing(renderer, scene, camera, {
       rain: world.rain,
       smoke: world.smoke
@@ -161,7 +164,7 @@ export async function bootstrapExperience(loader) {
     });
   let drive = null;
   if (world.carRig) {
-    loader.setStatus("TUNING SUSPENSION");
+    loader.setStatus("Preparing your car");
     drive = await createDriveMode({
       camera: camera,
       renderer: renderer,
@@ -206,7 +209,7 @@ export async function bootstrapExperience(loader) {
       context: AudioContext.getContext()
     }) : null;
   let gameplay = null;
-  drive && world.metroMode && (loader.setStatus("BRIEFING MISSIONS"), gameplay = await createGameplay({
+  drive && world.metroMode && (loader.setStatus("Finding your first destination"), gameplay = await createGameplay({
     scene: scene,
     renderer: renderer,
     camera: camera,
@@ -469,7 +472,7 @@ export async function bootstrapExperience(loader) {
     });
   }
   renderLoop.startLoop();
-  window.addEventListener("resize", () => {
+  observeViewport(() => {
     syncDeviceLayout();
     cameraLayout.onWindowResizeAspect();
     resizeRenderer(renderer, pipeline, adaptiveDpr);
@@ -480,7 +483,7 @@ export async function bootstrapExperience(loader) {
     cameraLayout.applyCameraFovForLayout();
   });
   await introFlow.run();
-  garage && setTimeout(() => fleet.loadAll().catch(() => {}), 4e3);
+  // Other rigs load on demand in the garage, outside the first-play transfer.
   inspectorSession.bootstrapInspector(app.settingsPanel);
   isDevelopmentMode() && inspectorSession.revealInspector();
   return {

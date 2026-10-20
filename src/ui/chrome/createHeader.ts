@@ -14,6 +14,9 @@ export function createHeader({
   onOpenGarage = null,
   onOpenMessages = null,
   onOpenMultiplayer = null,
+  onOpenHelp = null,
+  onPause = null,
+  onOpenMap = null,
   onOpenFriends = null
 } = {}) {
   const l = document.createElement("div");
@@ -39,25 +42,29 @@ export function createHeader({
   l.innerHTML = d ? `
     <div class="app-header-brand"></div>
     <nav class="app-header-actions app-header-actions--compact" aria-label="Game menu">
+      <button type="button" class="hdr-btn" data-act="pause" aria-label="Pause">Ⅱ</button>
       ${g}
       ${b}
       <button type="button" class="hdr-btn hdr-btn--menu" data-act="menu" style="--accent:#e2e8ff" aria-label="Menu" aria-expanded="false" aria-haspopup="true">
         <span class="hdr-btn__icon">${eL}</span>
       </button>
       <div class="hdr-menu" role="menu" hidden>
-        ${h}${f}${p}${A}${x}${y}
+        <button type="button" class="hdr-btn" data-act="help">Help</button><button type="button" class="hdr-btn" data-act="map">City map</button>${h}${f}${p}${A}${x}${y}
       </div>
     </nav>
   ` : `
     <div class="app-header-brand"></div>
     <nav class="app-header-actions" aria-label="Game menu">
-      ${h}${f}${p}${A}${g}${x}${y}
+      <button type="button" class="hdr-btn" data-act="pause" aria-label="Pause (P)">Ⅱ</button><button type="button" class="hdr-btn" data-act="help" aria-label="Help (H)">Help</button>${h}${f}${p}${A}${g}${x}${y}
     </nav>
   `;
   const _ = l.querySelector(".app-header-brand"),
     w = createHudPanel();
   _.appendChild(w.root);
   const S = {
+      help: () => onOpenHelp?.(),
+      pause: () => onPause?.(),
+      map: () => onOpenMap?.(),
       garage: () => onOpenGarage == null ? undefined : onOpenGarage(),
       messages: () => onOpenMessages == null ? undefined : onOpenMessages(),
       achievements: () => onOpenAchievements == null ? undefined : onOpenAchievements(),

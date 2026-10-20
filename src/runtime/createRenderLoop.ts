@@ -1,5 +1,8 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { sampleDriveFrame } from "../debug/sessionRecord.ts";
+import { showRecovery } from "./recovery.ts";
+import { isGameInputBlocked } from "../ui/core/inputBoundary.ts";
 import { Timer } from "three/webgpu";
 import { collectHeightPassHideObjects } from "./warmup.ts";
 export function createRenderLoop({
@@ -19,9 +22,12 @@ export function createRenderLoop({
   function h() {
     var y, _, w, S, T, v, E, C, M, B, R, I, k, L, F, O, H, W, P, z;
     d.update();
-    const A = d.getDelta();
+    const rawDelta = d.getDelta();
+    const A = Math.min(rawDelta, .1);
+    sampleDriveFrame(rawDelta * 1000, Math.abs(drive?.vehicle?.telemetry?.speedKmh ?? 0) > 1, !!drive?.isActive() && !drive.isPaused());
+    if (document.hidden) return;
     ((getIntroActive == null ? undefined : getIntroActive()) ?? false) || drive == null || drive.update(A);
-    cameraDirector.update(A);
+    if (!isGameInputBlocked()) cameraDirector.update(A);
     onFrame == null || onFrame(A);
     (y = world.collisionHeight) == null || y.update({
       camera: camera,
@@ -47,8 +53,9 @@ export function createRenderLoop({
     post.render();
     performanceTools == null || performanceTools.sampleFps();
   }
+  window.addEventListener("neon:graphics-lost", p);
   function f() {
-    renderer.setAnimationLoop(h);
+    renderer.setAnimationLoop(() => { try { h(); } catch (error) { p(); showRecovery(error, "shader"); } });
   }
   function p() {
     renderer.setAnimationLoop(null);

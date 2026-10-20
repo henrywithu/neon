@@ -1,5 +1,6 @@
 // @ts-nocheck
 /** Recovered reference implementation; see research/PROVENANCE.md. */
+import { isGameInputBlocked } from "../ui/core/inputBoundary.ts";
 import { YL, ja, zi } from "../game/vehicles/syncRig.ts";
 export function efe(i, e, t) {
   return i < e ? e : i > t ? t : i;
@@ -41,13 +42,15 @@ export function createDriveInput({
       active: false
     };
   function c(y) {
-    !s || tfe(y.target) || (y.code in YL && !y.repeat && y.timeStamp >= n && t.push(YL[y.code]), Object.values(ja).some(_ => _.includes(y.code)) && y.preventDefault(), e.add(y.code), r = "keyboard");
+    !s || isGameInputBlocked() || tfe(y.target) || (y.code in YL && !y.repeat && y.timeStamp >= n && t.push(YL[y.code]), Object.values(ja).some(_ => _.includes(y.code)) && y.preventDefault(), e.add(y.code), r = "keyboard");
   }
   function u(y) {
     e.delete(y.code);
   }
   function d() {
-    e.clear();
+    e.clear(); t.length = 0; o.clear();
+    Object.assign(l, { steer: 0, throttle: 0, brake: 0, handbrake: 0, nitro: 0 });
+    Object.assign(a, { steer: 0, throttle: 0, brake: 0, handbrake: 0, nitro: 0, horn: false, lookBack: false, lookX: 0, lookY: 0 });
   }
   function h(y) {
     for (const _ of y) if (e.has(_)) return true;
@@ -109,6 +112,7 @@ export function createDriveInput({
     y === 0 ? a.steer = jr(a.steer, 0, T, w) : a.steer !== 0 && Math.sign(y) !== Math.sign(a.steer) ? a.steer = jr(a.steer, y, T + S, w) : a.steer = jr(a.steer, y, S, w);
   }
   function m(y, _ = 0) {
+    if (isGameInputBlocked()) { d(); return a; }
     if (!s) return a.throttle = jr(a.throttle, 0, 8, y), a.brake = jr(a.brake, 0, 8, y), a.steer = jr(a.steer, 0, 6, y), a.handbrake = 0, a.nitro = 0, a.horn = false, a;
     const w = f();
     if (w) return a.device = "gamepad", a.throttle = jr(a.throttle, w.throttle, 12, y), a.brake = jr(a.brake, w.brake, 14, y), a.steer = jr(a.steer, w.steer, 9, y), a.handbrake = w.handbrake, a.nitro = w.nitro, a.lookBack = w.lookBack, a.horn = w.horn, a.lookX = w.lookX, a.lookY = w.lookY, a;
@@ -148,19 +152,23 @@ export function createDriveInput({
     const _ = !!y;
     _ && !s && (n = performance.now());
     s = _;
-    s || e.clear();
+    s || d();
   }
   function b(y) {
+    if (!s || isGameInputBlocked()) return;
     Object.assign(l, y);
     (l.steer || l.throttle || l.brake || l.handbrake || l.nitro) && (r = "touch");
   }
   function x(y) {
-    s && t.push(y);
+    s && !isGameInputBlocked() && t.push(y);
   }
   element.addEventListener("keydown", c);
   element.addEventListener("keyup", u);
   window.addEventListener("blur", d);
+  window.addEventListener("neon:clear-input", d);
+  window.addEventListener("gamepaddisconnected", d);
   return {
+    clear: d,
     state: a,
     update: m,
     consumeActions: A,
@@ -172,6 +180,8 @@ export function createDriveInput({
       element.removeEventListener("keydown", c);
       element.removeEventListener("keyup", u);
       window.removeEventListener("blur", d);
+      window.removeEventListener("neon:clear-input", d);
+      window.removeEventListener("gamepaddisconnected", d);
     }
   };
 }

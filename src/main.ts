@@ -2,8 +2,14 @@ import './styles/index.css';
 import './styles/trapnest.css';
 import { bootstrapExperience } from './app/bootstrap';
 import { createLoaderOverlay } from './ui/loader/createLoaderOverlay';
+import './styles/night.css';
+import { installSessionRecorder } from './debug/sessionRecord';
+import { installModalBoundary } from './ui/core/modalBoundary';
+import { showRecovery } from './runtime/recovery';
 import { isMobileDevice } from './platform/deviceLayout';
 document.documentElement.classList.toggle('device-mobile', isMobileDevice());
+installModalBoundary();
+installSessionRecorder();
 const loader = createLoaderOverlay();
 bootstrapExperience(loader).then(experience => {
   if (import.meta.env.DEV || new URLSearchParams(location.search).has('debug')) {
@@ -14,7 +20,8 @@ bootstrapExperience(loader).then(experience => {
   }
 }).catch((error: unknown) => {
   console.error('[Trapnest Neon] Initialization failed:', error);
-  loader.fail();
+  loader.fail(error);
+  showRecovery(error);
 });
 
 // GPU pipelines and AudioWorklets hold native state. Vite updates ordinary modules
